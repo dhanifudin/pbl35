@@ -211,21 +211,6 @@ UMKM, toko, kafe, bengkel · organisasi/komunitas · instansi pemerintah · peru
 
 ---
 
-<!-- _class: ti -->
-
-# BAGIAN B
-# 💻 TEKNIK INFORMATIKA
-## Semester 3 & Semester 5
-
----
-
-<!-- _class: divider -->
-
-# TI · Semester 3
-## Aplikasi Web Berbasis Data, Dikelola dengan Kaidah Manajemen Proyek
-
----
-
 # TI Sem 3: Integrasi Mata Kuliah
 
 | Mata Kuliah | Peran dalam PBL | Kategori |
@@ -281,13 +266,6 @@ Produk dianggap **berjalan** bila:
 | ❌ **Terlalu besar** | Multi-modul enterprise, pembayaran nyata, web + mobile + AI sekaligus |
 
 > Jika ragu, mulai dari **alur inti** dan sisakan fitur tambahan sebagai cadangan.
-
----
-
-<!-- _class: divider -->
-
-# TI · Semester 5
-## Aplikasi Mobile ber-Fitur Machine Learning
 
 ---
 
@@ -351,21 +329,6 @@ Produk dianggap **berjalan** bila:
 
 ---
 
-<!-- _class: sib -->
-
-# BAGIAN C
-# 🏢 SISTEM INFORMASI BISNIS
-## Semester 3 & Semester 5
-
----
-
-<!-- _class: divider -->
-
-# SIB · Semester 3
-## Aplikasi Web Bisnis dengan UX Baik & Basis Data
-
----
-
 # SIB Sem 3: Integrasi Mata Kuliah
 
 | Mata Kuliah | Peran dalam PBL | Kategori |
@@ -421,13 +384,6 @@ Produk dianggap **berjalan** bila:
 | ❌ **Terlalu besar** | Marketplace multi-vendor + pembayaran nyata + aplikasi mobile sekaligus |
 
 > Utamakan **satu alur bisnis yang mulus dan berdesain baik** daripada banyak fitur mentah.
-
----
-
-<!-- _class: divider -->
-
-# SIB · Semester 5
-## Aplikasi Web Bisnis Lanjut, Terkelola & Teruji
 
 ---
 
