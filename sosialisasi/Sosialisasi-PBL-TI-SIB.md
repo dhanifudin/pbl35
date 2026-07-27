@@ -58,18 +58,6 @@ style: |
 
 ---
 
-# Cara Membaca Materi Ini
-
-| Bagian | Isi | Untuk Siapa |
-|---|---|---|
-| **A. Ketentuan Umum** | Konsep PBL, tim, fase, timeline, etika | Semua (TI & SIB) |
-| **B. Teknik Informatika** | Integrasi MK, produk, contoh (Sem 3 & 5) | Mahasiswa TI |
-| **C. Sistem Informasi Bisnis** | Integrasi MK, produk, contoh (Sem 3 & 5) | Mahasiswa SIB |
-
-> 💡 Baca **Bagian A** dulu, lalu lompat ke bagian prodi Anda (B atau C).
-
----
-
 <!-- _class: divider -->
 
 # BAGIAN A
@@ -157,19 +145,6 @@ Setiap tim memperoleh **arahan bersama dari seluruh dosen pengampu mata kuliah t
 | **12** | **Demo produk fungsional + hasil uji** | 🔵 **MILESTONE 2** |
 | 13 - 15 | Perbaikan · Dokumentasi · Persiapan expo | |
 | **16** | **Demo Day / Expo produk final** | 🟢 **MILESTONE 3 (FINAL)** |
-
----
-
-<!-- _class: milestone -->
-
-# 4 Milestone: Yang Ditunjukkan
-
-| Milestone | Minggu | Yang Ditunjukkan Tim |
-|---|---|---|
-| 🟡 **Proposal** | 4 | Ide produk & rencana pengembangan yang disetujui |
-| 🟠 **Milestone 1** | 8 | Produk inti atau MVP sudah berjalan (demo) |
-| 🔵 **Milestone 2** | 12 | Produk fungsional lengkap + hasil pengujian |
-| 🟢 **Final** | 16 | Produk final + dokumentasi, ditampilkan lewat demo/expo |
 
 > Kriteria "produk berjalan" yang **spesifik per prodi** ada di Bagian B (TI) dan C (SIB).
 
