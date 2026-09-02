@@ -1,4 +1,4 @@
-# Rencana Pelaksanaan Pembelajaran (RPP) — PBL Terintegrasi
+# Rencana Pelaksanaan Pembelajaran (RPP): PBL Terintegrasi
 ## Program Studi Teknik Informatika · Semester 3
 
 ---
@@ -14,7 +14,7 @@
 | Tahun Akademik | 2025/2026 |
 | Bentuk Pembelajaran | Project-Based Learning (PBL) Terintegrasi Lintas Mata Kuliah |
 | Tema Proyek Semester | Aplikasi web berbasis data untuk kebutuhan manajemen informasi, dikelola dengan kaidah manajemen proyek |
-| Koordinator PBL | Dian Hanifudin Subhi, S.Kom., M.Kom. — dhanifudin@polinema.ac.id |
+| Koordinator PBL | Dian Hanifudin Subhi, S.Kom., M.Kom. (dhanifudin@polinema.ac.id) |
 
 ### Mata Kuliah Terintegrasi
 
@@ -29,11 +29,11 @@
 
 ## 2. Deskripsi Pembelajaran Berbasis Proyek
 
-PBL (*Project-Based Learning*) di Jurusan Teknologi Informasi Polinema bersifat **product-based**: setiap tim mahasiswa menghasilkan satu **produk digital yang berfungsi penuh**, dikerjakan secara terintegrasi lintas beberapa mata kuliah dalam satu semester — bukan tugas-tugas terpisah per mata kuliah.
+PBL (*Project-Based Learning*) di Jurusan Teknologi Informasi Polinema bersifat **product-based**: setiap tim mahasiswa menghasilkan satu **produk digital yang berfungsi penuh**, dikerjakan secara terintegrasi lintas beberapa mata kuliah dalam satu semester, bukan tugas-tugas terpisah per mata kuliah.
 
 Pada Semester 3, produk yang dibangun adalah **aplikasi web berbasis data** yang menjawab kebutuhan manajemen informasi nyata (mis. instansi, UMKM, organisasi kampus), dengan **Manajemen Proyek sebagai penggerak utama**: proyek direncanakan, dibagi kerjanya, dan dilacak kemajuannya menggunakan kaidah manajemen proyek, sementara implementasi teknis ditopang oleh Desain dan Pemrograman Web serta Basis Data Lanjut, dan konteks kebutuhan organisasi dianalisis melalui Sistem Informasi Manajemen.
 
-Tim terdiri dari **4–5 mahasiswa**, dibentuk di dalam kelas per program studi, dan mendapat **arahan bersama dari seluruh dosen pengampu** mata kuliah terintegrasi pada semester ini — bukan dari satu dosen pembimbing tunggal. Pembelajaran berjalan mengikuti lima fase PjBL selama 16 minggu, dengan empat checkpoint (proposal dan tiga milestone) sebagai titik evaluasi dan revisi, bukan sebagai hukuman.
+Tim terdiri dari **4–5 mahasiswa**, dibentuk di dalam kelas per program studi, dan mendapat **arahan bersama dari seluruh dosen pengampu** mata kuliah terintegrasi pada semester ini, bukan dari satu dosen pembimbing tunggal. Pembelajaran berjalan mengikuti lima fase PjBL selama 16 minggu, dengan empat checkpoint (proposal dan tiga milestone) sebagai titik evaluasi dan revisi, bukan sebagai hukuman.
 
 ---
 
@@ -54,8 +54,8 @@ Melalui pengerjaan proyek PBL product-based, mahasiswa Semester 3 diharapkan mam
 | Fase PBL | Kemampuan Akhir yang Diharapkan |
 |---|---|
 | 1. Identifikasi | Mahasiswa mampu mengidentifikasi masalah/kebutuhan manajemen informasi yang nyata dan merumuskan ide produk yang layak dikerjakan. MP: melakukan studi kelayakan proyek; DPW & BDL: mengenali entitas dan alur data awal dari domain masalah; SIM: menggali kebutuhan informasi melalui observasi/wawancara calon pengguna. |
-| 2. Perencanaan | Mahasiswa mampu menyusun rencana proyek (project charter, WBS, timeline) dan proposal produk yang layak dilanjutkan ke pengembangan. MP: menyusun charter, WBS, dan jadwal; DPW: menyusun wireframe dan arsitektur aplikasi; BDL: menormalisasi dan memfinalkan skema basis data; SIM: menyusun dokumen kebutuhan informasi. |
-| 3. Pengembangan | Mahasiswa mampu mengimplementasikan aplikasi web dan basis data secara bertahap sesuai rencana, serta melacak kemajuan kerja tim. MP: melacak kemajuan terhadap WBS dan mengelola risiko/perubahan; DPW & BDL: mengembangkan fitur dan skema secara iteratif serta mengintegrasikannya; SIM: memvalidasi kebutuhan laporan/dashboard kepada calon pengguna. |
+| 2. Perencanaan | Mahasiswa mampu menyusun rencana proyek (WBS, timeline) dan proposal produk yang layak dilanjutkan ke pengembangan. MP: menyusun WBS dan jadwal; DPW: menyusun wireframe dan arsitektur aplikasi; BDL: menormalisasi dan memfinalkan skema basis data; SIM: menyusun dokumen kebutuhan informasi. |
+| 3. Pengembangan | Mahasiswa mampu mengimplementasikan aplikasi web dan basis data secara bertahap sesuai rencana, serta melacak kemajuan kerja tim. MP: melacak kemajuan terhadap WBS dan mengelola perubahan; DPW & BDL: mengembangkan fitur dan skema secara iteratif serta mengintegrasikannya; SIM: memvalidasi kebutuhan laporan/dashboard kepada calon pengguna. |
 | 4. Pengujian & Pengemasan | Mahasiswa mampu menguji fungsionalitas produk, memperbaiki temuan, dan menyusun dokumentasi/laporan akhir. MP: menyusun laporan penutupan proyek dan lessons learned; DPW: menguji fungsionalitas dan memperbaiki bug antarmuka/back-end; BDL: menguji integritas data dan mengoptimasi query; SIM: memfinalkan laporan analisis kebutuhan dan dashboard. |
 | 5. Diseminasi | Mahasiswa mampu mempresentasikan dan mendemonstrasikan produk final secara meyakinkan kepada penguji/mitra, serta mengevaluasi capaian proyek secara reflektif lintas keempat mata kuliah terintegrasi. |
 
@@ -67,20 +67,19 @@ Melalui pengerjaan proyek PBL product-based, mahasiswa Semester 3 diharapkan mam
 
 | Mata Kuliah | Kategori | Peran dalam PBL | Luaran yang Dinilai dari MK Ini |
 |---|---|---|---|
-| Manajemen Proyek | 🔵 Utama (penggerak) | Perencanaan, pembagian kerja, pelacakan kemajuan produk | Project charter, WBS, timeline, logbook, catatan pelacakan kemajuan |
+| Manajemen Proyek | 🔵 Utama (penggerak) | Perencanaan, pembagian kerja, pelacakan kemajuan produk | WBS, timeline, logbook, catatan pelacakan kemajuan |
 | Desain dan Pemrograman Web | 🟢 Inti teknis | Implementasi aplikasi web (front-end & back-end) | Aplikasi web berjalan penuh, kualitas dan struktur kode |
 | Basis Data Lanjut | 🟢 Inti teknis | Perancangan & implementasi basis data | Skema basis data ternormalisasi, ≥3 entitas berelasi, data uji |
 | Sistem Informasi Manajemen | 🟡 Pendukung | Analisis kebutuhan & konteks organisasi | Laporan analisis kebutuhan, laporan/dashboard sesuai konsep SIM |
 
 ### 4.2 Manajemen Proyek
 
-- **Peran:** menjadi penggerak utama PBL — proyek direncanakan dan dikelola dengan kaidah manajemen proyek.
-- **Bahan kajian/topik pendukung:** siklus hidup proyek, project charter, WBS & penjadwalan, manajemen risiko, monitoring & pelaporan kemajuan, penutupan proyek.
+- **Peran:** menjadi penggerak utama PBL, proyek direncanakan dan dikelola dengan kaidah manajemen proyek.
+- **Bahan kajian/topik pendukung:** siklus hidup proyek, WBS & penjadwalan, monitoring & pelaporan kemajuan, penutupan proyek.
 - **Persyaratan Produk dari MK Ini:**
-  - Bagian project charter di dalam dokumen proposal (tujuan, ruang lingkup in/out-of-scope, stakeholder, asumsi, batasan, kriteria keberhasilan) tersusun lengkap dan disepakati seluruh anggota tim — lihat format pada `Format-Proposal-PBL-TI-Sem3.md`.
+  - Bagian tujuan dan ruang lingkup proyek di dalam dokumen proposal (tujuan, ruang lingkup yang dikerjakan/tidak dikerjakan, pemangku kepentingan, asumsi, batasan, kriteria keberhasilan) tersusun lengkap dan disepakati seluruh anggota tim (lihat panduan pada format proposal produk terkait).
   - WBS minimal 3 level kedalaman, mencakup seluruh deliverable utama proyek.
   - Jadwal proyek (Gantt chart/setara) dengan milestone selaras 4 checkpoint PBL.
-  - Register risiko: minimal 5 risiko dengan penilaian dampak/probabilitas dan rencana mitigasi.
   - Log perubahan yang mencatat setiap perubahan lingkup/fitur signifikan beserta alasan dan persetujuan.
   - Laporan kemajuan mingguan berbasis logbook (pekerjaan selesai, kendala, rencana berikutnya).
   - Laporan penutupan proyek di akhir: pencapaian vs rencana awal, lessons learned, rekomendasi.
@@ -154,14 +153,14 @@ Melalui pengerjaan proyek PBL product-based, mahasiswa Semester 3 diharapkan mam
 | Analis/Desainer | Kebutuhan pengguna, alur sistem, UI/UX |
 | QA/Penguji | Pengujian fungsional dan dokumentasi hasil uji |
 
-Pembagian tugas dituangkan dalam *project charter* pada Fase 2.
+Pembagian tugas dituangkan dalam proposal pada Fase 2.
 
 ### 5.3 Mekanisme Bimbingan Bersama
 
 - Bimbingan dilakukan bersama oleh seluruh dosen pengampu mata kuliah terintegrasi, sesuai jadwal masing-masing mata kuliah.
 - Tim mengisi **logbook mingguan** (kemajuan, hambatan, rencana berikutnya).
-- **Proposal produk harus disetujui** sebelum tim melanjutkan ke tahap pengembangan; bila belum disetujui, tim merevisi dan mengajukan ulang **paling lambat Minggu 5**.
-- Bentuk penyampaian proposal menyesuaikan ketentuan mata kuliah terkait; presentasi/sidang formal tidak selalu diwajibkan.
+- **Proposal produk sebaiknya disetujui** sebelum tim melanjutkan ke tahap pengembangan; bila belum disetujui, tim merevisi dan mengajukan ulang **paling lambat Minggu 5**.
+- Bentuk penyampaian proposal menyesuaikan ketentuan mata kuliah terkait; presentasi/sidang formal tidak selalu diperlukan.
 
 ---
 
@@ -205,42 +204,42 @@ Aplikasi web berbasis data untuk kebutuhan manajemen informasi, dikelola dengan 
 
 | Mg | Tahap PBL | Aktivitas Tim | Luaran/Deliverable | Checkpoint |
 |---|---|---|---|---|
-| 1 | 1. Identifikasi | Pembentukan tim; brainstorming masalah/kebutuhan manajemen informasi nyata; identifikasi calon mitra | Daftar anggota tim, peran awal, calon mitra (bila ada) | — |
-| 2 | 1. Identifikasi | Observasi/wawancara calon pengguna; analisis kelayakan (teknologi, waktu, kapasitas tim) | Catatan hasil observasi/wawancara | — |
-| 3 | 1. Identifikasi | Menetapkan ide produk & deskripsi masalah; mulai menyusun draf proposal (termasuk bagian project charter) | Deskripsi masalah & ide produk (1–2 halaman) | — |
-| 4 | 2. Perencanaan | Menyusun proposal produk lengkap (termasuk project charter, WBS/timeline, dan rancangan fitur awal); review proposal | Proposal produk (termasuk project charter, WBS/timeline) | **CP-1 Proposal** |
+| 1 | 1. Identifikasi | Pembentukan tim; brainstorming masalah/kebutuhan manajemen informasi nyata; identifikasi calon mitra | Daftar anggota tim, peran awal, calon mitra (bila ada) | - |
+| 2 | 1. Identifikasi | Observasi/wawancara calon pengguna; analisis kelayakan (teknologi, waktu, kapasitas tim) | Catatan hasil observasi/wawancara | - |
+| 3 | 1. Identifikasi | Menetapkan ide produk & deskripsi masalah; mulai menyusun draf proposal (termasuk tujuan dan ruang lingkup proyek) | Deskripsi masalah & ide produk (1–2 halaman) | - |
+| 4 | 2. Perencanaan | Menyusun proposal produk lengkap (termasuk tujuan dan ruang lingkup proyek, WBS/timeline, dan rancangan fitur awal); review proposal | Proposal produk (termasuk tujuan dan ruang lingkup proyek, WBS/timeline) | **CP-1 Proposal** |
 | 5 | 2→3. Perencanaan/Pengembangan | Revisi proposal (bila belum disetujui); mulai perancangan basis data & antarmuka | Proposal final; rancangan skema basis data awal | Batas akhir revisi proposal |
-| 6 | 3. Pengembangan (Iterasi 1) | Implementasi fitur inti aplikasi web; implementasi skema basis data | Modul fitur inti berjalan sebagian; skema basis data | — |
-| 7 | 3. Pengembangan (Iterasi 1) | Melanjutkan fitur inti; integrasi awal aplikasi dengan basis data; pengisian data uji | Fitur inti terintegrasi dengan basis data | — |
+| 6 | 3. Pengembangan (Iterasi 1) | Implementasi fitur inti aplikasi web; implementasi skema basis data | Modul fitur inti berjalan sebagian; skema basis data | - |
+| 7 | 3. Pengembangan (Iterasi 1) | Melanjutkan fitur inti; integrasi awal aplikasi dengan basis data; pengisian data uji | Fitur inti terintegrasi dengan basis data | - |
 | 8 | 3. Pengembangan (Iterasi 1) | Demo progres tengah semester; evaluasi kemajuan bersama dosen pengampu | Demo fitur inti berjalan; logbook Minggu 1–8 lengkap | **CP-2 Milestone 1** |
-| 9 | 3. Pengembangan (Iterasi 2) | Pengembangan fitur lanjutan; penambahan peran pengguna kedua | Fitur lanjutan berjalan sebagian | — |
-| 10 | 3. Pengembangan (Iterasi 2) | Implementasi laporan/dashboard sesuai konsep SIM; integrasi fitur | Modul laporan/dashboard awal | — |
-| 11 | 3. Pengembangan (Iterasi 2) | Penyempurnaan fitur; mulai pengujian fungsional mandiri oleh tim | Draf laporan pengujian awal | — |
+| 9 | 3. Pengembangan (Iterasi 2) | Pengembangan fitur lanjutan; penambahan peran pengguna kedua | Fitur lanjutan berjalan sebagian | - |
+| 10 | 3. Pengembangan (Iterasi 2) | Implementasi laporan/dashboard sesuai konsep SIM; integrasi fitur | Modul laporan/dashboard awal | - |
+| 11 | 3. Pengembangan (Iterasi 2) | Penyempurnaan fitur; mulai pengujian fungsional mandiri oleh tim | Draf laporan pengujian awal | - |
 | 12 | 3→4. Pengembangan/Pengujian | Demo produk fungsional lengkap + hasil uji awal | Demo produk fungsional; laporan hasil uji awal; draf laporan akhir Bab 1–3 | **CP-3 Milestone 2** |
-| 13 | 4. Pengujian & Pengemasan | Pengujian fungsional sistematis; pencatatan bug/temuan | Laporan pengujian terupdate | — |
-| 14 | 4. Pengujian & Pengemasan | Perbaikan bug; penyempurnaan tampilan/alur | Produk revisi pasca-uji | — |
-| 15 | 4. Pengujian & Pengemasan | Penulisan laporan akhir; penyiapan materi demo/expo | Laporan akhir (draf lengkap); materi presentasi | — |
+| 13 | 4. Pengujian & Pengemasan | Pengujian fungsional sistematis; pencatatan bug/temuan | Laporan pengujian terupdate | - |
+| 14 | 4. Pengujian & Pengemasan | Perbaikan bug; penyempurnaan tampilan/alur | Produk revisi pasca-uji | - |
+| 15 | 4. Pengujian & Pengemasan | Penulisan laporan akhir; penyiapan materi demo/expo | Laporan akhir (draf lengkap); materi presentasi | - |
 | 16 | 5. Diseminasi | Demo Day/Expo/sidang akhir; presentasi & demo langsung; peer assessment | Produk final, laporan akhir, slide presentasi, peer assessment | **CP-4 Final/Expo** |
 
 ---
 
 ## 8. Matriks Kontribusi Mata Kuliah per Minggu
 
-> Topik berikut bersifat indikatif — dosen pengampu masing-masing mata kuliah dapat menyesuaikannya dengan RPS dan urutan materi kelas selama tetap selaras dengan tahap PBL pada minggu tersebut.
+> Topik berikut bersifat indikatif; dosen pengampu masing-masing mata kuliah dapat menyesuaikannya dengan RPS dan urutan materi kelas selama tetap selaras dengan tahap PBL pada minggu tersebut.
 
 | Mg | Manajemen Proyek (Utama) | Desain dan Pemrograman Web (Inti teknis) | Basis Data Lanjut (Inti teknis) | Sistem Informasi Manajemen (Pendukung) |
 |---|---|---|---|---|
 | 1 | Pengantar manajemen proyek TI & pembentukan tim | Review dasar pemrograman web & survei teknologi/framework | Review model data relasional | Konsep sistem informasi organisasi |
 | 2 | Studi kelayakan proyek (teknis, waktu, tim) | Eksplorasi teknologi front-end/back-end kandidat | Identifikasi entitas domain dari ide produk | Teknik penggalian kebutuhan (observasi/wawancara) |
 | 3 | Perumusan lingkup proyek (scope statement) | Sketsa/mock antarmuka awal | Penyusunan ERD awal | Analisis proses bisnis/organisasi mitra |
-| 4 | Penyusunan project charter, WBS, dan jadwal | Perancangan arsitektur aplikasi & wireframe | Perancangan skema basis data awal | Penyusunan dokumen kebutuhan informasi |
+| 4 | Penyusunan tujuan, ruang lingkup, WBS, dan jadwal proyek | Perancangan arsitektur aplikasi & wireframe | Perancangan skema basis data awal | Penyusunan dokumen kebutuhan informasi |
 | 5 | Pemantauan rencana pasca-revisi proposal | Setup proyek & struktur front-end/back-end | Normalisasi & finalisasi skema basis data | Validasi dokumen kebutuhan ke calon pengguna |
 | 6 | Pelacakan kemajuan iterasi 1 terhadap WBS | Implementasi fitur inti (CRUD entitas utama) | Implementasi skema (DDL) & data uji | Pemetaan aliran informasi awal |
-| 7 | Identifikasi risiko awal iterasi 1 | Integrasi front-end dengan back-end | Integrasi basis data ke aplikasi | Draf kebutuhan laporan manajerial |
+| 7 | Koordinasi tugas & komunikasi status iterasi 1 | Integrasi front-end dengan back-end | Integrasi basis data ke aplikasi | Draf kebutuhan laporan manajerial |
 | 8 | Evaluasi kemajuan pada Milestone 1 | Demo fitur inti Milestone 1 | Demo skema & data uji Milestone 1 | Review kebutuhan informasi pasca-Milestone 1 |
 | 9 | Pelacakan kemajuan iterasi 2 terhadap WBS | Pengembangan fitur lanjutan & peran pengguna kedua | Query lanjut untuk kebutuhan fitur (join, agregasi) | Pemetaan peran pengguna ke hak akses |
 | 10 | Pemantauan jadwal & alokasi tugas iterasi 2 | Implementasi autentikasi & otorisasi multi-peran | View/stored procedure untuk kebutuhan laporan | Perancangan laporan/dashboard manajerial |
-| 11 | Manajemen risiko & perubahan lingkup | Implementasi modul laporan/dashboard di antarmuka | Optimasi query & pengecekan integritas data | Penyempurnaan rancangan dashboard |
+| 11 | Manajemen perubahan lingkup | Implementasi modul laporan/dashboard di antarmuka | Optimasi query & pengecekan integritas data | Penyempurnaan rancangan dashboard |
 | 12 | Evaluasi kemajuan pada Milestone 2 | Demo produk fungsional lengkap Milestone 2 | Demo skema & query lengkap Milestone 2 | Validasi laporan/dashboard Milestone 2 |
 | 13 | Pemantauan pengujian terhadap rencana proyek | Pengujian fungsional aplikasi | Pengujian integritas & konsistensi data | Verifikasi kesesuaian laporan dengan kebutuhan |
 | 14 | Pelacakan tindak lanjut hasil pengujian | Perbaikan bug hasil pengujian | Perbaikan skema/query bila ditemukan cacat | Penyempurnaan konten laporan analisis |
@@ -255,36 +254,36 @@ Aplikasi web berbasis data untuk kebutuhan manajemen informasi, dikelola dengan 
 
 | Checkpoint | Minggu | Fokus Evaluasi | Konsekuensi |
 |---|---|---|---|
-| CP-1 Proposal | 4 | Proposal produk lengkap (termasuk project charter dan WBS/timeline), kelayakan ide | Proposal yang tidak disetujui wajib direvisi dan diajukan ulang paling lambat Minggu 5 |
-| CP-2 Milestone 1 | 8 | Apakah produk inti sudah ada dan berjalan; logbook Minggu 1–8 | Tim tanpa produk inti berjalan mendapat peringatan dari koordinator |
-| CP-3 Milestone 2 | 12 | Produk fungsional lengkap, laporan hasil uji, draf laporan akhir Bab 1–3 | Milestone 2 adalah *quality gate* — produk yang belum lengkap tidak dapat maju ke sidang akhir tanpa persetujuan koordinator |
-| CP-4 Final/Expo | 16 | Produk final, laporan akhir lengkap, presentasi, peer assessment | Syarat kelulusan tahap PBL semester berjalan |
+| CP-1 Proposal | 4 | Proposal produk lengkap (termasuk tujuan, ruang lingkup, dan WBS/timeline), kelayakan ide | Proposal yang belum disetujui sebaiknya direvisi dan diajukan ulang paling lambat Minggu 5 |
+| CP-2 Milestone 1 | 8 | Apakah produk inti sudah ada dan berjalan; logbook Minggu 1–8 | Tim tanpa produk inti berjalan disarankan segera berkonsultasi dengan koordinator untuk menyesuaikan rencana |
+| CP-3 Milestone 2 | 12 | Produk fungsional lengkap, laporan hasil uji, draf laporan akhir Bab 1–3 | Milestone 2 adalah *quality gate*: produk yang belum lengkap sebaiknya belum maju ke sidang akhir tanpa berdiskusi dengan koordinator |
+| CP-4 Final/Expo | 16 | Produk final, laporan akhir lengkap, presentasi, peer assessment | Menjadi penanda kelulusan tahap PBL semester berjalan |
 
 ### 9.2 Checklist Deliverable per Milestone
 
 | Deliverable | Proposal (Mg 4) | Milestone 1 (Mg 8) | Milestone 2 (Mg 12) | Final (Mg 16) |
 |---|---|---|---|---|
-| Proposal Produk (termasuk Project Charter) | ✅ | — | — | — |
-| Logbook Mingguan | — | ✅ Mg 1–8 | ✅ Mg 9–12 | ✅ Lengkap |
-| Demo Produk | — | ✅ Fitur inti | ✅ Fitur lengkap | ✅ Produk final |
-| Laporan Pengujian | — | — | ✅ | ✅ Final |
-| Laporan Akhir | — | — | ✅ Draf Bab 1–3 | ✅ Lengkap (Bab 1–5) |
-| Slide Presentasi | ✅ Proposal | — | — | ✅ Final |
-| Peer Assessment | — | — | — | ✅ |
+| Proposal Produk | ✅ | - | - | - |
+| Logbook Mingguan | - | ✅ Mg 1–8 | ✅ Mg 9–12 | ✅ Lengkap |
+| Demo Produk | - | ✅ Fitur inti | ✅ Fitur lengkap | ✅ Produk final |
+| Laporan Pengujian | - | - | ✅ | ✅ Final |
+| Laporan Akhir | - | - | ✅ Draf Bab 1–3 | ✅ Lengkap (Bab 1–5) |
+| Slide Presentasi | ✅ Proposal | - | - | ✅ Final |
+| Peer Assessment | - | - | - | ✅ |
 
 ---
 
 ## 10. Etika Akademik dan Ketentuan Penggunaan AI
 
 **Orisinalitas**
-- Produk dan dokumentasi harus karya tim sendiri.
-- Aset atau library pihak ketiga (kode, gambar, dataset) wajib diatribusi dan sesuai lisensi.
+- Produk dan dokumentasi merupakan karya tim sendiri.
+- Aset atau library pihak ketiga (kode, gambar, dataset) diatribusi dan sesuai lisensi.
 
 **Penggunaan AI**
-- ✅ Boleh sebagai alat bantu (coding assistant, brainstorming, debugging, penulisan).
-- ⚠️ Wajib memahami dan mampu menjelaskan seluruh kode atau produk.
-- ⚠️ Wajib mendeklarasikan penggunaan AI di dokumentasi (bagian apa, untuk apa).
-- ❌ Dilarang menyerahkan output AI mentah tanpa pemahaman.
+- Boleh digunakan sebagai alat bantu (coding assistant, brainstorming, debugging, penulisan).
+- Pahami dan mampu menjelaskan seluruh kode atau produk yang dihasilkan.
+- Deklarasikan penggunaan AI di dokumentasi (bagian apa, untuk apa).
+- Hindari menyerahkan output AI mentah tanpa pemahaman.
 
 > Prinsip: AI mempercepat, bukan menggantikan pemahaman mahasiswa.
 

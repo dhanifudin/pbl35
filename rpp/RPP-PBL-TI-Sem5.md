@@ -1,4 +1,4 @@
-# Rencana Pelaksanaan Pembelajaran (RPP) — PBL Terintegrasi
+# Rencana Pelaksanaan Pembelajaran (RPP): PBL Terintegrasi
 ## Program Studi Teknik Informatika · Semester 5
 
 ---
@@ -14,7 +14,7 @@
 | Tahun Akademik | 2025/2026 |
 | Bentuk Pembelajaran | Project-Based Learning (PBL) Terintegrasi Lintas Mata Kuliah |
 | Tema Proyek Semester | Aplikasi mobile dengan minimal satu fitur berbasis machine learning, teruji mutunya |
-| Koordinator PBL | Dian Hanifudin Subhi, S.Kom., M.Kom. — dhanifudin@polinema.ac.id |
+| Koordinator PBL | Dian Hanifudin Subhi, S.Kom., M.Kom. (dhanifudin@polinema.ac.id) |
 
 ### Mata Kuliah Terintegrasi
 
@@ -28,11 +28,11 @@
 
 ## 2. Deskripsi Pembelajaran Berbasis Proyek
 
-PBL (*Project-Based Learning*) di Jurusan Teknologi Informasi Polinema bersifat **product-based**: setiap tim mahasiswa menghasilkan satu **produk digital yang berfungsi penuh**, dikerjakan secara terintegrasi lintas beberapa mata kuliah dalam satu semester — bukan tugas-tugas terpisah per mata kuliah.
+PBL (*Project-Based Learning*) di Jurusan Teknologi Informasi Polinema bersifat **product-based**: setiap tim mahasiswa menghasilkan satu **produk digital yang berfungsi penuh**, dikerjakan secara terintegrasi lintas beberapa mata kuliah dalam satu semester, bukan tugas-tugas terpisah per mata kuliah.
 
-Pada Semester 5, skala proyek naik dari Semester 3: dari web ke **aplikasi mobile ber-fitur machine learning**, dengan pengujian yang lebih terstruktur. Tantangannya adalah mengintegrasikan model ML (klasifikasi, deteksi, rekomendasi, prediksi, dll.) ke dalam aplikasi mobile yang benar-benar berjalan — bukan sekadar eksperimen di notebook — sambil menerapkan penjaminan mutu perangkat lunak secara formal.
+Pada Semester 5, skala proyek naik dari Semester 3: dari web ke **aplikasi mobile ber-fitur machine learning**, dengan pengujian yang lebih terstruktur. Tantangannya adalah mengintegrasikan model ML (klasifikasi, deteksi, rekomendasi, prediksi, dll.) ke dalam aplikasi mobile yang benar-benar berjalan (bukan sekadar eksperimen di notebook), sambil menerapkan penjaminan mutu perangkat lunak secara formal.
 
-Tim terdiri dari **4–5 mahasiswa**, dibentuk di dalam kelas per program studi, dan mendapat **arahan bersama dari seluruh dosen pengampu** mata kuliah terintegrasi pada semester ini — bukan dari satu dosen pembimbing tunggal. Pembelajaran berjalan mengikuti lima fase PjBL selama 16 minggu, dengan empat checkpoint (proposal dan tiga milestone) sebagai titik evaluasi dan revisi, bukan sebagai hukuman.
+Tim terdiri dari **4–5 mahasiswa**, dibentuk di dalam kelas per program studi, dan mendapat **arahan bersama dari seluruh dosen pengampu** mata kuliah terintegrasi pada semester ini, bukan dari satu dosen pembimbing tunggal. Pembelajaran berjalan mengikuti lima fase PjBL selama 16 minggu, dengan empat checkpoint (proposal dan tiga milestone) sebagai titik evaluasi dan revisi, bukan sebagai hukuman.
 
 ---
 
@@ -77,11 +77,11 @@ Melalui pengerjaan proyek PBL product-based, mahasiswa Semester 5 diharapkan mam
 - **Persyaratan Produk dari MK Ini:**
   - Aplikasi dibangun dengan **Flutter (Dart)**, ter-install dan berjalan di perangkat Android fisik atau emulator (target iOS bersifat opsional).
   - Minimal 4 layar/route fungsional dengan navigasi terstruktur (Navigator 2.0 atau `go_router`), bukan sekadar tumpukan `Navigator.push` tanpa pola.
-  - Manajemen state menggunakan pendekatan yang terstruktur dan konsisten (mis. Provider, Riverpod, atau BLoC) — bukan `setState` tersebar tanpa pola yang jelas.
+  - Manajemen state menggunakan pendekatan yang terstruktur dan konsisten (mis. Provider, Riverpod, atau BLoC), bukan `setState` tersebar tanpa pola yang jelas.
   - Akses data lokal (mis. `shared_preferences`, `sqflite`, atau Hive) dan/atau akses data remote via REST API (mis. package `http` atau `dio`) sesuai kebutuhan fitur.
   - Penanganan izin perangkat menggunakan package seperti `permission_handler` bila fitur memerlukan kamera/lokasi/penyimpanan, termasuk penanganan kasus izin ditolak.
   - Model ML diintegrasikan melalui package seperti `tflite_flutter` atau `google_ml_kit`, dengan output ditampilkan langsung ke pengguna di antarmuka (bukan hanya di log/console).
-  - Artefak build dihasilkan melalui `flutter build apk` atau `flutter build appbundle` (dan `flutter build ios` bila menyasar iOS), tersedia untuk instalasi/demo — bukan hanya berjalan dari mode debug IDE.
+  - Artefak build dihasilkan melalui `flutter build apk` atau `flutter build appbundle` (dan `flutter build ios` bila menyasar iOS), tersedia untuk instalasi/demo, bukan hanya berjalan dari mode debug IDE.
 
 ### 4.3 Pembelajaran Mesin
 
@@ -141,14 +141,14 @@ Melalui pengerjaan proyek PBL product-based, mahasiswa Semester 5 diharapkan mam
 | ML Engineer/Arsitek Sistem | Model ML, integrasi API, arsitektur sistem |
 | QA/Penguji | Menyusun rencana & dokumen pengujian, eksekusi test case |
 
-Di Semester 5, peran QA lebih formal — ada dokumen pengujian yang dinilai tersendiri. Pembagian tugas dituangkan dalam *project charter* pada Fase 2.
+Di Semester 5, peran QA lebih formal: ada dokumen pengujian yang dinilai tersendiri. Pembagian tugas dituangkan dalam proposal pada Fase 2.
 
 ### 5.3 Mekanisme Bimbingan Bersama
 
 - Bimbingan dilakukan bersama oleh seluruh dosen pengampu mata kuliah terintegrasi, sesuai jadwal masing-masing mata kuliah.
 - Tim mengisi **logbook mingguan** (kemajuan, hambatan, rencana berikutnya) dan memperbarui **rencana pengujian (QA plan)** seiring perkembangan produk.
-- **Proposal produk (termasuk QA plan awal) harus disetujui** sebelum tim melanjutkan ke tahap pengembangan; bila belum disetujui, tim merevisi dan mengajukan ulang **paling lambat Minggu 5**.
-- Bentuk penyampaian proposal menyesuaikan ketentuan mata kuliah terkait; presentasi/sidang formal tidak selalu diwajibkan.
+- **Proposal produk (termasuk QA plan awal) sebaiknya disetujui** sebelum tim melanjutkan ke tahap pengembangan; bila belum disetujui, tim merevisi dan mengajukan ulang **paling lambat Minggu 5**.
+- Bentuk penyampaian proposal menyesuaikan ketentuan mata kuliah terkait; presentasi/sidang formal tidak selalu diperlukan.
 
 ---
 
@@ -195,28 +195,28 @@ Aplikasi mobile dengan minimal satu fitur berbasis machine learning, teruji mutu
 
 | Mg | Tahap PBL | Aktivitas Tim | Luaran/Deliverable | Checkpoint |
 |---|---|---|---|---|
-| 1 | 1. Identifikasi | Pembentukan tim; brainstorming masalah nyata; mulai eksplorasi dataset yang tersedia (Kaggle, data mitra, data publik) | Daftar anggota tim, peran awal, arah domain masalah | — |
-| 2 | 1. Identifikasi | Analisis kelayakan teknis (apakah model bisa dibuat, data cukup, runtime di mobile memadai) | Catatan kelayakan teknis; sumber dataset kandidat | — |
-| 3 | 1. Identifikasi | Menetapkan ide produk & pernyataan masalah; penentuan arsitektur kasar; mulai menyusun draf proposal (termasuk bagian project charter) | Pernyataan masalah, sumber dataset, target baseline akurasi | — |
-| 4 | 2. Perencanaan | Menyusun proposal produk lengkap (termasuk project charter, arsitektur, fitur, metodologi ML), dan rencana QA awal; review proposal | Proposal produk (termasuk project charter), QA plan awal | **CP-1 Proposal** |
+| 1 | 1. Identifikasi | Pembentukan tim; brainstorming masalah nyata; mulai eksplorasi dataset yang tersedia (Kaggle, data mitra, data publik) | Daftar anggota tim, peran awal, arah domain masalah | - |
+| 2 | 1. Identifikasi | Analisis kelayakan teknis (apakah model bisa dibuat, data cukup, runtime di mobile memadai) | Catatan kelayakan teknis; sumber dataset kandidat | - |
+| 3 | 1. Identifikasi | Menetapkan ide produk & pernyataan masalah; penentuan arsitektur kasar; mulai menyusun draf proposal (termasuk tujuan dan ruang lingkup proyek) | Pernyataan masalah, sumber dataset, target baseline akurasi | - |
+| 4 | 2. Perencanaan | Menyusun proposal produk lengkap (termasuk tujuan dan ruang lingkup proyek, arsitektur, fitur, metodologi ML), dan rencana QA awal; review proposal | Proposal produk (lengkap), QA plan awal | **CP-1 Proposal** |
 | 5 | 2→3. Perencanaan/Pengembangan | Revisi proposal (bila belum disetujui); mulai scaffolding aplikasi mobile | Proposal final; struktur aplikasi mobile awal | Batas akhir revisi proposal |
-| 6 | 3. Pengembangan (Iterasi 1) | Training model ML baseline; pengembangan scaffolding aplikasi mobile | Model ML baseline; struktur aplikasi berjalan | — |
-| 7 | 3. Pengembangan (Iterasi 1) | Penyempurnaan model baseline; integrasi awal model ke aplikasi mobile | Integrasi awal model-aplikasi | — |
+| 6 | 3. Pengembangan (Iterasi 1) | Training model ML baseline; pengembangan scaffolding aplikasi mobile | Model ML baseline; struktur aplikasi berjalan | - |
+| 7 | 3. Pengembangan (Iterasi 1) | Penyempurnaan model baseline; integrasi awal model ke aplikasi mobile | Integrasi awal model-aplikasi | - |
 | 8 | 3. Pengembangan (Iterasi 1) | Demo progres: fitur inti/model baseline berjalan; evaluasi kemajuan bersama dosen pengampu | Model baseline terdokumentasi (akurasi awal); demo scaffolding mobile; logbook Minggu 1–8 lengkap | **CP-2 Milestone 1** |
-| 9 | 3. Pengembangan (Iterasi 2) | Integrasi model ke aplikasi mobile secara penuh; mulai penyusunan test case | Fitur ML terintegrasi sebagian | — |
-| 10 | 3. Pengembangan (Iterasi 2) | Penyempurnaan fitur aplikasi; pembaruan rencana pengujian (QA plan) sesuai progres | QA plan terbarui; fitur aplikasi lebih lengkap | — |
-| 11 | 3. Pengembangan (Iterasi 2) | Mulai eksekusi pengujian (interim); pencatatan bug awal | Draf laporan QA interim | — |
+| 9 | 3. Pengembangan (Iterasi 2) | Integrasi model ke aplikasi mobile secara penuh; mulai penyusunan test case | Fitur ML terintegrasi sebagian | - |
+| 10 | 3. Pengembangan (Iterasi 2) | Penyempurnaan fitur aplikasi; pembaruan rencana pengujian (QA plan) sesuai progres | QA plan terbarui; fitur aplikasi lebih lengkap | - |
+| 11 | 3. Pengembangan (Iterasi 2) | Mulai eksekusi pengujian (interim); pencatatan bug awal | Draf laporan QA interim | - |
 | 12 | 3→4. Pengembangan/Pengujian | Demo produk fungsional lengkap dengan model terintegrasi + laporan QA interim | Demo produk fungsional; laporan QA interim; draf laporan akhir Bab 1–3 | **CP-3 Milestone 2** |
-| 13 | 4. Pengujian & Pengemasan | Eksekusi test case dari QA plan; bug tracking & perbaikan | Laporan QA terupdate; bug log | — |
-| 14 | 4. Pengujian & Pengemasan | Evaluasi final model ML (akurasi, precision, recall); optimasi performa di mobile | Laporan evaluasi model ML | — |
-| 15 | 4. Pengujian & Pengemasan | Penulisan laporan akhir (termasuk bab QA dan evaluasi ML); penyiapan materi demo/expo | Laporan akhir (draf lengkap); laporan QA final; materi presentasi | — |
+| 13 | 4. Pengujian & Pengemasan | Eksekusi test case dari QA plan; bug tracking & perbaikan | Laporan QA terupdate; bug log | - |
+| 14 | 4. Pengujian & Pengemasan | Evaluasi final model ML (akurasi, precision, recall); optimasi performa di mobile | Laporan evaluasi model ML | - |
+| 15 | 4. Pengujian & Pengemasan | Penulisan laporan akhir (termasuk bab QA dan evaluasi ML); penyiapan materi demo/expo | Laporan akhir (draf lengkap); laporan QA final; materi presentasi | - |
 | 16 | 5. Diseminasi | Demo Day/Expo/sidang akhir; presentasi & demo langsung (live, bukan video); peer assessment | Produk final, laporan akhir, laporan QA final, kode sumber (Git), slide presentasi, peer assessment | **CP-4 Final/Expo** |
 
 ---
 
 ## 8. Matriks Kontribusi Mata Kuliah per Minggu
 
-> Topik berikut bersifat indikatif — dosen pengampu masing-masing mata kuliah dapat menyesuaikannya dengan RPS dan urutan materi kelas selama tetap selaras dengan tahap PBL pada minggu tersebut.
+> Topik berikut bersifat indikatif; dosen pengampu masing-masing mata kuliah dapat menyesuaikannya dengan RPS dan urutan materi kelas selama tetap selaras dengan tahap PBL pada minggu tersebut.
 
 | Mg | Pemrograman Mobile (Inti) | Pembelajaran Mesin (Inti) | Penjaminan Mutu Perangkat Lunak (Pendukung) |
 |---|---|---|---|
@@ -245,39 +245,39 @@ Aplikasi mobile dengan minimal satu fitur berbasis machine learning, teruji mutu
 
 | Checkpoint | Minggu | Fokus Evaluasi | Konsekuensi |
 |---|---|---|---|
-| CP-1 Proposal | 4 | Proposal produk lengkap (termasuk project charter, arsitektur, metodologi ML), QA plan awal | Proposal yang tidak disetujui wajib direvisi dan diajukan ulang paling lambat Minggu 5 |
-| CP-2 Milestone 1 | 8 | Apakah fondasi teknis sudah kokoh: model ML baseline ada, scaffolding mobile berjalan; logbook Minggu 1–8 | Tim tanpa fondasi teknis yang memadai mendapat peringatan dari koordinator |
-| CP-3 Milestone 2 | 12 | Produk fungsional lengkap dengan model terintegrasi, laporan QA interim, draf laporan akhir Bab 1–3 | Milestone 2 adalah *quality gate* — QA plan harus sudah berjalan, bukan baru dimulai; produk belum lengkap tidak dapat maju ke sidang akhir tanpa persetujuan koordinator |
-| CP-4 Final/Expo | 16 | Produk final, laporan QA lengkap, laporan evaluasi model ML, laporan akhir, presentasi, peer assessment | Syarat kelulusan tahap PBL semester berjalan |
+| CP-1 Proposal | 4 | Proposal produk lengkap (termasuk tujuan, ruang lingkup, arsitektur, metodologi ML), QA plan awal | Proposal yang belum disetujui sebaiknya direvisi dan diajukan ulang paling lambat Minggu 5 |
+| CP-2 Milestone 1 | 8 | Apakah fondasi teknis sudah kokoh: model ML baseline ada, scaffolding mobile berjalan; logbook Minggu 1–8 | Tim tanpa fondasi teknis yang memadai disarankan segera berkonsultasi dengan koordinator untuk menyesuaikan rencana |
+| CP-3 Milestone 2 | 12 | Produk fungsional lengkap dengan model terintegrasi, laporan QA interim, draf laporan akhir Bab 1–3 | Milestone 2 adalah *quality gate*: idealnya QA plan sudah berjalan, bukan baru dimulai; produk yang belum lengkap sebaiknya belum maju ke sidang akhir tanpa berdiskusi dengan koordinator |
+| CP-4 Final/Expo | 16 | Produk final, laporan QA lengkap, laporan evaluasi model ML, laporan akhir, presentasi, peer assessment | Menjadi penanda kelulusan tahap PBL semester berjalan |
 
 ### 9.2 Checklist Deliverable per Milestone
 
 | Deliverable | Proposal (Mg 4) | Milestone 1 (Mg 8) | Milestone 2 (Mg 12) | Final (Mg 16) |
 |---|---|---|---|---|
-| Proposal Produk (termasuk Project Charter) | ✅ | — | — | — |
+| Proposal Produk | ✅ | - | - | - |
 | QA Plan | ✅ Awal | ✅ Update | ✅ Lengkap | ✅ Final |
-| Logbook Mingguan | — | ✅ Mg 1–8 | ✅ Mg 9–12 | ✅ Lengkap |
-| Demo Produk | — | ✅ Fitur inti/baseline | ✅ Fitur lengkap | ✅ Produk final |
-| Laporan Pengujian (QA) | — | — | ✅ Interim | ✅ Final |
-| Evaluasi Model ML | — | ✅ Baseline | ✅ Iterasi | ✅ Final |
-| Laporan Akhir | — | — | ✅ Draf Bab 1–3 | ✅ Lengkap (Bab 1–5) |
-| Slide Presentasi | ✅ Proposal | — | — | ✅ Final |
-| Kode Sumber (Git) | — | — | — | ✅ |
-| Peer Assessment | — | — | — | ✅ |
+| Logbook Mingguan | - | ✅ Mg 1–8 | ✅ Mg 9–12 | ✅ Lengkap |
+| Demo Produk | - | ✅ Fitur inti/baseline | ✅ Fitur lengkap | ✅ Produk final |
+| Laporan Pengujian (QA) | - | - | ✅ Interim | ✅ Final |
+| Evaluasi Model ML | - | ✅ Baseline | ✅ Iterasi | ✅ Final |
+| Laporan Akhir | - | - | ✅ Draf Bab 1–3 | ✅ Lengkap (Bab 1–5) |
+| Slide Presentasi | ✅ Proposal | - | - | ✅ Final |
+| Kode Sumber (Git) | - | - | - | ✅ |
+| Peer Assessment | - | - | - | ✅ |
 
 ---
 
 ## 10. Etika Akademik dan Ketentuan Penggunaan AI
 
 **Orisinalitas**
-- Produk dan dokumentasi harus karya tim sendiri.
-- Aset atau library pihak ketiga (kode, gambar, dataset, model pre-trained) wajib diatribusi dan sesuai lisensi. Fine-tuning model pre-trained (transfer learning) diperbolehkan dan dihargai — yang dinilai adalah kemampuan integrasi, pemahaman model, dan evaluasinya.
+- Produk dan dokumentasi merupakan karya tim sendiri.
+- Aset atau library pihak ketiga (kode, gambar, dataset, model pre-trained) diatribusi dan sesuai lisensi. Fine-tuning model pre-trained (transfer learning) diperbolehkan dan dihargai: yang dinilai adalah kemampuan integrasi, pemahaman model, dan evaluasinya.
 
 **Penggunaan AI**
-- ✅ Boleh sebagai alat bantu (coding assistant, brainstorming, debugging, penulisan).
-- ⚠️ Wajib memahami dan mampu menjelaskan seluruh kode, model, atau produk.
-- ⚠️ Wajib mendeklarasikan penggunaan AI di dokumentasi (bagian apa, untuk apa).
-- ❌ Dilarang menyerahkan output AI mentah tanpa pemahaman.
+- Boleh digunakan sebagai alat bantu (coding assistant, brainstorming, debugging, penulisan).
+- Pahami dan mampu menjelaskan seluruh kode, model, atau produk yang dihasilkan.
+- Deklarasikan penggunaan AI di dokumentasi (bagian apa, untuk apa).
+- Hindari menyerahkan output AI mentah tanpa pemahaman.
 
 > Prinsip: AI mempercepat, bukan menggantikan pemahaman mahasiswa.
 
