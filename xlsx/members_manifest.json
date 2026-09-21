@@ -1,0 +1,1684 @@
+{
+  "TI_2A::Team Three": {
+    "members": [
+      {
+        "nama": "Farid Febrianto",
+        "nim": "254107020232",
+        "peran": "Ketua Tim & Front End Dev"
+      },
+      {
+        "nama": "Rhenza Rendragraha",
+        "nim": "254107020049",
+        "peran": "Back End Developer"
+      },
+      {
+        "nama": "Sultan Alfayadh Saldi",
+        "nim": "254107020096",
+        "peran": "Back End Developer"
+      },
+      {
+        "nama": "Aditya Ragil Akbar Septiawan",
+        "nim": "254107020174",
+        "peran": "Database Developer"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Team Three - Farid Febrianto.pdf"
+  },
+  "TI_2A::Kelompok 5 2A": {
+    "members": [
+      {
+        "nama": "Alya Mukhbita Larassati",
+        "nim": "254107020152"
+      },
+      {
+        "nama": "Athiarahima Muthmainnah",
+        "nim": "254107020029"
+      },
+      {
+        "nama": "Cindy Callista Nathania Suwandi",
+        "nim": "254107020202"
+      },
+      {
+        "nama": "Rahma Aulia Nurrizky",
+        "nim": "254107020168"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Kelompok 5 2A - Alya Mukhbita Larassati.pdf"
+  },
+  "TI_2A::Pentagon": {
+    "members": [
+      {
+        "nama": "Caesar Vior B",
+        "nim": "254107020055"
+      },
+      {
+        "nama": "Elshaf Atar P",
+        "nim": "254107020199"
+      },
+      {
+        "nama": "M. Hazbilluh Zaman",
+        "nim": "254107020167"
+      },
+      {
+        "nama": "Muhammad Nashrulloh",
+        "nim": "254107020013"
+      },
+      {
+        "nama": "Saktiawan Cakra D",
+        "nim": "254107020154",
+        "peran": "KELAS TI-2A"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Pentagon - Mochammad Hazbilluh Zaman.pdf"
+  },
+  "TI_2A::M. Samsul Arifin Baihaqi   254107020176   M. Dwi Kurniawan   254107020001   Arief Rahman Hakim Candra   254107020002   Ghulam El Firdausy   254107020203   Garcia Fernanda Valenca Archadea   254107020175": {
+    "members": [
+      {
+        "nama": "Arief Rahman Hakim Candra",
+        "nim": "254107020002",
+        "peran": "Data Analyst & Project Documentation"
+      },
+      {
+        "nama": "Garcia Fernanda Valenca Archadea",
+        "nim": "254107020175",
+        "peran": "Project Manager & Back End Developer"
+      },
+      {
+        "nama": "Ghulam El Firdausy",
+        "nim": "254107020203",
+        "peran": "Data Analyst & Quality Assurance"
+      },
+      {
+        "nama": "M. Dwi Kurniawan",
+        "nim": "254107020001",
+        "peran": "Full Stack Developer"
+      },
+      {
+        "nama": "M. Samsul Arifin Baihaqi",
+        "nim": "254107020176",
+        "peran": "UI/UX Design & Front End Developer"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "M. Samsul Arifin Baihaqi 254107020176 M. Dwi Kurniawan 254107020001 Arief Rahman Hakim Candra 254107020002 Ghulam El Fir.pdf"
+  },
+  "TI_2A::KELOMPOK HORE TI 2A": {
+    "members": [
+      {
+        "nama": "Daffa dwi nugroho",
+        "nim": "254107020140",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "Ravy sanda aditya",
+        "nim": "254107020211",
+        "peran": "Frontend"
+      },
+      {
+        "nama": "Ariel Ardani Aris Putra",
+        "nim": "254107020129",
+        "peran": "Database analyst"
+      },
+      {
+        "nama": "Firmansyah Tri Wijaya",
+        "nim": "254107020193",
+        "peran": "Backend"
+      },
+      {
+        "nama": "Fadhil Firnas D",
+        "nim": "254107020179",
+        "peran": "Full Stack"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "KELOMPOK HORE TI 2A - Daffa Dwi Nugroho.pdf"
+  },
+  "TI_2A::Demon Core Victims": {
+    "members": [
+      {
+        "nama": "Nobbel Kaisar Bhumi",
+        "nim": "254107020098",
+        "peran": "Project Manager, Frontend Developer"
+      },
+      {
+        "nama": "Irsyad Haybatullah",
+        "nim": "254107020194",
+        "peran": "Backend Developer"
+      },
+      {
+        "nama": "M. Daviq Naufal H.A",
+        "nim": "254107020010",
+        "peran": "UI/UX Designer, Frontend Developer"
+      },
+      {
+        "nama": "Adrian Alexander Sanda",
+        "nim": "254107020138",
+        "peran": "Backend Developer"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Demon Core Victims - Nobbel Kaisar Bhumi.pdf"
+  },
+  "TI_2B::2G2B": {
+    "members": [
+      {
+        "nama": "Dandin Sesilia",
+        "nim": "254107020142"
+      },
+      {
+        "nama": "Muhammad Ridwan A",
+        "nim": "254107020187"
+      },
+      {
+        "nama": "Mukhammad Raffi Zabra",
+        "nim": "254107020059"
+      },
+      {
+        "nama": "Naura Fadhilla Aditya P",
+        "nim": "254107020007"
+      }
+    ],
+    "source": "cover_page",
+    "file": "2G2B - Mukhammad Raffi Zabra.pdf"
+  },
+  "TI_2B::KREANOVA": {
+    "members": [
+      {
+        "nama": "Khohar Muhammad Fatahurrohman",
+        "nim": "254107020021",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "Jiada Mizan Firdaus",
+        "nim": "254107020190",
+        "peran": "FrontEnd Developer"
+      },
+      {
+        "nama": "Dionisius Dimas Nanda Karyanto",
+        "nim": "254107020094",
+        "peran": "BackEnd Developer"
+      },
+      {
+        "nama": "M. Tahtian Fahreza",
+        "nim": "254107020053",
+        "peran": "UI/UX Designer"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "KREANOVA - Khohar Muhammad Fatahurrohman.pdf"
+  },
+  "TI_2B::Tim Berbagi Adil": {
+    "members": [
+      {
+        "nama": "Rayhan Jofan Halim",
+        "nim": "254107020230",
+        "peran": "Project Manager, Database Architect & Backend Integration Lead"
+      },
+      {
+        "nama": "M. Ihsan Nabil",
+        "nim": "254107020196",
+        "peran": "QA Lead, Algorithm Verification & Software Tester"
+      },
+      {
+        "nama": "Elsa Marthalinda",
+        "nim": "254107020204",
+        "peran": "Dokumentator, System Analyst & PDF Reporting Engine Specialist"
+      },
+      {
+        "nama": "M.Fakhrur Rozi Nur",
+        "nim": "254107020207",
+        "peran": "Front-end, UI/UX Kholid Designer & Visualisasi Data"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Tim Berbagi Adil - RAYHAN JOFAN HALIM.pdf"
+  },
+  "TI_2B::404: Sleep Not Found": {
+    "members": [
+      {
+        "nama": "Ahmad Rafid Riqkullah",
+        "nim": "254107020078"
+      },
+      {
+        "nama": "I Gusti Agung Timothy P.A.P",
+        "nim": "254107020157"
+      },
+      {
+        "nama": "Inas Asami El Murtadho",
+        "nim": "254107020165"
+      },
+      {
+        "nama": "Muhammad Toriq Januarsyah",
+        "nim": "254107020075"
+      }
+    ],
+    "source": "cover_page",
+    "file": "404- Sleep Not Found - Ahmad Rafid Riqkullah.pdf"
+  },
+  "TI_2B::2B-Kelompok 5": {
+    "members": [
+      {
+        "nama": "Christian Nugraha Widyawan",
+        "nim": "254107020089",
+        "peran": "Project Manager + Database"
+      },
+      {
+        "nama": "Senja Bayu Windiya",
+        "nim": "254107020061",
+        "peran": "Backend Dev"
+      },
+      {
+        "nama": "Adis Nayottama Indra Zaki",
+        "nim": "254107020044",
+        "peran": "Frontend Dev"
+      },
+      {
+        "nama": "Rajwa Ega Ganeswara",
+        "nim": "254107020205",
+        "peran": "UI/UX Dev"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "2B-Kelompok 5 - Christian Nugraha Widyawan.pdf"
+  },
+  "TI_2B::2B Kelompok 7": {
+    "members": [
+      {
+        "nama": "Ahmad Risal Ali Pasha",
+        "nim": "254107020146"
+      },
+      {
+        "nama": "Rofiq Aristiyawan",
+        "nim": "254107020060"
+      },
+      {
+        "nama": "Syaikhan Agil El Dzaky",
+        "nim": "254107020131"
+      },
+      {
+        "nama": "Zhafran Adya Sullu Abimata",
+        "nim": "254107020111"
+      }
+    ],
+    "source": "cover_page",
+    "file": "2B Kelompok 7 - Zhafran Adya Sullu Abimata.pdf"
+  },
+  "TI_2C::Kelompok 3": {
+    "members": [
+      {
+        "nama": "Afiva Maylinda",
+        "nim": "254107020069"
+      },
+      {
+        "nama": "Muhammad Akmal Dwiansyah Putra",
+        "nim": "254107020110"
+      },
+      {
+        "nama": "Muhammad Zainur Roziqin",
+        "nim": "254107020081"
+      },
+      {
+        "nama": "Valent Ridho Putra Santoso",
+        "nim": "254107020050"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Kelompok 3 - Afiva Maylinda.pdf"
+  },
+  "TI_2C::Hebat Dan Dahsyat": {
+    "members": [
+      {
+        "nama": "Rasyiq Satrio Musthafa",
+        "nim": "254107020079"
+      },
+      {
+        "nama": "Hamas Abdur Rahman",
+        "nim": "254107020082"
+      },
+      {
+        "nama": "Erhan Hendragian Permana",
+        "nim": "254107020043"
+      },
+      {
+        "nama": "Fadila Mayamasita SARJANA TERAPAN TEKNIK INFORMATIKA",
+        "nim": "254107020012",
+        "peran": "PEMBUATAN APLIKASI DOTO UNTUK PENGEMBANGAN SOFTWARE BERBASIS WEB"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Hebat Dan Dahsyat - Erhan Hendragian Permana.pdf"
+  },
+  "TI_2C::SIPREI": {
+    "members": [
+      {
+        "nama": "Adiatma Wahyudi",
+        "nim": "254107020212"
+      },
+      {
+        "nama": "Muhammad Figo Ferdyano Taufik",
+        "nim": "254107020125"
+      },
+      {
+        "nama": "Raysha Aida Azalia",
+        "nim": "254107020024"
+      },
+      {
+        "nama": "Vico Dwi Wijaya",
+        "nim": "254107020259"
+      }
+    ],
+    "source": "cover_page",
+    "file": "SIPREI - Raysha Aida Azalia.pdf"
+  },
+  "TI_2C::Kelompok 5": {
+    "members": [
+      {
+        "nama": "Ayu Wardatul Widad",
+        "nim": "254107020171"
+      },
+      {
+        "nama": "Ibrahim Movic",
+        "nim": "254107020158"
+      },
+      {
+        "nama": "M. Rayyan Abie Dewanata",
+        "nim": "254107020195"
+      },
+      {
+        "nama": "Rivaldo Aditya Putra",
+        "nim": "254107020162"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Kelompok 5 - Ayu Wardatul Widad.pdf"
+  },
+  "TI_2C::BOSS SYNDICATE": {
+    "members": [
+      {
+        "nama": "Agung Satriyo Gusti",
+        "nim": "254107020228"
+      },
+      {
+        "nama": "Danendra Dewani A",
+        "nim": "254107020114"
+      },
+      {
+        "nama": "Galang Satriyo A.W",
+        "nim": "254107020231"
+      },
+      {
+        "nama": "Reza Surya Pratama",
+        "nim": "254107020046"
+      },
+      {
+        "nama": "Wildan Dwi Triatna K",
+        "nim": "254107020030"
+      }
+    ],
+    "source": "cover_page",
+    "file": "BOSS SYNDICATE - Wildan Dwi Triatna Kusuma.pdf"
+  },
+  "TI_2D::Langit biru jadi jingga": {
+    "members": [
+      {
+        "nama": "Yahya Agusta Rokhmansyah",
+        "nim": "254107020003"
+      },
+      {
+        "nama": "Firstyara Putri Hilmanes",
+        "nim": "254107020164"
+      },
+      {
+        "nama": "Radian Rafie Andhitama",
+        "nim": "254107020109"
+      },
+      {
+        "nama": "Muhammad Rifqi Abdurrahman",
+        "nim": "254107020132"
+      },
+      {
+        "nama": "Ahmad Raffie Athaya H",
+        "nim": "254107020063"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Langit biru jadi jingga - Radian Rafie Andhitama.pdf"
+  },
+  "TI_2D::cilok poltek gak pakai kecap putihan aja": {
+    "members": [
+      {
+        "nama": "MOHAMMAD DAANII ALTHAAF REIVAN FADHLILLAH",
+        "nim": "254107020123",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "RAJENDRA PUTRA MAHESWARA",
+        "nim": "254107020090",
+        "peran": "UI/UX"
+      },
+      {
+        "nama": "FAWAS SAQIF ABDULLOHIL WALI",
+        "nim": "254107020037",
+        "peran": "Backend"
+      },
+      {
+        "nama": "NAJWA ADHA KHAIRUNISSA GIARNO",
+        "nim": "254107020191",
+        "peran": "Frontend"
+      },
+      {
+        "nama": "DANIEL RAMADHANI ZULKARNAIN",
+        "nim": "254107020255",
+        "peran": "Backend"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "cilok poltek gak pakai kecap putihan aja - Mohammad Daanii Althaaf Reivan Fadhlillah.pdf"
+  },
+  "TI_2D::kata jo yang ga ngerjain disuruh kayang didepan gedung sipil": {
+    "members": [
+      {
+        "nama": "Putra Bakti Suljati Negara Syamsu",
+        "nim": "254107020147"
+      },
+      {
+        "nama": "Jonathan Abdiel Haryono",
+        "nim": "254107020036"
+      },
+      {
+        "nama": "Fafirru Hadzami Syach Mashuri",
+        "nim": "254107020104"
+      },
+      {
+        "nama": "Naufal Farhan Nur Ramadhan",
+        "nim": "254107020077"
+      },
+      {
+        "nama": "Muhammad Abyan Andhi Putra",
+        "nim": "254107020149"
+      }
+    ],
+    "source": "cover_page",
+    "file": "kata jo yang ga ngerjain disuruh kayang didepan gedung sipil - Putra Bakti Suljati Negara Syamsu.pdf"
+  },
+  "TI_2D::DoubleB": {
+    "members": [
+      {
+        "nama": "Rifky Febrian Raditya Pratama",
+        "nim": "254107020222"
+      },
+      {
+        "nama": "Muhammad Bagas Fathurrahman",
+        "nim": "254107020032"
+      },
+      {
+        "nama": "Bagaskara Pradana Yulianto",
+        "nim": "254107020215"
+      },
+      {
+        "nama": "Nerazuriancta Purmama Syah Putri",
+        "nim": "254107020117",
+        "peran": "Kelas: TI - 2D"
+      }
+    ],
+    "source": "cover_page",
+    "file": "DoubleB - Rifky Febrian Raditya Pratama.pdf"
+  },
+  "TI_2E::Toko A1": {
+    "members": [
+      {
+        "nama": "Raja Moreno",
+        "nim": "254107020240",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "Ahmad Zaky",
+        "nim": "254107020183",
+        "peran": "BackEnd"
+      },
+      {
+        "nama": "Tegar Putra P",
+        "nim": "254107020213",
+        "peran": "FrontEnd"
+      },
+      {
+        "nama": "Satria Rizky",
+        "nim": "254107020128",
+        "peran": "UI/UX"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Toko A1 - Raja Moreno.pdf"
+  },
+  "TI_2E::Kelompok 4": {
+    "members": [
+      {
+        "nama": "Arjun Zain Regeng Pengestu",
+        "nim": "254107020144",
+        "peran": "Utama"
+      },
+      {
+        "nama": "Ilham Danuarta Atmaja",
+        "nim": "254107020218",
+        "peran": "Project Manager / Ketua Tim"
+      },
+      {
+        "nama": "Haidhar Annabigh Imadilfalah",
+        "nim": "254107020103",
+        "peran": "UI/UX Designer"
+      },
+      {
+        "nama": "Elyza Putri Rahayu",
+        "nim": "254107020035",
+        "peran": "Sekretaris / Dokumentator"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 4 - Ilham Danuarta Atmaja.pdf"
+  },
+  "TI_2E::Season Ini Immo": {
+    "members": [
+      {
+        "nama": "Carlos Fadellilah Rama",
+        "nim": "254107020064"
+      },
+      {
+        "nama": "Deswita Khansa Rafifah",
+        "nim": "254107020151"
+      },
+      {
+        "nama": "Ken Dhiyaa Prawira",
+        "nim": "254107020088"
+      },
+      {
+        "nama": "Naufal Shofil Fuadi",
+        "nim": "254107020208"
+      },
+      {
+        "nama": "Syahroni Nur’an Syafi’i",
+        "nim": "254107020234"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Season Ini Immo - Naufal Shofil Fuadi.pdf"
+  },
+  "TI_2E::Tim 3": {
+    "members": [
+      {
+        "nama": "Abrar Rayhan Muhammad",
+        "nim": "254107020217",
+        "peran": "Pengembang Utama"
+      },
+      {
+        "nama": "Azzahra Aulia Rahman",
+        "nim": "254107020227",
+        "peran": "Analis/Desainer"
+      },
+      {
+        "nama": "Naufal Valentin Wijaya",
+        "nim": "254107020057",
+        "peran": "Ketua Tim & QA/Penguji"
+      },
+      {
+        "nama": "Surya Sadikin Firdaus",
+        "nim": "254107020105",
+        "peran": "Sekretaris/Dokumentator KELAS (2E)"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Tim 3 - Naufal Valentino Wijaya.pdf"
+  },
+  "TI_2F::Kelompok 7": {
+    "members": [
+      {
+        "nama": "Salsabila Widyadhana",
+        "nim": "254107020200",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "Calvin Ardiansyah",
+        "nim": "254107020214",
+        "peran": "Backend"
+      },
+      {
+        "nama": "Ghafin Fitrah Ramadhan",
+        "nim": "254107020170",
+        "peran": "UI/UX"
+      },
+      {
+        "nama": "Galih Maula Mumtaza",
+        "nim": "254107020095",
+        "peran": "Frontend"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 7 - Salsabila Widyadhana.pdf"
+  },
+  "TI_2F::Kelompok 5": {
+    "members": [
+      {
+        "nama": "Daffa Ramadhan",
+        "nim": "254107020033",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "Muhamad Rizky Hamdani",
+        "nim": "254107020027",
+        "peran": "Front End"
+      },
+      {
+        "nama": "Fafiq Lutfi Azana",
+        "nim": "254107020058",
+        "peran": "Back End"
+      },
+      {
+        "nama": "Muhammad Akbar Raffi P.S",
+        "nim": "254107020237",
+        "peran": "UI / UX"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 5 - Daffa Ramadhan.pdf"
+  },
+  "TI_2F::Bytebound": {
+    "members": [
+      {
+        "nama": "Ayu Wardatul Jannah",
+        "nim": "254107020197"
+      },
+      {
+        "nama": "Farhan Ramadhana Barus",
+        "nim": "254107020005"
+      },
+      {
+        "nama": "Faisal Rizky",
+        "nim": "254107020224"
+      },
+      {
+        "nama": "Syeril Azalea Rivera",
+        "nim": "254107020045"
+      },
+      {
+        "nama": "Almuzzammil Yusuf Favian H",
+        "nim": "254107020115"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Bytebound - Ayu Warda.pdf"
+  },
+  "TI_2F::Tim apa aja": {
+    "members": [
+      {
+        "nama": "Daffa Ramadhan",
+        "nim": "254107020033",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "Muhamad Rizky Hamdani",
+        "nim": "254107020027",
+        "peran": "Front End"
+      },
+      {
+        "nama": "Fafiq Lutfi Azana",
+        "nim": "254107020058",
+        "peran": "Back End"
+      },
+      {
+        "nama": "Muhammad Akbar Raffi P.S",
+        "nim": "254107020237",
+        "peran": "UI / UX"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Tim apa aja - Dafa Ramadhan.pdf"
+  },
+  "TI_2G::Tim Jawa": {
+    "members": [
+      {
+        "nama": "Arga Chandra Wirawan",
+        "nim": "254107020023",
+        "peran": "Assistant Project Manager"
+      },
+      {
+        "nama": "Faren Hafiza Afanda Muhammad Farhan",
+        "nim": "254107020025",
+        "peran": "Project Manager Programmer"
+      },
+      {
+        "nama": "Pieter Hartanto Lesmana",
+        "nim": "254107020145",
+        "peran": "Desain UI/UX"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Tim Jawa - Faren Hafiza Afanda.pdf"
+  },
+  "TI_2G::Pasukan Mie Ayam": {
+    "members": [
+      {
+        "nama": "Alden Dzakwan S",
+        "nim": "254107020106"
+      },
+      {
+        "nama": "Hafidza Tsamara Z",
+        "nim": "254107020034"
+      },
+      {
+        "nama": "Lindhu Nuril R Yudhistira Andhika H",
+        "nim": "254107020216"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Pasukan Mie Ayam - Yudhistira Andhika Hermawanto.pdf"
+  },
+  "TI_2G::Kejar Detlen": {
+    "members": [
+      {
+        "nama": "Syahrur Ramadhan",
+        "nim": "254107020008"
+      },
+      {
+        "nama": "Rafael Dimas C. L",
+        "nim": "254107020051"
+      },
+      {
+        "nama": "Nurfakiyah Rahmadhani",
+        "nim": "254107020229"
+      },
+      {
+        "nama": "Camelia Azzahra",
+        "nim": "242107071007"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Kejar Detlen - Syahrur Ramadhan.pdf"
+  },
+  "TI_2H::Kelompok SAKTI": {
+    "members": [
+      {
+        "nama": "Andreas Imanuel Wicaksono",
+        "nim": "254107020143"
+      },
+      {
+        "nama": "Saumi Yahya Suryadi",
+        "nim": "254107020137"
+      },
+      {
+        "nama": "Resya Fajar Putra Pratama",
+        "nim": "254107020124"
+      },
+      {
+        "nama": "Nahzul Balaghoh",
+        "nim": "254107020156"
+      },
+      {
+        "nama": "Maulana Al Jabbar.Z",
+        "nim": "254107020054"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Kelompok SAKTI - Andreas Imanuel Wicaksono.pdf"
+  },
+  "TI_2H::Kelompok 5 TI 1H": {
+    "members": [
+      {
+        "nama": "Moch Dedy Triagwi",
+        "nim": "254107020233",
+        "peran": "Ketua Tim & Pengembang Utama"
+      },
+      {
+        "nama": "Akbar Bagus Wicaksana",
+        "nim": "254107020067",
+        "peran": "Analis/Desainer"
+      },
+      {
+        "nama": "Rafif Rizdan Prastana",
+        "nim": "254107020052",
+        "peran": "Sekretaris/Dokumentator"
+      },
+      {
+        "nama": "Rafael Asuha",
+        "nim": "254107020126",
+        "peran": "QA/Penguji"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 5 TI 1H - Moch Dedy Triagwi.pdf"
+  },
+  "TI_2H::\"Katanya di grub gajadi\"": {
+    "members": [
+      {
+        "nama": "Raditya Mahatma Ghosi",
+        "nim": "254107020102"
+      },
+      {
+        "nama": "Galuh Pramudya Ananta",
+        "nim": "254107020127"
+      },
+      {
+        "nama": "Findi Finanda Aszahra",
+        "nim": "254107020016"
+      },
+      {
+        "nama": "Mohammad Hafidz Rafi’ Rabbani",
+        "nim": "254107020084"
+      }
+    ],
+    "source": "cover_page",
+    "file": "-Katanya di grub gajadi- - Raditya Mahatma Ghosi.pdf"
+  },
+  "TI_3A::Haji Koding": {
+    "members": [
+      {
+        "nama": "Femas Akbar Faturrohim",
+        "nim": "244107020200"
+      },
+      {
+        "nama": "Kreszen Vallentino Arjuna Wijono",
+        "nim": "244107020206"
+      },
+      {
+        "nama": "Mohammad Iqbal",
+        "nim": "244107020105"
+      },
+      {
+        "nama": "Muhammad Ibnu Zauzi",
+        "nim": "244107020016"
+      },
+      {
+        "nama": "Wandi",
+        "nim": "244107020003"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Haji Koding - Muhammad Ibnu Zauzi.pdf"
+  },
+  "TI_3A::PBL Kelompok 6": {
+    "members": [
+      {
+        "nama": "Muhammad Christiano Olyvian Barini",
+        "nim": "244107020169",
+        "peran": "Ketua Tim & QA/Penguji"
+      },
+      {
+        "nama": "Abdul Muid",
+        "nim": "244107020006",
+        "peran": "Pengembang Utama (Mobile App Flutter)"
+      },
+      {
+        "nama": "Farrel Andika Chandra",
+        "nim": "244107020168",
+        "peran": "ML Engineer & Arsitek Sistem (Backend)"
+      },
+      {
+        "nama": "Abelas Solihin",
+        "nim": "244107020052",
+        "peran": "Sekretaris & Dokumentator"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "PBL Kelompok 6 - Muhammad Christiano Olyvian Barini.pdf"
+  },
+  "TI_3A::3 Rasa 1 Kisah": {
+    "members": [
+      {
+        "nama": "Raihan Akbar Putra P",
+        "nim": "244107020087",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "Rivan Fahlul Fadillah",
+        "nim": "244107020239",
+        "peran": "Machine Learning Engineering"
+      },
+      {
+        "nama": "Rayana Hanindra Wibowo",
+        "nim": "244107020178",
+        "peran": "Mobile Developer"
+      },
+      {
+        "nama": "Khesa Krensa A",
+        "nim": "244107020233",
+        "peran": "UI/UX Designer & QA Tester"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "3 Rasa 1 Kisah - Raihan Akbar.pdf"
+  },
+  "TI_3A::INI ARAHNYA KEMANAA": {
+    "members": [
+      {
+        "nama": "Dicky Darmawan",
+        "nim": "244107020037"
+      },
+      {
+        "nama": "Faiva Puspa Sahara",
+        "nim": "244107020036"
+      },
+      {
+        "nama": "Muhammad Dwi Febrian",
+        "nim": "244107020081"
+      },
+      {
+        "nama": "Nabil Hanief Mafazi",
+        "nim": "244107020114"
+      },
+      {
+        "nama": "Siti Nikmatus Sholihah",
+        "nim": "244107020014"
+      }
+    ],
+    "source": "cover_page",
+    "file": "INI ARAHNYA KEMANAA - Dicky Darmawan.pdf"
+  },
+  "TI_3A::Pasukan Tidak Magang": {
+    "members": [
+      {
+        "nama": "Fajar Eka Sandiyuda",
+        "nim": "244107020043"
+      },
+      {
+        "nama": "Ananda Priya Yustira",
+        "nim": "244107020131"
+      },
+      {
+        "nama": "Sheilandra Zarawiba",
+        "nim": "244107020110"
+      },
+      {
+        "nama": "Na’ilah Salsabila M",
+        "nim": "244107020120"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Pasukan Tidak Magang - Fajar Eka Sandiyuda.pdf"
+  },
+  "TI_3C::Banana Grade": {
+    "members": [
+      {
+        "nama": "Rachmad Aprisandhy",
+        "nim": "244107020148"
+      },
+      {
+        "nama": "Zacky Rio Orlando",
+        "nim": "244107020086"
+      },
+      {
+        "nama": "Hafiz Rizqi Hernanda",
+        "nim": "244107020154"
+      },
+      {
+        "nama": "Regita Abelia Putri Satriyo",
+        "nim": "244107020173"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Banana Grade - Rachmad Aprisandhy.pdf"
+  },
+  "TI_3C::PBL Meat Freshness": {
+    "members": [
+      {
+        "nama": "Adellia Salsa Al Barra",
+        "nim": "244107020222"
+      },
+      {
+        "nama": "Bima Adiwijaya",
+        "nim": "244107020022"
+      },
+      {
+        "nama": "Nawaf Azril Annaufal",
+        "nim": "244107020047"
+      },
+      {
+        "nama": "Rafi Abyantara Pratama",
+        "nim": "244107020126"
+      }
+    ],
+    "source": "cover_page",
+    "file": "PBL Meat Freshness - Nawaf Azril Annaufal.pdf"
+  },
+  "TI_3C::Kelompok 4": {
+    "members": [
+      {
+        "nama": "Afrizal           Kusuma Wardana",
+        "nim": "244107020007",
+        "peran": "ML Engineer/Arsitek Sistem"
+      },
+      {
+        "nama": "Andy      Otani     Dipo Yudho",
+        "nim": "244107020241",
+        "peran": "Sekretaris/Dokumentator"
+      },
+      {
+        "nama": "Fata Haidar Aly",
+        "nim": "244107020108",
+        "peran": "QA/Penguji"
+      },
+      {
+        "nama": "Siti Mutmainah",
+        "nim": "244107020143",
+        "peran": "Ketua Tim & Pengembang Utama (Flutter"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 4 - Siti Mutmainah.pdf"
+  },
+  "TI_3C::SRC": {
+    "members": [
+      {
+        "nama": "Rakagali Resda Krisnandi P",
+        "nim": "244107020136",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "Aldi Surya Saputra",
+        "nim": "244107020184",
+        "peran": "Back-end"
+      },
+      {
+        "nama": "Moch Rijal Dzaki R A",
+        "nim": "244107020240",
+        "peran": "ML/Data Developer"
+      },
+      {
+        "nama": "Khoirul Umam Novalidi",
+        "nim": "244107020210",
+        "peran": "Front-end"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "SRC - Rakagali Resda Krisandi Putra.pdf"
+  },
+  "TI_3D::PBL Waras": {
+    "members": [
+      {
+        "nama": "Adi Luhung",
+        "nim": "244107020088"
+      },
+      {
+        "nama": "Angel Chelssa Leoniy E P",
+        "nim": "244107020202"
+      },
+      {
+        "nama": "Febryan Akhmad Taajuddin",
+        "nim": "244107020180"
+      },
+      {
+        "nama": "Muhammad Aryatama M",
+        "nim": "244107020028"
+      },
+      {
+        "nama": "Nadya Aurora Gebi Agista",
+        "nim": "244107020034",
+        "peran": "KELAS TI-3D"
+      }
+    ],
+    "source": "cover_page",
+    "file": "PBL Waras - Adi Luhung.pdf"
+  },
+  "TI_3D::Kelompok 5": {
+    "members": [
+      {
+        "nama": "Arjuna Satria Hutama",
+        "nim": "244107020158",
+        "peran": "Ketua Tim + QA/Penguji"
+      },
+      {
+        "nama": "Bagas Ardiansa Putra Evan Raditya Taruna Putra",
+        "nim": "244107020166",
+        "peran": "Mobile Developer"
+      },
+      {
+        "nama": "Marta Prama Daniswara",
+        "nim": "244107020205",
+        "peran": "ML Engineer"
+      },
+      {
+        "nama": "Rafazian Alief Fatah",
+        "nim": "244107020100",
+        "peran": "ML Engineer"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 5 - Arjuna Satria Hutama.pdf"
+  },
+  "TI_3D::Sam logos": {
+    "members": [
+      {
+        "nama": "Achmad Nabil Afgareza",
+        "nim": "244107020001"
+      },
+      {
+        "nama": "Amin Aziz Sudjud",
+        "nim": "244107020079"
+      },
+      {
+        "nama": "Aryan Zuda Firdaus",
+        "nim": "244107020060"
+      },
+      {
+        "nama": "Fazel Priyono",
+        "nim": "244107020033"
+      },
+      {
+        "nama": "Ilham Dharma Atmaja SARJANA TERAPAN TEKNIK INFORMATIKA",
+        "nim": "244107020220"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Sam logos - Fazel Priyono.pdf"
+  },
+  "TI_3D::Ahmad Zainudin Fanani  244107020051 Alfan Fahat Maulana 254107023007 Fahrul Khoiruzaki 244107020234 Muhammad Faiq Nabil Saputra 244107020025 Yanuar Ramadhani Kuswoko 244107020172": {
+    "members": [
+      {
+        "nama": "Ahmad Zainudin Fanani",
+        "nim": "244107020051",
+        "peran": "ML Engineer"
+      },
+      {
+        "nama": "Alfan Fahat Maulana",
+        "nim": "254107023007",
+        "peran": "Front-End Developer"
+      },
+      {
+        "nama": "Fahrul Khoiruzaki",
+        "nim": "244107020234",
+        "peran": "Project Manager (PM"
+      },
+      {
+        "nama": "Muhammad Faiq Nabil Saputra",
+        "nim": "244107020025",
+        "peran": "System / Backend Developer"
+      },
+      {
+        "nama": "Yanuar Ramadhani Kuswoko",
+        "nim": "244107020172",
+        "peran": "QA Engineer / Tester"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Ahmad Zainudin Fanani 244107020051 Alfan Fahat Maulana 254107023007 Fahrul Khoiruzaki 244107020234 Muhammad Faiq Nabil S.pdf"
+  },
+  "TI_3E::Menyala Tomatku": {
+    "members": [
+      {
+        "nama": "Indhira Yuantika Christy",
+        "nim": "244107020171"
+      },
+      {
+        "nama": "Adytria Bayu Ramadani",
+        "nim": "244107023004"
+      },
+      {
+        "nama": "Achmad Anval A.A",
+        "nim": "244107020039"
+      },
+      {
+        "nama": "Yulike Dwi Nurcahyani",
+        "nim": "244107020146"
+      },
+      {
+        "nama": "Fikar Bahrul Santoso",
+        "nim": "244107020160"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Menyala Tomatku - Indhira Yuantika Christy.pdf"
+  },
+  "TI_3E::GassPol": {
+    "members": [
+      {
+        "nama": "Aditya Rizqiqa Ramadhan",
+        "nim": "244107020008",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "Fifa Nuurun Halizah",
+        "nim": "244107020019",
+        "peran": "Quality Assurance"
+      },
+      {
+        "nama": "Raditya Riefki",
+        "nim": "244107020204",
+        "peran": "Backend"
+      },
+      {
+        "nama": "Shafiqa Nabila Maharani Khoirunnisa",
+        "nim": "244107020221",
+        "peran": "Mobile"
+      },
+      {
+        "nama": "Singgih Wahyu Permana",
+        "nim": "244107020102",
+        "peran": "Machine Learning"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "GassPol - Aditya Rizqiqa Ramadhan.pdf"
+  },
+  "TI_3E::Kelompok 3": {
+    "members": [
+      {
+        "nama": "Adam Bahy Maulana",
+        "nim": "244107020207",
+        "peran": "Mahasiswa TI - 3E"
+      },
+      {
+        "nama": "Destian Dwi Hardika",
+        "nim": "244107020203",
+        "peran": "Mahasiswa TI - 3E"
+      },
+      {
+        "nama": "Gaduh Prakoso",
+        "nim": "244107020150",
+        "peran": "Mahasiswa TI - 3E"
+      },
+      {
+        "nama": "Kamila Zahwa",
+        "nim": "244107020111",
+        "peran": "Mahasiswa TI - 3E"
+      },
+      {
+        "nama": "Nur Alfiyanti",
+        "nim": "244107020055",
+        "peran": "Mahasiswa TI - 3E"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 3 - Kamila Zahwa.pdf"
+  },
+  "TI_3E::Kelompok 2": {
+    "members": [
+      {
+        "nama": "Hafif Nurrahmad",
+        "nim": "244107020176"
+      },
+      {
+        "nama": "Muhammad Rizky Firdiansyah",
+        "nim": "244107020013"
+      },
+      {
+        "nama": "Radita Yoga Anugrah",
+        "nim": "254107023099"
+      },
+      {
+        "nama": "Raihan Daffa Izzuddin",
+        "nim": "244107020113"
+      },
+      {
+        "nama": "Risky Adi Prasetya",
+        "nim": "244107020153"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Kelompok 2 - Muhammad Rizky Firdiansyah.pdf"
+  },
+  "TI_3F::Kelompok 4": {
+    "members": [
+      {
+        "nama": "Arifah Zhafirah Wikananda",
+        "nim": "244107020188",
+        "peran": "PM , UI/UX & Mobile Dev"
+      },
+      {
+        "nama": "Athaulla Hafizh",
+        "nim": "244107020030",
+        "peran": "Mobile Dev & BE"
+      },
+      {
+        "nama": "Mokhammad Ilham Putra Wijaya Nabhan Rizqi Julian Saputro",
+        "nim": "244107020139",
+        "peran": "ML Engineer & BE ML Engineer & BE"
+      },
+      {
+        "nama": "Nevita Ttriya Yuliana",
+        "nim": "244107020208",
+        "peran": "UI/UX & Mobile Dev"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 4 - Nabhan Rizqi Julian Saputro.pdf"
+  },
+  "TI_3F::Kelompok 2": {
+    "members": [
+      {
+        "nama": "Anthea Amodia Syaffah A",
+        "nim": "244107020024",
+        "peran": "QA/Dokumentasi"
+      },
+      {
+        "nama": "Moch. Adam Arsyad F",
+        "nim": "244107020104",
+        "peran": "Project Manager"
+      },
+      {
+        "nama": "Bintang Pancahaya P",
+        "nim": "244107020115",
+        "peran": "Mobile Developer"
+      },
+      {
+        "nama": "Muchammad Ibrahim A. A",
+        "nim": "244107020062",
+        "peran": "UI/UX Designer"
+      },
+      {
+        "nama": "Rafazl Radana D",
+        "nim": "244107020082",
+        "peran": "ML Engineer"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 2 - Moch. Adam Arsyad Faizin.pdf"
+  },
+  "TI_3G::Kelompok 5": {
+    "members": [
+      {
+        "nama": "1     Dina Kumala Sari",
+        "nim": "244107020072",
+        "peran": "Ketua Tim & Mobile Developer"
+      },
+      {
+        "nama": "2     M. Yahya Irvansyah",
+        "nim": "244107020032",
+        "peran": "ML Engineer"
+      },
+      {
+        "nama": "3     Muhammad Pearl Ocshada",
+        "nim": "244107020064",
+        "peran": "Backend/ML Engineer"
+      },
+      {
+        "nama": "4     Sharren Elvaretta Pratamadya Fianto",
+        "nim": "244107020191",
+        "peran": "Mobile Developer"
+      },
+      {
+        "nama": "5     Anselmus Marcel Putra Andria",
+        "nim": "244107020141",
+        "peran": "QA/Penguji & Dokumentator"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 5 - Dina Kumala Sari.pdf"
+  },
+  "TI_3G::Kelompok 2": {
+    "members": [
+      {
+        "nama": "Abdul Rahman Hanif",
+        "nim": "244107020232",
+        "peran": "Project Manager, Mengembangkan model dan melakukan evaluasi Machine Learning, serta membuat API untuk menghubungkan model dengan aplikasi mobile."
+      },
+      {
+        "nama": "Jasmine Nasywa Nabilah",
+        "nim": "244107020119",
+        "peran": "Mengembangkan tampilan dan navigasi aplikasi Flutter, serta mengintegrasikan hasil model Machine Learning ke aplikasi"
+      },
+      {
+        "nama": "Muhamad Nuril Huda",
+        "nim": "244107020004",
+        "peran": "pada Flutter."
+      },
+      {
+        "nama": "Naufal Abid Aurizky",
+        "nim": "244107020212",
+        "peran": "Melakukan pengujian model, analisis hasil prediksi, serta mengembangkan fitur mobile seperti pengecekan harga dan kalkulator KPR."
+      },
+      {
+        "nama": "Nurfinka Lailasari",
+        "nim": "244107020211",
+        "peran": "Membantu preprocessing dan evaluasi model mengembangkan tampilan dan navigasi aplikasi Flutter, dan tampilan aplikasi Flutter."
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 2 - Abdul Rahman Hanif Darmawan.pdf"
+  },
+  "TI_3G::Sugar Addict": {
+    "members": [
+      {
+        "nama": "Muhammad Fattahul Alim",
+        "nim": "244107020018",
+        "peran": "Ketua Tim, Mengembangkan halaman hasil prediksi dan halaman riwayat, Melakukan feature selection serta implementasi pembagian dataset dan proses training model, dan Menyusun dan melaksanakan pengujian input serta validasi data"
+      },
+      {
+        "nama": "Muhammad Rayhan Zamzami",
+        "nim": "244107020027",
+        "peran": "Mengembangkan halaman Questionnaire, validasi input, dan perhitungan BMI, Melakukan eksplorasi dataset dan membuat kode analisis distribusi data serta karakteristik variabel, Menguji integrasi antara aplikasi mobile, API, dan model"
+      },
+      {
+        "nama": "Irfan Pandu Pratama",
+        "nim": "244107020193",
+        "peran": "Mengembangkan komunikasi aplikasi dengan API dan pengolahan response,mengimplementasikan evaluasi model menggunakan accuracy, precision, recall, F1-score, dan confusion matrix serta membandingkan hasil model, menguji fungsi hasil prediksi dan kesesuaian keluaran aplikasi"
+      },
+      {
+        "nama": "Maulidya Afriani",
+        "nim": "244107020059",
+        "peran": "Mengembangkan integrasi fitur aplikasi, penyimpanan riwayat, dan penyempurnaan antarmuka, mengimplementasikan eksperimen model, tuning parameter, serta menyusun kode untuk menyimpan model hasil training, melakukan pengujian usability, performance, regression, dan dokumentasi hasil pengujian"
+      },
+      {
+        "nama": "Mufliha Hafsyah Shahieza",
+        "nim": "244107020147",
+        "peran": "Mengembangkan halaman Dashboard, struktur widget, dan navigasi aplikasi, melakukan data cleaning dan preprocessing menggunakan Python, menyusun skenario pengujian untuk halaman Dashboard dan navigasi"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Sugar Addict - Muhammad Fattahul Alim.pdf"
+  },
+  "TI_3G::TI2G-Team-2": {
+    "members": [
+      {
+        "nama": "Abdul Rahman Hanif",
+        "nim": "244107020232",
+        "peran": "Analysis (EDA), Input) & Validasi (Integration Testing) & Visualisasi Data Data Form Properti Uji Kinerja Backend (Performance Testing)"
+      },
+      {
+        "nama": "Jasmine Nasywa Nabilah",
+        "nim": "244107020119",
+        "peran": "(Statistik Harga Blackbox Form Input Rumah) & UI/UX (Boundary Value Design System Analysis & Equivalence Partitioning)"
+      },
+      {
+        "nama": "Muhamad Nuril Huda",
+        "nim": "244107020004",
+        "peran": "Training Model, Testing Harga Rumah (Core Pengguna (Usability Model, Evaluasi Model, ML Feature) & Core Testing) & UI Hyperparameter Tuning, Networking/State Responsiveness Testing Model Final, Management Menyimpan Model"
+      },
+      {
+        "nama": "Naufal Abid Aurizky",
+        "nim": "244107020212",
+        "peran": "Menentukan Fitur (X) Kewajaran Harga & (Business Logic Testing) dan Target (Y), Fitur 4: Kalkulator pada Fitur Kewajaran Encoding Data KPR (Simulasi Harga & Kalkulator KPR Kategorikal, Scaling jika Cicilan) diperlukan, Split Dataset"
+      },
+      {
+        "nama": "Nurfinka Lailasari",
+        "nim": "244107020211",
+        "peran": "Penyimpanan Riwayat Mutu, Defect Tracking, Lokal, & UI & Penyusunan Software Verification Test Report (STR)"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "TI2G-Team-2 - Abdul Rahman Hanif Darmawan.pdf"
+  },
+  "TI_3G::Kelompok 3 (Nanti malam dc)": {
+    "members": [
+      {
+        "nama": "Arya Bayu Samodra",
+        "nim": "244107020162",
+        "peran": "Web Developer Mobile Developer ML Engineer Tester"
+      },
+      {
+        "nama": "M. Nawfal Mawla A",
+        "nim": "244107020174",
+        "peran": "Ketua Tim Mobile Developer ML Engineer Tester Web Developer"
+      },
+      {
+        "nama": "Radit Firansah",
+        "nim": "244107020196",
+        "peran": "Web Developer Mobile Developer ML Engineer Tester"
+      },
+      {
+        "nama": "Raya Rabbani Ananta A",
+        "nim": "244107020159",
+        "peran": "Web Developer Mobile Developer ML Engineer Tester"
+      },
+      {
+        "nama": "Vanesa Mardiana Putri",
+        "nim": "244107020129",
+        "peran": "Web Developer Mobile Developer ML Engineer Tester"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 3 (Nanti malam dc) - Muhammad Nawfal Mawla Azhar.pdf"
+  },
+  "TI_3H::Kelompok 6": {
+    "members": [
+      {
+        "nama": "Raihan Nur Pratama",
+        "nim": "244107020085",
+        "peran": "Ketua Tim, Flutter input data, Flask API input dan preprocessing ML"
+      },
+      {
+        "nama": "Jiro Ammar Wafi",
+        "nim": "244107020190",
+        "peran": "Flutter prediksi, Flask API, dan implementasi Decision Tree."
+      },
+      {
+        "nama": "M. Fitra Adhim N",
+        "nim": "244107020089",
+        "peran": "Flutter dashboard & rekomendasi, Flask API dan Rule-Based Recommendation."
+      },
+      {
+        "nama": "Aisya Aswy Nur A",
+        "nim": "244107020109",
+        "peran": "Flutter hasil prediksi, Flask API, dan implementasi Random Forest serta evaluasi model."
+      },
+      {
+        "nama": "Jonathan Dwi P",
+        "nim": "244107020197",
+        "peran": "Flutter riwayat & statistik, Flask API database dan pengolahan data ML."
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Kelompok 6 - Raihan Nur Pratama.pdf"
+  },
+  "TI_3H::Ciboox": {
+    "members": [
+      {
+        "nama": "Rafi Adrian Prasetya",
+        "nim": "244107020026",
+        "peran": "Ketua Tim, ML Data Engineer & Mobile Core Developer"
+      },
+      {
+        "nama": "Rifqi Aries Saputra",
+        "nim": "244107020175",
+        "peran": "ML Classification Engineer & Mobile Feature Developer"
+      },
+      {
+        "nama": "Nabillah Umi Purnama",
+        "nim": "244107020054",
+        "peran": "ML Sentiment Analyst & Mobile UI/Data Visualizer"
+      },
+      {
+        "nama": "Nayla Akas Oktavia",
+        "nim": "244107020038",
+        "peran": "ML Search Engineer & Mobile Maps Developer"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "Ciboox - Rafi Adrian Prasetya.pdf"
+  },
+  "TI_3H::Kelompok 5": {
+    "members": [
+      {
+        "nama": "Muhammad Febriansyah",
+        "nim": "244107020199"
+      },
+      {
+        "nama": "Rachmad Febriananda",
+        "nim": "244107020095"
+      },
+      {
+        "nama": "Robby Catur Wicaksono",
+        "nim": "244107020048"
+      },
+      {
+        "nama": "Wahyudi Satriawan Hamid",
+        "nim": "244107020137"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Kelompok 5 - Robby Catur Wicaksono.pdf"
+  },
+  "TI_3H::indonesia C-emas": {
+    "members": [
+      {
+        "nama": "Farrelino Athaillah Ribera",
+        "nim": "244107020122",
+        "peran": "PM, Sistem Design"
+      },
+      {
+        "nama": "Agus Prasetyo",
+        "nim": "244107020049",
+        "peran": "Full Stack Developer"
+      },
+      {
+        "nama": "Muhammad Zuhdi Yudadharma",
+        "nim": "244107020017",
+        "peran": "ML Engineer"
+      },
+      {
+        "nama": "Wawa Elent Irawanti",
+        "nim": "244107020192",
+        "peran": "Quality Control"
+      }
+    ],
+    "source": "section_1_2",
+    "file": "indonesia C-emas - Farrelino Athaillah Ribera.pdf"
+  },
+  "TI_3H::TI3H#1": {
+    "members": [
+      {
+        "nama": "Alexsa Fitria Ayu S",
+        "nim": "244107020020"
+      },
+      {
+        "nama": "Dimas Handarhesky Irianto",
+        "nim": "244107020209"
+      },
+      {
+        "nama": "Muhammad Aqil Azami",
+        "nim": "244107020128"
+      },
+      {
+        "nama": "Qulbi Khutsi Azzumi",
+        "nim": "244107020050"
+      }
+    ],
+    "source": "cover_page",
+    "file": "TI3H#1 - Qulbi Khutsi Azzumi.pdf"
+  },
+  "TI_3I::Super Parking rekomendasi Faiq": {
+    "members": [
+      {
+        "nama": "Alif Ahnaf Hendrawan",
+        "nim": "244107020224"
+      },
+      {
+        "nama": "Eiyu Azizuly Efendi",
+        "nim": "244107020181"
+      },
+      {
+        "nama": "Faiq Razzan Afifie",
+        "nim": "244107020214"
+      },
+      {
+        "nama": "Nahda Auliya Raudhatunnisa",
+        "nim": "244107020042"
+      },
+      {
+        "nama": "Zid’Avwa Al Bari’i Malang, 11 September 2026",
+        "nim": "244107020083"
+      }
+    ],
+    "source": "cover_page",
+    "file": "Super Parking rekomendasi Faiq - Alif Ahnaf Hendrawan.pdf"
+  }
+}
