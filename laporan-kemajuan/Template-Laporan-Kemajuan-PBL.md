@@ -11,7 +11,7 @@ Dokumen ini menjelaskan struktur Laporan Kemajuan *Project-Based Learning* (PBL)
 - Setiap bagian memuat paragraf panduan (cetak miring) dan contoh singkat. Keduanya hanya untuk dipahami dan tidak ikut ditulis di laporan.
 - Contoh mengacu pada produk ilustrasi "SIMPAN" (sistem peminjaman ruang dan alat kampus), sama dengan format proposal. Tim menuliskan produknya sendiri.
 - Bagian bertanda **[TI Sem 5]**, **[Sem 5]**, atau **[SIB]** hanya ditulis oleh tim pada jalur tersebut.
-- Mata kuliah terintegrasi dapat mewajibkan dokumen tambahan (misalnya Laporan Tengah Semester atau LTS pada Manajemen Proyek, TI Semester 3 dan SIB Semester 5). Pada bagian yang diberi catatan **[Dokumen mata kuliah]**, tim cukup merujuk dan melampirkan dokumen tersebut sebagai Lampiran D, sepanjang disetujui dosen pengampu mata kuliah terkait.
+- Mata kuliah terintegrasi dapat mewajibkan dokumen tambahan (misalnya Laporan Tengah Semester atau LTS pada Manajemen Proyek, TI Semester 3 dan SIB Semester 5). Dokumen tersebut digabung ke dalam berkas laporan sebagai Lampiran D, sehingga Google Form hanya menerima satu berkas. Pada bagian yang diberi catatan **[Dokumen mata kuliah]**, tim cukup merujuk dokumen itu, sepanjang disetujui dosen pengampu mata kuliah terkait.
 - Prosedur pengumpulan dijelaskan pada dokumen SOP Pengumpulan Laporan Kemajuan PBL.
 
 ---
@@ -281,7 +281,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## 12. Lampiran
 
-*Lampiran A: tangkapan layar fitur. Lampiran B: logbook mingguan lengkap Minggu 1–8. Lampiran C (opsional): dokumen pendukung, misalnya catatan konsultasi dengan dosen atau mitra. Lampiran D **[Dokumen mata kuliah]**: dokumen tambahan mata kuliah yang dirujuk (misalnya `M08a_LaporanTengahSemester.pdf`).*
+*Lampiran A: tangkapan layar fitur. Lampiran B: logbook mingguan lengkap Minggu 1–8. Lampiran C (opsional): dokumen pendukung, misalnya catatan konsultasi dengan dosen atau mitra. Lampiran D **[Dokumen mata kuliah]**: seluruh dokumen tambahan mata kuliah (misalnya `M08a_LaporanTengahSemester.pdf` dan `M08b_PresentasiLTS.pdf` dari Manajemen Proyek), digabung dalam berkas laporan yang sama, dengan halaman pemisah "Lampiran D.n: nama mata kuliah" untuk tiap mata kuliah. Tautan pengumpulan pada jalur mata kuliah (misalnya folder Snapshot_UTS) dicantumkan pada lampiran yang bersangkutan.*
 
 _(Lampiran disertakan di laporan tim.)_
 
