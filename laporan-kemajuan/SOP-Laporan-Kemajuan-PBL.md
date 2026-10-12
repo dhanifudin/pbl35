@@ -43,7 +43,7 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 
 ## 5. Prosedur
 
-1. **Pahami struktur.** Baca Template Laporan Kemajuan PBL yang dibagikan koordinator, lalu susun dokumen laporan tim sendiri yang mengikuti urutan bagiannya. Jangan menyalin gaya, teks panduan, maupun contohnya.
+1. **Pahami struktur.** Baca Template Laporan Kemajuan PBL yang dibagikan koordinator, mulai dari bagian *Gambaran Umum Struktur Laporan* untuk memahami keseluruhan format, lalu susun dokumen laporan tim sendiri yang mengikuti urutan bagiannya. Jangan menyalin gaya, teks panduan, maupun contohnya.
 2. **Rekap logbook.** Sekretaris/Dokumentator merangkum logbook mingguan Minggu 1–8 pada bagian Rekap Logbook. Logbook lengkap dilampirkan.
 3. **Tulis seluruh bagian laporan.** Bandingkan realisasi dengan rencana pada proposal (rincian pekerjaan dan jadwal).
 4. **Siapkan bukti kemajuan.** Bukti berupa tautan repositori Git, tautan demonstrasi atau video singkat, tangkapan layar, dan alamat aplikasi bila sudah diunggah ke server (*deploy*). Tautan eksternal boleh ditanam langsung di dalam laporan sesuai ketentuan pada Bagian 7.

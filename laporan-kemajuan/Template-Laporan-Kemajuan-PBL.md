@@ -17,6 +17,55 @@ Dokumen ini menjelaskan struktur Laporan Kemajuan *Project-Based Learning* (PBL)
 
 ---
 
+## Gambaran Umum Struktur Laporan
+
+Laporan terdiri atas 11 bagian isi dan lampiran, yang seluruhnya digabung dalam satu berkas PDF. Bagian ini hanya menjelaskan keseluruhan format agar mudah dipahami dan tidak ditulis ulang di laporan tim.
+
+### Pertanyaan yang dijawab laporan
+
+- **Di mana posisi proyek sekarang?** Dijawab oleh Bagian 2, 3, 4, dan 5.
+- **Siapa mengerjakan apa?** Dijawab oleh Bagian 1, 6, dan 10.
+- **Apa kendala dan perubahannya?** Dijawab oleh Bagian 7 dan 8.
+- **Apa langkah berikutnya?** Dijawab oleh Bagian 9.
+
+Bagian 11 (deklarasi penggunaan AI) dan Lampiran melengkapi laporan dengan pernyataan dan bukti pendukung.
+
+### Ringkasan bagian
+
+| Bagian | Isi yang dituliskan | Bentuk | Berlaku untuk |
+|---|---|---|---|
+| 1. Identitas Tim | Judul produk, kelas, anggota dan peran, dosen pengampu | Teks dan tabel | Semua tim |
+| 2. Ringkasan Kemajuan | Posisi proyek dan status (On Track, Perlu Perhatian, atau Kritis), maksimal 200 kata | Satu paragraf | Semua tim; ditulis paling akhir |
+| 3. Rencana dan Realisasi | Kemajuan rincian pekerjaan (WBS) serta jadwal rencana dan aktual | Dua tabel | Semua tim; **[Dokumen mata kuliah]** boleh dirujuk |
+| 4. Capaian Produk | Status fitur, daftar periksa target Milestone 1, hasil model dasar (4.3), status rencana pengujian (4.4), prototipe dan antarmuka (4.5) | Tabel dan uraian | 4.1–4.2 semua tim; 4.3 **[TI Sem 5]**; 4.4 **[Sem 5]**; 4.5 **[SIB]** |
+| 5. Bukti Kemajuan | Repositori Git, video demonstrasi, aplikasi, tangkapan layar | Tabel tautan | Semua tim |
+| 6. Kontribusi Individu | Tugas, bukti, dan estimasi kontribusi tiap anggota | Tabel | Semua tim |
+| 7. Kendala dan Solusi | Kendala, dampak, solusi, dan bantuan yang dibutuhkan | Tabel | Semua tim; **[Dokumen mata kuliah]** boleh dirujuk |
+| 8. Perubahan Lingkup dan Risiko | Perubahan dari proposal (8.1) dan risiko utama (8.2) | Uraian dan tabel | Semua tim; 8.2 **[Dokumen mata kuliah]** boleh dirujuk |
+| 9. Rencana Menuju Milestone 2 | Target dan penanggung jawab Minggu 9–12 | Tabel | Semua tim; **[Dokumen mata kuliah]** boleh dirujuk |
+| 10. Rekap Logbook Minggu 1–8 | Rangkuman pekerjaan, kendala, dan rencana tiap minggu | Tabel | Semua tim |
+| 11. Deklarasi Penggunaan AI | Bagian yang dibantu AI, alat, dan tujuan | Tabel | Semua tim |
+| 12. Lampiran | A tangkapan layar; B logbook lengkap; C dokumen pendukung (opsional); D dokumen tambahan mata kuliah; E daftar tautan eksternal | Lampiran | A, B, dan E semua tim; C opsional; D bila ada dokumen mata kuliah |
+
+### Susunan berkas akhir
+
+```
+LapKemajuan_<Kelas>_<NamaTim>.pdf
+├── Bagian 1–11   (isi laporan)
+└── Lampiran
+    ├── A  Tangkapan layar
+    ├── B  Logbook lengkap Minggu 1–8
+    ├── C  Dokumen pendukung (opsional)
+    ├── D  Dokumen tambahan mata kuliah (halaman pemisah D.1, D.2, dan seterusnya)
+    └── E  Daftar tautan eksternal
+```
+
+### Urutan penulisan yang disarankan
+
+Tulis Bagian 1 dan 3–11 beserta lampiran lebih dahulu, lalu tulis Bagian 2 (Ringkasan Kemajuan) paling akhir agar mencerminkan seluruh isi laporan.
+
+---
+
 ## 1. Identitas Tim
 
 ### 1.1 Judul Produk dan Kelas
