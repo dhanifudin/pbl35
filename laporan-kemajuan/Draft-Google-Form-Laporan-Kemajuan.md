@@ -85,5 +85,5 @@ Pernyataan berikut ditampilkan sebagai kotak centang, dan seluruhnya wajib dicen
 - [ ] Isi `[tanggal]` pada deskripsi form dan pengaturan penutupan.
 - [ ] Isi daftar kelas SIB pada pertanyaan 3.
 - [ ] Kirim satu data uji, lalu pastikan berkas unggahan dapat dibuka.
-- [ ] Ganti `[tautan Google Form]` pada SOP (langkah 9) dan pengumuman untuk dosen.
+- [x] Tautan form (https://forms.gle/GttfaU5DuTNKJtAk7) sudah dicantumkan pada SOP (langkah 9) dan pengumuman untuk dosen.
 - [ ] Pastikan hanya koordinator PBL yang memiliki akses edit form.

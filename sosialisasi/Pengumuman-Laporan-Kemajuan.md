@@ -8,7 +8,7 @@ Terima kasih atas bimbingan dan pendampingan Bapak/Ibu kepada tim PBL selama par
 Memasuki *Milestone 1 (Minggu 8)*, mohon bantuan Bapak/Ibu untuk meneruskan informasi berikut kepada mahasiswa di kelas masing-masing: setiap tim wajib mengumpulkan *Laporan Kemajuan PBL*.
 
 *Batas akhir pengumpulan:* [tanggal], pukul 23.59 WIB
-*Form pengumpulan:* [tautan Google Form]
+*Form pengumpulan:* https://forms.gle/GttfaU5DuTNKJtAk7
 
 📁 *Dokumen panduan (SOP dan Template Laporan Kemajuan PBL)* dapat dilihat pada folder berikut:
 https://drive.google.com/drive/folders/15q1RaS64I4VPQ4aTbJetim0Yu0IxdbBt?usp=drive_link
