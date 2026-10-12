@@ -18,7 +18,7 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 
 - Seluruh tim PBL TI dan SIB pada Semester 3 dan Semester 5, di semua kelas.
 - Satu tim mengumpulkan **satu laporan**. Kontribusi tiap anggota dicatat di dalam laporan.
-- Template yang dipakai: **Template Laporan Kemajuan PBL**, dibagikan oleh koordinator PBL.
+- Acuan struktur: **Template Laporan Kemajuan PBL**, dibagikan oleh koordinator PBL. Dokumen tersebut hanya menjelaskan struktur laporan dan **tidak untuk disalin**.
 - Tim yang mata kuliah Manajemen Proyek (Manpro) terintegrasi pada PBL-nya, yaitu **TI Semester 3** dan **SIB Semester 5**, juga memenuhi dokumen tambahan Manpro pada Bagian 6.
 
 ## 3. Waktu
@@ -42,10 +42,9 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 
 ## 5. Prosedur
 
-1. **Gunakan template.** Salin Template Laporan Kemajuan PBL yang dibagikan koordinator dan jadikan dokumen kerja tim.
+1. **Pahami struktur.** Baca Template Laporan Kemajuan PBL yang dibagikan koordinator, lalu buat dokumen laporan tim sendiri yang mengikuti urutan bagiannya. Jangan menyalin gaya, teks panduan, maupun contohnya.
 2. **Kompilasi logbook.** Sekretaris/Dokumentator merangkum logbook mingguan Minggu 1–8 ke bagian Rekap Logbook. Logbook lengkap dilampirkan.
-3. **Isi seluruh bagian laporan.** Bandingkan realisasi dengan rencana pada proposal (rincian pekerjaan dan jadwal). Hapus paragraf panduan dan contoh setelah bagian diisi.
-4. **Siapkan bukti kemajuan.** Tautan repositori Git, tautan demo atau video singkat, tangkapan layar, dan URL aplikasi bila sudah di-deploy. Pastikan tautan dapat diakses dosen pengampu.
+3. **Isi seluruh bagian laporan.** Bandingkan realisasi dengan rencana pada proposal (rincian pekerjaan dan jadwal).4. **Siapkan bukti kemajuan.** Tautan repositori Git, tautan demo atau video singkat, tangkapan layar, dan URL aplikasi bila sudah di-deploy. Pastikan tautan dapat diakses dosen pengampu.
 5. **Periksa kelengkapan** menggunakan daftar pada Bagian 8.
 6. **Ekspor ke PDF** dan beri nama berkas: `LapKemajuan_<Kelas>_<NamaTim>.pdf`, misalnya `LapKemajuan_TI-3A_SIMPAN.pdf`.
 7. **Unggah** berkas melalui Google Form: **[tautan Google Form, diisi koordinator PBL]**. Ketua Tim mengisi data tim dan mengunggah satu berkas.
@@ -106,7 +105,7 @@ Target berikut adalah acuan minimum untuk Minggu 8. Rincian TI mengacu pada RPP;
 
 Laporan Kemajuan PBL dianggap lengkap bila memuat:
 
-- [ ] Laporan Kemajuan dalam bentuk PDF sesuai template.
+- [ ] Laporan Kemajuan dalam bentuk PDF yang mengikuti struktur pada Template Laporan Kemajuan PBL (bukan salinan template).
 - [ ] Rekap logbook Minggu 1–8 dan logbook lengkap sebagai lampiran.
 - [ ] Tautan repositori Git yang dapat diakses dosen pengampu.
 - [ ] Bukti demo (tautan demo, video singkat, atau tangkapan layar).

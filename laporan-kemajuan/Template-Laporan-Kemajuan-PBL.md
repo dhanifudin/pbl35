@@ -1,8 +1,12 @@
 # Laporan Kemajuan PBL (Milestone 1)
 
-Dokumen ini adalah template Laporan Kemajuan PBL yang dikumpulkan pada Milestone 1 (Minggu 8). Laporan membantu tim dan dosen pengampu melihat posisi proyek dibandingkan dengan proposal, serta menyusun langkah menuju Milestone 2.
+> ⚠️ **PENTING: Dokumen ini hanya menjelaskan struktur laporan, bukan template untuk disalin.**
+>
+> Susun Laporan Kemajuan tim dalam dokumen sendiri dengan format dan gaya penulisan tim. Ikuti urutan dan isi bagian 1–12, tetapi **jangan menyalin** gaya dokumen ini, paragraf panduan (miring), contoh SIMPAN, maupun teks penanda bagian. Laporan yang hanya berisi salinan dokumen ini dianggap belum memenuhi.
 
-Setiap bagian disertai paragraf panduan (dicetak miring) dan contoh singkat. Contoh mengacu pada produk ilustrasi yang sama dengan format proposal, yaitu "SIMPAN" (sistem peminjaman ruang dan alat kampus); tim tentu mengisi dengan produknya sendiri. Bagian bertanda **[TI Sem 5]**, **[Sem 5]**, atau **[SIB]** hanya diisi oleh tim pada jalur tersebut. Tim **[Manpro]** (TI Semester 3 dan SIB Semester 5) yang sudah menyusun Laporan Tengah Semester (LTS) untuk mata kuliah Manajemen Proyek cukup merujuk ke LTS pada bagian yang diberi catatan **[Manpro]**, dan melampirkan LTS sebagai Lampiran D. Hapus paragraf panduan dan contoh setelah bagian diisi. Prosedur pengumpulan ada di dokumen SOP Laporan Kemajuan PBL.
+Dokumen ini adalah panduan struktur Laporan Kemajuan PBL yang dikumpulkan pada Milestone 1 (Minggu 8). Laporan membantu tim dan dosen pengampu melihat posisi proyek dibandingkan dengan proposal, serta menyusun langkah menuju Milestone 2.
+
+Setiap bagian disertai paragraf panduan (dicetak miring) dan contoh singkat. Contoh mengacu pada produk ilustrasi yang sama dengan format proposal, yaitu "SIMPAN" (sistem peminjaman ruang dan alat kampus); tim tentu mengisi dengan produknya sendiri. Bagian bertanda **[TI Sem 5]**, **[Sem 5]**, atau **[SIB]** hanya diisi oleh tim pada jalur tersebut. Tim **[Manpro]** (TI Semester 3 dan SIB Semester 5) yang sudah menyusun Laporan Tengah Semester (LTS) untuk mata kuliah Manajemen Proyek cukup merujuk ke LTS pada bagian yang diberi catatan **[Manpro]**, dan melampirkan LTS sebagai Lampiran D. Paragraf panduan dan contoh hanya untuk dipahami dan tidak ikut ditulis di laporan. Prosedur pengumpulan ada di dokumen SOP Laporan Kemajuan PBL.
 
 ---
 
@@ -14,7 +18,7 @@ Setiap bagian disertai paragraf panduan (dicetak miring) dan contoh singkat. Con
 
 **Contoh:** "SIMPAN: Sistem Informasi Manajemen Peminjaman Alat dan Ruang", Teknik Informatika, Semester 3, kelas TI-3A.
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ### 1.2 Anggota Tim
 
@@ -29,7 +33,7 @@ _(Isi bagian ini di sini.)_
 | Citra Ayu | 2141720003 | Sekretaris/Dokumentator |
 | Dewi Lestari | 2141720004 | QA/Penguji |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ### 1.3 Dosen Pengampu
 
@@ -44,7 +48,7 @@ _(Isi bagian ini di sini.)_
 | Basis Data Lanjut | _(nama dosen)_ |
 | Sistem Informasi Manajemen | _(nama dosen)_ |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -54,7 +58,7 @@ _(Isi bagian ini di sini.)_
 
 **Contoh:** "Status: Kuning. Hingga Minggu 8, modul pengajuan peminjaman dan verifikasi staf sudah berjalan dan terhubung ke basis data dengan data uji. Modul laporan pemakaian belum dimulai karena perubahan skema pada Minggu 6 menyita waktu. Pada iterasi kedua tim memprioritaskan laporan bulanan dan peran kedua (Admin), serta menunda fitur notifikasi yang memang di luar lingkup."
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -75,7 +79,7 @@ _(Isi bagian ini di sini.)_
 | | 1.2.2 Implementasi form pengajuan | Budi | Berjalan | 70% |
 | 2. Modul Laporan | 2.1.1 Query rekap pemakaian bulanan | Citra | Belum | 0% |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ### 3.2 Jadwal Rencana dan Aktual
 
@@ -88,7 +92,7 @@ _(Isi bagian ini di sini.)_
 | 5-6 | Skema basis data final | Final pada Minggu 7 | Revisi relasi Peminjaman-Alat setelah masukan dosen |
 | 7-8 | Fitur inti peminjaman | Pengajuan selesai, verifikasi 70% | Terdampak keterlambatan skema |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -106,7 +110,7 @@ _(Isi bagian ini di sini.)_
 | Verifikasi oleh staf | Sebagian | Tombol setujui berfungsi, tolak belum |
 | Laporan pemakaian bulanan | Belum | Direncanakan Minggu 10 |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ### 4.2 Checklist Target Milestone 1
 
@@ -117,7 +121,7 @@ _(Isi bagian ini di sini.)_
 - SIB Sem 3: [ ] prototipe/wireframe sebagai acuan · [ ] alur bisnis utama mulai berjalan · [ ] CRUD entitas domain bisnis sebagian berfungsi · [ ] UI konsisten
 - SIB Sem 5: [ ] arsitektur web berjalan (API/autentikasi) · [ ] fitur multi-peran mulai berfungsi · [ ] rencana pengujian awal · [ ] jadwal, risiko, perubahan terdokumentasi
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ### 4.3 Hasil Model Baseline **[TI Sem 5]**
 
@@ -125,7 +129,7 @@ _(Isi bagian ini di sini.)_
 
 **Contoh:** "Model klasifikasi gambar baseline (CNN sederhana) pada 2.000 data latih menghasilkan akurasi 78%, precision 0,76, recall 0,74. Perbaikan direncanakan lewat augmentasi data dan transfer learning."
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ### 4.4 Status Rencana Pengujian **[Sem 5]**
 
@@ -133,13 +137,13 @@ _(Isi bagian ini di sini.)_
 
 **Contoh:** "QA plan versi 2: 18 test case fungsional disusun, 6 sudah dieksekusi dengan 2 bug tercatat dan 1 sudah diperbaiki."
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ### 4.5 Prototipe dan Antarmuka **[SIB]**
 
 *Tunjukkan kesesuaian antarmuka yang dibangun dengan prototipe atau wireframe, dan catat bagian yang berbeda beserta alasannya.*
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -156,7 +160,7 @@ _(Isi bagian ini di sini.)_
 | Aplikasi ter-deploy | _(URL aplikasi)_ |
 | Tangkapan layar | Lampiran A |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -173,7 +177,7 @@ _(Isi bagian ini di sini.)_
 | Citra Ayu | Logbook, dokumentasi, data uji | Logbook Mg 1-8 | 20% |
 | Dewi Lestari | Test case fungsional awal | Dokumen test case | 25% |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -189,7 +193,7 @@ _(Isi bagian ini di sini.)_
 |---|---|---|---|
 | Relasi Peminjaman-Alat berubah | Skema dibuat ulang, lambat 1 minggu | Perubahan dikunci setelah review dosen BDL | Konsultasi normalisasi |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -201,7 +205,7 @@ _(Isi bagian ini di sini.)_
 
 **Contoh:** "Fitur ekspor PDF laporan ditambahkan atas permintaan staf Tata Usaha; fitur pelacakan kondisi alat ditunda ke luar lingkup. Keduanya sudah disetujui dosen SIM."
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ### 8.2 Risiko Utama
 
@@ -216,7 +220,7 @@ _(Isi bagian ini di sini.)_
 | Modul laporan belum dimulai | Tinggi | Mulai Minggu 9, prioritaskan satu laporan |
 | Data uji kurang realistis | Sedang | Minta contoh data ke Tata Usaha |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -235,7 +239,7 @@ _(Isi bagian ini di sini.)_
 | 11 | Integrasi dan pengujian fungsional mandiri | Dewi |
 | 12 | Demo produk fungsional dan draf laporan pengujian | Seluruh tim |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -250,7 +254,7 @@ _(Isi bagian ini di sini.)_
 | 1 | Pembentukan tim, brainstorming masalah | Belum ada mitra | Wawancara calon pengguna |
 | 2 | Wawancara 3 narasumber | Jadwal bentrok | Tetapkan ide produk |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -265,7 +269,7 @@ _(Isi bagian ini di sini.)_
 | Query laporan | Asisten kode | Saran optimasi; telah ditinjau dan diuji tim |
 | Logbook | Asisten penulisan | Merapikan kalimat |
 
-_(Isi bagian ini di sini.)_
+_(Bagian ini ditulis di laporan tim.)_
 
 ---
 
@@ -273,4 +277,8 @@ _(Isi bagian ini di sini.)_
 
 *Lampiran A: tangkapan layar fitur. Lampiran B: logbook mingguan lengkap Minggu 1-8. Lampiran C (opsional): dokumen pendukung seperti catatan konsultasi dengan dosen atau mitra. Lampiran D **[Manpro]**: Laporan Tengah Semester (M08a_LaporanTengahSemester.pdf).*
 
-_(Lampirkan dokumen pendukung di sini.)_
+_(Lampiran disertakan di laporan tim.)_
+
+---
+
+> ⚠️ **Ingat:** yang dikumpulkan adalah laporan tim dengan struktur di atas, bukan salinan dokumen ini.
