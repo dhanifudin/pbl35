@@ -19,7 +19,7 @@ Dokumen ini menjelaskan struktur Laporan Kemajuan *Project-Based Learning* (PBL)
 
 ## Gambaran Umum Struktur Laporan
 
-Laporan terdiri atas 11 bagian isi dan lampiran, yang seluruhnya digabung dalam satu berkas PDF. Bagian ini hanya menjelaskan keseluruhan format agar mudah dipahami dan tidak ditulis ulang di laporan tim.
+Laporan terdiri atas sampul, 11 bagian isi, dan lampiran, yang seluruhnya digabung dalam satu berkas PDF. Bagian ini hanya menjelaskan keseluruhan format agar mudah dipahami dan tidak ditulis ulang di laporan tim.
 
 ### Pertanyaan yang dijawab laporan
 
@@ -34,7 +34,8 @@ Bagian 11 (deklarasi penggunaan AI) dan Lampiran melengkapi laporan dengan perny
 
 | Bagian | Isi yang dituliskan | Bentuk | Berlaku untuk |
 |---|---|---|---|
-| 1. Identitas Tim | Judul produk, kelas, anggota dan peran, dosen pengampu | Teks dan tabel | Semua tim |
+| Sampul | Logo dan institusi, judul laporan, judul produk, identitas tim (kelas, tahun akademik, anggota), bulan dan tahun pengumpulan | Halaman penuh, tanpa nomor halaman | Semua tim |
+| 1. Peran Tim dan Dosen Pengampu | Peran dan tanggung jawab tiap anggota (halaman terpisah) serta dosen pengampu | Tabel | Semua tim |
 | 2. Ringkasan Kemajuan | Posisi proyek dan status (On Track, Perlu Perhatian, atau Kritis), maksimal 200 kata | Satu paragraf | Semua tim; ditulis paling akhir |
 | 3. Rencana dan Realisasi | Kemajuan rincian pekerjaan (WBS) serta jadwal rencana dan aktual | Dua tabel | Semua tim; **[Dokumen mata kuliah]** boleh dirujuk |
 | 4. Capaian Produk | Status fitur, daftar periksa target Milestone 1, hasil model dasar (4.3), status rencana pengujian (4.4), prototipe dan antarmuka (4.5) | Tabel dan uraian | 4.1–4.2 semua tim; 4.3 **[TI Sem 5]**; 4.4 **[Sem 5]**; 4.5 **[SIB]** |
@@ -51,7 +52,9 @@ Bagian 11 (deklarasi penggunaan AI) dan Lampiran melengkapi laporan dengan perny
 
 ```
 LapKemajuan_<Kelas>_<NamaTim>.pdf
-├── Bagian 1–11   (isi laporan)
+├── Sampul
+├── Bagian 1      (halaman peran dan tanggung jawab anggota)
+├── Bagian 2–11   (isi laporan)
 └── Lampiran
     ├── A  Tangkapan layar
     ├── B  Logbook lengkap Minggu 1–8
@@ -62,36 +65,75 @@ LapKemajuan_<Kelas>_<NamaTim>.pdf
 
 ### Urutan penulisan yang disarankan
 
-Tulis Bagian 1 dan 3–11 beserta lampiran lebih dahulu, lalu tulis Bagian 2 (Ringkasan Kemajuan) paling akhir agar mencerminkan seluruh isi laporan.
+Tulis sampul, Bagian 1, dan Bagian 3–11 beserta lampiran lebih dahulu, lalu tulis Bagian 2 (Ringkasan Kemajuan) paling akhir agar mencerminkan seluruh isi laporan.
 
 ---
 
-## 1. Identitas Tim
+<div style="page-break-before:always"></div>
 
-### 1.1 Judul Produk dan Kelas
+## Sampul Laporan
 
-*Tuliskan judul produk sesuai proposal (bila berubah, jelaskan pada Bagian 8), program studi, semester, dan kelas.*
+Sampul menjadi halaman pertama laporan dan menggantikan blok judul biasa. Sampul memuat identitas tim sehingga data yang sama tidak ditulis ulang pada Bagian 1. Halaman sampul tidak diberi nomor halaman.
 
-**Contoh:** "SIMPAN: Sistem Informasi Manajemen Peminjaman Alat dan Ruang", Teknik Informatika, Semester 3, kelas TI-3A.
+### Unsur sampul
 
-_(Bagian ini ditulis di laporan tim.)_
+| Unsur | Isi | Keterangan |
+|---|---|---|
+| Logo dan institusi | Logo Politeknik Negeri Malang; nama institusi, jurusan, dan program studi | Diletakkan di bagian atas |
+| Judul laporan | LAPORAN KEMAJUAN *PROJECT-BASED LEARNING* (PBL), MILESTONE 1 | Sama untuk semua tim |
+| Judul produk | Judul produk sesuai proposal | Bila berubah dari proposal, jelaskan alasannya pada Bagian 8.1 |
+| Identitas tim | Nama tim; kelas, semester, dan tahun akademik; tabel anggota (nomor, nama, NIM) | Nama dan NIM ditulis lengkap sesuai data akademik |
+| Bulan dan tahun pengumpulan | Bulan dan tahun laporan dikumpulkan | Contoh: Oktober 2026 |
 
-### 1.2 Anggota Tim
+### Contoh tata letak sampul
 
-*Cantumkan nama, NIM, dan peran seluruh anggota sesuai proposal. Bila ada perubahan peran, tuliskan peran yang berlaku saat ini.*
+```
+            [Logo Politeknik Negeri Malang]
+
+              POLITEKNIK NEGERI MALANG
+            JURUSAN TEKNOLOGI INFORMASI
+          PROGRAM STUDI TEKNIK INFORMATIKA
+
+   LAPORAN KEMAJUAN PROJECT-BASED LEARNING (PBL)
+                   MILESTONE 1
+
+    SIMPAN: Sistem Informasi Manajemen Peminjaman
+                   Alat dan Ruang
+
+        Tim SIMPAN · Kelas TI-3A · Semester 3
+              Tahun Akademik 2025/2026
+
+        No   Nama             NIM
+        1    Ahmad Fauzi      2141720001
+        2    Budi Santoso     2141720002
+        3    Citra Ayu        2141720003
+        4    Dewi Lestari     2141720004
+
+                   Oktober 2026
+```
+
+<div style="page-break-before:always"></div>
+
+## 1. Peran Tim dan Dosen Pengampu
+
+*Nama, NIM, kelas, dan judul produk sudah tercantum pada sampul dan tidak ditulis ulang di bagian ini.*
+
+### 1.1 Peran dan Tanggung Jawab Anggota
+
+*Bagian ini ditulis pada halaman tersendiri (dimulai pada halaman baru) tepat setelah sampul. Uraikan peran dan tanggung jawab setiap anggota sesuai pembagian peran pada proposal. Bila ada perubahan peran, tuliskan peran yang berlaku saat ini beserta alasannya. Satu anggota boleh merangkap peran bila jumlah anggota kurang dari lima, tetapi beban kerja sebaiknya dibagi serata mungkin. Tanggung jawab dituliskan secara spesifik dan dapat ditelusuri ke tugas pada rincian pekerjaan (WBS). Halaman ini menjelaskan peran dan tanggung jawab yang disepakati, sedangkan realisasi pekerjaan dan buktinya sampai Minggu 8 dicatat pada Bagian 6 (Kontribusi Individu).*
 
 **Contoh:**
 
-| Nama | NIM | Peran |
-|---|---|---|
-| Ahmad Fauzi | 2141720001 | Ketua Tim & Pengembang Utama |
-| Budi Santoso | 2141720002 | Analis/Desainer |
-| Citra Ayu | 2141720003 | Sekretaris/Dokumentator |
-| Dewi Lestari | 2141720004 | QA/Penguji |
+| Nama | Peran | Tanggung jawab utama | Bagian laporan yang ditulis | Perubahan dari proposal |
+|---|---|---|---|---|
+| Ahmad Fauzi | Ketua Tim & Pengembang Utama | Mengoordinasikan tim dan jadwal rapat; membangun API dan basis data; mengunggah laporan | Bagian 3 dan 5 | Tidak ada |
+| Budi Santoso | Analis/Desainer | Menyusun *wireframe* dan alur pengguna; membangun antarmuka; memvalidasi kebutuhan dengan pengguna | Bagian 4 dan 8 | Tidak ada |
+| Citra Ayu | Sekretaris/Dokumentator | Menulis dan merekap logbook; menyusun laporan dan lampiran; mengelola tautan bukti | Bagian 2, 10, dan 12 | Menambah tugas menyusun kueri laporan sejak Minggu 6 |
+| Dewi Lestari | QA/Penguji | Menyusun kasus uji; mengeksekusi pengujian fungsional; mencatat *bug* | Bagian 7, 9, dan 11 | Tidak ada |
 
-_(Bagian ini ditulis di laporan tim.)_
+_(Bagian ini ditulis di laporan tim, pada halaman tersendiri.)_
 
-### 1.3 Dosen Pengampu
+### 1.2 Dosen Pengampu
 
 *Sebutkan mata kuliah terintegrasi beserta dosen pengampunya sesuai kelas.*
 

@@ -37,7 +37,7 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 |---|---|
 | Ketua Tim | Memastikan laporan lengkap dan tepat waktu, mengunggahnya melalui Google Form, serta menggabungkan dokumen tambahan mata kuliah ke dalam berkas laporan sebagai lampiran. |
 | Sekretaris/Dokumentator | Menyusun laporan dengan mengikuti struktur pada Template Laporan Kemajuan PBL dan merekap logbook Minggu 1–8. |
-| Seluruh anggota | Menuliskan bagian kontribusi masing-masing dan memastikan datanya benar. |
+| Seluruh anggota | Menyepakati peran dan tanggung jawab yang dicantumkan pada halaman peran, menuliskan bagian kontribusi masing-masing, dan memastikan datanya benar. |
 | Dosen pengampu | Menghadiri dan menilai demonstrasi progres, meninjau laporan, memberi umpan balik tertulis atau lisan kepada tim, serta menyampaikan kewajiban dokumen tambahan mata kuliahnya (bila ada) beserta tenggatnya. |
 | Koordinator PBL | Merekap pengumpulan, menyampaikan pengumuman, dan menindaklanjuti tim yang perlu menyesuaikan rencana. |
 
@@ -142,6 +142,8 @@ Target berikut adalah acuan minimum untuk Minggu 8. Rincian TI mengacu pada renc
 
 Laporan Kemajuan PBL dinyatakan lengkap apabila memuat:
 
+- [ ] Sampul memuat logo dan institusi, judul laporan, judul produk, identitas tim, serta bulan dan tahun pengumpulan.
+- [ ] Halaman peran dan tanggung jawab seluruh anggota telah ditulis pada halaman tersendiri.
 - [ ] Laporan Kemajuan dalam bentuk PDF yang mengikuti struktur pada Template Laporan Kemajuan PBL (bukan salinan template).
 - [ ] Rekap logbook Minggu 1–8 dan logbook lengkap sebagai lampiran.
 - [ ] Tautan repositori Git yang dapat diakses dosen pengampu.
@@ -162,7 +164,7 @@ Dosen pengampu memberi umpan balik dengan memperhatikan:
 
 1. Kesesuaian rencana dan realisasi, serta alasan apabila terdapat deviasi.
 2. Produk inti berjalan atau fondasi teknis sudah kokoh.
-3. Kontribusi tiap anggota, yang terlihat dari tugas dan bukti yang dicantumkan.
+3. Kontribusi tiap anggota, yang terlihat dari tugas dan bukti yang dicantumkan, serta kesesuaiannya dengan peran dan tanggung jawab yang dinyatakan.
 4. Kualitas dan konsistensi logbook.
 5. Kejelasan dan kelayakan rencana menuju Milestone 2.
 6. Keterbukaan dan kerapian tautan bukti.
