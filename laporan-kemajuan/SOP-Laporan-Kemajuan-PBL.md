@@ -142,7 +142,7 @@ Target berikut adalah acuan minimum untuk Minggu 8. Rincian TI mengacu pada renc
 
 Laporan Kemajuan PBL dinyatakan lengkap apabila memuat:
 
-- [ ] Sampul memuat logo dan institusi, judul laporan, judul produk, identitas tim, serta bulan dan tahun pengumpulan.
+- [ ] Sampul memuat judul laporan, judul produk, identitas tim, logo dan institusi (di bagian bawah), serta bulan dan tahun pengumpulan (paling bawah).
 - [ ] Halaman peran dan tanggung jawab seluruh anggota telah ditulis pada halaman tersendiri.
 - [ ] Laporan Kemajuan dalam bentuk PDF yang mengikuti struktur pada Template Laporan Kemajuan PBL (bukan salinan template).
 - [ ] Rekap logbook Minggu 1–8 dan logbook lengkap sebagai lampiran.

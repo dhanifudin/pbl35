@@ -34,7 +34,7 @@ Bagian 11 (deklarasi penggunaan AI) dan Lampiran melengkapi laporan dengan perny
 
 | Bagian | Isi yang dituliskan | Bentuk | Berlaku untuk |
 |---|---|---|---|
-| Sampul | Logo dan institusi, judul laporan, judul produk, identitas tim (kelas, tahun akademik, anggota), bulan dan tahun pengumpulan | Halaman penuh, tanpa nomor halaman | Semua tim |
+| Sampul | Judul laporan, judul produk, identitas tim (kelas, tahun akademik, anggota), logo dan institusi, bulan dan tahun pengumpulan (urutan dari atas ke bawah) | Halaman penuh, tanpa nomor halaman | Semua tim |
 | 1. Peran Tim dan Dosen Pengampu | Peran dan tanggung jawab tiap anggota (halaman terpisah) serta dosen pengampu | Tabel | Semua tim |
 | 2. Ringkasan Kemajuan | Posisi proyek dan status (On Track, Perlu Perhatian, atau Kritis), maksimal 200 kata | Satu paragraf | Semua tim; ditulis paling akhir |
 | 3. Rencana dan Realisasi | Kemajuan rincian pekerjaan (WBS) serta jadwal rencana dan aktual | Dua tabel | Semua tim; **[Dokumen mata kuliah]** boleh dirujuk |
@@ -79,21 +79,15 @@ Sampul menjadi halaman pertama laporan dan menggantikan blok judul biasa. Sampul
 
 | Unsur | Isi | Keterangan |
 |---|---|---|
-| Logo dan institusi | Logo Politeknik Negeri Malang; nama institusi, jurusan, dan program studi | Diletakkan di bagian atas |
-| Judul laporan | LAPORAN KEMAJUAN *PROJECT-BASED LEARNING* (PBL), MILESTONE 1 | Sama untuk semua tim |
+| Judul laporan | LAPORAN KEMAJUAN *PROJECT-BASED LEARNING* (PBL), MILESTONE 1 | Sama untuk semua tim; diletakkan di bagian atas |
 | Judul produk | Judul produk sesuai proposal | Bila berubah dari proposal, jelaskan alasannya pada Bagian 8.1 |
 | Identitas tim | Nama tim; kelas, semester, dan tahun akademik; tabel anggota (nomor, nama, NIM) | Nama dan NIM ditulis lengkap sesuai data akademik |
-| Bulan dan tahun pengumpulan | Bulan dan tahun laporan dikumpulkan | Contoh: Oktober 2026 |
+| Logo dan institusi | Logo Politeknik Negeri Malang; nama institusi, jurusan, dan program studi | Diletakkan di bagian bawah, tepat sebelum bulan dan tahun pengumpulan |
+| Bulan dan tahun pengumpulan | Bulan dan tahun laporan dikumpulkan | Diletakkan paling bawah. Contoh: Oktober 2026 |
 
 ### Contoh tata letak sampul
 
 ```
-            [Logo Politeknik Negeri Malang]
-
-              POLITEKNIK NEGERI MALANG
-            JURUSAN TEKNOLOGI INFORMASI
-          PROGRAM STUDI TEKNIK INFORMATIKA
-
    LAPORAN KEMAJUAN PROJECT-BASED LEARNING (PBL)
                    MILESTONE 1
 
@@ -108,6 +102,12 @@ Sampul menjadi halaman pertama laporan dan menggantikan blok judul biasa. Sampul
         2    Budi Santoso     2141720002
         3    Citra Ayu        2141720003
         4    Dewi Lestari     2141720004
+
+            [Logo Politeknik Negeri Malang]
+
+              POLITEKNIK NEGERI MALANG
+            JURUSAN TEKNOLOGI INFORMASI
+          PROGRAM STUDI TEKNIK INFORMATIKA
 
                    Oktober 2026
 ```
