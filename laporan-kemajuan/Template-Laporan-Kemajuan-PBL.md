@@ -2,7 +2,7 @@
 
 Dokumen ini adalah template Laporan Kemajuan PBL yang dikumpulkan pada Milestone 1 (Minggu 8). Laporan membantu tim dan dosen pengampu melihat posisi proyek dibandingkan dengan proposal, serta menyusun langkah menuju Milestone 2.
 
-Setiap bagian disertai paragraf panduan (dicetak miring) dan contoh singkat. Contoh mengacu pada produk ilustrasi yang sama dengan format proposal, yaitu "SIMPAN" (sistem peminjaman ruang dan alat kampus); tim tentu mengisi dengan produknya sendiri. Bagian bertanda **[TI Sem 5]**, **[Sem 5]**, atau **[SIB]** hanya diisi oleh tim pada jalur tersebut. Hapus paragraf panduan dan contoh setelah bagian diisi. Prosedur pengumpulan ada di dokumen SOP Laporan Kemajuan PBL.
+Setiap bagian disertai paragraf panduan (dicetak miring) dan contoh singkat. Contoh mengacu pada produk ilustrasi yang sama dengan format proposal, yaitu "SIMPAN" (sistem peminjaman ruang dan alat kampus); tim tentu mengisi dengan produknya sendiri. Bagian bertanda **[TI Sem 5]**, **[Sem 5]**, atau **[SIB]** hanya diisi oleh tim pada jalur tersebut. Tim **[Manpro]** (TI Semester 3 dan SIB Semester 5) yang sudah menyusun Laporan Tengah Semester (LTS) untuk mata kuliah Manajemen Proyek cukup merujuk ke LTS pada bagian yang diberi catatan **[Manpro]**, dan melampirkan LTS sebagai Lampiran D. Hapus paragraf panduan dan contoh setelah bagian diisi. Prosedur pengumpulan ada di dokumen SOP Laporan Kemajuan PBL.
 
 ---
 
@@ -60,6 +60,8 @@ _(Isi bagian ini di sini.)_
 
 ## 3. Rencana dan Realisasi
 
+*(**[Manpro]** Tim Manpro boleh merujuk ke LTS bagian C.6–C.7 dan G untuk status dan jadwal manajemen proyek, tanpa menulis ulang. Tabel pekerjaan tingkat produk di bawah tetap diisi.)*
+
 ### 3.1 Kemajuan Rincian Pekerjaan
 
 *Salin rincian pekerjaan (WBS) dari proposal, lalu isi persentase penyelesaian dan status (Selesai, Berjalan, Belum). Persentase dihitung dari tugas rinci yang benar-benar selesai dan dapat dibuktikan, bukan perkiraan optimis.*
@@ -108,7 +110,7 @@ _(Isi bagian ini di sini.)_
 
 ### 4.2 Checklist Target Milestone 1
 
-*Centang target sesuai jalur tim Anda (lihat SOP Bagian 6) dan beri catatan singkat untuk yang belum tercapai.*
+*Centang target sesuai jalur tim Anda (lihat SOP Bagian 7) dan beri catatan singkat untuk yang belum tercapai.*
 
 - TI Sem 3: [ ] CRUD entitas utama berjalan · [ ] terintegrasi basis data · [ ] data uji terisi · [ ] kemajuan terlacak terhadap WBS
 - TI Sem 5: [ ] model ML baseline terlatih · [ ] akurasi awal terdokumentasi · [ ] aplikasi mobile berjalan · [ ] integrasi awal model-aplikasi · [ ] QA plan diperbarui
@@ -177,6 +179,8 @@ _(Isi bagian ini di sini.)_
 
 ## 7. Kendala dan Solusi
 
+*(**[Manpro]** Cukup rujuk ke LTS bagian F, lalu tambahkan hanya kendala yang khusus menyangkut pengembangan produk.)*
+
 *Uraikan kendala utama (teknis, waktu, koordinasi tim, data/mitra) beserta cara tim mengatasinya atau rencana mengatasinya. Tuliskan juga bantuan yang dibutuhkan dari dosen pengampu atau koordinator.*
 
 **Contoh:**
@@ -201,6 +205,8 @@ _(Isi bagian ini di sini.)_
 
 ### 8.2 Risiko Utama
 
+*(**[Manpro]** Boleh merujuk ke LTS bagian E dan F; cantumkan di sini hanya risiko produk yang belum tercakup.)*
+
 *Daftar maksimal 5 risiko terbesar untuk iterasi berikutnya, disertai tingkat (Tinggi/Sedang/Rendah) dan tindakan pencegahannya.*
 
 **Contoh:**
@@ -215,6 +221,8 @@ _(Isi bagian ini di sini.)_
 ---
 
 ## 9. Rencana Menuju Milestone 2 (Minggu 9-12)
+
+*(**[Manpro]** Rencana manajemen proyek cukup dirujuk ke LTS bagian G; tulis di sini target pengembangan produk Minggu 9-12.)*
 
 *Susun target dan penanggung jawab per minggu hingga Milestone 2, yaitu produk fungsional lengkap dan hasil uji awal. Rencana harus realistis terhadap kemajuan sebenarnya pada Bagian 3.*
 
@@ -263,6 +271,6 @@ _(Isi bagian ini di sini.)_
 
 ## 12. Lampiran
 
-*Lampiran A: tangkapan layar fitur. Lampiran B: logbook mingguan lengkap Minggu 1-8. Lampiran C (opsional): dokumen pendukung seperti catatan konsultasi dengan dosen atau mitra.*
+*Lampiran A: tangkapan layar fitur. Lampiran B: logbook mingguan lengkap Minggu 1-8. Lampiran C (opsional): dokumen pendukung seperti catatan konsultasi dengan dosen atau mitra. Lampiran D **[Manpro]**: Laporan Tengah Semester (M08a_LaporanTengahSemester.pdf).*
 
 _(Lampirkan dokumen pendukung di sini.)_
