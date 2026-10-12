@@ -10,8 +10,11 @@ Memasuki *Milestone 1 (Minggu 8)*, mohon bantuan Bapak/Ibu untuk meneruskan info
 *Batas akhir pengumpulan:* [tanggal], pukul 23.59 WIB
 *Form pengumpulan:* [tautan Google Form]
 
+📁 *Dokumen panduan (SOP dan Template Laporan Kemajuan PBL)* dapat dilihat pada folder berikut:
+https://drive.google.com/drive/folders/15q1RaS64I4VPQ4aTbJetim0Yu0IxdbBt?usp=drive_link
+
 Hal yang perlu disampaikan kepada mahasiswa:
-1. Susun laporan dengan mengikuti struktur pada *Template Laporan Kemajuan PBL* dan ketentuan pada *SOP* yang dibagikan koordinator. Template tersebut hanya menjelaskan struktur dan tidak untuk disalin.
+1. Susun laporan dengan mengikuti struktur pada *Template Laporan Kemajuan PBL* dan ketentuan pada *SOP* di folder tersebut. Template hanya menjelaskan struktur dan tidak untuk disalin.
 2. Satu tim mengumpulkan satu berkas PDF (laporan beserta seluruh lampirannya) yang diunggah oleh Ketua Tim.
 3. Beri nama berkas *LapKemajuan_Kelas_NamaTim.pdf*.
 4. Lengkapi laporan dengan rekap logbook Minggu 1–8, tautan repositori Git, dan bukti demonstrasi.
