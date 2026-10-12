@@ -51,7 +51,7 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 6. **Uji tautan.** Buka seluruh tautan eksternal di jendela penyamaran (*incognito*) dan pastikan dapat diakses tanpa login (lihat Bagian 7).
 7. **Periksa kelengkapan** menggunakan daftar pada Bagian 9.
 8. **Gabungkan dan ekspor ke satu PDF.** Laporan dan dokumen tambahan mata kuliah yang dilampirkan fisik (sebagai Lampiran D) digabung dalam satu berkas, lalu diberi nama `LapKemajuan_<Kelas>_<NamaTim>.pdf`, misalnya `LapKemajuan_TI-3A_SIMPAN.pdf`. Pastikan tautan tetap dapat diklik setelah diekspor.
-9. **Unggah** berkas melalui Google Form: **[tautan Google Form, diisi koordinator PBL]**. Form hanya memiliki satu kolom unggah berkas, yaitu laporan beserta lampirannya. Ketua Tim mengisi data tim dan mengunggah satu berkas.
+9. **Unggah** berkas melalui Google Form: **[tautan Google Form, diisi koordinator PBL]**. Form hanya memiliki satu kolom unggah berkas, yaitu laporan beserta lampirannya. Ketua Tim mengisi program studi, tingkat dan semester, kelas, nama tim, judul produk, serta nama dan NIM ketua, lalu mengunggah satu berkas PDF dan menyatakan kelengkapan laporan.
 10. **Ikuti demonstrasi progres** sesuai jadwal kelas yang ditetapkan dosen pengampu pada Minggu 8.
 11. **Terima umpan balik** dan perbarui rencana menuju Milestone 2 sesuai masukan.
 
