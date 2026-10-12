@@ -15,7 +15,8 @@ Hal yang perlu disampaikan kepada mahasiswa:
 2. Satu tim mengumpulkan satu berkas PDF (laporan beserta seluruh lampirannya) yang diunggah oleh Ketua Tim.
 3. Beri nama berkas *LapKemajuan_Kelas_NamaTim.pdf*.
 4. Lengkapi laporan dengan rekap logbook Minggu 1–8, tautan repositori Git, dan bukti demonstrasi.
-5. Siapkan demonstrasi progres sesuai jadwal kelas dari dosen pengampu.
+5. Bukti dan dokumen tambahan boleh berupa tautan eksternal yang ditanam pada laporan. Pastikan tautan dapat diklik, terbuka untuk siapa saja yang memiliki tautan, sudah diuji di jendela penyamaran (*incognito*), dan isinya tidak diubah setelah batas akhir pengumpulan.
+6. Siapkan demonstrasi progres sesuai jadwal kelas dari dosen pengampu.
 
 *Dokumen tambahan mata kuliah:* apabila mata kuliah yang Bapak/Ibu ampu mewajibkan dokumen tambahan pada Milestone 1, mohon disampaikan kepada mahasiswa beserta tenggat dan tempat pengumpulannya. Dokumen tersebut *digabung ke dalam berkas Laporan Kemajuan PBL sebagai Lampiran D*, sehingga form hanya memiliki satu kolom unggah (laporan beserta lampirannya). Bagian yang sama pada laporan PBL cukup merujuk ke dokumen tersebut apabila Bapak/Ibu menyetujuinya.
 

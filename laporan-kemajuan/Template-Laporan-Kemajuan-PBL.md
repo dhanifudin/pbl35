@@ -12,6 +12,7 @@ Dokumen ini menjelaskan struktur Laporan Kemajuan *Project-Based Learning* (PBL)
 - Contoh mengacu pada produk ilustrasi "SIMPAN" (sistem peminjaman ruang dan alat kampus), sama dengan format proposal. Tim menuliskan produknya sendiri.
 - Bagian bertanda **[TI Sem 5]**, **[Sem 5]**, atau **[SIB]** hanya ditulis oleh tim pada jalur tersebut.
 - Mata kuliah terintegrasi dapat mewajibkan dokumen tambahan (misalnya Laporan Tengah Semester atau LTS pada Manajemen Proyek, TI Semester 3 dan SIB Semester 5). Dokumen tersebut digabung ke dalam berkas laporan sebagai Lampiran D, sehingga Google Form hanya menerima satu berkas. Pada bagian yang diberi catatan **[Dokumen mata kuliah]**, tim cukup merujuk dokumen itu, sepanjang disetujui dosen pengampu mata kuliah terkait.
+- Bukti dan dokumen tambahan boleh berupa tautan eksternal yang ditanam di dalam laporan. Tautan harus dapat diklik, terbuka tanpa login, dan dihimpun pada tabel di Lampiran E.
 - Prosedur pengumpulan dijelaskan pada dokumen SOP Pengumpulan Laporan Kemajuan PBL.
 
 ---
@@ -120,7 +121,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ### 4.2 Daftar Periksa Target Milestone 1
 
-*Centang target sesuai jalur tim (lihat SOP Bagian 7) dan beri catatan singkat untuk target yang belum tercapai.*
+*Centang target sesuai jalur tim (lihat SOP Bagian 8) dan beri catatan singkat untuk target yang belum tercapai.*
 
 - TI Semester 3: [ ] operasi tambah, baca, ubah, dan hapus data pada entitas utama berjalan · [ ] terintegrasi dengan basis data · [ ] data uji terisi · [ ] kemajuan terlacak terhadap WBS
 - TI Semester 5: [ ] model ML dasar (*baseline*) telah dilatih · [ ] akurasi awal terdokumentasi · [ ] aplikasi *mobile* berjalan · [ ] integrasi awal model dan aplikasi · [ ] rencana penjaminan mutu (QA plan) diperbarui
@@ -155,7 +156,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## 5. Bukti Kemajuan
 
-*Cantumkan tautan yang dapat diakses dosen pengampu: repositori Git (dengan riwayat *commit* seluruh anggota), tautan demonstrasi atau video singkat, tangkapan layar fitur yang berjalan, dan alamat aplikasi bila sudah diunggah ke server (*deploy*). Tautan yang tidak dapat dibuka dianggap tidak ada.*
+*Cantumkan tautan yang dapat diakses dosen pengampu: repositori Git (dengan riwayat *commit* seluruh anggota), tautan demonstrasi atau video singkat, tangkapan layar fitur yang berjalan, dan alamat aplikasi bila sudah diunggah ke server (*deploy*). Tautan yang tidak dapat dibuka dianggap tidak ada. Tuliskan tautan sebagai teks aktif beserta alamat lengkapnya, dan cantumkan pula pada tabel daftar tautan di Lampiran E.*
 
 **Contoh:**
 
@@ -281,7 +282,15 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## 12. Lampiran
 
-*Lampiran A: tangkapan layar fitur. Lampiran B: logbook mingguan lengkap Minggu 1–8. Lampiran C (opsional): dokumen pendukung, misalnya catatan konsultasi dengan dosen atau mitra. Lampiran D **[Dokumen mata kuliah]**: seluruh dokumen tambahan mata kuliah (misalnya `M08a_LaporanTengahSemester.pdf` dan `M08b_PresentasiLTS.pdf` dari Manajemen Proyek), digabung dalam berkas laporan yang sama, dengan halaman pemisah "Lampiran D.n: nama mata kuliah" untuk tiap mata kuliah. Tautan pengumpulan pada jalur mata kuliah (misalnya folder Snapshot_UTS) dicantumkan pada lampiran yang bersangkutan.*
+*Lampiran A: tangkapan layar fitur. Lampiran B: logbook mingguan lengkap Minggu 1–8. Lampiran C (opsional): dokumen pendukung, misalnya catatan konsultasi dengan dosen atau mitra. Lampiran D **[Dokumen mata kuliah]**: seluruh dokumen tambahan mata kuliah (misalnya `M08a_LaporanTengahSemester.pdf` dan `M08b_PresentasiLTS.pdf` dari Manajemen Proyek), dilampirkan fisik dalam berkas laporan yang sama atau dirujuk melalui tautan tertanam (lihat Lampiran E), dengan halaman pemisah "Lampiran D.n: nama mata kuliah" untuk tiap mata kuliah. Tautan pengumpulan pada jalur mata kuliah (misalnya folder Snapshot_UTS) dicantumkan pada lampiran yang bersangkutan. Lampiran E: daftar seluruh tautan eksternal yang ditanam di dalam laporan. Setiap tautan harus dapat diklik, dapat dibuka tanpa login (misalnya akses "Siapa saja yang memiliki link"), sudah diuji di jendela penyamaran, dan isinya tidak diubah setelah batas akhir pengumpulan.*
+
+**Contoh (Lampiran E):**
+
+| No | Keterangan | Bagian/Mata Kuliah | Tautan | Jenis Akses |
+|---|---|---|---|---|
+| 1 | Repositori kode (tag milestone-1) | Bagian 5 | _(URL tautan tag Git)_ | Publik |
+| 2 | Video demonstrasi 3 menit | Bagian 5 | _(URL video)_ | Siapa saja yang memiliki link |
+| 3 | Folder Snapshot_UTS | Lampiran D.1, Manajemen Proyek | _(URL folder)_ | Siapa saja yang memiliki link |
 
 _(Lampiran disertakan di laporan tim.)_
 

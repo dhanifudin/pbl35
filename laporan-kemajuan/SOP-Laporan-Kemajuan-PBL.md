@@ -46,20 +46,21 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 1. **Pahami struktur.** Baca Template Laporan Kemajuan PBL yang dibagikan koordinator, lalu susun dokumen laporan tim sendiri yang mengikuti urutan bagiannya. Jangan menyalin gaya, teks panduan, maupun contohnya.
 2. **Rekap logbook.** Sekretaris/Dokumentator merangkum logbook mingguan Minggu 1–8 pada bagian Rekap Logbook. Logbook lengkap dilampirkan.
 3. **Tulis seluruh bagian laporan.** Bandingkan realisasi dengan rencana pada proposal (rincian pekerjaan dan jadwal).
-4. **Siapkan bukti kemajuan.** Bukti berupa tautan repositori Git, tautan demonstrasi atau video singkat, tangkapan layar, dan alamat aplikasi bila sudah diunggah ke server (*deploy*). Pastikan tautan dapat diakses oleh dosen pengampu.
-5. **Tanyakan dokumen tambahan.** Pastikan kepada setiap dosen pengampu mata kuliah terintegrasi apakah terdapat dokumen tambahan pada Milestone 1 (lihat Bagian 6), lalu siapkan dokumen tersebut dalam bentuk PDF.
-6. **Periksa kelengkapan** menggunakan daftar pada Bagian 8.
-7. **Gabungkan dan ekspor ke satu PDF.** Laporan dan seluruh dokumen tambahan mata kuliah (sebagai Lampiran D) digabung dalam satu berkas, lalu diberi nama `LapKemajuan_<Kelas>_<NamaTim>.pdf`, misalnya `LapKemajuan_TI-3A_SIMPAN.pdf`.
-8. **Unggah** berkas melalui Google Form: **[tautan Google Form, diisi koordinator PBL]**. Form hanya memiliki satu kolom unggah berkas, yaitu laporan beserta lampirannya. Ketua Tim mengisi data tim dan mengunggah satu berkas.
-9. **Ikuti demonstrasi progres** sesuai jadwal kelas yang ditetapkan dosen pengampu pada Minggu 8.
-10. **Terima umpan balik** dan perbarui rencana menuju Milestone 2 sesuai masukan.
+4. **Siapkan bukti kemajuan.** Bukti berupa tautan repositori Git, tautan demonstrasi atau video singkat, tangkapan layar, dan alamat aplikasi bila sudah diunggah ke server (*deploy*). Tautan eksternal boleh ditanam langsung di dalam laporan sesuai ketentuan pada Bagian 7.
+5. **Tanyakan dokumen tambahan.** Pastikan kepada setiap dosen pengampu mata kuliah terintegrasi apakah terdapat dokumen tambahan pada Milestone 1 (lihat Bagian 6), lalu siapkan dokumen tersebut sebagai PDF atau sebagai tautan.
+6. **Uji tautan.** Buka seluruh tautan eksternal di jendela penyamaran (*incognito*) dan pastikan dapat diakses tanpa login (lihat Bagian 7).
+7. **Periksa kelengkapan** menggunakan daftar pada Bagian 9.
+8. **Gabungkan dan ekspor ke satu PDF.** Laporan dan dokumen tambahan mata kuliah yang dilampirkan fisik (sebagai Lampiran D) digabung dalam satu berkas, lalu diberi nama `LapKemajuan_<Kelas>_<NamaTim>.pdf`, misalnya `LapKemajuan_TI-3A_SIMPAN.pdf`. Pastikan tautan tetap dapat diklik setelah diekspor.
+9. **Unggah** berkas melalui Google Form: **[tautan Google Form, diisi koordinator PBL]**. Form hanya memiliki satu kolom unggah berkas, yaitu laporan beserta lampirannya. Ketua Tim mengisi data tim dan mengunggah satu berkas.
+10. **Ikuti demonstrasi progres** sesuai jadwal kelas yang ditetapkan dosen pengampu pada Minggu 8.
+11. **Terima umpan balik** dan perbarui rencana menuju Milestone 2 sesuai masukan.
 
 ## 6. Dokumen Tambahan Mata Kuliah Terintegrasi
 
 ### 6.1 Ketentuan Umum
 
 1. Setiap mata kuliah terintegrasi dapat mewajibkan dokumen tambahan pada Milestone 1. Dokumen tersebut diwajibkan dan dinilai oleh mata kuliah yang bersangkutan.
-2. Dokumen tambahan **dilampirkan di dalam berkas Laporan Kemajuan PBL** (satu PDF) sebagai Lampiran D, sehingga Google Form PBL hanya memiliki satu kolom unggah berkas. Setiap mata kuliah diberi halaman pemisah bertajuk "Lampiran D.n: <nama mata kuliah>".
+2. Dokumen tambahan **disertakan di dalam berkas Laporan Kemajuan PBL** (satu PDF) sebagai Lampiran D, sehingga Google Form PBL hanya memiliki satu kolom unggah berkas. Dokumen dapat **dilampirkan fisik** atau **dirujuk melalui tautan eksternal tertanam** (lihat Bagian 7), sesuai ketentuan mata kuliah. Setiap mata kuliah diberi halaman pemisah bertajuk "Lampiran D.n: <nama mata kuliah>".
    Bila mata kuliah tetap mensyaratkan pengumpulan pada jalurnya sendiri (misalnya folder Snapshot_UTS pada Manpro), tim juga memenuhinya sesuai ketentuan dosen pengampu mata kuliah tersebut, dan mencantumkan tautannya pada lampiran.
 3. Tim wajib menanyakan kepada setiap dosen pengampu apakah terdapat dokumen tambahan pada Milestone 1.
 4. Dokumen tambahan **tidak menggantikan** Laporan Kemajuan PBL.
@@ -91,7 +92,7 @@ Berlaku untuk **TI Semester 3** (Manajemen Proyek, RTI253001) dan **SIB Semester
 
 Panduan, template LTS, dan sheet *self-assessment* disediakan oleh dosen pengampu Manpro. Angka pada tabel C.6 dan C.7 di LTS harus sama dengan isian pada sheet *self-assessment*.
 
-**Pada berkas Laporan Kemajuan PBL:** lampirkan `M08a_LaporanTengahSemester.pdf` dan `M08b_PresentasiLTS.pdf` sebagai Lampiran D.1. Artefak Notion (berupa banyak PDF) dan sheet *self-assessment* tidak digabung ke dalam laporan; cukup cantumkan tautan folder Snapshot_UTS dan tautan sheet pada Lampiran D.1.
+**Pada berkas Laporan Kemajuan PBL:** lampirkan `M08a_LaporanTengahSemester.pdf` dan `M08b_PresentasiLTS.pdf` sebagai Lampiran D.1, baik secara fisik maupun melalui tautan tertanam. Artefak Notion (berupa banyak PDF) dan sheet *self-assessment* tidak digabung ke dalam laporan; cukup cantumkan tautan folder Snapshot_UTS dan tautan sheet pada Lampiran D.1.
 
 **Cara mengumpulkan pada jalur Manpro:**
 
@@ -115,7 +116,18 @@ Agar tidak menulis hal yang sama dua kali, tim boleh memenuhi sebagian bagian La
 
 Bagian yang berkaitan dengan **produk** tetap wajib ditulis pada Laporan Kemajuan PBL, yaitu Capaian Produk, Bukti Kemajuan, dan Kontribusi Individu.
 
-## 7. Target Milestone 1 per Jalur
+## 7. Ketentuan Tautan Eksternal
+
+Tim boleh menanam tautan eksternal (misalnya Google Drive, Notion, GitHub, atau video) di dalam laporan sebagai bukti kemajuan maupun sebagai rujukan dokumen tambahan mata kuliah. Agar penilaian tetap adil dan dapat diperiksa, berlaku ketentuan berikut:
+
+1. **Tertanam dan dapat diklik.** Tulis tautan sebagai teks aktif di dalam laporan dan pastikan tetap dapat diklik setelah diekspor ke PDF. Tampilkan pula alamat lengkapnya, bukan hanya teks seperti "klik di sini", agar tetap terbaca bila dicetak.
+2. **Terhimpun dalam satu tabel.** Seluruh tautan eksternal dicatat pada tabel daftar tautan di Lampiran E, dengan kolom nomor, keterangan, bagian atau mata kuliah terkait, tautan, dan jenis akses.
+3. **Akses terbuka.** Tautan dapat dibuka dosen tanpa login khusus. Pada Google Drive, atur akses menjadi "Siapa saja yang memiliki link" (Pelihat). Utamakan tautan ke berkas; tautan folder hanya dipakai bila memang dikehendaki mata kuliah (misalnya Snapshot_UTS).
+4. **Uji sebelum mengumpulkan.** Buka semua tautan di jendela penyamaran (*incognito*). Tautan yang tidak dapat dibuka dianggap tidak ada.
+5. **Isi tidak diubah setelah batas akhir.** Konten di balik tautan tidak diubah setelah batas akhir pengumpulan, dan perubahan setelah itu tidak dinilai. Untuk bukti yang bersifat tetap, gunakan tautan berversi, misalnya tautan *commit* atau *tag* pada Git.
+6. **Laporan tetap mandiri.** Bagian inti laporan (Bagian 1–11 pada template) harus dapat dipahami tanpa membuka tautan. Tautan hanya mendukung penjelasan, bukan menggantikannya.
+
+## 8. Target Milestone 1 per Jalur
 
 Target berikut adalah acuan minimum untuk Minggu 8. Rincian TI mengacu pada rencana pelaksanaan pembelajaran (RPP); rincian SIB bersifat indikatif dan mengacu pada kriteria produk berjalan pada materi sosialisasi, sehingga dosen pengampu dapat menyesuaikannya.
 
@@ -126,7 +138,7 @@ Target berikut adalah acuan minimum untuk Minggu 8. Rincian TI mengacu pada renc
 | **SIB Semester 3** *(indikatif)* | Prototipe atau *wireframe* menjadi acuan; alur bisnis utama mulai berjalan; pengelolaan data pada entitas domain bisnis berfungsi sebagian; antarmuka konsisten pada fitur yang sudah dibuat. |
 | **SIB Semester 5** *(indikatif)* | Arsitektur web yang lebih matang berjalan (misalnya API dan autentikasi); fitur inti dengan beberapa peran pengguna mulai berfungsi; rencana pengujian serta pengelolaan proyek (jadwal, risiko, perubahan) terdokumentasi. |
 
-## 8. Kelengkapan Wajib
+## 9. Kelengkapan Wajib
 
 Laporan Kemajuan PBL dinyatakan lengkap apabila memuat:
 
@@ -137,13 +149,14 @@ Laporan Kemajuan PBL dinyatakan lengkap apabila memuat:
 - [ ] Tabel kontribusi individu seluruh anggota.
 - [ ] Rencana menuju Milestone 2.
 - [ ] Deklarasi penggunaan AI.
+- [ ] Seluruh tautan eksternal tertanam dan dapat diklik, terhimpun pada tabel daftar tautan (Lampiran E), terbuka tanpa login, dan sudah diuji di jendela penyamaran (sesuai Bagian 7).
 
 Dokumen tambahan mata kuliah (sesuai Bagian 6):
 
 - [ ] Seluruh dokumen yang diwajibkan dosen pengampu telah digabung ke dalam berkas laporan sebagai Lampiran D, dengan halaman pemisah per mata kuliah.
 - [ ] Khusus TI Semester 3 dan SIB Semester 5 (Manajemen Proyek): `M08a_LaporanTengahSemester.pdf` dan `M08b_PresentasiLTS.pdf` terlampir sebagai Lampiran D.1; artefak Notion pada folder Snapshot_UTS dan sheet *self-assessment* kelompok telah dikumpulkan pada jalur Manpro, tautannya tercantum pada Lampiran D.1, dan angkanya konsisten dengan LTS.
 
-## 9. Aspek yang Ditinjau Dosen
+## 10. Aspek yang Ditinjau Dosen
 
 Dosen pengampu memberi umpan balik dengan memperhatikan:
 
@@ -152,17 +165,18 @@ Dosen pengampu memberi umpan balik dengan memperhatikan:
 3. Kontribusi tiap anggota, yang terlihat dari tugas dan bukti yang dicantumkan.
 4. Kualitas dan konsistensi logbook.
 5. Kejelasan dan kelayakan rencana menuju Milestone 2.
+6. Keterbukaan dan kerapian tautan bukti.
 
-## 10. Tindak Lanjut
+## 11. Tindak Lanjut
 
 - Tim yang produk intinya belum berjalan diminta segera berkonsultasi dengan koordinator PBL untuk menyesuaikan rencana.
 - Perubahan lingkup dari proposal dicatat di laporan dan dikonsultasikan dengan dosen pengampu.
 - Tim yang terlambat mengumpulkan wajib menghubungi koordinator PBL sebelum batas akhir apabila mengalami kendala.
 
-## 11. Etika Akademik dan Penggunaan AI
+## 12. Etika Akademik dan Penggunaan AI
 
 Ketentuan orisinalitas dan penggunaan AI mengikuti RPP PBL (Bagian 10): AI boleh digunakan sebagai alat bantu, anggota tim harus memahami dan mampu menjelaskan seluruh hasilnya, dan penggunaannya dideklarasikan pada bagian khusus di laporan.
 
-## 12. Kontak
+## 13. Kontak
 
 Koordinator PBL: Dian Hanifudin Subhi, S.Kom., M.Kom. (dhanifudin@polinema.ac.id)
