@@ -19,7 +19,7 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 - Seluruh tim PBL TI dan SIB pada Semester 3 dan Semester 5, di semua kelas.
 - Satu tim mengumpulkan **satu laporan**. Kontribusi tiap anggota dicatat di dalam laporan.
 - Acuan struktur laporan adalah **Template Laporan Kemajuan PBL** yang dibagikan oleh koordinator PBL. Dokumen tersebut hanya menjelaskan struktur laporan dan **tidak untuk disalin**.
-- Tim yang mata kuliah Manajemen Proyek (Manpro) terintegrasi pada PBL-nya, yaitu **TI Semester 3** dan **SIB Semester 5**, juga memenuhi dokumen tambahan Manpro pada Bagian 6.
+- Mata kuliah terintegrasi pada PBL dapat mewajibkan **dokumen tambahan** sendiri. Ketentuan umumnya ada pada Bagian 6; dokumen Manajemen Proyek (Manpro) pada TI Semester 3 dan SIB Semester 5 diuraikan sebagai contoh yang sudah berlaku.
 
 ## 3. Waktu
 
@@ -27,17 +27,18 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 |---|---|
 | Penyusunan laporan dan demonstrasi progres | Minggu 8 |
 | Batas akhir pengumpulan Laporan Kemajuan PBL | **[tanggal], pukul 23.59 WIB** (diisi koordinator PBL) |
-| Batas akhir dokumen tambahan Manpro (TI Semester 3 dan SIB Semester 5) | **Satu hari sebelum Ujian Tengah Semester (H-1 UTS)**, pada folder Snapshot_UTS |
+| Dokumen tambahan mata kuliah | Sesuai tenggat yang ditetapkan dosen pengampu mata kuliah masing-masing |
+| Dokumen tambahan Manpro (TI Semester 3 dan SIB Semester 5) | **Satu hari sebelum Ujian Tengah Semester (H-1 UTS)**, pada folder Snapshot_UTS |
 | Umpan balik dosen pengampu | Paling lambat satu minggu setelah batas pengumpulan |
 
 ## 4. Peran dan Tanggung Jawab
 
 | Pihak | Tanggung Jawab |
 |---|---|
-| Ketua Tim | Memastikan laporan lengkap dan tepat waktu, serta mengunggahnya melalui Google Form. |
+| Ketua Tim | Memastikan laporan lengkap dan tepat waktu, mengunggahnya melalui Google Form, serta memastikan seluruh dokumen tambahan mata kuliah terkumpul pada jalur masing-masing. |
 | Sekretaris/Dokumentator | Menyusun laporan dengan mengikuti struktur pada Template Laporan Kemajuan PBL dan merekap logbook Minggu 1–8. |
 | Seluruh anggota | Menuliskan bagian kontribusi masing-masing dan memastikan datanya benar. |
-| Dosen pengampu | Menghadiri dan menilai demonstrasi progres, meninjau laporan, serta memberi umpan balik tertulis atau lisan kepada tim. |
+| Dosen pengampu | Menghadiri dan menilai demonstrasi progres, meninjau laporan, memberi umpan balik tertulis atau lisan kepada tim, serta menyampaikan kewajiban dokumen tambahan mata kuliahnya (bila ada) beserta tenggatnya. |
 | Koordinator PBL | Merekap pengumpulan, menyampaikan pengumuman, dan menindaklanjuti tim yang perlu menyesuaikan rencana. |
 
 ## 5. Prosedur
@@ -46,17 +47,39 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 2. **Rekap logbook.** Sekretaris/Dokumentator merangkum logbook mingguan Minggu 1–8 pada bagian Rekap Logbook. Logbook lengkap dilampirkan.
 3. **Tulis seluruh bagian laporan.** Bandingkan realisasi dengan rencana pada proposal (rincian pekerjaan dan jadwal).
 4. **Siapkan bukti kemajuan.** Bukti berupa tautan repositori Git, tautan demonstrasi atau video singkat, tangkapan layar, dan alamat aplikasi bila sudah diunggah ke server (*deploy*). Pastikan tautan dapat diakses oleh dosen pengampu.
-5. **Periksa kelengkapan** menggunakan daftar pada Bagian 8.
-6. **Ekspor ke PDF** dan beri nama berkas `LapKemajuan_<Kelas>_<NamaTim>.pdf`, misalnya `LapKemajuan_TI-3A_SIMPAN.pdf`.
-7. **Unggah** berkas melalui Google Form: **[tautan Google Form, diisi koordinator PBL]**. Ketua Tim mengisi data tim dan mengunggah satu berkas.
-8. **Ikuti demonstrasi progres** sesuai jadwal kelas yang ditetapkan dosen pengampu pada Minggu 8.
-9. **Terima umpan balik** dan perbarui rencana menuju Milestone 2 sesuai masukan.
+5. **Tanyakan dokumen tambahan.** Pastikan kepada setiap dosen pengampu mata kuliah terintegrasi apakah terdapat dokumen tambahan pada Milestone 1 (lihat Bagian 6).
+6. **Periksa kelengkapan** menggunakan daftar pada Bagian 8.
+7. **Ekspor ke PDF** dan beri nama berkas `LapKemajuan_<Kelas>_<NamaTim>.pdf`, misalnya `LapKemajuan_TI-3A_SIMPAN.pdf`.
+8. **Unggah** berkas melalui Google Form: **[tautan Google Form, diisi koordinator PBL]**. Ketua Tim mengisi data tim dan mengunggah satu berkas.
+9. **Ikuti demonstrasi progres** sesuai jadwal kelas yang ditetapkan dosen pengampu pada Minggu 8.
+10. **Terima umpan balik** dan perbarui rencana menuju Milestone 2 sesuai masukan.
 
-## 6. Dokumen Tambahan Mata Kuliah Manajemen Proyek
+## 6. Dokumen Tambahan Mata Kuliah Terintegrasi
 
-Bagian ini berlaku untuk **TI Semester 3** (Manajemen Proyek, RTI253001) dan **SIB Semester 5** (Manajemen Proyek Sistem Informasi, SIB265008, seluruh kelas). Dokumen ini diwajibkan oleh mata kuliah Manpro, dikumpulkan **terpisah** dari Google Form PBL, dan dinilai oleh dosen pengampu Manpro.
+### 6.1 Ketentuan Umum
 
-### 6.1 Dokumen yang Wajib Dikumpulkan
+1. Setiap mata kuliah terintegrasi dapat mewajibkan dokumen tambahan pada Milestone 1. Dokumen tersebut diwajibkan dan dinilai oleh mata kuliah yang bersangkutan.
+2. Dokumen tambahan dikumpulkan **terpisah** dari Google Form PBL, dengan nama berkas, tempat pengumpulan, dan tenggat sesuai ketentuan dosen pengampu mata kuliah tersebut.
+3. Tim wajib menanyakan kepada setiap dosen pengampu apakah terdapat dokumen tambahan pada Milestone 1.
+4. Dokumen tambahan **tidak menggantikan** Laporan Kemajuan PBL.
+5. Koordinator PBL tidak menetapkan isi dokumen mata kuliah lain; isi dan penilaiannya menjadi kewenangan dosen pengampu mata kuliah yang bersangkutan.
+
+### 6.2 Daftar Dokumen Tambahan per Mata Kuliah
+
+| Jalur | Mata kuliah | Dokumen tambahan | Tenggat dan jalur pengumpulan |
+|---|---|---|---|
+| TI Semester 3 | Manajemen Proyek | LTS (`M08a`), slide (`M08b`), PDF artefak Notion, sheet *self-assessment* (lihat Bagian 6.3) | H-1 UTS, folder Snapshot_UTS |
+| TI Semester 3 | Desain dan Pemrograman Web; Basis Data Lanjut; Sistem Informasi Manajemen | Menyusul, sesuai pengumuman dosen pengampu | Ditetapkan dosen pengampu |
+| TI Semester 5 | Pemrograman Mobile; Pembelajaran Mesin; Penjaminan Mutu Perangkat Lunak | Menyusul, sesuai pengumuman dosen pengampu | Ditetapkan dosen pengampu |
+| SIB Semester 3 | Pemrograman Web; Basis Data Lanjut; Desain UI/UX | Menyusul, sesuai pengumuman dosen pengampu | Ditetapkan dosen pengampu |
+| SIB Semester 5 | Manajemen Proyek Sistem Informasi | LTS (`M08a`), slide (`M08b`), PDF artefak Notion, sheet *self-assessment* (lihat Bagian 6.3) | H-1 UTS, folder Snapshot_UTS |
+| SIB Semester 5 | Pemrograman Web Lanjut; Penjaminan Mutu Perangkat Lunak | Menyusul, sesuai pengumuman dosen pengampu | Ditetapkan dosen pengampu |
+
+Baris bertuliskan "Menyusul" diperbarui oleh koordinator PBL setelah dokumen mata kuliah tersedia.
+
+### 6.3 Rincian Dokumen Manajemen Proyek
+
+Berlaku untuk **TI Semester 3** (Manajemen Proyek, RTI253001) dan **SIB Semester 5** (Manajemen Proyek Sistem Informasi, SIB265008, seluruh kelas).
 
 | Dokumen | Nama berkas | Keterangan |
 |---|---|---|
@@ -67,20 +90,18 @@ Bagian ini berlaku untuk **TI Semester 3** (Manajemen Proyek, RTI253001) dan **S
 
 Panduan, template LTS, dan sheet *self-assessment* disediakan oleh dosen pengampu Manpro. Angka pada tabel C.6 dan C.7 di LTS harus sama dengan isian pada sheet *self-assessment*.
 
-### 6.2 Cara Mengumpulkan
+**Cara mengumpulkan:**
 
 1. Simpan seluruh PDF dalam satu folder Google Drive bernama `Snapshot_UTS` di dalam folder kelompok sesuai penamaan dari dosen pengampu Manpro.
 2. Atur akses berkas menjadi "Siapa saja yang memiliki link" (Pelihat), lalu salin tautan **berkas**, bukan tautan folder.
 3. Isi tautan pada sheet *self-assessment* kelompok.
 4. Batas akhir pengumpulan: **H-1 UTS**.
 
-### 6.3 Komponen Nilai UTS Manpro
-
-Capaian artefak 50%, kualitas Laporan Tengah Semester 30%, dan presentasi 20%.
+**Komponen nilai UTS Manpro:** capaian artefak 50%, kualitas Laporan Tengah Semester 30%, dan presentasi 20%.
 
 ### 6.4 Hubungan dengan Laporan Kemajuan PBL
 
-Agar tidak menulis hal yang sama dua kali, tim Manpro boleh memenuhi bagian manajemen proyek pada Laporan Kemajuan PBL dengan **merujuk ke LTS** dan melampirkan `M08a_LaporanTengahSemester.pdf`:
+Agar tidak menulis hal yang sama dua kali, tim boleh memenuhi sebagian bagian Laporan Kemajuan PBL dengan **merujuk dan melampirkan dokumen tambahan mata kuliah** yang sudah memuat informasi yang sama, dengan syarat dosen pengampu mata kuliah tersebut menyetujuinya. Contoh untuk Manpro (rujukan ke LTS, lampirkan `M08a_LaporanTengahSemester.pdf`):
 
 | Bagian Laporan Kemajuan PBL | Cukup merujuk ke LTS |
 |---|---|
@@ -114,11 +135,10 @@ Laporan Kemajuan PBL dinyatakan lengkap apabila memuat:
 - [ ] Rencana menuju Milestone 2.
 - [ ] Deklarasi penggunaan AI.
 
-Tambahan bagi tim **TI Semester 3 dan SIB Semester 5** (dikumpulkan terpisah, sesuai Bagian 6):
+Dokumen tambahan mata kuliah (dikumpulkan terpisah, sesuai Bagian 6):
 
-- [ ] `M08a_LaporanTengahSemester.pdf` dan `M08b_PresentasiLTS.pdf`.
-- [ ] PDF seluruh artefak Notion Minggu 1–7 pada folder Snapshot_UTS.
-- [ ] Sheet *self-assessment* kelompok terisi dan konsisten dengan LTS.
+- [ ] Seluruh dokumen yang diwajibkan dosen pengampu telah dikumpulkan pada jalur dan tenggat masing-masing.
+- [ ] Khusus TI Semester 3 dan SIB Semester 5 (Manajemen Proyek): `M08a_LaporanTengahSemester.pdf`, `M08b_PresentasiLTS.pdf`, PDF seluruh artefak Notion Minggu 1–7 pada folder Snapshot_UTS, serta sheet *self-assessment* kelompok yang terisi dan konsisten dengan LTS.
 
 ## 9. Aspek yang Ditinjau Dosen
 

@@ -17,7 +17,9 @@ Hal yang perlu disampaikan kepada mahasiswa:
 4. Lengkapi laporan dengan rekap logbook Minggu 1–8, tautan repositori Git, dan bukti demonstrasi.
 5. Siapkan demonstrasi progres sesuai jadwal kelas dari dosen pengampu.
 
-*Khusus TI Semester 3 dan SIB Semester 5:* mata kuliah Manajemen Proyek juga mewajibkan Laporan Tengah Semester (M08a), slide presentasi (M08b), PDF artefak Notion, dan *self-assessment* kelompok. Dokumen tersebut diunggah ke folder Snapshot_UTS paling lambat satu hari sebelum UTS (H-1 UTS) sesuai panduan dosen pengampu Manpro. Bagian manajemen proyek pada Laporan Kemajuan PBL cukup merujuk ke dokumen tersebut.
+*Dokumen tambahan mata kuliah:* apabila mata kuliah yang Bapak/Ibu ampu mewajibkan dokumen tambahan pada Milestone 1, mohon disampaikan kepada mahasiswa beserta tenggat dan tempat pengumpulannya. Dokumen tersebut dikumpulkan terpisah dari form Laporan Kemajuan PBL, dan bagian yang sama pada laporan PBL cukup merujuk ke dokumen tersebut apabila Bapak/Ibu menyetujuinya.
+
+Contoh yang sudah berlaku: mata kuliah Manajemen Proyek (TI Semester 3 dan SIB Semester 5) mewajibkan Laporan Tengah Semester (M08a), slide presentasi (M08b), PDF artefak Notion, dan *self-assessment* kelompok, yang diunggah ke folder Snapshot_UTS paling lambat satu hari sebelum UTS (H-1 UTS).
 
 Apabila terdapat kendala teknis atau pertanyaan mengenai format, mahasiswa dapat menghubungi koordinator PBL kelas masing-masing.
 

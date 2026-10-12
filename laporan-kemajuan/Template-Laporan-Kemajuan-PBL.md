@@ -11,7 +11,7 @@ Dokumen ini menjelaskan struktur Laporan Kemajuan *Project-Based Learning* (PBL)
 - Setiap bagian memuat paragraf panduan (cetak miring) dan contoh singkat. Keduanya hanya untuk dipahami dan tidak ikut ditulis di laporan.
 - Contoh mengacu pada produk ilustrasi "SIMPAN" (sistem peminjaman ruang dan alat kampus), sama dengan format proposal. Tim menuliskan produknya sendiri.
 - Bagian bertanda **[TI Sem 5]**, **[Sem 5]**, atau **[SIB]** hanya ditulis oleh tim pada jalur tersebut.
-- Tim **[Manpro]** (TI Semester 3 dan SIB Semester 5) yang telah menyusun Laporan Tengah Semester (LTS) untuk mata kuliah Manajemen Proyek cukup merujuk ke LTS pada bagian yang diberi catatan **[Manpro]**, serta melampirkan LTS sebagai Lampiran D.
+- Mata kuliah terintegrasi dapat mewajibkan dokumen tambahan (misalnya Laporan Tengah Semester atau LTS pada Manajemen Proyek, TI Semester 3 dan SIB Semester 5). Pada bagian yang diberi catatan **[Dokumen mata kuliah]**, tim cukup merujuk dan melampirkan dokumen tersebut sebagai Lampiran D, sepanjang disetujui dosen pengampu mata kuliah terkait.
 - Prosedur pengumpulan dijelaskan pada dokumen SOP Pengumpulan Laporan Kemajuan PBL.
 
 ---
@@ -70,7 +70,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## 3. Rencana dan Realisasi
 
-*(**[Manpro]** Tim Manpro boleh merujuk ke LTS bagian C.6–C.7 dan G untuk status dan jadwal manajemen proyek, tanpa menulis ulang. Tabel pekerjaan tingkat produk di bawah ini tetap ditulis.)*
+*(**[Dokumen mata kuliah]** Bila dokumen tambahan mata kuliah sudah memuat status dan jadwal proyek (misalnya LTS Manajemen Proyek bagian C.6–C.7 dan G), cukup merujuk dan melampirkannya tanpa menulis ulang. Tabel pekerjaan tingkat produk di bawah ini tetap ditulis.)*
 
 ### 3.1 Kemajuan Rincian Pekerjaan
 
@@ -139,7 +139,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ### 4.4 Status Rencana Pengujian **[Sem 5]**
 
-*Ringkas kondisi rencana penjaminan mutu (QA plan) atau rencana pengujian: ruang lingkup, jumlah kasus uji (*test case*) yang sudah disusun, dan yang sudah dieksekusi (bila ada).*
+*Uraikan secara singkat kondisi rencana penjaminan mutu (QA plan) atau rencana pengujian: ruang lingkup, jumlah kasus uji (*test case*) yang sudah disusun, dan yang sudah dieksekusi (bila ada).*
 
 **Contoh:** "QA plan versi 2: 18 kasus uji fungsional telah disusun, 6 di antaranya sudah dieksekusi dengan 2 *bug* tercatat dan 1 sudah diperbaiki."
 
@@ -189,7 +189,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## 7. Kendala dan Solusi
 
-*(**[Manpro]** Cukup merujuk ke LTS bagian F, lalu tambahkan hanya kendala yang khusus menyangkut pengembangan produk.)*
+*(**[Dokumen mata kuliah]** Bila kendala pelaksanaan sudah diuraikan pada dokumen tambahan mata kuliah (misalnya LTS Manajemen Proyek bagian F), cukup merujuknya, lalu tambahkan hanya kendala yang khusus menyangkut pengembangan produk.)*
 
 *Uraikan kendala utama (teknis, waktu, koordinasi tim, data atau mitra) beserta cara tim mengatasinya atau rencana penanganannya. Tuliskan pula bantuan yang dibutuhkan dari dosen pengampu atau koordinator.*
 
@@ -215,7 +215,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ### 8.2 Risiko Utama
 
-*(**[Manpro]** Boleh merujuk ke LTS bagian E dan F; cantumkan di sini hanya risiko produk yang belum tercakup.)*
+*(**[Dokumen mata kuliah]** Risiko yang sudah tercantum pada dokumen tambahan mata kuliah (misalnya LTS Manajemen Proyek bagian E dan F) boleh dirujuk; cantumkan di sini hanya risiko produk yang belum tercakup.)*
 
 *Daftarkan maksimal 5 risiko terbesar untuk iterasi berikutnya, disertai tingkat risiko (Tinggi/Sedang/Rendah) dan tindakan pencegahannya.*
 
@@ -232,7 +232,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## 9. Rencana Menuju Milestone 2 (Minggu 9–12)
 
-*(**[Manpro]** Rencana manajemen proyek cukup dirujuk ke LTS bagian G; tuliskan di sini target pengembangan produk pada Minggu 9–12.)*
+*(**[Dokumen mata kuliah]** Rencana manajemen proyek yang sudah ada pada dokumen tambahan mata kuliah (misalnya LTS Manajemen Proyek bagian G) cukup dirujuk; tuliskan di sini target pengembangan produk pada Minggu 9–12.)*
 
 *Susun target dan penanggung jawab per minggu hingga Milestone 2, yaitu produk fungsional lengkap dan hasil uji awal. Rencana harus layak dilaksanakan berdasarkan kemajuan sebenarnya pada Bagian 3.*
 
@@ -251,7 +251,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## 10. Rekap Logbook Minggu 1–8
 
-*Ringkas logbook mingguan dalam satu tabel (pekerjaan selesai, kendala, rencana berikutnya). Logbook lengkap dilampirkan pada Lampiran B.*
+*Rangkum logbook mingguan Minggu 1–8 dalam satu tabel yang memuat pekerjaan selesai, kendala, dan rencana berikutnya. Logbook lengkap dilampirkan pada Lampiran B.*
 
 **Contoh:**
 
@@ -281,7 +281,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## 12. Lampiran
 
-*Lampiran A: tangkapan layar fitur. Lampiran B: logbook mingguan lengkap Minggu 1–8. Lampiran C (opsional): dokumen pendukung, misalnya catatan konsultasi dengan dosen atau mitra. Lampiran D **[Manpro]**: Laporan Tengah Semester (`M08a_LaporanTengahSemester.pdf`).*
+*Lampiran A: tangkapan layar fitur. Lampiran B: logbook mingguan lengkap Minggu 1–8. Lampiran C (opsional): dokumen pendukung, misalnya catatan konsultasi dengan dosen atau mitra. Lampiran D **[Dokumen mata kuliah]**: dokumen tambahan mata kuliah yang dirujuk (misalnya `M08a_LaporanTengahSemester.pdf`).*
 
 _(Lampiran disertakan di laporan tim.)_
 
