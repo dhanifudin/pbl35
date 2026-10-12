@@ -19,6 +19,7 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 - Seluruh tim PBL TI dan SIB pada Semester 3 dan Semester 5, di semua kelas.
 - Satu tim mengumpulkan **satu laporan**. Kontribusi tiap anggota dicatat di dalam laporan.
 - Acuan struktur laporan adalah **Template Laporan Kemajuan PBL** yang dibagikan oleh koordinator PBL. Dokumen tersebut hanya menjelaskan struktur laporan dan **tidak untuk disalin**.
+- SOP, template, dan dokumen pendukung tersedia pada folder dokumen PBL: https://drive.google.com/drive/folders/15q1RaS64I4VPQ4aTbJetim0Yu0IxdbBt?usp=drive_link
 - Mata kuliah terintegrasi pada PBL dapat mewajibkan **dokumen tambahan** sendiri. Ketentuan umumnya ada pada Bagian 6; dokumen Manajemen Proyek (Manpro) pada TI Semester 3 dan SIB Semester 5 diuraikan sebagai contoh yang sudah berlaku.
 
 ## 3. Waktu
@@ -70,11 +71,11 @@ Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 
 | Jalur | Mata kuliah | Dokumen tambahan | Tenggat dan jalur pengumpulan |
 |---|---|---|---|
-| TI Semester 3 | Manajemen Proyek | LTS (`M08a`), slide (`M08b`), PDF artefak Notion, sheet *self-assessment* (lihat Bagian 6.3) | H-1 UTS, folder Snapshot_UTS |
+| TI Semester 3 | Manajemen Proyek | LTS (`M08a`), slide (`M08b`), PDF artefak Notion, sheet *self-assessment* (lihat Bagian 6.3); dokumen tersedia pada folder **TI** | H-1 UTS, folder Snapshot_UTS |
 | TI Semester 3 | Desain dan Pemrograman Web; Basis Data Lanjut; Sistem Informasi Manajemen | Menyusul, sesuai pengumuman dosen pengampu | Ditetapkan dosen pengampu |
 | TI Semester 5 | Pemrograman Mobile; Pembelajaran Mesin; Penjaminan Mutu Perangkat Lunak | Menyusul, sesuai pengumuman dosen pengampu | Ditetapkan dosen pengampu |
 | SIB Semester 3 | Pemrograman Web; Basis Data Lanjut; Desain UI/UX | Menyusul, sesuai pengumuman dosen pengampu | Ditetapkan dosen pengampu |
-| SIB Semester 5 | Manajemen Proyek Sistem Informasi | LTS (`M08a`), slide (`M08b`), PDF artefak Notion, sheet *self-assessment* (lihat Bagian 6.3) | H-1 UTS, folder Snapshot_UTS |
+| SIB Semester 5 | Manajemen Proyek Sistem Informasi | LTS (`M08a`), slide (`M08b`), PDF artefak Notion, sheet *self-assessment* (lihat Bagian 6.3); dokumen tersedia pada folder **SIB** | H-1 UTS, folder Snapshot_UTS |
 | SIB Semester 5 | Pemrograman Web Lanjut; Penjaminan Mutu Perangkat Lunak | Menyusul, sesuai pengumuman dosen pengampu | Ditetapkan dosen pengampu |
 
 Baris bertuliskan "Menyusul" diperbarui oleh koordinator PBL setelah dokumen mata kuliah tersedia.
@@ -90,7 +91,14 @@ Berlaku untuk **TI Semester 3** (Manajemen Proyek, RTI253001) dan **SIB Semester
 | Artefak Notion Minggu 1–7 | Sesuai tabel nama berkas pada sheet *self-assessment* | Setiap artefak diekspor ke PDF (TI: 9 artefak; SIB: 8 artefak). |
 | Sheet *self-assessment* kelompok | Diisi pada sheet kelompok | Isi kolom kuning: level klaim (0–4), tautan PDF, penanggung jawab (PIC), dan catatan. |
 
-Panduan, template LTS, dan sheet *self-assessment* disediakan oleh dosen pengampu Manpro. Angka pada tabel C.6 dan C.7 di LTS harus sama dengan isian pada sheet *self-assessment*.
+**Sumber dokumen.** Panduan, template LTS, dan sheet *self-assessment* tersedia pada folder dokumen PBL (https://drive.google.com/drive/folders/15q1RaS64I4VPQ4aTbJetim0Yu0IxdbBt?usp=drive_link) dan disediakan oleh dosen pengampu Manpro. Dokumen untuk TI berada pada folder **TI**, sedangkan dokumen untuk SIB berada pada folder **SIB**:
+
+| Folder | Panduan LTS | Template LTS | Sheet *self-assessment* |
+|---|---|---|---|
+| TI | Panduan_Laporan_Tengah_Semester_Manpro | Template_Laporan_Tengah_Semester_Manpro | SelfAssessment_UTS_Manpro_TI |
+| SIB | Panduan_Laporan_Tengah_Semester_ManproSI | Template_Laporan_Tengah_Semester_ManproSI | SelfAssessment_UTS_Manpro_SIB3G |
+
+Angka pada tabel C.6 dan C.7 di LTS harus sama dengan isian pada sheet *self-assessment*.
 
 **Pada berkas Laporan Kemajuan PBL:** lampirkan `M08a_LaporanTengahSemester.pdf` dan `M08b_PresentasiLTS.pdf` sebagai Lampiran D.1, baik secara fisik maupun melalui tautan tertanam. Artefak Notion (berupa banyak PDF) dan sheet *self-assessment* tidak digabung ke dalam laporan; cukup cantumkan tautan folder Snapshot_UTS dan tautan sheet pada Lampiran D.1.
 
@@ -182,3 +190,5 @@ Ketentuan orisinalitas dan penggunaan AI mengikuti RPP PBL (Bagian 10): AI boleh
 ## 13. Kontak
 
 Koordinator PBL: Dian Hanifudin Subhi, S.Kom., M.Kom. (dhanifudin@polinema.ac.id)
+
+Folder dokumen PBL: https://drive.google.com/drive/folders/15q1RaS64I4VPQ4aTbJetim0Yu0IxdbBt?usp=drive_link
