@@ -168,11 +168,25 @@ _(Isi bagian ini di sini.)_
 
 ## 6. Rancangan Teknis Awal
 
+> Ilustrasi pada kedua bagian di bawah adalah salah satu cara menggambarkan rancangan. Struktur, jumlah kotak/tahapan, dan tingkat detail dapat disesuaikan sepenuhnya dengan kebutuhan produk tim; tidak harus sama persis dengan contoh.
+
 ### 6.1 Rancangan Arsitektur Aplikasi Mobile (Flutter)
 
 *Gambarkan arsitektur aplikasi secara kasar: struktur navigasi antar layar (minimal 4 layar, sesuai persyaratan produk Pemrograman Mobile pada RPP), pendekatan manajemen state yang akan dipakai (Provider/Riverpod/BLoC), dan rencana penyimpanan data (lokal via `shared_preferences`/`sqflite`/Hive dan/atau remote via API). Rancangan ini tidak perlu final, tetapi sebaiknya cukup jelas untuk menjadi acuan saat scaffolding aplikasi dimulai pada Minggu 5.*
 
 **Contoh:** Layar: (1) Login, (2) Kamera/Ambil Foto, (3) Hasil Deteksi, (4) Riwayat Deteksi. Navigasi menggunakan `go_router`. State management menggunakan Riverpod untuk mengelola status hasil klasifikasi dan riwayat. Riwayat deteksi disimpan lokal menggunakan `sqflite`.
+
+<svg viewBox="0 0 560 230" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:560px;height:auto;font-family:'Segoe UI','DejaVu Sans',sans-serif;">
+  <rect x="20" y="20" width="520" height="64" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="280" y="44" text-anchor="middle" font-size="14" font-weight="700" fill="#003b7a">UI (Flutter Widgets)</text>
+  <text x="280" y="68" text-anchor="middle" font-size="11" fill="#1a1a2e">Login | Kamera/Ambil Foto | Hasil Deteksi | Riwayat</text>
+  <rect x="20" y="94" width="520" height="46" rx="6" fill="#fff8e6" stroke="#f5a623" stroke-width="1.5"/>
+  <text x="280" y="122" text-anchor="middle" font-size="13" font-weight="700" fill="#b3760c">State Management (Riverpod)</text>
+  <rect x="20" y="150" width="255" height="56" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="147" y="182" text-anchor="middle" font-size="12" font-weight="600" fill="#1a1a2e">Model ML (tflite_flutter)</text>
+  <rect x="285" y="150" width="255" height="56" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="412" y="182" text-anchor="middle" font-size="12" font-weight="600" fill="#1a1a2e">Data Lokal (sqflite)</text>
+</svg>
 
 _(Isi bagian ini di sini; sertakan sketsa alur layar/wireframe.)_
 
@@ -181,6 +195,36 @@ _(Isi bagian ini di sini; sertakan sketsa alur layar/wireframe.)_
 *Jelaskan sumber dataset (nama, tautan, atau rencana pengumpulan mandiri), jumlah data yang tersedia/ditargetkan, rencana pembagian data latih/uji, algoritma atau pendekatan yang akan dicoba (termasuk kemungkinan transfer learning), dan target metrik evaluasi awal (mis. target akurasi minimal). Rencana ini akan dibandingkan dengan hasil aktual pada laporan evaluasi model di Milestone 1 dan 2.*
 
 **Contoh:** Dataset: kombinasi dataset publik Kaggle (sekitar 2.000 citra, 4 kelas hama) dan 200 foto lapangan tambahan, dibagi 80 persen latih dan 20 persen uji. Pendekatan: transfer learning dari MobileNetV2, dikonversi ke TensorFlow Lite. Target akurasi awal: minimal 75 persen pada data uji, ditingkatkan menuju 80 persen pada iterasi final.
+
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:640px;height:auto;font-family:'Segoe UI','DejaVu Sans',sans-serif;">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#003b7a"/>
+    </marker>
+  </defs>
+  <rect x="20" y="20" width="230" height="70" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="135" y="50" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">Dataset Kaggle +</text>
+  <text x="135" y="68" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">Foto Lapangan</text>
+  <rect x="285" y="20" width="230" height="70" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="400" y="50" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">Praproses &amp;</text>
+  <text x="400" y="68" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">Split 80/20</text>
+  <rect x="550" y="20" width="230" height="70" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="665" y="50" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">Transfer Learning</text>
+  <text x="665" y="68" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">MobileNetV2</text>
+  <rect x="20" y="220" width="230" height="70" rx="6" fill="#fff8e6" stroke="#f5a623" stroke-width="1.5"/>
+  <text x="135" y="250" text-anchor="middle" font-size="13" font-weight="600" fill="#b3760c">Integrasi ke</text>
+  <text x="135" y="268" text-anchor="middle" font-size="13" font-weight="600" fill="#b3760c">Aplikasi</text>
+  <rect x="285" y="220" width="230" height="70" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="400" y="250" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">Konversi ke</text>
+  <text x="400" y="268" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">TensorFlow Lite</text>
+  <rect x="550" y="220" width="230" height="70" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="665" y="255" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">Evaluasi Model</text>
+  <line x1="250" y1="55" x2="280" y2="55" stroke="#003b7a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="515" y1="55" x2="545" y2="55" stroke="#003b7a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="665" y1="90" x2="665" y2="215" stroke="#003b7a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="545" y1="255" x2="520" y2="255" stroke="#003b7a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="280" y1="255" x2="255" y2="255" stroke="#003b7a" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>
 
 _(Isi bagian ini di sini.)_
 

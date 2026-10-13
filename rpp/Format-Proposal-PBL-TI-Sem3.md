@@ -175,11 +175,30 @@ _(Isi bagian ini di sini.)_
 
 ## 6. Rancangan Teknis Awal
 
+> Ilustrasi pada kedua bagian di bawah adalah salah satu cara menggambarkan rancangan. Struktur, jumlah kotak/kolom, dan tingkat detail dapat disesuaikan sepenuhnya dengan kebutuhan produk tim; tidak harus sama persis dengan contoh.
+
 ### 6.1 Rancangan Basis Data Awal
 
 *Sajikan entitas-entitas data utama (minimal 3 entitas berelasi, sesuai persyaratan produk Basis Data Lanjut pada RPP) beserta relasi kasarnya (1-N dan/atau N-N). Diagram ERD awal berupa sketsa sudah cukup pada tahap ini; detail normalisasi disempurnakan pada tahap pengembangan. Entitas yang dicantumkan di sini sebaiknya konsisten dengan fitur yang disebutkan pada Bagian 5.3.*
 
 **Contoh:** Entitas `Pengguna` (1-N ke `Peminjaman`), `Peminjaman` (N-1 ke `Ruang` atau `Alat`), `Ruang`, dan `Alat`. Satu `Peminjaman` merujuk ke satu `Pengguna` dan satu `Ruang`/`Alat`; satu `Ruang`/`Alat` dapat memiliki banyak riwayat `Peminjaman`.
+
+<svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:600px;height:auto;font-family:'Segoe UI','DejaVu Sans',sans-serif;">
+  <rect x="20" y="80" width="150" height="50" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="95" y="110" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a2e">Pengguna</text>
+  <rect x="260" y="80" width="160" height="50" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="340" y="110" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a2e">Peminjaman</text>
+  <rect x="490" y="20" width="130" height="50" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="555" y="50" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a2e">Ruang</text>
+  <rect x="490" y="150" width="130" height="50" rx="6" fill="#e8f0fb" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="555" y="180" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a2e">Alat</text>
+  <line x1="170" y1="105" x2="260" y2="105" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="215" y="98" text-anchor="middle" font-size="11" fill="#b3760c">1 : N</text>
+  <line x1="420" y1="95" x2="490" y2="55" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="470" y="68" text-anchor="middle" font-size="11" fill="#b3760c">N : 1</text>
+  <line x1="420" y1="120" x2="490" y2="165" stroke="#003b7a" stroke-width="1.5"/>
+  <text x="470" y="150" text-anchor="middle" font-size="11" fill="#b3760c">N : 1</text>
+</svg>
 
 _(Isi bagian ini di sini; sertakan sketsa ERD.)_
 
@@ -188,6 +207,30 @@ _(Isi bagian ini di sini; sertakan sketsa ERD.)_
 *Lampirkan wireframe atau sketsa alur layar untuk halaman-halaman utama (minimal 3 halaman/view selain login, sesuai persyaratan produk Desain dan Pemrograman Web pada RPP). Wireframe tidak perlu berupa desain visual akhir; sketsa tangan atau mockup sederhana sudah memadai pada tahap proposal.*
 
 **Contoh:** Halaman (1) Formulir Pengajuan Peminjaman, (2) Daftar Status Peminjaman Saya, (3) Dashboard Verifikasi (Admin), (4) Laporan Pemakaian Bulanan (Admin).
+
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:380px;height:auto;font-family:'Segoe UI','DejaVu Sans',sans-serif;">
+  <rect x="10" y="10" width="380" height="300" rx="10" fill="#ffffff" stroke="#003b7a" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="42" rx="10" fill="#003b7a"/>
+  <rect x="10" y="34" width="380" height="18" fill="#003b7a"/>
+  <text x="26" y="37" font-size="15" font-weight="700" fill="#ffffff">SIMPAN</text>
+  <text x="374" y="37" text-anchor="end" font-size="12" fill="#ffffff">Profil &#9662;</text>
+  <text x="26" y="82" font-size="14" font-weight="600" fill="#1a1a2e">Ajukan Peminjaman</text>
+  <text x="26" y="108" font-size="11" fill="#4a5568">Pilih Ruang/Alat</text>
+  <rect x="26" y="114" width="348" height="28" rx="4" fill="#ffffff" stroke="#c5d4e8" stroke-width="1.5"/>
+  <text x="40" y="133" font-size="12" fill="#1a1a2e">Ruang B301</text>
+  <text x="358" y="133" font-size="12" fill="#4a5568">&#9662;</text>
+  <text x="26" y="164" font-size="11" fill="#4a5568">Tanggal</text>
+  <rect x="26" y="170" width="160" height="28" rx="4" fill="#ffffff" stroke="#c5d4e8" stroke-width="1.5"/>
+  <text x="40" y="189" font-size="12" fill="#1a1a2e">12 / 09 / 2026</text>
+  <text x="26" y="222" font-size="11" fill="#4a5568">Jam Mulai - Selesai</text>
+  <rect x="26" y="228" width="80" height="28" rx="4" fill="#ffffff" stroke="#c5d4e8" stroke-width="1.5"/>
+  <text x="36" y="247" font-size="12" fill="#1a1a2e">08:00</text>
+  <text x="112" y="247" font-size="12" fill="#4a5568">-</text>
+  <rect x="124" y="228" width="80" height="28" rx="4" fill="#ffffff" stroke="#c5d4e8" stroke-width="1.5"/>
+  <text x="134" y="247" font-size="12" fill="#1a1a2e">10:00</text>
+  <rect x="110" y="270" width="180" height="34" rx="17" fill="#f5a623"/>
+  <text x="200" y="292" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">Ajukan Peminjaman</text>
+</svg>
 
 _(Isi bagian ini di sini; sertakan wireframe/sketsa.)_
 

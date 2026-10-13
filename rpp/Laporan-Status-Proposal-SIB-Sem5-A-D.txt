@@ -1,0 +1,48 @@
+LAPORAN STATUS PENGUMPULAN PROPOSAL PBL
+Program Studi Sistem Informasi Bisnis - Semester 5 (Kelas A-D)
+
+Disusun oleh : Dian Hanifudin Subhi, S.Kom., M.Kom. (Koordinator PBL)
+Perihal      : Status pengumpulan proposal tim Program Studi Sistem Informasi Bisnis
+               yang tercatat pada formulir pengumpulan proposal PBL Semester 5, Kelas A-D.
+
+Berikut status pengumpulan proposal untuk tim-tim yang teridentifikasi sebagai mahasiswa
+Program Studi Sistem Informasi Bisnis pada data Semester 5, Kelas A-D:
+
+1. Kelompok 5 - SIB 3B (Kelas B)
+   Ketua Tim   : Rafi Zeta Fauzan
+   Judul       : Platform Pembelajaran Python Berbasis Web dengan Penilaian Kode Otomatis
+                 untuk Pemula
+   Catatan Tim : "Pengumpulan proposal PBL Kelompok 5 SIB 3B untuk mata kuliah Pemrograman
+                 Web Lanjut, Penjaminan Mutu Perangkat Lunak, dan Manajemen Proyek Sistem
+                 Informasi. Proposal telah disusun dan disepakati oleh seluruh anggota
+                 kelompok."
+   Status      : Diterima. Proposal telah disusun dan disepakati oleh seluruh anggota tim,
+                 dan akan ditinjau oleh dosen pengampu pada masing-masing mata kuliah
+                 terintegrasi.
+
+2. Kelompok 2 - SIB 3B (Kelas B)
+   Ketua Tim   : Dina Mei Lestari
+   Judul       : Sistem Monitoring PBL
+   Catatan Tim : (Tidak ada catatan tambahan)
+   Status      : Diterima. Proposal telah diterima dan akan ditinjau oleh dosen pengampu
+                 pada mata kuliah terintegrasi terkait.
+
+3. Kelompok 1 (Kelas A)
+   Ketua Tim   : Rachmad Zaki Setyawan
+   Judul       : Sistem Informasi Prediksi Permintaan dan Pengelolaan Persediaan Bahan
+                 Makanan pada Makanan Bergizi Gratis
+   Catatan Tim : "dulu sudah mengumpulkan tapi di ti, dan saya rasa saya sudah mengumpulkan
+                 di prodi sib tapi ragu karena kalau sudah mengumpulkan biasanya drafnya
+                 kesimpan di akun yang menyimpan"
+   Status      : Diklarifikasi. Proposal tim ini sebelumnya tercatat masuk melalui formulir
+                 pengumpulan Program Studi Teknik Informatika. Setelah dilakukan pengecekan,
+                 seluruh anggota tim terdaftar sebagai mahasiswa Program Studi Sistem
+                 Informasi Bisnis, sehingga pengumpulan tersebut telah dikeluarkan dari
+                 proses penilaian di prodi TI. Pengumpulan proposal tim ini melalui formulir
+                 prodi SIB (saat ini) adalah yang digunakan dan diproses lebih lanjut. Tim
+                 tidak perlu mengumpulkan kembali melalui formulir prodi TI.
+
+Demikian laporan status ini disampaikan untuk ditindaklanjuti.
+
+Dian Hanifudin Subhi, S.Kom., M.Kom.
+Koordinator PBL - Jurusan Teknologi Informasi
