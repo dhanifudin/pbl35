@@ -1,6 +1,6 @@
 # Survei Monev PBL untuk Dosen
 
-Dokumen ini adalah draf Google Form survei monev PBL untuk dosen pengampu mata kuliah terintegrasi. Struktur dan kode butir sama dengan survei mahasiswa agar hasilnya dapat dibandingkan.
+Dokumen ini adalah draf Google Form survei monev PBL untuk dosen pengampu mata kuliah terintegrasi. Kode butir pada bagian yang sebanding sama dengan survei mahasiswa agar hasilnya dapat dibandingkan.
 
 ---
 
@@ -11,18 +11,22 @@ Dokumen ini adalah draf Google Form survei monev PBL untuk dosen pengampu mata k
 | Judul form | Survei Monev PBL untuk Dosen |
 | Kumpulkan alamat email | Aktif (verifikasi) |
 | Batasi satu respons per akun | Ya |
-| Estimasi waktu | Sekitar 10 menit |
+| Estimasi waktu | Sekitar 12 menit |
 | Batas akhir | **[tanggal akhir]** |
 
 ### Deskripsi form
 
-> Survei ini bertujuan mengetahui **status PBL saat ini**, **masalah yang dihadapi**, dan **perbaikan yang dibutuhkan menuju Milestone 2** dari sudut pandang dosen pengampu. Pengisian membutuhkan sekitar 10 menit. Alamat email hanya digunakan untuk memastikan satu dosen mengisi satu kali dan tidak ditampilkan dalam laporan. Hasil dilaporkan secara agregat. Bagi dosen yang mengampu lebih dari satu kelas, jawablah berdasarkan gambaran umum seluruh kelas yang diampu.
+> Survei ini bertujuan mengetahui **opini dan status PBL** dari sudut pandang dosen pengampu, **masalah yang dihadapi**, dan **perbaikan yang dibutuhkan menuju Milestone 2**. Pengisian membutuhkan sekitar 12 menit. Bagi dosen yang mengampu lebih dari satu kelas, jawablah berdasarkan gambaran umum seluruh kelas yang diampu.
+>
+> **Privasi.** Data yang terkumpul akan disimpan dalam bentuk **anonim** dan **data individu tidak akan ditampilkan** kepada siapa pun. Alamat email hanya dipakai untuk memastikan satu dosen mengisi satu kali, lalu dipisahkan dari jawaban sebelum analisis. Hasil dilaporkan kepada manajemen jurusan hanya dalam bentuk **gabungan (agregat)**, sehingga jawaban satu orang tidak dapat dikenali.
 
 ---
 
 ## 2. Skala Jawaban
 
-Digunakan pada butir S1–S8 dan N2 (kesetujuan), serta P2 dan P3 (label khusus pada tabel masing-masing).
+### Skala setuju
+
+Digunakan pada butir S1–S5, O1–O13, L1–L6, dan N2. Butir O dan L memiliki opsi tambahan "Tidak dapat menilai" yang tidak dihitung dalam rerata.
 
 | Skor | Label |
 |---|---|
@@ -31,10 +35,21 @@ Digunakan pada butir S1–S8 dan N2 (kesetujuan), serta P2 dan P3 (label khusus 
 | 3 | Netral |
 | 4 | Setuju |
 | 5 | Sangat setuju |
+| N/A | Tidak dapat menilai |
 
 ---
 
-## 3. Bagian 1: Identitas
+## 3. Bagian 0: Privasi dan Persetujuan
+
+| Kode | Pernyataan | Jenis |
+|---|---|---|
+| C0 | Saya telah membaca pernyataan privasi dan bersedia mengisi survei ini. | Kotak centang tunggal, wajib |
+
+---
+
+## 4. Bagian 1: Identitas
+
+Semua pertanyaan wajib diisi.
 
 | Kode | Pertanyaan | Jenis dan pilihan |
 |---|---|---|
@@ -43,13 +58,11 @@ Digunakan pada butir S1–S8 dan N2 (kesetujuan), serta P2 dan P3 (label khusus 
 | I3 | Semester yang diampu | Kotak centang: 3; 5 |
 | I4 | Mata kuliah terintegrasi yang diampu | Kotak centang: **TI Semester 3:** Manajemen Proyek; Desain dan Pemrograman Web; Basis Data Lanjut; Sistem Informasi Manajemen. **TI Semester 5:** Pemrograman Mobile; Pembelajaran Mesin; Penjaminan Mutu Perangkat Lunak. **SIB Semester 3:** Pemrograman Web; Basis Data Lanjut; Desain UI/UX. **SIB Semester 5:** Pemrograman Web Lanjut; Manajemen Proyek Sistem Informasi; Penjaminan Mutu Perangkat Lunak |
 | I5 | Kelas yang diampu | Jawaban singkat (contoh: TI-3A, TI-3B) |
-| I6 | Apakah ini pertama kalinya Bapak/Ibu mengampu PBL? | Pilihan ganda: Ya; Tidak |
-
-Semua pertanyaan wajib diisi.
+| I6 | Berapa semester Bapak/Ibu telah mengampu PBL sebelum semester ini? | Pilihan ganda: Belum pernah; 1 semester; 2 semester; 3 semester atau lebih |
 
 ---
 
-## 4. Bagian 2: Status Saat Ini
+## 5. Bagian 2: Status Saat Ini
 
 ### S0. Sebaran status tim di kelas yang diampu (wajib)
 
@@ -61,22 +74,63 @@ Semua pertanyaan wajib diisi.
 | S0b | **Perlu Perhatian** (ada keterlambatan yang masih dapat dikejar) | Angka, minimal 0 |
 | S0c | **Kritis** (rencana perlu disesuaikan) | Angka, minimal 0 |
 
-### S1–S8. Pernyataan status (skala 1–5, wajib)
+### S1–S5 (wajib)
 
-| Kode | Aspek | Pernyataan |
-|---|---|---|
-| S1 | A | Alur PBL dan target setiap milestone jelas bagi saya sebagai dosen pengampu. |
-| S2 | A | Mayoritas tim di kelas saya berjalan sesuai rencana dan jadwal pada proposal. |
-| S3 | A | Mayoritas tim di kelas saya telah memiliki produk inti yang berjalan atau mendekati target Milestone 1. |
-| S4 | B | Materi mata kuliah yang saya ampu selaras dengan dan mendukung proyek PBL. |
-| S5 | B | Koordinasi dan arahan antar dosen pengampu berjalan secara konsisten. |
-| S6 | C | Rubrik dan kriteria penilaian PBL jelas dan mudah diterapkan. |
-| S7 | C | Saya dapat memberikan umpan balik yang tepat waktu dan bermanfaat kepada tim. |
-| S8 | D | Kerja tim mahasiswa di kelas saya berjalan baik: peran jelas dan kontribusi anggota seimbang. |
+| Kode | Aspek | Pernyataan atau pertanyaan | Jenis dan pilihan |
+|---|---|---|---|
+| S1 | A | Mayoritas tim di kelas saya berjalan sesuai rencana dan jadwal pada proposal. | Skala setuju 1–5 |
+| S2 | A | Kondisi fitur inti produk pada mayoritas tim di kelas saya. | Pilihan ganda: Sudah berjalan sepenuhnya; Berjalan sebagian; Belum berjalan |
+| S3 | D | Pembagian peran dalam tim mahasiswa di kelas saya jelas. | Skala setuju 1–5 |
+| S4 | D | Kontribusi anggota dalam tim mahasiswa di kelas saya seimbang. | Skala setuju 1–5 |
+| S5 | A | Keterlibatan mitra atau calon pengguna pada mayoritas tim di kelas saya. | Pilihan ganda: Sudah terlibat; Direncanakan; Tidak ada |
 
 ---
 
-## 5. Bagian 3: Masalah yang Dihadapi
+## 6. Bagian 3: Opini tentang Pelaksanaan PBL
+
+Semua butir memakai skala setuju 1–5 dengan opsi "Tidak dapat menilai" (wajib).
+
+| Kode | Aspek | Pernyataan |
+|---|---|---|
+| O1 | A | Alur PBL dan target setiap milestone jelas bagi saya sebagai dosen pengampu. |
+| O2 | A | SOP dan template laporan membantu mahasiswa dan saya dalam proses bimbingan. |
+| O3 | A | Jadwal dan tenggat milestone realistis. |
+| O4 | A | Waktu yang tersedia bagi saya untuk membimbing mahasiswa memadai. |
+| O5 | B | Materi mata kuliah yang saya ampu mendukung pengerjaan proyek PBL. |
+| O6 | B | Tugas dan penilaian antar-mata kuliah selaras dengan proyek dan tidak tumpang tindih. |
+| O7 | B | Koordinasi dan arahan antar dosen pengampu berjalan konsisten. |
+| O8 | C | Rubrik dan kriteria penilaian PBL jelas dan mudah diterapkan. |
+| O9 | C | Penilaian terhadap kontribusi individu maupun tim dapat dilakukan secara adil. |
+| O10 | C | Saya dapat memberikan umpan balik kepada tim secara tepat waktu. |
+| O11 | C | Umpan balik yang saya berikan membantu tim memperbaiki proyek. |
+| O12 | D | Fasilitas dan sumber daya (perangkat, server, data) memadai. |
+| O13 | D | Aturan penggunaan AI dalam PBL jelas. |
+
+### Opini per mata kuliah
+
+| Kode | Aspek | Pertanyaan | Jenis dan pilihan |
+|---|---|---|---|
+| M1 | B | Mata kuliah mana yang **paling membantu** pengerjaan proyek? (maksimal 2) | Kotak centang, maksimal 2, wajib: daftar mata kuliah pada I4 ditambah "Tidak ada" |
+| M2 | B | Mata kuliah mana yang **paling perlu diselaraskan** dengan proyek? (maksimal 2) | Kotak centang, maksimal 2, wajib: daftar mata kuliah pada I4 ditambah "Tidak ada" |
+
+---
+
+## 7. Bagian 4: Opini tentang Manfaat PBL
+
+Semua butir memakai skala setuju 1–5 dengan opsi "Tidak dapat menilai" (wajib).
+
+| Kode | Pernyataan |
+|---|---|
+| L1 | PBL meningkatkan keterampilan teknis mahasiswa. |
+| L2 | PBL meningkatkan kemampuan kerja sama dan komunikasi mahasiswa. |
+| L3 | PBL melatih mahasiswa memecahkan masalah nyata. |
+| L4 | PBL membuat mahasiswa lebih siap menghadapi dunia kerja. |
+| L5 | PBL meningkatkan motivasi belajar mahasiswa. |
+| L6 | Secara keseluruhan saya puas dengan PBL dan ingin pendekatan ini dilanjutkan. |
+
+---
+
+## 8. Bagian 5: Masalah yang Dihadapi
 
 ### P1. Kendala utama (kotak centang, pilih maksimal 3, wajib)
 
@@ -108,7 +162,7 @@ Semua pertanyaan wajib diisi.
 
 ---
 
-## 6. Bagian 4: Perbaikan Menuju Milestone 2
+## 9. Bagian 6: Perbaikan Menuju Milestone 2
 
 ### N1. Dukungan yang dibutuhkan (kotak centang, pilih maksimal 3, wajib)
 
@@ -137,15 +191,15 @@ Semua pertanyaan wajib diisi.
 
 ---
 
-## 7. Pesan Setelah Form Dikirim
+## 10. Pesan Setelah Form Dikirim
 
-> Terima kasih telah mengisi survei. Masukan Bapak/Ibu digunakan untuk memperbaiki pelaksanaan PBL menuju Milestone 2.
+> Terima kasih telah mengisi survei. Jawaban disimpan secara anonim dan tidak ditampilkan secara individual. Masukan Bapak/Ibu digunakan untuk memperbaiki pelaksanaan PBL menuju Milestone 2.
 
 ---
 
-## 8. Daftar Periksa Sebelum Dibagikan
+## 11. Daftar Periksa Sebelum Dibagikan
 
 - [ ] Isi `[tanggal akhir]` pada deskripsi form.
-- [ ] Sesuaikan daftar mata kuliah pada pertanyaan I4 bila ada perubahan.
-- [ ] Atur pertanyaan P1 dan N1 dengan batas maksimal 3 pilihan (validasi kotak centang).
+- [ ] Sesuaikan daftar mata kuliah pada pertanyaan I4 bila ada perubahan; gunakan daftar yang sama pada M1 dan M2.
+- [ ] Atur pertanyaan P1, N1, M1, dan M2 dengan batas maksimal pilihan (validasi kotak centang).
 - [ ] Kirim satu data uji, lalu hapus.
