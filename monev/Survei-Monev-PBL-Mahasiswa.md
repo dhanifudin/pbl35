@@ -1,8 +1,8 @@
 # Survei Monev PBL untuk Mahasiswa / PBL Monitoring and Evaluation Survey for Students
 
-Dokumen ini adalah draf Google Form survei monev PBL untuk mahasiswa. Survei mengumpulkan **opini**, **status**, dan **profil individu** (pemahaman serta pengalaman PBL) mahasiswa sebagai bahan laporan untuk manajemen jurusan. Seluruh pertanyaan, pilihan jawaban, dan label skala ditulis dalam dua bahasa (Indonesia dan Inggris).
+Draf Google Form survei monev PBL untuk mahasiswa, difokuskan pada **opini mahasiswa tentang hal yang baik dan kurang baik dalam pelaksanaan PBL**, ditambah profil singkat pemahaman dan pengalaman PBL. Status proyek tim **tidak ditanyakan di sini** karena diambil dari pengumpulan Laporan Kemajuan PBL. Seluruh pertanyaan, pilihan, dan label skala ditulis dalam dua bahasa.
 
-*This document is the draft Google Form for the PBL monitoring and evaluation survey for students. The survey collects students' **opinions**, **status**, and **individual profile** (understanding and experience of PBL) as input for a report to the department management. All questions, answer options, and scale labels are provided in two languages (Indonesian and English).*
+*Draft Google Form for the PBL monitoring and evaluation survey for students, focused on **students' opinions on what works well and what does not in PBL operations**, plus a short profile of PBL understanding and experience. Team project status is **not asked here** because it is taken from the Progress Report submission. All questions, options, and scale labels are in two languages.*
 
 ---
 
@@ -13,21 +13,20 @@ Dokumen ini adalah draf Google Form survei monev PBL untuk mahasiswa. Survei men
 | Judul form / Form title | Survei Monev PBL untuk Mahasiswa / PBL Monitoring and Evaluation Survey for Students |
 | Kumpulkan alamat email / Collect email addresses | Aktif (verifikasi) / On (verified) |
 | Batasi satu respons per akun / Limit to one response per account | Ya / Yes |
-| Estimasi waktu / Estimated time | Sekitar 15 menit / About 15 minutes |
-| Jumlah isian / Number of items | Sekitar 50 isian; butir skala disajikan sebagai kisi / About 50 items; scale items are presented as grids |
+| Estimasi waktu / Estimated time | Sekitar 8 menit / About 8 minutes |
 | Batas akhir / Deadline | **[tanggal akhir / end date]** |
 
 ### Deskripsi form / Form description
 
 > **Bahasa Indonesia**
 >
-> Survei ini bertujuan mengetahui **opini dan status mahasiswa tentang PBL**, termasuk **pemahaman dan pengalaman PBL**, **masalah yang dihadapi**, serta **perbaikan yang dibutuhkan menuju Milestone 2**. Pengisian membutuhkan sekitar 15 menit.
+> Survei ini bertujuan mengetahui **pendapat mahasiswa tentang pelaksanaan PBL**: hal yang sudah baik, hal yang perlu diperbaiki, dan saran menuju Milestone 2. Pengisian membutuhkan sekitar 8 menit.
 >
 > **Privasi.** Data yang terkumpul akan disimpan dalam bentuk **anonim** dan **data individu tidak akan ditampilkan** kepada siapa pun. Alamat email hanya dipakai untuk memastikan satu orang mengisi satu kali, lalu dipisahkan dari jawaban sebelum analisis. Hasil dilaporkan kepada manajemen jurusan hanya dalam bentuk **gabungan (agregat)**, sehingga jawaban satu orang tidak dapat dikenali. Survei ini tidak memengaruhi nilai. Mohon menjawab dengan jujur.
 >
 > **English**
 >
-> This survey aims to find out **students' opinions and status regarding PBL**, including **understanding and experience of PBL**, **problems encountered**, and **improvements needed toward Milestone 2**. It takes about 15 minutes.
+> This survey aims to find out **students' opinions on PBL operations**: what works well, what needs improvement, and suggestions toward Milestone 2. It takes about 8 minutes.
 >
 > **Privacy.** Collected data will be stored in **anonymous** form and **individual data will not be displayed** to anyone. Your email address is used only to ensure one response per person and is separated from your answers before analysis. Results are reported to the department management only in **aggregate** form, so no individual's answers can be identified. This survey does not affect your grades. Please answer honestly.
 
@@ -35,11 +34,9 @@ Dokumen ini adalah draf Google Form survei monev PBL untuk mahasiswa. Survei men
 
 ## 2. Skala Jawaban / Answer Scales
 
-### Skala setuju / Agreement scale
+### Skala setuju / Agreement scale (O1–O12, L1–L5)
 
-Digunakan pada butir S3, S4, K6, O1–O13, L1–L6, dan N2. Butir O dan L memiliki opsi tambahan "Tidak dapat menilai / Not applicable" yang tidak dihitung dalam rerata.
-
-*Used for items S3, S4, K6, O1–O13, L1–L6, and N2. Items O and L have an additional option "Tidak dapat menilai / Not applicable" that is excluded from the mean.*
+Setiap butir memiliki opsi tambahan "Tidak dapat menilai / Not applicable" yang tidak dihitung dalam rerata. / *Each item has an additional option "Tidak dapat menilai / Not applicable" that is excluded from the mean.*
 
 | Skor / Score | Bahasa Indonesia | English |
 |---|---|---|
@@ -50,7 +47,7 @@ Digunakan pada butir S3, S4, K6, O1–O13, L1–L6, dan N2. Butir O dan L memili
 | 5 | Sangat setuju | Strongly agree |
 | N/A | Tidak dapat menilai | Not applicable |
 
-### Skala pemahaman / Understanding scale (K1 dan K2)
+### Skala pemahaman / Understanding scale (K1)
 
 | Skor / Score | Bahasa Indonesia | English |
 |---|---|---|
@@ -62,42 +59,29 @@ Digunakan pada butir S3, S4, K6, O1–O13, L1–L6, dan N2. Butir O dan L memili
 
 ---
 
-## 3. Bagian 0: Privasi dan Persetujuan / Section 0: Privacy and Consent
+## 3. Bagian 1: Persetujuan dan Identitas / Section 1: Consent and Identity
 
-| Kode / Code | Bahasa Indonesia | English | Jenis / Type |
-|---|---|---|---|
-| C0 | Saya telah membaca pernyataan privasi dan bersedia mengisi survei ini. | I have read the privacy statement and agree to take part in this survey. | Kotak centang tunggal, wajib / Single checkbox, required |
-
----
-
-## 4. Bagian 1: Identitas / Section 1: Identity
-
-Semua pertanyaan wajib, kecuali I5. / *All questions are required, except I5.*
+Semua wajib. / *All required.*
 
 | Kode / Code | Bahasa Indonesia | English | Jenis dan pilihan / Type and options |
 |---|---|---|---|
+| C0 | Saya telah membaca pernyataan privasi dan bersedia mengisi survei ini. | I have read the privacy statement and agree to take part in this survey. | Kotak centang tunggal / Single checkbox |
 | I1 | Alamat email | Email address | Dikumpulkan otomatis oleh form / Collected automatically by the form |
 | I2 | Program studi | Study program | Pilihan ganda / Multiple choice: Teknik Informatika (TI) / Informatics Engineering; Sistem Informasi Bisnis (SIB) / Business Information Systems |
 | I3 | Semester | Semester | Pilihan ganda / Multiple choice: 3; 5 |
 | I4 | Kelas | Class | Dropdown: TI-2A sampai TI-2I (Semester 3), TI-3A sampai TI-3I (Semester 5); SIB: **[daftar kelas SIB diisi koordinator / SIB class list to be filled in by the coordinator]** |
-| I5 | Peran dalam tim (opsional) | Role in the team (optional) | Pilihan ganda / Multiple choice: Ketua Tim / Team Leader; Pengembang / Developer; Analis atau Desainer / Analyst or Designer; Dokumentator / Documenter; Penguji (QA) / Tester (QA); Lainnya / Other |
-| I6 | Nama tim (hanya untuk menghitung status per tim dan akan dipisahkan dari jawaban) | Team name (used only to count status per team; it will be separated from your answers) | Jawaban singkat / Short answer |
 
 ---
 
-## 5. Bagian 2: Profil Individu, Pemahaman dan Pengalaman PBL / Section 2: Individual Profile, Understanding and Experience of PBL
+## 4. Bagian 2: Pemahaman dan Pengalaman PBL / Section 2: Understanding and Experience of PBL
 
 | Kode / Code | Bahasa Indonesia | English | Jenis dan pilihan / Type and options |
 |---|---|---|---|
-| K1 | Seberapa paham saya tentang konsep PBL **sebelum semester ini**? | How well did I understand the PBL concept **before this semester**? | Skala pemahaman 1–5 / Understanding scale 1–5 (wajib / required) |
-| K2 | Seberapa paham saya tentang konsep PBL **saat ini**? | How well do I understand the PBL concept **now**? | Skala pemahaman 1–5 / Understanding scale 1–5 (wajib / required) |
-| K3 | Manakah yang paling tepat menggambarkan PBL? | Which of the following best describes PBL? | Pilihan ganda, satu jawaban / Multiple choice, one answer (wajib / required): lihat tabel K3 di bawah / see the K3 table below |
-| K4 | Berapa kali saya pernah mengikuti pembelajaran dengan PBL **sebelum semester ini**? (hitung per mata kuliah atau semester yang menerapkan PBL) | How many times have I taken part in PBL **before this semester**? (count per course or semester that applied PBL) | Pilihan ganda / Multiple choice (wajib / required): Belum pernah / Never; 1 kali / Once; 2 kali / Twice; 3 kali atau lebih / Three times or more |
-| K5 | Di mana saya mendapatkan pengalaman PBL tersebut? | Where did I gain that PBL experience? | **Muncul hanya bila K4 bukan "Belum pernah" / Shown only if K4 is not "Never".** Kotak centang / Checkboxes: Semester sebelumnya di Polinema / Previous semester at Polinema; SMK atau SMA / Vocational or senior high school; Kursus atau *bootcamp* / Course or bootcamp; Magang atau proyek di luar kampus / Internship or project outside campus; Lainnya / Other |
-| K6 | Saya berkontribusi aktif dalam proyek tim saya. | I contribute actively to my team's project. | Skala setuju 1–5 / Agreement scale 1–5 (wajib / required) |
-| K7 | Rata-rata waktu kerja saya untuk PBL per minggu di luar jam kuliah. | My average working time on PBL per week outside class hours. | Pilihan ganda / Multiple choice (wajib / required): Kurang dari 3 jam / Less than 3 hours; 3–5 jam / 3–5 hours; 6–10 jam / 6–10 hours; Lebih dari 10 jam / More than 10 hours |
+| K1 | Seberapa paham saya tentang konsep PBL saat ini? | How well do I understand the PBL concept now? | Skala pemahaman 1–5 / Understanding scale 1–5 |
+| K2 | Manakah yang paling tepat menggambarkan PBL? | Which of the following best describes PBL? | Pilihan ganda, satu jawaban / Multiple choice, one answer: lihat tabel K2 / see the K2 table |
+| K3 | Berapa kali saya pernah mengikuti pembelajaran dengan PBL **sebelum semester ini**? (hitung per mata kuliah atau semester yang menerapkan PBL) | How many times have I taken part in PBL **before this semester**? (count per course or semester that applied PBL) | Pilihan ganda / Multiple choice: Belum pernah / Never; 1 kali / Once; 2 kali / Twice; 3 kali atau lebih / Three times or more |
 
-### Pilihan jawaban K3 / K3 answer options
+### Pilihan jawaban K2 / K2 answer options
 
 | Pilihan / Option | Bahasa Indonesia | English | Catatan analisis / Analysis note |
 |---|---|---|---|
@@ -109,27 +93,7 @@ Semua pertanyaan wajib, kecuali I5. / *All questions are required, except I5.*
 
 ---
 
-## 6. Bagian 3: Status Saat Ini / Section 3: Current Status
-
-### S0. Status proyek tim / Team project status (wajib / required)
-
-| Kode / Code | Bahasa Indonesia | English | Jenis dan pilihan / Type and options |
-|---|---|---|---|
-| S0 | Status proyek tim saat ini | Current status of our team's project | Pilihan ganda / Multiple choice: **On Track** (sesuai atau lebih cepat dari rencana) / On Track (on schedule or ahead of plan); **Perlu Perhatian** (ada keterlambatan yang masih dapat dikejar) / Needs Attention (delayed, but still recoverable); **Kritis** (rencana perlu disesuaikan) / Critical (the plan needs to be adjusted) |
-
-### S1–S5
-
-| Kode / Code | Bahasa Indonesia | English | Jenis dan pilihan / Type and options |
-|---|---|---|---|
-| S1 | Perkiraan penyelesaian produk tim dibandingkan rencana pada proposal. | Estimated completion of our team's product compared with the plan in the proposal. | Pilihan ganda / Multiple choice (wajib / required): Kurang dari 25% / Less than 25%; 25–50%; 51–75%; Lebih dari 75% / More than 75% |
-| S2 | Kondisi fitur inti produk tim. | Condition of our product's core features. | Pilihan ganda / Multiple choice (wajib / required): Sudah berjalan sepenuhnya / Fully working; Berjalan sebagian / Partly working; Belum berjalan / Not working yet |
-| S3 | Pembagian peran dalam tim jelas. | Roles in the team are clearly divided. | Skala setuju 1–5 / Agreement scale 1–5 (wajib / required) |
-| S4 | Kontribusi anggota tim seimbang. | Team members' contributions are balanced. | Skala setuju 1–5 / Agreement scale 1–5 (wajib / required) |
-| S5 | Keterlibatan mitra atau calon pengguna dalam proyek tim. | Involvement of partners or prospective users in our team's project. | Pilihan ganda / Multiple choice (wajib / required): Sudah terlibat / Already involved; Direncanakan / Planned; Tidak ada / None |
-
----
-
-## 7. Bagian 4: Opini tentang Pelaksanaan PBL / Section 4: Opinions on PBL Implementation
+## 5. Bagian 3: Opini tentang Pelaksanaan PBL / Section 3: Opinions on PBL Operations
 
 Semua butir memakai skala setuju 1–5 dengan opsi "Tidak dapat menilai / Not applicable" (wajib / required).
 
@@ -147,16 +111,13 @@ Semua butir memakai skala setuju 1–5 dengan opsi "Tidak dapat menilai / Not ap
 | O10 | C | Umpan balik dari dosen diterima tepat waktu. | Feedback from lecturers is received on time. |
 | O11 | C | Umpan balik dari dosen membantu saya memperbaiki proyek. | Feedback from lecturers helps me improve the project. |
 | O12 | D | Fasilitas dan sumber daya (perangkat, server, data) memadai. | Facilities and resources (devices, servers, data) are adequate. |
-| O13 | D | Aturan penggunaan AI dalam PBL jelas. | The rules on the use of AI in PBL are clear. |
 
 ### Opini per mata kuliah / Opinions per course
 
 | Kode / Code | Aspek / Aspect | Bahasa Indonesia | English | Jenis dan pilihan / Type and options |
 |---|---|---|---|---|
-| M1 | B | Mata kuliah mana yang **paling membantu** pengerjaan proyek? (pilih sesuai program studi dan semester, maksimal 2) | Which courses **help the project work the most**? (choose according to your study program and semester, up to 2) | Kotak centang, maksimal 2 / Checkboxes, up to 2 (wajib / required): daftar mata kuliah di bawah / course list below, ditambah "Tidak ada / None" |
-| M2 | B | Mata kuliah mana yang **paling perlu diselaraskan** dengan proyek? (maksimal 2) | Which courses **need to be aligned most** with the project? (up to 2) | Kotak centang, maksimal 2 / Checkboxes, up to 2 (wajib / required): daftar mata kuliah di bawah / course list below, ditambah "Tidak ada / None" |
-
-### Daftar mata kuliah M1 dan M2 / Course list for M1 and M2
+| M1 | B | Mata kuliah mana yang **paling membantu** pengerjaan proyek? (pilih sesuai program studi dan semester, maksimal 2) | Which courses **help the project work the most**? (choose according to your study program and semester, up to 2) | Kotak centang, maksimal 2 / Checkboxes, up to 2 (wajib / required): daftar di bawah / list below, ditambah "Tidak ada / None" |
+| M2 | B | Mata kuliah mana yang **paling perlu diselaraskan** dengan proyek? (maksimal 2) | Which courses **need to be aligned most** with the project? (up to 2) | Kotak centang, maksimal 2 / Checkboxes, up to 2 (wajib / required): daftar di bawah / list below, ditambah "Tidak ada / None" |
 
 | Prodi dan semester / Program and semester | Bahasa Indonesia | English |
 |---|---|---|
@@ -176,26 +137,43 @@ Semua butir memakai skala setuju 1–5 dengan opsi "Tidak dapat menilai / Not ap
 
 ---
 
-## 8. Bagian 5: Opini tentang Manfaat PBL / Section 5: Opinions on the Benefits of PBL
+## 6. Bagian 4: Opini tentang Manfaat PBL / Section 4: Opinions on the Benefits of PBL
 
-Semua butir memakai skala setuju 1–5 dengan opsi "Tidak dapat menilai / Not applicable" (wajib / required).
+Skala setuju 1–5 dengan opsi "Tidak dapat menilai / Not applicable" (wajib / required).
 
 | Kode / Code | Bahasa Indonesia | English |
 |---|---|---|
 | L1 | PBL meningkatkan keterampilan teknis saya. | PBL improves my technical skills. |
 | L2 | PBL meningkatkan kemampuan kerja sama dan komunikasi saya. | PBL improves my teamwork and communication skills. |
-| L3 | PBL melatih saya memecahkan masalah nyata. | PBL trains me to solve real problems. |
-| L4 | PBL membuat saya lebih siap menghadapi dunia kerja. | PBL makes me better prepared for the world of work. |
-| L5 | PBL meningkatkan motivasi belajar saya. | PBL increases my motivation to learn. |
-| L6 | Secara keseluruhan saya puas dengan PBL dan ingin pendekatan ini dilanjutkan. | Overall, I am satisfied with PBL and want this approach to continue. |
+| L3 | PBL membuat saya lebih siap menghadapi dunia kerja. | PBL makes me better prepared for the world of work. |
+| L4 | Secara keseluruhan saya puas dengan pelaksanaan PBL. | Overall, I am satisfied with how PBL is run. |
+| L5 | Saya setuju PBL dilanjutkan pada semester berikutnya. | I agree that PBL should continue in the following semesters. |
 
 ---
 
-## 9. Bagian 6: Masalah yang Dihadapi / Section 6: Problems Encountered
+## 7. Bagian 5: Hal yang Baik dan yang Perlu Diperbaiki / Section 5: What Works Well and What Needs Improvement
 
-### P1. Kendala utama / Main problems (kotak centang, pilih maksimal 3 / checkboxes, choose up to 3, wajib / required)
+### G1. Hal yang sudah baik / What works well (kotak centang, pilih maksimal 3 / checkboxes, up to 3, wajib / required)
 
-*Pertanyaan: Kendala apa yang paling memengaruhi kemajuan proyek tim? / Question: Which problems affect your team's project progress the most?*
+*Pertanyaan: Hal apa yang paling baik dari pelaksanaan PBL sejauh ini? / Question: What has been best about PBL operations so far?*
+
+| No | Aspek / Aspect | Bahasa Indonesia | English |
+|---|---|---|---|
+| 1 | A | Alur dan target milestone jelas | Clear flow and milestone targets |
+| 2 | A | SOP dan template laporan membantu | Helpful SOP and report template |
+| 3 | A | Bimbingan dosen | Lecturer supervision |
+| 4 | B | Materi kelas mendukung proyek | Class material supports the project |
+| 5 | C | Rubrik dan penilaian jelas dan adil | Clear and fair rubric and assessment |
+| 6 | C | Umpan balik dosen | Lecturer feedback |
+| 7 | D | Kerja sama tim | Teamwork |
+| 8 | D | Fasilitas dan sumber daya | Facilities and resources |
+| 9 | A | Keterlibatan mitra atau calon pengguna | Partner or prospective user involvement |
+| 10 | L | Pengalaman dan keterampilan baru yang saya peroleh | New experience and skills I gained |
+| 11 | - | Lainnya (sebutkan) | Other (please specify) |
+
+### P1. Hal yang bermasalah / What is problematic (kotak centang, pilih maksimal 3 / checkboxes, up to 3, wajib / required)
+
+*Pertanyaan: Hal apa yang paling bermasalah dan perlu diperbaiki? / Question: What is most problematic and needs improvement?*
 
 | No | Aspek / Aspect | Bahasa Indonesia | English |
 |---|---|---|---|
@@ -212,46 +190,18 @@ Semua butir memakai skala setuju 1–5 dengan opsi "Tidak dapat menilai / Not ap
 | 11 | D | Penggunaan AI | Use of AI |
 | 12 | - | Lainnya (sebutkan) | Other (please specify) |
 
-### P2–P4
+### P2–P4 dan G2
 
-| Kode / Code | Aspek / Aspect | Bahasa Indonesia | English | Jenis dan pilihan / Type and options |
-|---|---|---|---|---|
-| P2 | Semua / All | Seberapa besar dampak kendala tersebut terhadap kemajuan proyek tim? | How large is the impact of these problems on your team's project progress? | Skala 1–5 / Scale 1–5: 1 Tidak berdampak / No impact; 2 Kecil / Small; 3 Sedang / Moderate; 4 Besar / Large; 5 Sangat besar / Very large (wajib / required) |
-| P3 | D | Bagaimana beban kerja PBL dibandingkan dengan waktu yang tersedia? | How is the PBL workload compared with the time available? | Skala 1–5 / Scale 1–5: 1 Sangat ringan / Very light; 2 Ringan / Light; 3 Sesuai / Appropriate; 4 Berat / Heavy; 5 Sangat berat / Very heavy (wajib / required) |
-| P4 | Semua / All | Jelaskan kendala yang paling menghambat dan kapan kendala itu mulai terjadi. | Describe the problem that hinders you the most and when it started. | Paragraf / Paragraph (wajib / required) |
-
----
-
-## 10. Bagian 7: Perbaikan Menuju Milestone 2 / Section 7: Improvements Toward Milestone 2
-
-### N1. Dukungan yang dibutuhkan / Support needed (kotak centang, pilih maksimal 3 / checkboxes, choose up to 3, wajib / required)
-
-*Pertanyaan: Dukungan apa yang paling dibutuhkan tim hingga Milestone 2? / Question: What support does your team need the most until Milestone 2?*
-
-| No | Aspek / Aspect | Bahasa Indonesia | English |
+| Kode / Code | Bahasa Indonesia | English | Jenis dan pilihan / Type and options |
 |---|---|---|---|
-| 1 | C | Bimbingan tambahan | Additional supervision |
-| 2 | A | Sesi teknis atau klinik | Technical sessions or clinics |
-| 3 | C | Klarifikasi rubrik dan ketentuan | Clarification of the rubric and rules |
-| 4 | C | Contoh laporan atau produk | Examples of reports or products |
-| 5 | A | Penyesuaian jadwal atau tenggat | Adjustment of schedule or deadlines |
-| 6 | B | Koordinasi antar dosen | Coordination among lecturers |
-| 7 | D | Fasilitas atau server | Facilities or servers |
-| 8 | D | Penanganan anggota tim yang pasif | Handling inactive team members |
-| 9 | D | Dukungan mitra atau data | Partner or data support |
-| 10 | - | Lainnya (sebutkan) | Other (please specify) |
-
-### N2–N4
-
-| Kode / Code | Aspek / Aspect | Bahasa Indonesia | English | Jenis dan pilihan / Type and options |
-|---|---|---|---|---|
-| N2 | A | Dengan dukungan yang ada, tim kami yakin dapat mencapai target Milestone 2. | With the support currently available, our team is confident of reaching the Milestone 2 target. | Skala setuju 1–5 / Agreement scale 1–5 (wajib / required) |
-| N3 | Semua / All | Perbaikan konkret apa yang sebaiknya dilakukan sebelum Milestone 2? | What concrete improvements should be made before Milestone 2? | Paragraf / Paragraph (wajib / required) |
-| N4 | Semua / All | Hal apa yang sebaiknya dipertahankan dari pelaksanaan PBL saat ini? | What should be kept from the current PBL implementation? | Paragraf / Paragraph (opsional / optional) |
+| P2 | Seberapa besar dampak hal tersebut terhadap kemajuan proyek tim? | How large is the impact of these problems on your team's project progress? | Skala 1–5 / Scale 1–5: 1 Tidak berdampak / No impact; 2 Kecil / Small; 3 Sedang / Moderate; 4 Besar / Large; 5 Sangat besar / Very large (wajib / required) |
+| P3 | Bagaimana beban kerja PBL dibandingkan dengan waktu yang tersedia? | How is the PBL workload compared with the time available? | Skala 1–5 / Scale 1–5: 1 Sangat ringan / Very light; 2 Ringan / Light; 3 Sesuai / Appropriate; 4 Berat / Heavy; 5 Sangat berat / Very heavy (wajib / required) |
+| P4 | Jelaskan hal yang paling bermasalah dan saran perbaikan konkret sebelum Milestone 2. | Describe the most problematic issue and a concrete improvement suggestion before Milestone 2. | Paragraf / Paragraph (wajib / required) |
+| G2 | Hal apa yang paling membantu dan sebaiknya dipertahankan? | What helps the most and should be kept? | Paragraf / Paragraph (opsional / optional) |
 
 ---
 
-## 11. Pesan Setelah Form Dikirim / Confirmation Message
+## 8. Pesan Setelah Form Dikirim / Confirmation Message
 
 > Terima kasih telah mengisi survei. Jawaban disimpan secara anonim dan tidak ditampilkan secara individual. Masukan digunakan untuk memperbaiki pelaksanaan PBL menuju Milestone 2.
 >
@@ -259,11 +209,9 @@ Semua butir memakai skala setuju 1–5 dengan opsi "Tidak dapat menilai / Not ap
 
 ---
 
-## 12. Daftar Periksa Sebelum Dibagikan / Checklist Before Sharing
+## 9. Daftar Periksa Sebelum Dibagikan / Checklist Before Sharing
 
-- [ ] Isi `[tanggal akhir]` pada deskripsi form. / *Fill in the end date in the form description.*
-- [ ] Isi daftar kelas SIB pada pertanyaan I4. / *Fill in the SIB class list in question I4.*
-- [ ] Atur pertanyaan P1, N1, M1, dan M2 dengan batas maksimal pilihan (validasi kotak centang). / *Set P1, N1, M1, and M2 to the maximum number of selections (checkbox validation).*
-- [ ] Atur K5 agar hanya muncul bila K4 bukan "Belum pernah" (percabangan bagian). / *Set K5 to appear only if K4 is not "Never" (section branching).*
-- [ ] Jangan tampilkan jawaban benar K3 pada form. / *Do not show the correct answer of K3 on the form.*
+- [ ] Isi `[tanggal akhir]` dan daftar kelas SIB pada I4. / *Fill in the end date and the SIB class list in I4.*
+- [ ] Atur G1, P1, M1, dan M2 dengan batas maksimal pilihan (validasi kotak centang). / *Set G1, P1, M1, and M2 to the maximum number of selections (checkbox validation).*
+- [ ] Jangan tampilkan jawaban benar K2 pada form. / *Do not show the correct answer of K2 on the form.*
 - [ ] Kirim satu data uji, lalu hapus. / *Submit one test response, then delete it.*

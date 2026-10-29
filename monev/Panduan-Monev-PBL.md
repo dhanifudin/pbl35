@@ -6,18 +6,14 @@ Dokumen ini menata pelaksanaan survei monitoring dan evaluasi (monev) PBL yang d
 
 ## 1. Tujuan dan Keluaran
 
-Survei bertujuan memperoleh data tentang:
+Survei dibuat ringkas dan berfokus pada **opini tentang pelaksanaan PBL: hal yang sudah baik dan hal yang kurang baik**. Survei bertujuan memperoleh:
 
-1. **Opini dan status mahasiswa tentang PBL**, termasuk pemahaman konsep PBL dan pengalaman PBL sebelumnya.
-2. **Masalah yang dihadapi** mahasiswa dan dosen beserta tingkat dampaknya.
-3. **Kebutuhan perbaikan** yang perlu dilakukan menuju **Milestone 2** (Minggu 12).
+1. **Opini mahasiswa dan dosen** tentang pelaksanaan dan manfaat PBL.
+2. **Hal yang berjalan baik** dan **hal yang bermasalah** beserta dampaknya.
+3. **Saran perbaikan** menuju **Milestone 2** (Minggu 12).
+4. **Profil singkat mahasiswa**: pemahaman konsep PBL dan pengalaman PBL sebelumnya.
 
-Survei ini bersifat diagnostik dan berorientasi tindakan. Keluarannya adalah ringkasan eksekutif 2–3 halaman untuk manajemen jurusan yang memuat:
-
-- Gambaran sebaran status tim (On Track, Perlu Perhatian, Kritis).
-- Opini mahasiswa tentang pelaksanaan dan manfaat PBL.
-- Peringkat prioritas masalah.
-- Daftar perbaikan menuju Milestone 2 beserta penanggung jawab dan tenggatnya.
+**Status proyek tim tidak ditanyakan** pada survei karena sudah dikumpulkan melalui Laporan Kemajuan PBL (Ringkasan Kemajuan: On Track, Perlu Perhatian, atau Kritis; serta Bagian Rencana dan Realisasi, Kendala, dan Risiko). Koordinator menggabungkan sebaran status dari laporan dengan hasil survei pada ringkasan eksekutif 2–3 halaman untuk manajemen jurusan.
 
 ## 2. Responden
 
@@ -34,43 +30,39 @@ Kedua instrumen memakai kode butir yang sama pada bagian yang sebanding agar has
 
 | Bagian | Kode | Isi | Jenis butir |
 |---|---|---|---|
-| Privasi dan persetujuan | C0 | Persetujuan membaca pernyataan privasi (mahasiswa) | Kotak centang |
-| Identitas | I1–I6 | Email, program studi, semester, kelas atau mata kuliah, peran atau pengalaman, nama tim (mahasiswa) | Isian dan pilihan |
-| Profil individu (mahasiswa) | K1–K7 | Pemahaman konsep PBL sebelum dan sesudah, uji pemahaman, pengalaman PBL, keterlibatan, waktu kerja | Skala, pilihan, kotak centang |
-| Status saat ini | S0–S5 | Status tim, perkiraan penyelesaian produk, kondisi fitur inti, peran, kontribusi, mitra | Pilihan dan skala |
-| Opini pelaksanaan PBL | O1–O13, M1–M2 | Alur, SOP, jadwal, bimbingan, integrasi, penilaian, umpan balik, fasilitas, aturan AI; opini per mata kuliah | Skala 1–5 dengan opsi tidak dapat menilai, kotak centang |
-| Opini manfaat PBL | L1–L6 | Keterampilan, kerja sama, pemecahan masalah, kesiapan kerja, motivasi, kepuasan | Skala 1–5 dengan opsi tidak dapat menilai |
-| Masalah yang dihadapi | P1–P4 | Kategori kendala, dampak, beban kerja, uraian kendala | Kotak centang, skala 1–5, terbuka |
-| Perbaikan menuju Milestone 2 | N1–N4 | Dukungan yang dibutuhkan, keyakinan mencapai Milestone 2, saran, hal yang dipertahankan | Kotak centang, skala 1–5, terbuka |
+| Persetujuan dan identitas | C0, I1–I4 (mahasiswa), I1–I6 (dosen) | Persetujuan privasi, email, program studi, semester, kelas atau mata kuliah | Isian dan pilihan |
+| Pemahaman dan pengalaman PBL (mahasiswa) | K1–K3 | Pemahaman konsep PBL, uji pemahaman, jumlah pengalaman PBL | Skala dan pilihan |
+| Opini pelaksanaan PBL | O1–O12, M1–M2 | Alur, SOP, jadwal, bimbingan, integrasi, penilaian, umpan balik, fasilitas; mata kuliah yang paling membantu dan yang perlu diselaraskan | Skala 1–5 dengan opsi tidak dapat menilai, kotak centang |
+| Opini manfaat PBL | L1–L5 | Keterampilan teknis, kerja sama dan komunikasi, kesiapan kerja, kepuasan, kelanjutan PBL | Skala 1–5 dengan opsi tidak dapat menilai |
+| Hal yang baik | G1–G2 | Hal yang paling baik (maksimal 3) dan uraian yang perlu dipertahankan | Kotak centang, terbuka |
+| Hal yang bermasalah | P1–P4 | Hal yang paling bermasalah (maksimal 3), dampak, beban kerja, uraian dan saran perbaikan | Kotak centang, skala 1–5, terbuka |
 
-Estimasi waktu pengisian survei mahasiswa sekitar 15 menit (sekitar 50 isian, dengan butir skala disajikan sebagai kisi). Terdapat tiga pertanyaan terbuka (P4, N3, N4). Bila jurusan menginginkan survei lebih singkat, butir yang dapat dilepas lebih dahulu adalah S2, S5, dan O13.
+Estimasi waktu pengisian sekitar 8 menit untuk mahasiswa dan dosen. Terdapat dua pertanyaan terbuka (G2 dan P4).
 
-## 4. Matriks Kebutuhan Informasi dan Indikator
+## 4. Matriks Kebutuhan Informasi dan Aspek
 
-| Kebutuhan informasi jurusan | Butir |
+| Kebutuhan informasi jurusan | Sumber |
 |---|---|
-| Siapa responden dan seberapa mewakili | I1–I6 |
-| Pemahaman konsep PBL dan pengalaman PBL individu | K1–K5 |
-| Keterlibatan dan waktu kerja individu | K6–K7 |
-| Status proyek dan tim saat ini | S0–S5 |
-| Opini tentang pelaksanaan PBL (alur, SOP, jadwal, bimbingan) | O1–O4 |
-| Opini tentang integrasi mata kuliah, termasuk per mata kuliah | O5–O7, M1–M2 |
-| Opini tentang penilaian dan umpan balik | O8–O11 |
-| Opini tentang dukungan dan sumber daya | O12–O13 |
-| Opini tentang manfaat PBL bagi pembelajaran | L1–L6 |
-| Masalah yang dihadapi dan dampaknya | P1–P4 |
-| Kebutuhan perbaikan menuju Milestone 2 | N1–N4 |
+| Status proyek dan tim | Laporan Kemajuan PBL (bukan survei) |
+| Siapa responden dan seberapa mewakili | I1–I4 (dosen: I1–I6) |
+| Pemahaman dan pengalaman PBL mahasiswa | K1–K3 |
+| Opini pelaksanaan PBL | O1–O12 |
+| Opini per mata kuliah | M1–M2 |
+| Opini manfaat PBL | L1–L5 |
+| Hal yang sudah baik | G1–G2 |
+| Hal yang bermasalah, dampak, dan beban kerja | P1–P3 |
+| Saran perbaikan menuju Milestone 2 | P4 |
 
 Empat aspek monev dipetakan ke butir survei sebagai berikut.
 
 | Aspek | Kode | Butir |
 |---|---|---|
-| **A. Pelaksanaan PBL** | A | S0–S2, S5, O1–O4, N2; kategori kendala P1 teknis, ketentuan (SOP), mitra atau pengguna |
-| **B. Integrasi antar-mata kuliah** | B | O5–O7, M1–M2; kategori kendala P1 pemahaman materi dan keselarasan tugas antar-mata kuliah; dukungan N1 koordinasi antar dosen |
-| **C. Penilaian dan umpan balik** | C | O8–O11; kategori kendala P1 ketentuan (rubrik), bimbingan atau umpan balik dosen; dukungan N1 klarifikasi rubrik dan contoh laporan |
-| **D. Kolaborasi, beban, dan dukungan** | D | S3–S4, K6–K7, P3, O12–O13; kategori kendala P1 waktu dan beban, koordinasi tim, kontribusi tidak seimbang, fasilitas, penggunaan AI; dukungan N1 fasilitas, penanganan anggota pasif, dukungan mitra atau data |
+| **A. Pelaksanaan PBL** | A | O1–O4; pilihan G1 dan P1 yang bertanda A |
+| **B. Integrasi antar-mata kuliah** | B | O5–O7, M1–M2; pilihan G1 dan P1 yang bertanda B |
+| **C. Penilaian dan umpan balik** | C | O8–O11; pilihan G1 dan P1 yang bertanda C |
+| **D. Kolaborasi, beban, dan dukungan** | D | O12, P3; pilihan G1 dan P1 yang bertanda D |
 
-Butir L (manfaat PBL), P2 (dampak kendala), dan jawaban terbuka P4, N3, N4 dianalisis lintas aspek.
+Butir L (manfaat PBL), P2 (dampak), serta jawaban terbuka G2 dan P4 dianalisis lintas aspek.
 
 ## 5. Jadwal dan Distribusi
 
@@ -95,17 +87,17 @@ Target tingkat respons: **70 persen** untuk mahasiswa dan **seluruh dosen pengam
 
 | Keluaran | Cara menghitung |
 |---|---|
-| Sebaran status tim | Status per tim ditentukan dari modus jawaban S0 anggota tim yang sama (kombinasi kelas dan nama tim); perbedaan jawaban dalam tim dicatat sebagai selisih persepsi. Untuk dosen, jumlah tim per status yang dilaporkan, lalu dibandingkan |
-| Skor butir opini (O, L, S3, S4, K6, N2) | Rerata skor 1–5 (tanpa jawaban "tidak dapat menilai") dan persentase setuju (skor 4 dan 5) per butir, per aspek, serta per prodi, semester, dan kelas |
-| Pemahaman dan pengalaman PBL | Sebaran K1, K2, dan K4; peningkatan pemahaman (K2 dikurangi K1); persentase jawaban benar K3; pembandingan pemahaman yang dinyatakan (K2) dengan pemahaman terukur (K3) |
-| Pemilahan menurut profil | Opini dan status dipilah menurut pengalaman PBL (K4: belum pernah dan pernah) dan menurut pemahaman (K2 dan K3: rendah dan tinggi), untuk melihat apakah masalah lebih banyak dialami mahasiswa yang baru mengenal PBL |
-| Peringkat prioritas masalah | Skor prioritas = persentase responden yang memilih kategori kendala (P1) × rerata dampak (P2) dari responden yang memilih kategori tersebut; kategori diurutkan dari skor tertinggi |
-| Beban kerja | Rerata dan sebaran P3 dan K7 per prodi dan semester |
+| Skor butir opini (O dan L) | Rerata skor 1–5 (tanpa jawaban "tidak dapat menilai") dan persentase setuju (skor 4 dan 5) per butir, per aspek, serta per prodi, semester, dan kelas |
+| Hal yang baik | Frekuensi pilihan G1 per kategori, diurutkan; tema jawaban terbuka G2 |
+| Hal yang bermasalah | Frekuensi pilihan P1 per kategori; skor prioritas = persentase responden yang memilih kategori × rerata dampak (P2) dari responden yang memilih kategori tersebut; kategori diurutkan dari skor tertinggi |
+| Hal baik dan bermasalah per aspek | Perbandingan frekuensi G1 dan P1 pada aspek A–D yang sama (aspek yang sering disebut baik sekaligus bermasalah ditandai untuk diperiksa) |
+| Beban kerja | Rerata dan sebaran P3 per prodi dan semester |
 | Opini per mata kuliah | Frekuensi M1 (paling membantu) dan M2 (perlu diselaraskan) per mata kuliah |
-| Kebutuhan dukungan | Frekuensi pilihan N1, diurutkan |
-| Keyakinan Milestone 2 | Rerata dan sebaran N2 |
-| Selisih persepsi | Perbedaan rerata mahasiswa dan dosen pada butir yang sebanding, serta peringkat masalah |
-| Tema jawaban terbuka | Pengodean tema pada P4, N3, N4, lalu hitung frekuensi tema |
+| Pemahaman dan pengalaman PBL | Sebaran K1 dan K3; persentase jawaban benar K2; pembandingan pemahaman yang dinyatakan (K1) dengan pemahaman terukur (K2) |
+| Pemilahan menurut profil | Opini dipilah menurut pengalaman PBL (K3: belum pernah dan pernah) dan pemahaman (K1 dan K2: rendah dan tinggi), untuk melihat apakah masalah lebih banyak dialami mahasiswa yang baru mengenal PBL |
+| Selisih persepsi | Perbedaan rerata mahasiswa dan dosen pada butir O dan L yang sebanding, serta peringkat masalah |
+| Status tim | Sebaran status per kelas dari Laporan Kemajuan PBL, disandingkan dengan opini kelas yang sama |
+| Tema jawaban terbuka | Pengodean tema pada G2 dan P4, lalu hitung frekuensi tema |
 
 Interpretasi rerata skala 1–5 (usulan):
 
@@ -123,16 +115,16 @@ Kategori dengan skor rendah dan jawaban terbuka yang konsisten dijadikan dasar p
 
 Pernyataan yang ditampilkan kepada responden (deskripsi form dan butir persetujuan C0): data disimpan dalam bentuk **anonim**, **data individu tidak ditampilkan** kepada siapa pun, dan hasil dilaporkan hanya dalam bentuk gabungan (agregat). Penanganan data:
 
-- Alamat email dikumpulkan hanya untuk memastikan setiap responden mengisi satu kali. Setelah validasi selesai, kolom email dan nama tim dipisahkan dan diganti **kode responden anonim**.
+- Alamat email dikumpulkan hanya untuk memastikan setiap responden mengisi satu kali. Setelah validasi selesai, kolom email dipisahkan dan diganti **kode responden anonim**.
 - Berkas yang memuat identitas disimpan terpisah dengan akses terbatas pada koordinator PBL dan dihapus setelah analisis selesai (usulan: paling lama 30 hari setelah survei ditutup).
 - Data yang dianalisis dan diarsipkan hanya **data anonim**. Data individu tidak dicantumkan pada laporan, slide, atau tabel apa pun.
-- Jawaban terbuka dikutip tanpa nama dan tanpa informasi yang dapat mengenali responden atau tim.
-- Kelompok dengan responden kurang dari 5 orang digabung dengan kelompok lain sebelum dilaporkan. Hasil per tim tidak ditampilkan; hanya sebaran status tim secara agregat.
+- Jawaban terbuka dikutip tanpa nama dan tanpa informasi yang dapat mengenali responden.
+- Kelompok dengan responden kurang dari 5 orang digabung dengan kelompok lain sebelum dilaporkan.
 - Survei tidak memengaruhi nilai, dan jawaban tidak dibagikan kepada dosen pengampu secara individual.
 
 ## 8. Pelaporan dan Tindak Lanjut Menuju Milestone 2
 
-1. Koordinator menyusun ringkasan eksekutif 2–3 halaman untuk manajemen jurusan (status, opini, peringkat masalah, kebutuhan dukungan, selisih persepsi, dan rekomendasi).
+1. Koordinator menyusun ringkasan eksekutif 2–3 halaman untuk manajemen jurusan (cakupan responden, status tim dari laporan, opini dan manfaat PBL, hal yang baik dan bermasalah, peringkat masalah, selisih persepsi, dan rekomendasi).
 2. Hasil dibahas pada rapat evaluasi dengan dosen pengampu.
 3. Rapat menghasilkan daftar perbaikan berprioritas dengan format berikut.
 
@@ -147,9 +139,9 @@ Pernyataan yang ditampilkan kepada responden (deskripsi form dan butir persetuju
 - [ ] Buat dua Google Form (mahasiswa dan dosen) sesuai dokumen instrumen.
 - [ ] Isi `[tanggal mulai]` dan `[tanggal akhir]` pada deskripsi form.
 - [ ] Isi daftar kelas SIB pada dropdown kelas (survei mahasiswa) dan sesuaikan daftar mata kuliah (survei dosen).
-- [ ] Atur batas maksimal pilihan pada P1, N1, M1, dan M2, serta percabangan K5 (muncul bila K4 bukan "Belum pernah").
-- [ ] Sembunyikan jawaban benar K3.
-- [ ] Kumpulkan jumlah mahasiswa dan tim per kelas sebagai penyebut tingkat respons.
+- [ ] Atur batas maksimal pilihan pada G1, P1, M1, dan M2.
+- [ ] Sembunyikan jawaban benar K2.
+- [ ] Kumpulkan jumlah mahasiswa per kelas sebagai penyebut tingkat respons, dan sebaran status tim per kelas dari Laporan Kemajuan PBL.
 - [ ] Uji kirim satu data uji pada masing-masing form, lalu hapus.
 - [ ] Aktifkan pengumpulan email (verifikasi) dan batasi satu respons per akun.
 - [ ] Buat pengumuman WhatsApp untuk dosen dan mahasiswa.
