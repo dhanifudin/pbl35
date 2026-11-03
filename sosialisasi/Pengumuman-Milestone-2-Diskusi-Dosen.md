@@ -25,3 +25,5 @@ Mohon tanggapan paling lambat [tanggal]. Setelah itu kami susun pengumuman dan c
 Kami juga akan membagikan _survei evaluasi PBL_ untuk dosen dan mahasiswa. Mohon kesediaan Bapak/Ibu mengisinya serta mengingatkan mahasiswa.
 
 Terima kasih atas kerja sama dan masukan Bapak/Ibu 🙏🚀
+
+💬 _"Mahasiswa diminta aktif setiap pekan, masa grup dosennya kalah sepi dari perpustakaan saat libur semester? Satu balasan dari Bapak/Ibu, seribu langkah maju untuk PBL kita."_ 😄
