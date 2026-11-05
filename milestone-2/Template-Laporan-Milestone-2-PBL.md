@@ -4,7 +4,9 @@
 >
 > Susun laporan tim dalam dokumen sendiri dengan format dan gaya penulisan tim. Ikuti urutan dan isi bagian, tetapi **jangan menyalin** gaya dokumen ini, paragraf panduan (cetak miring), contoh SIMPAN, maupun teks penanda bagian. Laporan yang hanya berisi salinan dokumen ini dianggap belum memenuhi ketentuan.
 
-Dokumen ini menjelaskan struktur paket dokumen *Project-Based Learning* (PBL) yang dikumpulkan pada Milestone 2 (Minggu 12). Paket terdiri atas **Lembar Status Milestone 2 (Bagian A)** dan **Draf Laporan Akhir (Bagian B)**, sehingga isinya dapat dipakai ulang pada laporan akhir dan tidak ada laporan kemajuan yang terpisah.
+Dokumen ini menjelaskan struktur laporan *Project-Based Learning* (PBL) yang dikumpulkan pada Milestone 2 (Minggu 12). Laporan terdiri atas **Lembar Status Milestone 2 (Bagian A, ringkasan kondisi tim dan produk)** dan **Draf Laporan Akhir (Bagian B)**. Isinya bisa dipakai lagi untuk laporan akhir, jadi tidak ada laporan kemajuan yang terpisah.
+
+Pada Milestone 2, **alur utama produk sudah berjalan dan bisa didemokan**. Fitur lain boleh belum selesai, asalkan sudah masuk rencana Minggu 13–16 (lihat SOP Bagian 15).
 
 ## Cara membaca dokumen ini
 
@@ -13,15 +15,15 @@ Dokumen ini menjelaskan struktur paket dokumen *Project-Based Learning* (PBL) ya
 - Bagian bertanda **[TI Sem 3]**, **[TI Sem 5]**, **[Sem 5]**, atau **[SIB]** hanya ditulis oleh tim pada program studi dan semester tersebut. Bagian tanpa tanda ditulis semua tim.
 - **Bagian bertanda "pilih satu"** memuat beberapa pilihan yang sama-sama diterima. Pilih yang paling sesuai dengan kondisi tim, tanpa pengurangan nilai (lihat SOP Bagian 10).
 - Tidak ada dokumen tambahan mata kuliah jika tidak diumumkan. Bila ada dokumen yang sudah diumumkan dosen secara tertulis, ikuti SOP Bagian 7 (Lampiran D).
-- Prosedur pengumpulan dijelaskan pada dokumen SOP Pengumpulan Paket Milestone 2 PBL.
+- Prosedur pengumpulan dijelaskan pada dokumen SOP Pengumpulan Laporan Milestone 2 PBL.
 
 ---
 
 ## Gambaran Umum Struktur
 
-Paket terdiri atas sampul, Bagian A, Bagian B, dan lampiran, yang seluruhnya digabung dalam satu berkas PDF.
+Laporan terdiri atas sampul, Bagian A, Bagian B, dan lampiran, yang seluruhnya digabung dalam satu berkas PDF.
 
-### Pertanyaan yang dijawab paket
+### Pertanyaan yang dijawab laporan
 
 - **Di mana posisi produk sekarang, dan apa Status Milestone 2-nya?** Dijawab oleh Bagian A.2, A.4, dan A.5.
 - **Siapa mengerjakan apa?** Dijawab oleh Bagian A.6 dan Lampiran C.
@@ -38,17 +40,17 @@ Paket terdiri atas sampul, Bagian A, Bagian B, dan lampiran, yang seluruhnya dig
 | A.2 Status Milestone 2 | Status Lengkap, Sebagian, atau Kritis, maksimal 200 kata | Satu paragraf | Semua tim; ditulis paling akhir |
 | A.3 Tindak lanjut Milestone 1 | Umpan balik Milestone 1 dan tindak lanjutnya | Tabel | Semua tim |
 | A.4 Capaian produk | Status fitur dan daftar periksa target program studi dan semester | Tabel | Semua tim; daftar periksa sesuai program studi dan semester |
-| A.5 Bukti | Bentuk demonstrasi, cara *deploy*, repositori, validasi pengguna | Tabel tautan | Semua tim; "pilih satu" |
+| A.5 Bukti | Bentuk demo, cara *deploy*, repositori, masukan pengguna | Tabel tautan | Semua tim; "pilih satu" |
 | A.6 Kontribusi individu | Tugas, bukti, dan estimasi Minggu 9–12 | Tabel | Semua tim |
-| A.7 Risiko dan perubahan lingkup | Perubahan dari proposal dan risiko | Uraian dan tabel | Semua tim |
+| A.7 Risiko dan perubahan cakupan fitur | Perubahan dari proposal dan risiko | Uraian dan tabel | Semua tim |
 | A.8 Rencana Minggu 13–16 | Target dan penanggung jawab | Tabel | Semua tim |
 | A.9 Rekap logbook Minggu 9–12 | Pekerjaan, kendala, rencana | Tabel | Semua tim |
 | A.10 Deklarasi AI | Bagian yang dibantu AI | Tabel | Semua tim |
 | **B. Draf Laporan Akhir** | | | |
-| Bab 1 Pendahuluan | Latar belakang, tujuan, lingkup, manfaat | Uraian | Semua tim |
-| Bab 2 Analisis Kebutuhan dan Perancangan | Kebutuhan, arsitektur, basis data, antarmuka | Uraian dan diagram | Semua tim; 2.4 **[TI Sem 5]**, 2.5 **[SIB]** |
-| Bab 3 Implementasi | Teknologi, implementasi per modul, integrasi | Uraian dan potongan kode | Semua tim; 3.4 **[TI Sem 5]** |
-| Bab 4 Pengujian dan Evaluasi (awal) | Rencana uji, kasus uji, hasil, bug | Tabel dan uraian | Semua tim; 4.4 **[TI Sem 5]** |
+| Bab 1 Pendahuluan | Latar belakang, tujuan, cakupan fitur, manfaat | Uraian | Semua tim |
+| Bab 2 Analisis Kebutuhan dan Perancangan | Kebutuhan, susunan komponen sistem, rancangan basis data, rancangan tampilan | Uraian dan diagram | Semua tim; 2.4 **[TI Sem 5]**, 2.5 **[SIB]** |
+| Bab 3 Implementasi | Teknologi, cara membuat tiap fitur, basis data, penyambungan antar bagian | Uraian dan potongan kode | Semua tim; 3.4 **[TI Sem 5]** |
+| Bab 4 Pengujian dan Evaluasi (awal) | Rencana uji, kasus uji (minimal 10), hasil, bug | Tabel dan uraian | Semua tim; 4.4 **[TI Sem 5]** |
 | Lampiran | A tangkapan layar; B logbook Minggu 9–12; C cek kontribusi tengah; D dokumen tambahan (bila ada); E daftar tautan | Lampiran | A, B, C, E semua tim; D bila ada |
 
 ### Susunan berkas akhir
@@ -97,9 +99,9 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ### A.2 Status Milestone 2
 
-*Tuliskan satu paragraf (maksimal 200 kata) tentang posisi produk. Cantumkan status yang menurut tim paling sesuai: **Lengkap** (target program studi dan semester tercapai), **Sebagian** (satu atau dua target utama belum, produk berjalan), atau **Kritis** (produk inti belum berjalan atau tim sulit bekerja sama). Jujur menuliskan status "Sebagian" atau "Kritis" tidak dikenai sanksi dan membantu tim mendapat dukungan (SOP Bagian 12). Tulis bagian ini paling akhir.*
+*Tulis satu paragraf (maksimal 200 kata) tentang posisi produk. Pilih status yang menurut tim paling sesuai: **Lengkap** (alur utama berjalan dengan baik dan semua dokumen wajib sudah ada), **Sebagian** (alur utama berjalan tetapi sering gagal, atau ada dokumen wajib yang belum ada), atau **Kritis** (alur utama belum berjalan atau tim sulit bekerja sama). Menulis status "Sebagian" atau "Kritis" dengan jujur tidak dikenai sanksi dan membantu tim mendapat dukungan (SOP Bagian 12). Tulis bagian ini paling akhir.*
 
-**Contoh:** "Status: Sebagian. Modul pengajuan, verifikasi staf, dan peran Admin sudah berjalan dan terhubung ke basis data. Modul laporan bulanan baru 60% karena kueri agregasi diubah setelah uji integritas. Pada Minggu 13, tim menyelesaikan laporan bulanan dan memperbaiki 4 bug berprioritas tinggi dari hasil uji awal."
+**Contoh:** "Status: Lengkap. Alur utama, yaitu mengajukan peminjaman sampai disetujui staf, sudah berjalan dan tersambung ke basis data. Modul laporan bulanan baru 60% dan belum bisa didemokan, tetapi sudah masuk rencana Minggu 13. Dari 12 kasus uji, 10 lulus dan 2 gagal. Keduanya masuk daftar bug."
 
 _(Bagian ini ditulis di laporan tim.)_
 
@@ -109,27 +111,27 @@ _(Bagian ini ditulis di laporan tim.)_
 
 | Umpan balik Milestone 1 | Dari mata kuliah | Tindak lanjut | Status |
 |---|---|---|---|
-| Normalisasi relasi Peminjaman–Alat | Basis Data Lanjut | Skema direvisi dan dikunci pada Minggu 9 | Selesai |
+| Hubungan tabel Peminjaman dan Alat perlu diperbaiki | Basis Data Lanjut | Struktur tabel diperbaiki dan dikunci pada Minggu 9 | Selesai |
 
 _(Bagian ini ditulis di laporan tim.)_
 
 ### A.4 Capaian Produk
 
-*Daftarkan fitur dari proposal beserta statusnya (selesai, sebagian, belum), lalu centang target program studi dan semester dan beri catatan singkat untuk yang belum tercapai.*
+*Daftarkan fitur dari proposal beserta statusnya (selesai, sebagian, belum). Lalu centang target untuk program studi dan semester tim, dan beri catatan singkat untuk yang belum tercapai. Fitur yang belum selesai tidak apa-apa, asalkan masuk rencana Minggu 13–16.*
 
 **Contoh status fitur:**
 
 | Fitur | Status | Catatan |
 |---|---|---|
-| Pengajuan peminjaman | Selesai | Dapat didemonstrasikan |
+| Pengajuan peminjaman | Selesai | Bisa didemokan |
 | Laporan pemakaian bulanan | Sebagian | Kueri selesai, tampilan belum |
 
 **Daftar periksa target Milestone 2 (SOP Bagian 15):**
 
-- **[TI Sem 3]:** [ ] produk web fungsional lengkap · [ ] beberapa peran pengguna · [ ] modul laporan atau dasbor · [ ] skema dan kueri basis data lengkap · [ ] hasil uji fungsional awal · [ ] draf Bab 1–3
-- **[TI Sem 5]:** [ ] aplikasi *mobile* fungsional lengkap · [ ] model ML terintegrasi · [ ] laporan QA interim · [ ] evaluasi model awal · [ ] draf Bab 1–3
-- **[SIB Sem 3]:** [ ] alur bisnis utama tuntas · [ ] CRUD beberapa entitas bisnis · [ ] antarmuka konsisten dan responsif sesuai prototipe · [ ] hasil uji awal · [ ] draf Bab 1–3
-- **[SIB Sem 5]:** [ ] arsitektur web matang · [ ] sedikitnya tiga peran atau kompleksitas setara · [ ] kasus uji dieksekusi dan bug ditangani · [ ] pengelolaan proyek terdokumentasi · [ ] dasbor atau analitik dengan data nyata · [ ] draf Bab 1–3
+- **[TI Sem 3]:** [ ] alur utama aplikasi web berjalan dari awal sampai akhir · [ ] tersambung ke basis data · [ ] minimal 2 peran pengguna bisa login · [ ] laporan atau dasbor sudah direncanakan · [ ] draf Bab 1–3 · [ ] Bab 4 dengan minimal 10 kasus uji
+- **[TI Sem 5]:** [ ] alur utama aplikasi *mobile* berjalan · [ ] model ML bisa dipanggil dari aplikasi · [ ] hasil awal model tertulis · [ ] draf Bab 1–3 · [ ] Bab 4 dengan minimal 10 kasus uji
+- **[SIB Sem 3]:** [ ] satu alur bisnis utama berjalan dari awal sampai akhir · [ ] tampilan mengikuti prototipe · [ ] draf Bab 1–3 · [ ] Bab 4 dengan minimal 10 kasus uji
+- **[SIB Sem 5]:** [ ] alur utama web berjalan dengan login · [ ] minimal 2 peran pengguna · [ ] jadwal dan risiko proyek dicatat · [ ] draf Bab 1–3 · [ ] Bab 4 dengan minimal 10 kasus uji
 
 _(Bagian ini ditulis di laporan tim.)_
 
@@ -139,17 +141,17 @@ _(Bagian ini ditulis di laporan tim.)_
 
 | Aspek | Pilih satu | Tautan atau keterangan |
 |---|---|---|
-| Bentuk demonstrasi | Langsung / video rekaman (maks. 5 menit) / gabungan | _(URL video bila ada)_ |
-| Cara *deploy* | Server kampus / *cloud* gratis atau hosting pribadi / lokal dengan video / berkas instalasi (APK) | _(URL aplikasi atau berkas)_ |
+| Bentuk demo | Langsung / video (maks. 5 menit) / gabungan | _(URL video bila ada)_ |
+| Cara *deploy* | Server kampus / hosting gratis atau milik sendiri / lokal dengan video / berkas instalasi (APK) | _(URL aplikasi atau berkas)_ |
 | Repositori | Git dengan *tag* `milestone-2` | _(URL *tag*)_ |
-| Validasi pengguna | Mitra / calon pengguna (min. 3 orang) / pengguna pengganti (jelaskan alasan) | _(ringkasan masukan)_ |
-| Bukti pengujian | Uji manual / uji otomatis / UAT / uji integritas data / evaluasi model / laporan QA | Bab 4 |
+| Masukan pengguna | Mitra / calon pengguna (min. 3 orang) / pengguna pengganti (jelaskan alasan) | _(ringkasan masukan)_ |
+| Bukti pengujian | Uji manual (minimal 10 kasus uji) / uji otomatis / uji coba oleh pengguna / uji kebenaran data / hasil awal model / laporan uji awal | Bab 4 |
 
 _(Bagian ini ditulis di laporan tim.)_
 
 ### A.6 Kontribusi Individu
 
-*Catat pekerjaan setiap anggota pada Minggu 9–12 beserta bukti yang dapat ditelusuri (*commit*, berkas, tugas pada WBS). Tabel ini harus konsisten dengan cek kontribusi tengah (Lampiran C). Anggota yang tidak aktif dicatat apa adanya beserta buktinya.*
+*Catat pekerjaan setiap anggota pada Minggu 9–12 beserta bukti yang bisa dicek (*commit*, berkas, tugas pada rincian pekerjaan atau WBS). Tabel ini harus sama dengan cek kontribusi tengah (Lampiran C). Anggota yang tidak aktif ditulis apa adanya beserta buktinya.*
 
 **Contoh:**
 
@@ -160,9 +162,9 @@ _(Bagian ini ditulis di laporan tim.)_
 
 _(Bagian ini ditulis di laporan tim.)_
 
-### A.7 Risiko dan Perubahan Lingkup
+### A.7 Risiko dan Perubahan Cakupan Fitur
 
-*Sebutkan perubahan dari proposal atau Milestone 1 (fitur, teknologi, peran), alasannya, dan apakah sudah dikonsultasikan dengan dosen terkait. Daftarkan maksimal 5 risiko terbesar untuk Minggu 13–16 beserta tingkat dan tindakannya. Bila mitra tidak lagi tersedia, jelaskan dan gunakan pilihan pengguna pengganti.*
+*Tulis perubahan dari proposal atau Milestone 1 (fitur, teknologi, peran), alasannya, dan apakah sudah dikonsultasikan dengan dosen terkait. Tulis maksimal 5 risiko terbesar untuk Minggu 13–16, beserta tingkat risiko dan tindakannya. Jika mitra tidak bisa dihubungi lagi, jelaskan dan gunakan pilihan pengguna pengganti.*
 
 | Risiko | Tingkat | Tindakan |
 |---|---|---|
@@ -172,7 +174,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ### A.8 Rencana Minggu 13–16
 
-*Susun target dan penanggung jawab per minggu hingga Demo Day. Tim berstatus Sebagian atau Kritis menambahkan rencana perbaikan di sini (SOP Bagian 12).*
+*Susun target dan penanggung jawab per minggu sampai Demo Day. Masukkan fitur yang belum selesai. Tim berstatus Sebagian atau Kritis juga menulis rencana perbaikan di sini (SOP Bagian 12).*
 
 | Minggu | Target | Penanggung jawab |
 |---|---|---|
@@ -211,7 +213,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## Bab 1. Pendahuluan
 
-*Latar belakang masalah, tujuan, ruang lingkup, manfaat, dan sistematika. Ambil dari proposal dan sesuaikan dengan perubahan lingkup (A.7).*
+*Tulis latar belakang masalah, tujuan, cakupan fitur, manfaat, dan susunan laporan. Sebagian besar isi bisa diambil dari proposal, lalu diperbarui sesuai perubahan cakupan fitur (A.7).*
 
 _(Bagian ini ditulis di laporan tim.)_
 
@@ -219,36 +221,36 @@ _(Bagian ini ditulis di laporan tim.)_
 
 *Dinilai terutama oleh mata kuliah basis data, UI/UX, dan sistem informasi (SOP Bagian 6).*
 
-- **2.1 Kebutuhan pengguna dan fungsional:** peran pengguna, kebutuhan, dan *use case* atau daftar fitur.
-- **2.2 Arsitektur sistem:** komponen dan teknologi beserta alasannya.
-- **2.3 Perancangan basis data:** ERD dan skema akhir.
-- **2.4 Perancangan model ML [TI Sem 5]:** dataset, praproses, arsitektur model, dan metrik target.
-- **2.5 Prototipe dan perancangan antarmuka [SIB]:** *wireframe* atau prototipe dan alasan setiap perbedaan dengan hasil akhir.
-- **2.6 Perancangan laporan atau dasbor** bila produk memilikinya.
+- **2.1 Kebutuhan pengguna dan daftar fitur:** peran pengguna dan apa yang bisa dilakukan tiap peran.
+- **2.2 Susunan komponen sistem:** bagian-bagian sistem dan teknologinya, beserta alasan memilihnya.
+- **2.3 Rancangan basis data:** diagram basis data (ERD) dan struktur tabel terbaru.
+- **2.4 Rancangan model ML [TI Sem 5]:** data yang dipakai, cara menyiapkan data, jenis model, dan ukuran hasil yang ditargetkan (misalnya akurasi).
+- **2.5 Prototipe dan rancangan tampilan [SIB]:** *wireframe* atau prototipe, dan alasan setiap perbedaannya dengan hasil akhir.
+- **2.6 Rancangan laporan atau dasbor**, jika produk memilikinya.
 
 _(Bagian ini ditulis di laporan tim.)_
 
 ## Bab 3. Implementasi
 
-*Dinilai terutama oleh mata kuliah pemrograman (SOP Bagian 6). Uraikan secara naratif disertai potongan kode atau tangkapan layar yang relevan, bukan seluruh kode.*
+*Dinilai terutama oleh mata kuliah pemrograman (SOP Bagian 6). Tulis dalam bentuk uraian, dengan potongan kode atau tangkapan layar yang penting saja, bukan seluruh kode. Cukup tulis bagian yang sudah dibuat.*
 
-- **3.1 Lingkungan dan teknologi:** versi, *framework*, dan alat bantu.
-- **3.2 Implementasi fitur per modul:** alur, struktur, dan potongan kode penting.
-- **3.3 Implementasi basis data:** skema, kueri penting, dan data uji.
-- **3.4 Implementasi model dan integrasi [TI Sem 5]:** pelatihan, penyimpanan model, dan integrasi ke aplikasi.
-- **3.5 Integrasi dan *deploy*:** sesuai pilihan pada A.5.
+- **3.1 Teknologi yang dipakai:** versi, *framework*, dan alat bantu.
+- **3.2 Cara membuat tiap fitur:** alur, struktur, dan potongan kode penting.
+- **3.3 Basis data:** struktur tabel, kueri penting, dan data uji.
+- **3.4 Model dan cara memasangnya ke aplikasi [TI Sem 5]:** pelatihan model, penyimpanan model, dan cara aplikasi memanggilnya.
+- **3.5 Penyambungan antar bagian dan *deploy*:** sesuai pilihan pada A.5.
 
 _(Bagian ini ditulis di laporan tim.)_
 
 ## Bab 4. Pengujian dan Evaluasi (Hasil Awal)
 
-*Dinilai terutama oleh mata kuliah penjaminan mutu (SOP Bagian 6). Pilih jenis pengujian yang sesuai (SOP Bagian 10.3) dan laporkan hasil apa adanya, termasuk bug yang belum diperbaiki.*
+*Dinilai terutama oleh mata kuliah penjaminan mutu (SOP Bagian 6). Pilih jenis pengujian yang sesuai (SOP Bagian 10.3) dan tulis hasilnya apa adanya, termasuk bug yang belum diperbaiki. Tulis minimal 10 kasus uji untuk alur utama.*
 
-- **4.1 Rencana pengujian:** ruang lingkup, jenis uji, dan lingkungan.
-- **4.2 Kasus uji dan hasil:** tabel di bawah.
-- **4.3 Bug yang ditemukan:** tingkat keparahan, status, dan rencana perbaikan.
-- **4.4 Evaluasi model [TI Sem 5]:** dataset, metrik (akurasi, *precision*, *recall*), hasil awal, dan rencana perbaikan.
-- **4.5 Validasi pengguna:** ringkasan masukan dari mitra, calon pengguna, atau pengguna pengganti.
+- **4.1 Rencana pengujian:** apa yang diuji, jenis uji, dan alat atau perangkat yang dipakai.
+- **4.2 Kasus uji dan hasil:** tabel di bawah, minimal 10 kasus uji.
+- **4.3 Bug yang ditemukan:** seberapa parah, statusnya, dan rencana perbaikan.
+- **4.4 Hasil awal model [TI Sem 5]:** data yang dipakai, ukuran hasil model (misalnya akurasi), hasil awal, dan rencana perbaikan.
+- **4.5 Masukan pengguna:** ringkasan masukan dari mitra, calon pengguna, atau pengguna pengganti.
 
 **Contoh (4.2):**
 
@@ -267,7 +269,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## Lampiran C. Cek Kontribusi Tengah
 
-*Setiap anggota memeriksa tabel kontribusi pada A.6 dan menyatakan persetujuannya. Anggota yang keberatan dapat menghubungi koordinator PBL langsung (dhanifudin@polinema.ac.id) tanpa perlu menuliskannya di laporan. Lampiran ini singkat dan menjadi bahan untuk mendeteksi ketimpangan kontribusi lebih awal, bukan untuk menghukum.*
+*Setiap anggota memeriksa tabel kontribusi pada A.6 dan menyatakan persetujuannya. Anggota yang keberatan dapat menghubungi koordinator PBL langsung (dhanifudin@polinema.ac.id) tanpa perlu menuliskannya di laporan. Lampiran ini singkat. Gunanya agar ketimpangan kontribusi diketahui lebih awal, bukan untuk menghukum.*
 
 | Nama | Persentase menurut A.6 | Pernyataan | Catatan (opsional) |
 |---|---|---|---|
@@ -281,7 +283,7 @@ _(Lampiran disertakan di laporan tim.)_
 | No | Keterangan | Bagian | Tautan | Jenis akses |
 |---|---|---|---|---|
 | 1 | Repositori (tag milestone-2) | A.5 | _(URL tag Git)_ | Publik |
-| 2 | Video demonstrasi | A.5 | _(URL video)_ | Siapa saja yang memiliki link |
+| 2 | Video demo | A.5 | _(URL video)_ | Siapa saja yang memiliki link |
 
 ---
 
