@@ -1,17 +1,17 @@
-📢 _Pengumuman PBL — Standar Luaran Milestone 2_
+📢 _Pengumuman PBL — Standar Paket Milestone 2_
 
 Kepada Bapak/Ibu Dosen Pembimbing/Pengampu PBL
 _Jurusan Teknologi Informasi · Politeknik Negeri Malang_
 
 Terima kasih atas masukan dan kerja sama Bapak/Ibu 🙏
 
-Berdasarkan hasil survei monev PBL, kami menyusun _satu paket luaran standar_ untuk Milestone 2 (Minggu 12) agar mahasiswa tidak mengerjakan beberapa dokumen berbeda untuk tiap mata kuliah.
+Berdasarkan hasil survei monev PBL, kami menyusun _satu paket dokumen standar_ untuk Milestone 2 (Minggu 12) agar mahasiswa tidak mengerjakan beberapa dokumen berbeda untuk tiap mata kuliah.
 
 Ringkasnya:
 1. Satu paket, satu tenggat, satu unggahan PDF: Lembar Status + draf laporan akhir Bab 1–4 (hasil uji awal) + lampiran.
-2. Tidak ada dokumen tambahan mata kuliah secara bawaan. Dokumen yang sudah Bapak/Ibu umumkan secara tertulis tetap berlaku.
-3. Bagian paket yang dinilai tiap mata kuliah sudah kami petakan pada SOP (Bagian 6). _Tidak ada yang perlu Bapak/Ibu kirimkan kepada kami._
-4. Cek awal singkat pada Minggu 10 (diisi Ketua Tim) agar kendala tim terdeteksi lebih awal.
+2. Tidak ada dokumen tambahan mata kuliah, kecuali yang sudah Bapak/Ibu umumkan secara tertulis.
+3. Bagian paket yang dinilai tiap mata kuliah sudah kami tentukan di SOP (Bagian 6). _Tidak ada yang perlu Bapak/Ibu kirimkan kepada kami._
+4. Cek awal singkat pada Minggu 10 (diisi Ketua Tim) agar kendala tim bisa diketahui lebih awal.
 
 _Batas akhir paket:_ [tanggal], pukul 23.59 WIB
 _Form pengumpulan:_ [link form]

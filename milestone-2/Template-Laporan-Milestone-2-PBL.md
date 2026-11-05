@@ -4,16 +4,16 @@
 >
 > Susun laporan tim dalam dokumen sendiri dengan format dan gaya penulisan tim. Ikuti urutan dan isi bagian, tetapi **jangan menyalin** gaya dokumen ini, paragraf panduan (cetak miring), contoh SIMPAN, maupun teks penanda bagian. Laporan yang hanya berisi salinan dokumen ini dianggap belum memenuhi ketentuan.
 
-Dokumen ini menjelaskan struktur paket luaran *Project-Based Learning* (PBL) yang dikumpulkan pada Milestone 2 (Minggu 12). Paket terdiri atas **Lembar Status Milestone 2 (Bagian A)** dan **Draf Laporan Akhir (Bagian B)**, sehingga isinya dapat dipakai ulang pada laporan akhir dan tidak ada laporan kemajuan yang terpisah.
+Dokumen ini menjelaskan struktur paket dokumen *Project-Based Learning* (PBL) yang dikumpulkan pada Milestone 2 (Minggu 12). Paket terdiri atas **Lembar Status Milestone 2 (Bagian A)** dan **Draf Laporan Akhir (Bagian B)**, sehingga isinya dapat dipakai ulang pada laporan akhir dan tidak ada laporan kemajuan yang terpisah.
 
 ## Cara membaca dokumen ini
 
 - Setiap bagian memuat paragraf panduan (cetak miring) dan contoh singkat. Keduanya hanya untuk dipahami dan tidak ikut ditulis di laporan.
 - Contoh mengacu pada produk ilustrasi "SIMPAN" (sistem peminjaman ruang dan alat kampus), sama dengan format proposal dan Laporan Kemajuan.
-- Bagian bertanda **[TI Sem 3]**, **[TI Sem 5]**, **[Sem 5]**, atau **[SIB]** hanya ditulis oleh tim pada jalur tersebut. Bagian tanpa tanda ditulis semua tim.
+- Bagian bertanda **[TI Sem 3]**, **[TI Sem 5]**, **[Sem 5]**, atau **[SIB]** hanya ditulis oleh tim pada program studi dan semester tersebut. Bagian tanpa tanda ditulis semua tim.
 - **Bagian bertanda "pilih satu"** memuat beberapa pilihan yang sama-sama diterima. Pilih yang paling sesuai dengan kondisi tim, tanpa pengurangan nilai (lihat SOP Bagian 10).
-- Tidak ada dokumen tambahan mata kuliah secara bawaan. Bila ada dokumen yang sudah diumumkan dosen secara tertulis, ikuti SOP Bagian 7 (Lampiran D).
-- Prosedur pengumpulan dijelaskan pada dokumen SOP Pengumpulan Luaran Milestone 2 PBL.
+- Tidak ada dokumen tambahan mata kuliah jika tidak diumumkan. Bila ada dokumen yang sudah diumumkan dosen secara tertulis, ikuti SOP Bagian 7 (Lampiran D).
+- Prosedur pengumpulan dijelaskan pada dokumen SOP Pengumpulan Paket Milestone 2 PBL.
 
 ---
 
@@ -23,7 +23,7 @@ Paket terdiri atas sampul, Bagian A, Bagian B, dan lampiran, yang seluruhnya dig
 
 ### Pertanyaan yang dijawab paket
 
-- **Di mana posisi produk sekarang, dan lolos gerbang?** Dijawab oleh Bagian A.2, A.4, dan A.5.
+- **Di mana posisi produk sekarang, dan apa Status Milestone 2-nya?** Dijawab oleh Bagian A.2, A.4, dan A.5.
 - **Siapa mengerjakan apa?** Dijawab oleh Bagian A.6 dan Lampiran C.
 - **Apa yang dibangun dan bagaimana mutunya?** Dijawab oleh Bagian B.
 - **Apa langkah berikutnya?** Dijawab oleh Bagian A.8.
@@ -35,9 +35,9 @@ Paket terdiri atas sampul, Bagian A, Bagian B, dan lampiran, yang seluruhnya dig
 | Sampul | Judul laporan, judul produk, identitas tim, logo dan institusi, bulan dan tahun | Halaman penuh, tanpa nomor | Semua tim |
 | **A. Lembar Status Milestone 2** | | | |
 | A.1 Peran dan dosen | Peran terkini tiap anggota dan dosen pengampu | Tabel | Semua tim; ditulis bila ada perubahan dari Milestone 1 |
-| A.2 Status dan keputusan gerbang | Status Lengkap, Sebagian, atau Kritis, maksimal 200 kata | Satu paragraf | Semua tim; ditulis paling akhir |
+| A.2 Status Milestone 2 | Status Lengkap, Sebagian, atau Kritis, maksimal 200 kata | Satu paragraf | Semua tim; ditulis paling akhir |
 | A.3 Tindak lanjut Milestone 1 | Umpan balik Milestone 1 dan tindak lanjutnya | Tabel | Semua tim |
-| A.4 Capaian produk | Status fitur dan daftar periksa target jalur | Tabel | Semua tim; daftar periksa sesuai jalur |
+| A.4 Capaian produk | Status fitur dan daftar periksa target program studi dan semester | Tabel | Semua tim; daftar periksa sesuai program studi dan semester |
 | A.5 Bukti | Bentuk demonstrasi, cara *deploy*, repositori, validasi pengguna | Tabel tautan | Semua tim; "pilih satu" |
 | A.6 Kontribusi individu | Tugas, bukti, dan estimasi Minggu 9–12 | Tabel | Semua tim |
 | A.7 Risiko dan perubahan lingkup | Perubahan dari proposal dan risiko | Uraian dan tabel | Semua tim |
@@ -47,7 +47,7 @@ Paket terdiri atas sampul, Bagian A, Bagian B, dan lampiran, yang seluruhnya dig
 | **B. Draf Laporan Akhir** | | | |
 | Bab 1 Pendahuluan | Latar belakang, tujuan, lingkup, manfaat | Uraian | Semua tim |
 | Bab 2 Analisis Kebutuhan dan Perancangan | Kebutuhan, arsitektur, basis data, antarmuka | Uraian dan diagram | Semua tim; 2.4 **[TI Sem 5]**, 2.5 **[SIB]** |
-| Bab 3 Implementasi | Teknologi, implementasi per modul, integrasi | Uraian dan cuplikan | Semua tim; 3.4 **[TI Sem 5]** |
+| Bab 3 Implementasi | Teknologi, implementasi per modul, integrasi | Uraian dan potongan kode | Semua tim; 3.4 **[TI Sem 5]** |
 | Bab 4 Pengujian dan Evaluasi (awal) | Rencana uji, kasus uji, hasil, bug | Tabel dan uraian | Semua tim; 4.4 **[TI Sem 5]** |
 | Lampiran | A tangkapan layar; B logbook Minggu 9–12; C cek kontribusi tengah; D dokumen tambahan (bila ada); E daftar tautan | Lampiran | A, B, C, E semua tim; D bila ada |
 
@@ -68,7 +68,7 @@ M2_<Kelas>_<NamaTim>.pdf
 
 ### Urutan penulisan yang disarankan
 
-Kembangkan Bab 1–3 dari proposal lebih dahulu, lalu Bab 4 dari hasil uji, kemudian Bagian A, dan tulis A.2 (status dan keputusan gerbang) paling akhir.
+Kembangkan Bab 1–3 dari proposal lebih dahulu, lalu Bab 4 dari hasil uji, kemudian Bagian A, dan tulis A.2 (Status Milestone 2) paling akhir.
 
 ---
 
@@ -95,9 +95,9 @@ Sampul sama dengan Laporan Kemajuan, dengan judul **LAPORAN MILESTONE 2 *PROJECT
 
 _(Bagian ini ditulis di laporan tim.)_
 
-### A.2 Status dan Keputusan Gerbang
+### A.2 Status Milestone 2
 
-*Tuliskan satu paragraf (maksimal 200 kata) tentang posisi produk. Cantumkan status yang menurut tim paling sesuai: **Lengkap** (target jalur tercapai), **Sebagian** (satu atau dua target utama belum, produk berjalan), atau **Kritis** (produk inti belum berjalan atau tim sulit bekerja sama). Jujur menuliskan status "Sebagian" atau "Kritis" tidak dikenai sanksi dan membantu tim mendapat dukungan (SOP Bagian 12). Tulis bagian ini paling akhir.*
+*Tuliskan satu paragraf (maksimal 200 kata) tentang posisi produk. Cantumkan status yang menurut tim paling sesuai: **Lengkap** (target program studi dan semester tercapai), **Sebagian** (satu atau dua target utama belum, produk berjalan), atau **Kritis** (produk inti belum berjalan atau tim sulit bekerja sama). Jujur menuliskan status "Sebagian" atau "Kritis" tidak dikenai sanksi dan membantu tim mendapat dukungan (SOP Bagian 12). Tulis bagian ini paling akhir.*
 
 **Contoh:** "Status: Sebagian. Modul pengajuan, verifikasi staf, dan peran Admin sudah berjalan dan terhubung ke basis data. Modul laporan bulanan baru 60% karena kueri agregasi diubah setelah uji integritas. Pada Minggu 13, tim menyelesaikan laporan bulanan dan memperbaiki 4 bug berprioritas tinggi dari hasil uji awal."
 
@@ -115,7 +115,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ### A.4 Capaian Produk
 
-*Daftarkan fitur dari proposal beserta statusnya (selesai, sebagian, belum), lalu centang target jalur dan beri catatan singkat untuk yang belum tercapai.*
+*Daftarkan fitur dari proposal beserta statusnya (selesai, sebagian, belum), lalu centang target program studi dan semester dan beri catatan singkat untuk yang belum tercapai.*
 
 **Contoh status fitur:**
 
@@ -172,7 +172,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ### A.8 Rencana Minggu 13–16
 
-*Susun target dan penanggung jawab per minggu hingga Demo Day. Tim berstatus Sebagian atau Kritis menambahkan rencana pemulihan di sini (SOP Bagian 12).*
+*Susun target dan penanggung jawab per minggu hingga Demo Day. Tim berstatus Sebagian atau Kritis menambahkan rencana perbaikan di sini (SOP Bagian 12).*
 
 | Minggu | Target | Penanggung jawab |
 |---|---|---|
@@ -230,10 +230,10 @@ _(Bagian ini ditulis di laporan tim.)_
 
 ## Bab 3. Implementasi
 
-*Dinilai terutama oleh mata kuliah pemrograman (SOP Bagian 6). Uraikan secara naratif disertai cuplikan atau tangkapan layar yang relevan, bukan seluruh kode.*
+*Dinilai terutama oleh mata kuliah pemrograman (SOP Bagian 6). Uraikan secara naratif disertai potongan kode atau tangkapan layar yang relevan, bukan seluruh kode.*
 
 - **3.1 Lingkungan dan teknologi:** versi, *framework*, dan alat bantu.
-- **3.2 Implementasi fitur per modul:** alur, struktur, dan cuplikan kode penting.
+- **3.2 Implementasi fitur per modul:** alur, struktur, dan potongan kode penting.
 - **3.3 Implementasi basis data:** skema, kueri penting, dan data uji.
 - **3.4 Implementasi model dan integrasi [TI Sem 5]:** pelatihan, penyimpanan model, dan integrasi ke aplikasi.
 - **3.5 Integrasi dan *deploy*:** sesuai pilihan pada A.5.
@@ -263,7 +263,7 @@ _(Bagian ini ditulis di laporan tim.)_
 
 # Lampiran
 
-*Lampiran A: tangkapan layar fitur yang berjalan. Lampiran B: logbook mingguan lengkap Minggu 9–12. Lampiran D hanya ada bila dosen sudah mengumumkan dokumen tambahan secara tertulis sebelum tanggal terbit SOP (SOP Bagian 7); jika tidak, tuliskan "Tidak ada dokumen tambahan". Lampiran E: daftar seluruh tautan eksternal yang ditanam di dalam laporan, yang harus dapat diklik, dapat dibuka tanpa login, sudah diuji di jendela penyamaran, dan tidak diubah setelah batas akhir.*
+*Lampiran A: tangkapan layar fitur yang berjalan. Lampiran B: logbook mingguan lengkap Minggu 9–12. Lampiran D hanya ada bila dosen sudah mengumumkan dokumen tambahan secara tertulis sebelum tanggal terbit SOP (SOP Bagian 7); jika tidak, tuliskan "Tidak ada dokumen tambahan". Lampiran E: daftar seluruh tautan eksternal yang ditanam di dalam laporan, yang harus dapat diklik, dapat dibuka tanpa login, sudah diuji di mode *incognito*, dan tidak diubah setelah batas akhir.*
 
 ## Lampiran C. Cek Kontribusi Tengah
 

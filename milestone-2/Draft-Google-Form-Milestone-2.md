@@ -1,12 +1,12 @@
 # Draf Google Form: Milestone 2 PBL
 
-Dokumen ini berisi dua draf form untuk koordinator PBL: **Form 1 (Cek Awal Minggu 10)** dan **Form 2 (Pengumpulan Paket Milestone 2)**. Isinya mengikuti SOP Pengumpulan Luaran Milestone 2 PBL. Seluruh form diisi oleh Ketua Tim dan tidak memerlukan pengisian oleh dosen.
+Dokumen ini berisi dua draf form untuk koordinator PBL: **Form 1 (Cek Awal Minggu 10)** dan **Form 2 (Pengumpulan Paket Milestone 2)**. Isinya mengikuti SOP Pengumpulan Paket Milestone 2 PBL. Seluruh form diisi oleh Ketua Tim dan tidak memerlukan pengisian oleh dosen.
 
 Perbaikan dibanding form Milestone 1:
 
 - Kolom kelas tetap berupa pilihan terbatas (dropdown) agar hasil rekap seragam.
 - Ditambahkan form cek awal agar kendala tim diketahui sebelum Minggu 12.
-- Ditambahkan pilihan bentuk demonstrasi, cara *deploy*, dan status gerbang pada form pengumpulan, sehingga seluruh kondisi tim tertampung.
+- Ditambahkan pilihan bentuk demonstrasi, cara *deploy*, dan Status Milestone 2 pada form pengumpulan, sehingga seluruh kondisi tim tertampung.
 
 ---
 
@@ -48,7 +48,7 @@ Perbaikan dibanding form Milestone 1:
 ## 4. Panduan Koordinator
 
 - Hubungkan jawaban ke Google Sheets dan beri warna pada status Perlu Perhatian (kuning) dan Kritis (merah).
-- Hubungi tim Perlu Perhatian atau Kritis dalam tiga hari dan catat langkah yang disepakati (konsultasi, penyesuaian lingkup, atau rencana pemulihan).
+- Hubungi tim Perlu Perhatian atau Kritis dalam tiga hari dan catat langkah yang disepakati (konsultasi, penyesuaian lingkup, atau rencana perbaikan).
 - Tim yang belum mengisi diingatkan melalui pengumuman kelas.
 
 ---
@@ -94,12 +94,12 @@ Semua pertanyaan wajib diisi. Seluruh pilihan diterima tanpa pengurangan nilai.
 
 | No | Pertanyaan | Jenis | Isian |
 |---|---|---|---|
-| 8 | Status keputusan gerbang menurut tim | Pilihan ganda | Lengkap; Sebagian; Kritis |
+| 8 | Status Milestone 2 menurut tim | Pilihan ganda | Lengkap; Sebagian; Kritis |
 | 9 | Bentuk demonstrasi | Pilihan ganda | Langsung; video rekaman; gabungan |
 | 10 | Cara *deploy* | Pilihan ganda | Server kampus; *cloud* gratis atau hosting pribadi; lokal dengan video; berkas instalasi (APK) |
 | 11 | Validasi pengguna | Pilihan ganda | Mitra; calon pengguna (min. 3 orang); pengguna pengganti |
 | 12 | Jenis bukti pengujian (boleh lebih dari satu) | Kotak centang | Uji manual; uji otomatis; UAT atau kegunaan; uji integritas data; evaluasi model; laporan QA interim |
-| 13 | Dokumen tambahan mata kuliah | Pilihan ganda | Tidak ada; ada dan sudah dilampirkan pada Lampiran D; ada dan dikumpulkan pada jalur mata kuliah |
+| 13 | Dokumen tambahan mata kuliah | Pilihan ganda | Tidak ada; ada dan sudah dilampirkan pada Lampiran D; ada dan dikumpulkan di tempat pengumpulan mata kuliah |
 
 ## 4. Bagian 3: Berkas
 
@@ -113,7 +113,7 @@ Semua pertanyaan wajib diisi. Seluruh pilihan diterima tanpa pengurangan nilai.
 
 1. Berkas memuat sampul, Bagian A, Bagian B (Bab 1–4), dan lampiran sesuai struktur Template.
 2. Setiap anggota sudah mengisi cek kontribusi tengah (Lampiran C).
-3. Seluruh tautan eksternal sudah diuji di jendela penyamaran dan dapat dibuka tanpa login.
+3. Seluruh tautan eksternal sudah diuji di mode *incognito* dan dapat dibuka tanpa login.
 4. Laporan disusun mengikuti struktur Template dan bukan salinan Template.
 
 ## 5. Pesan Setelah Form Dikirim
@@ -123,9 +123,9 @@ Semua pertanyaan wajib diisi. Seluruh pilihan diterima tanpa pengurangan nilai.
 ## 6. Panduan Koordinator
 
 - Hubungkan jawaban form ke Google Sheets dan periksa entri ganda dengan kombinasi Kelas dan Nama Tim; gunakan entri terbaru.
-- Bandingkan status gerbang yang dipilih tim (pertanyaan 8) dengan hasil cek awal Minggu 10 untuk melihat perubahan.
+- Bandingkan Status Milestone 2 yang dipilih tim (pertanyaan 8) dengan hasil cek awal Minggu 10 untuk melihat perubahan.
 - Rekap pilihan demonstrasi, *deploy*, dan validasi untuk menjadwalkan sesi demonstrasi dan mengetahui kebutuhan fasilitas.
-- Dokumen mata kuliah yang dikumpulkan pada jalurnya sendiri tidak dikumpulkan melalui form ini.
+- Dokumen mata kuliah yang dikumpulkan di tempat pengumpulan mata kuliah itu sendiri tidak dikumpulkan melalui form ini.
 
 ## 7. Daftar Periksa Sebelum Membagikan Form
 
