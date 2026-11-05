@@ -12,7 +12,6 @@ Ringkasnya:
 2. Satu laporan, satu tenggat, satu unggahan PDF: Lembar Status + draf laporan akhir Bab 1–4 (hasil uji awal) + lampiran.
 3. Tidak ada dokumen tambahan mata kuliah, kecuali yang sudah Bapak/Ibu umumkan secara tertulis.
 4. Bagian laporan yang dinilai tiap mata kuliah sudah kami tentukan di SOP (Bagian 6). _Tidak ada yang perlu Bapak/Ibu kirimkan kepada kami._
-5. Cek awal singkat pada Minggu 10 (diisi Ketua Tim) agar kendala tim bisa diketahui lebih awal.
 
 _Batas akhir laporan:_ [tanggal], pukul 23.59 WIB
 _Form pengumpulan:_ [link form]

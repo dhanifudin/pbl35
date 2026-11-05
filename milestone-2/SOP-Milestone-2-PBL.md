@@ -13,7 +13,7 @@ SOP ini dibuat agar:
 1. Semua tim mengumpulkan **satu laporan yang sama**. Tim tidak perlu membuat dokumen sendiri-sendiri untuk setiap mata kuliah.
 2. Isi laporan bisa dipakai lagi untuk laporan akhir. Laporan Milestone 2 berisi draf Bab 1–3 dan hasil uji awal (Bab 4). Tim tidak perlu membuat laporan kemajuan lagi.
 3. Dosen tahu bagian mana yang harus dinilai. Dengan begitu, arahan dari dosen-dosen tidak saling bertentangan.
-4. Koordinator tahu lebih awal jika ada tim yang kesulitan. Caranya lewat cek awal di Minggu 10, bukan baru di hari review.
+4. Tim yang kesulitan bisa segera mendapat bantuan, lewat Status Milestone 2 dan rencana perbaikan (Bagian 12).
 
 Milestone adalah titik evaluasi dan perbaikan, **bukan hukuman**.
 
@@ -29,8 +29,8 @@ Aturan dalam SOP ini disusun dari survei monev PBL untuk mahasiswa. Surveinya di
 | Arahan antar dosen konsisten (jawaban "Ya") | 32% | Tabel penilaian per mata kuliah (Bagian 6) |
 | Arahan dan tugas antar dosen tidak terkoordinasi, dipilih sebagai masalah | 32% | Tabel penilaian per mata kuliah (Bagian 6) |
 | Kontribusi anggota tidak seimbang, dipilih sebagai masalah | 38% | Tabel kontribusi dengan bukti dan cek kontribusi tengah (Bagian 5 dan 9) |
-| Dosen sering atau selalu baru tahu masalah tim saat review milestone | 39% | Cek awal Minggu 10 (Bagian 8) |
-| Tim belum pernah konsultasi dengan dosen di luar jam kuliah | 24% | Cek awal Minggu 10 (Bagian 8) |
+| Dosen sering atau selalu baru tahu masalah tim saat review milestone | 39% | Cek awal tim, dipakai mulai semester berikutnya (Bagian 8) |
+| Tim belum pernah konsultasi dengan dosen di luar jam kuliah | 24% | Cek awal tim, dipakai mulai semester berikutnya (Bagian 8) |
 | Kejelasan aturan (SOP dan rubrik), dipilih sebagai masalah | 23% | Daftar periksa dan hal yang dinilai dosen dibuat terbuka (Bagian 14 dan 16) |
 | Fasilitas dan sumber daya (server, data, perangkat), dipilih sebagai masalah | 18% | Pilihan *deploy* yang diterima (Bagian 10) |
 | Mitra atau calon pengguna, dipilih sebagai masalah | 12% | Pilihan masukan pengguna yang diterima (Bagian 10) |
@@ -50,8 +50,6 @@ Aturan dalam SOP ini disusun dari survei monev PBL untuk mahasiswa. Surveinya di
 | Kegiatan | Waktu |
 |---|---|
 | SOP dan template diterbitkan | **[tanggal]** |
-| Cek awal tim (Form Cek Awal) | **Minggu 10**, batas **[tanggal]**, pukul 23.59 WIB |
-| Koordinator memeriksa hasil cek awal | Paling lambat 3 hari setelah batas cek awal |
 | Batas akhir pengumpulan Laporan Milestone 2 | **[tanggal]**, pukul 23.59 WIB |
 | Demo dan review | **Minggu 12**, sesuai jadwal kelas |
 | Umpan balik dari dosen (tertulis atau lisan) | Paling lambat 1 minggu setelah batas pengumpulan |
@@ -114,7 +112,9 @@ Pada dasarnya, **tidak ada dokumen tambahan**. Laporan di Bagian 5 sudah memuat 
 
 Dokumen tambahan tidak menggantikan Laporan Milestone 2. Isi dokumen mata kuliah ditentukan oleh dosen mata kuliah itu, bukan oleh koordinator.
 
-## 8. Cek Awal Minggu 10
+## 8. Cek Awal Tim (Mulai Semester Berikutnya)
+
+**Cek awal tidak dipakai pada semester ini**, karena waktunya sudah lewat. Cek awal mulai dipakai pada semester berikutnya, dan dicantumkan di sini agar sudah siap.
 
 Cek awal adalah form singkat (sekitar 2 menit) yang diisi Ketua Tim pada Minggu 10. Tujuannya agar koordinator tahu kendala tim sebelum review Minggu 12, tanpa menunggu balasan dosen.
 
@@ -126,17 +126,17 @@ Cek awal adalah form singkat (sekitar 2 menit) yang diisi Ketua Tim pada Minggu 
 | Bantuan yang dibutuhkan | Konsultasi dosen (sebutkan mata kuliah), konsultasi koordinator, fasilitas, atau tidak ada |
 | Jumlah konsultasi dengan dosen sejak Minggu 8 | 0, 1–2, atau 3 kali atau lebih |
 
-Koordinator memeriksa jawaban dalam 3 hari. Koordinator menghubungi tim yang berstatus Perlu Perhatian atau Kritis untuk menyepakati langkah berikutnya: konsultasi, perubahan cakupan fitur, atau rencana perbaikan. Cek awal tidak dinilai.
+Setelah form diisi, koordinator memeriksa jawaban dalam 3 hari. Koordinator menghubungi tim yang berstatus Perlu Perhatian atau Kritis untuk menyepakati langkah berikutnya: konsultasi, perubahan cakupan fitur, atau rencana perbaikan. Cek awal tidak dinilai.
 
 ## 9. Peran dan Tanggung Jawab
 
 | Pihak | Tanggung jawab |
 |---|---|
-| Ketua Tim | Mengisi cek awal Minggu 10, memastikan laporan lengkap dan tepat waktu, lalu mengunggahnya lewat Google Form |
+| Ketua Tim | Memastikan laporan lengkap dan tepat waktu, lalu mengunggahnya lewat Google Form |
 | Sekretaris/Dokumentator | Menyusun laporan sesuai Template, merekap logbook Minggu 9–12, dan mengelola daftar tautan |
 | Semua anggota | Menulis bagian masing-masing, menulis bukti kontribusi, dan mengisi cek kontribusi tengah (Lampiran C). Anggota yang tidak setuju dengan pembagian kontribusi boleh langsung menghubungi koordinator |
 | Dosen pengampu | Hadir dan menilai demo, menilai bagian laporan sesuai Bagian 6, dan memberi umpan balik |
-| Koordinator PBL | Menetapkan dan menerbitkan tabel penilaian, memeriksa cek awal, merekap pengumpulan, dan membantu tim yang perlu perbaikan |
+| Koordinator PBL | Menetapkan dan menerbitkan tabel penilaian, merekap pengumpulan, dan membantu tim yang perlu perbaikan |
 
 ## 10. Pilihan yang Diterima
 
@@ -198,16 +198,15 @@ Semua tim wajib menulis **minimal 10 kasus uji untuk alur utama** di Bab 4, leng
 ## 11. Langkah Pengumpulan
 
 1. **Pahami strukturnya.** Baca Template Laporan Milestone 2 PBL, mulai dari bagian *Gambaran Umum Struktur*. Lalu susun dokumen tim sendiri dengan urutan yang sama. Jangan menyalin gaya, teks panduan, atau contohnya.
-2. **Isi cek awal Minggu 10.** Ketua Tim mengisinya.
-3. **Gunakan bahan yang sudah ada.** Isi Bagian A dari logbook. Kembangkan Bagian B dari proposal dan laporan kemajuan.
-4. **Siapkan bukti.** Siapkan repositori Git dengan *tag* `milestone-2` (penanda versi kode pada saat Milestone 2), bukti demo, bukti pengujian (Bagian 10.3), dan alamat aplikasi jika sudah di-*deploy*.
-5. **Isi cek kontribusi tengah.** Semua anggota mengisi Lampiran C dan menyepakati tabel kontribusi di Bagian A.
-6. **Uji tautan.** Buka semua tautan di mode *incognito*. Pastikan tautan bisa dibuka tanpa login (Bagian 13).
-7. **Periksa kelengkapan** memakai daftar di Bagian 14.
-8. **Ekspor menjadi satu PDF** bernama `M2_<Kelas>_<NamaTim>.pdf`. Pastikan tautan tetap bisa diklik.
-9. **Unggah** lewat Google Form Milestone 2: **[tautan form]**.
-10. **Ikuti demo** sesuai jadwal kelas.
-11. **Terima umpan balik**, lalu susun rencana Minggu 13–16 berdasarkan masukan.
+2. **Gunakan bahan yang sudah ada.** Isi Bagian A dari logbook. Kembangkan Bagian B dari proposal dan laporan kemajuan.
+3. **Siapkan bukti.** Siapkan repositori Git dengan *tag* `milestone-2` (penanda versi kode pada saat Milestone 2), bukti demo, bukti pengujian (Bagian 10.3), dan alamat aplikasi jika sudah di-*deploy*.
+4. **Isi cek kontribusi tengah.** Semua anggota mengisi Lampiran C dan menyepakati tabel kontribusi di Bagian A.
+5. **Uji tautan.** Buka semua tautan di mode *incognito*. Pastikan tautan bisa dibuka tanpa login (Bagian 13).
+6. **Periksa kelengkapan** memakai daftar di Bagian 14.
+7. **Ekspor menjadi satu PDF** bernama `M2_<Kelas>_<NamaTim>.pdf`. Pastikan tautan tetap bisa diklik.
+8. **Unggah** lewat Google Form Milestone 2: **[tautan form]**.
+9. **Ikuti demo** sesuai jadwal kelas.
+10. **Terima umpan balik**, lalu susun rencana Minggu 13–16 berdasarkan masukan.
 
 ## 12. Status Milestone 2
 

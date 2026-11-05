@@ -1,16 +1,18 @@
 # Draf Google Form: Milestone 2 PBL
 
-Dokumen ini berisi dua draf form untuk koordinator PBL: **Form 1 (Cek Awal Minggu 10)** dan **Form 2 (Pengumpulan Laporan Milestone 2)**. Isinya mengikuti SOP Pengumpulan Laporan Milestone 2 PBL. Seluruh form diisi oleh Ketua Tim dan tidak memerlukan pengisian oleh dosen.
+Dokumen ini berisi dua draf form untuk koordinator PBL: **Form 1 (Cek Awal Minggu 10, dipakai mulai semester berikutnya, tidak dipakai semester ini)** dan **Form 2 (Pengumpulan Laporan Milestone 2)**. Isinya mengikuti SOP Pengumpulan Laporan Milestone 2 PBL. Seluruh form diisi oleh Ketua Tim dan tidak memerlukan pengisian oleh dosen.
 
 Perbaikan dibanding form Milestone 1:
 
 - Kolom kelas tetap berupa pilihan terbatas (dropdown) agar hasil rekap seragam.
-- Ditambahkan form cek awal agar kendala tim diketahui sebelum Minggu 12.
+- Ditambahkan form cek awal agar kendala tim diketahui sebelum Minggu 12 (dipakai mulai semester berikutnya).
 - Ditambahkan pilihan bentuk demo, cara *deploy*, dan Status Milestone 2 pada form pengumpulan, sehingga semua kondisi tim tertampung.
 
 ---
 
-# Form 1: Cek Awal Minggu 10
+# Form 1: Cek Awal Minggu 10 (Mulai Semester Berikutnya)
+
+*Form ini tidak dibuat dan tidak dibagikan pada semester ini. Draf disimpan agar siap dipakai semester berikutnya.*
 
 ## 1. Pengaturan Form
 
@@ -123,13 +125,13 @@ Semua pertanyaan wajib diisi. Seluruh pilihan diterima tanpa pengurangan nilai.
 ## 6. Panduan Koordinator
 
 - Hubungkan jawaban form ke Google Sheets dan periksa entri ganda dengan kombinasi Kelas dan Nama Tim; gunakan entri terbaru.
-- Bandingkan Status Milestone 2 yang dipilih tim (pertanyaan 8) dengan hasil cek awal Minggu 10 untuk melihat perubahan.
+- Bandingkan Status Milestone 2 yang dipilih tim (pertanyaan 8) dengan hasil cek awal Minggu 10 untuk melihat perubahan (jika cek awal dipakai).
 - Rekap pilihan demo, *deploy*, dan masukan pengguna untuk menjadwalkan sesi demo dan mengetahui kebutuhan fasilitas.
 - Dokumen mata kuliah yang dikumpulkan di tempat pengumpulan mata kuliah itu sendiri tidak dikumpulkan melalui form ini.
 
 ## 7. Daftar Periksa Sebelum Membagikan Form
 
-- [ ] Isi `[tanggal]` dan daftar kelas SIB pada Form 1 dan Form 2.
+- [ ] Isi `[tanggal]` dan daftar kelas SIB pada Form 2. Form 1 diisi nanti, saat dipakai pada semester berikutnya.
 - [ ] Kirim satu data uji pada masing-masing form, lalu pastikan berkas unggahan dapat dibuka dan hapus data uji.
-- [ ] Cantumkan tautan Form 1 dan Form 2 pada SOP (Bagian 11, langkah 2 dan 9) dan pengumuman.
+- [ ] Cantumkan tautan Form 2 pada SOP (Bagian 11, langkah 8) dan pengumuman.
 - [ ] Pastikan hanya koordinator PBL yang memiliki akses edit form.
