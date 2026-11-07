@@ -1,6 +1,6 @@
 # Draf Google Form: Milestone 2 PBL
 
-Dokumen ini berisi dua draf form untuk koordinator PBL: **Form 1 (Cek Awal Minggu 10, dipakai mulai semester berikutnya, tidak dipakai semester ini)** dan **Form 2 (Pengumpulan Laporan Milestone 2)**. Isinya mengikuti SOP Pengumpulan Laporan Milestone 2 PBL. Seluruh form diisi oleh Ketua Tim dan tidak memerlukan pengisian oleh dosen.
+Dokumen ini berisi tiga draf form untuk koordinator PBL: **Form 1 (Cek Awal Minggu 10, dipakai mulai semester berikutnya, tidak dipakai semester ini)**, **Form 2 (Pengumpulan Laporan Milestone 2)**, dan **Form 3 (Penilaian 360, dipakai semester ini)**. Isinya mengikuti SOP Pengumpulan Laporan Milestone 2 PBL. Seluruh form diisi oleh Ketua Tim dan tidak memerlukan pengisian oleh dosen.
 
 Perbaikan dibanding form Milestone 1:
 
@@ -71,10 +71,10 @@ Perbaikan dibanding form Milestone 1:
 
 > Form ini digunakan untuk mengumpulkan **Laporan Milestone 2 PBL**.
 >
-> - Satu tim mengumpulkan **satu berkas PDF** (Lembar Status, draf laporan akhir, dan lampiran). Form diisi oleh Ketua Tim.
+> - Satu tim mengumpulkan **satu berkas PDF** (Lembar Status, Bab 1–5, dan lampiran). Form diisi oleh Ketua Tim.
 > - Batas akhir pengumpulan: **[tanggal], pukul 23.59 WIB**.
 > - SOP dan Template Laporan Milestone 2 tersedia pada folder berikut: https://drive.google.com/drive/folders/15q1RaS64I4VPQ4aTbJetim0Yu0IxdbBt?usp=drive_link
-> - Template hanya menjelaskan struktur dan tidak untuk disalin.
+> - Ikuti susunan Template, tetapi tulis isi dari proyek tim sendiri.
 
 ## 2. Bagian 1: Identitas Tim
 
@@ -113,8 +113,8 @@ Semua pertanyaan wajib diisi. Seluruh pilihan diterima tanpa pengurangan nilai.
 
 ### Pernyataan kelengkapan (pertanyaan 15)
 
-1. Berkas memuat sampul, Bagian A, Bagian B (Bab 1–4), dan lampiran sesuai struktur Template. Bab 4 memuat minimal 10 kasus uji.
-2. Setiap anggota sudah mengisi cek kontribusi tengah (Lampiran C).
+1. Berkas memuat sampul, Lembar Status, Bab 1–5, dan lampiran sesuai struktur Template. Bab 4 memuat minimal 10 kasus uji.
+2. Setiap anggota sudah diminta mengisi Penilaian 360 lewat form terpisah. Hasilnya tidak perlu dilampirkan di laporan.
 3. Seluruh tautan eksternal sudah diuji di mode *incognito* dan dapat dibuka tanpa login.
 4. Laporan disusun mengikuti struktur Template dan bukan salinan Template.
 
@@ -131,7 +131,68 @@ Semua pertanyaan wajib diisi. Seluruh pilihan diterima tanpa pengurangan nilai.
 
 ## 7. Daftar Periksa Sebelum Membagikan Form
 
-- [ ] Isi `[tanggal]` dan daftar kelas SIB pada Form 2. Form 1 diisi nanti, saat dipakai pada semester berikutnya.
+- [ ] Isi `[tanggal]` dan daftar kelas SIB pada Form 2 dan Form 3. Form 1 diisi nanti, saat dipakai pada semester berikutnya.
 - [ ] Kirim satu data uji pada masing-masing form, lalu pastikan berkas unggahan dapat dibuka dan hapus data uji.
 - [ ] Cantumkan tautan Form 2 pada SOP (Bagian 11, langkah 8) dan pengumuman.
 - [ ] Pastikan hanya koordinator PBL yang memiliki akses edit form.
+
+---
+
+# Form 3: Penilaian 360
+
+Form ini memeriksa kontribusi tiap anggota di luar laporan, karena tim tidak bisa membuktikan sendiri pembagian kontribusinya di dalam laporan. Aturannya ada di SOP Bagian 9.3.
+
+## 1. Pengaturan Form
+
+| Pengaturan | Nilai |
+|---|---|
+| Judul form | Penilaian 360 PBL (Milestone 2) |
+| Kumpulkan alamat email | Aktif (verifikasi akun Polinema) |
+| Batasi satu tanggapan per akun | Aktif |
+| Izinkan ubah jawaban setelah dikirim | Aktif sampai batas akhir |
+| Estimasi waktu | Sekitar 3 menit |
+| Dibuka | Minggu 11 |
+| Batas akhir | Sama dengan batas akhir pengumpulan laporan: **[tanggal], pukul 23.59 WIB** |
+
+### Deskripsi form
+
+> Form ini dipakai untuk menilai kontribusi seluruh anggota tim, termasuk diri Anda sendiri. **Isi sendiri dan jangan berdiskusi dengan rekan satu tim.** Jawaban hanya dilihat koordinator PBL dan dosen pengampu. Rekan satu tim tidak melihat jawaban Anda.
+
+## 2. Pertanyaan
+
+| No | Pertanyaan | Jenis | Isian dan aturan |
+|---|---|---|---|
+| 1 | Kelas | Dropdown | Daftar kelas, sama dengan Form 2 |
+| 2 | Nama Tim | Dropdown | Daftar tim di kelas itu. Pilihan ini membuka bagian yang memuat nama anggota tim |
+| 3 | Nama Anda | Dropdown | Daftar anggota tim yang dipilih |
+
+Setiap tim punya satu bagian sendiri yang memuat nama anggotanya. Koordinator membuat bagian itu dari daftar anggota tim, lalu mengatur pertanyaan 2 agar membuka bagian yang sesuai.
+
+| No | Pertanyaan di bagian tim | Jenis | Isian dan aturan |
+|---|---|---|---|
+| 4 | Kontribusi pekerjaan | Kisi pilihan ganda | Baris: seluruh anggota tim, termasuk Anda. Kolom: 1 (sangat kurang) sampai 5 (sangat baik) |
+| 5 | Tanggung jawab dan ketepatan waktu | Kisi pilihan ganda | Baris dan kolom sama dengan pertanyaan 4 |
+| 6 | Kerja sama dan komunikasi | Kisi pilihan ganda | Baris dan kolom sama dengan pertanyaan 4 |
+| 7 | Kehadiran dan keterlibatan dalam rapat | Kisi pilihan ganda | Baris dan kolom sama dengan pertanyaan 4 |
+| 8 | Pembagian 100 poin kontribusi | Jawaban singkat per anggota (angka 0–100) | Satu isian untuk tiap anggota, termasuk Anda. Jumlah seluruhnya harus 100. Tulis jumlah ini di keterangan pertanyaan |
+| 9 | Komentar singkat | Paragraf (opsional) | Hal yang perlu diketahui koordinator. Tidak dibagikan ke rekan satu tim |
+
+## 3. Pesan Setelah Form Dikirim
+
+> Terima kasih. Penilaian Anda sudah tercatat dan hanya dilihat koordinator PBL serta dosen pengampu. Jawaban dapat diubah sampai batas akhir lewat tautan "Edit jawaban".
+
+## 4. Panduan Koordinator
+
+- Hubungkan jawaban ke Google Sheets. Periksa jumlah poin pada pertanyaan 8 untuk tiap tanggapan. Tanggapan yang jumlahnya bukan 100 diminta diperbaiki oleh pengisinya.
+- Periksa daftar penanggap terhadap daftar anggota tim. Ingatkan anggota yang belum mengisi satu hari sebelum batas akhir.
+- Buat rekap per mahasiswa untuk dosen pengampu: rata-rata skor tiap aspek dan rata-rata poin dari rekan tim, **tanpa penilaian diri**. Penilaian diri hanya dipakai untuk melihat selisih persepsi.
+- Bandingkan rata-rata poin dengan estimasi kontribusi di Bab 5.2 laporan. Jika selisih untuk satu anggota lebih dari 15 poin, hubungi tim untuk menjelaskan sebabnya.
+- Komentar hanya dibaca koordinator. Jangan menyebut pengisinya kepada tim.
+- Penilaian rekan pada Demo Day (Minggu 16) berjalan terpisah menurut RPP.
+
+## 5. Daftar Periksa Sebelum Membagikan Form
+
+- [ ] Buat bagian tim dari daftar anggota tiap kelas dan isi `[tanggal]`.
+- [ ] Kirim satu tanggapan uji, pastikan rekapnya terbaca, lalu hapus tanggapan uji.
+- [ ] Pastikan hanya koordinator PBL yang memiliki akses edit dan akses ke tanggapan.
+- [ ] Cantumkan tautan Form 3 pada SOP (Bagian 9.3) dan pengumuman.

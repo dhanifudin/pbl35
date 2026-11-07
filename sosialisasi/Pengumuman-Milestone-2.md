@@ -5,13 +5,14 @@ _Jurusan Teknologi Informasi · Politeknik Negeri Malang_
 
 Terima kasih atas masukan dan kerja sama Bapak/Ibu 🙏
 
-Berdasarkan hasil survei monev PBL, kami menyusun _satu laporan standar_ untuk Milestone 2 (Minggu 12) agar mahasiswa tidak mengerjakan beberapa dokumen berbeda untuk tiap mata kuliah.
+Untuk Milestone 2 (Minggu 12), kami menyusun _satu laporan standar_ agar mahasiswa tidak mengerjakan beberapa dokumen berbeda untuk tiap mata kuliah.
 
 Ringkasnya:
 1. Target Milestone 2 dibuat ringan: cukup _alur utama produk berjalan dan bisa didemokan_. Fitur lain boleh belum selesai, asalkan masuk rencana Minggu 13–16.
-2. Satu laporan, satu tenggat, satu unggahan PDF: Lembar Status + draf laporan akhir Bab 1–4 (hasil uji awal) + lampiran.
+2. Satu laporan, satu tenggat, satu unggahan PDF: Lembar Status + Bab 1–5 (Bab 5 terisi sebagian) + lampiran. Laporan ini terus dipakai sampai laporan akhir.
 3. Tidak ada dokumen tambahan mata kuliah, kecuali yang sudah Bapak/Ibu umumkan secara tertulis.
 4. Bagian laporan yang dinilai tiap mata kuliah sudah kami tentukan di SOP (Bagian 6). _Tidak ada yang perlu Bapak/Ibu kirimkan kepada kami._
+5. Kontribusi tiap anggota diperiksa lewat form _Penilaian 360_ yang diisi mahasiswa secara pribadi dan terpisah dari laporan. Koordinator mengirimkan rekap per mahasiswa kepada Bapak/Ibu sebagai bahan nilai kontribusi individu.
 
 _Batas akhir laporan:_ [tanggal], pukul 23.59 WIB
 _Form pengumpulan:_ [link form]
