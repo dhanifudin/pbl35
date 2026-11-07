@@ -680,7 +680,18 @@ Dokumen kerja tim yang dirujuk laporan ini terdaftar di @tbl-rujukan, lengkap de
 
 #pagebreak()
 #lamp("D", "Dokumen Tambahan dari Dosen", stage: st-m2)
-Tidak ada dokumen tambahan. Sampai SOP diterbitkan, tidak ada dosen yang mengumumkan dokumen tambahan secara tertulis. Bila ada, setiap dokumen menjadi satu sub-lampiran (D.1, D.2, dan seterusnya) dan tidak mengulang isi laporan, sesuai SOP Bagian 7.
+Dosen Manajemen Proyek Sistem Informasi mengumumkan tiga dokumen tambahan secara tertulis pada 20 Oktober 2026. Dokumen itu dikerjakan pada Minggu 9 sampai 11 dan tidak mengulang isi Bab 5.
+
+#sec("", "D.1 Manajemen Proyek Sistem Informasi: Resource Plan, Budget Plan, dan Quality and Communication Plan")
+Ketiga dokumen sudah kami ekspor ke PDF dan kami tambahkan ke lembar penilaian mandiri yang dipakai sejak UTS, sehingga isinya tidak disalin ke laporan ini. @tbl-dok-manpro mencatat tiap dokumen, penyusunnya, dan kapan diunggah. Untuk rencana dan realisasi pekerjaan, lihat Bab 5.1.
+#v(0.3em)
+#tabel("tbl-dok-manpro", [Dokumen tambahan Manajemen Proyek Sistem Informasi dan tempat pengumpulannya], tbl((2.4fr, 1.2fr, 1.2fr, 2.4fr),
+  ([Dokumen], [Penyusun], [Diunggah], [Keterangan]),
+  (
+    ([Resource Plan dan RACI Matrix], [Hanif], [Minggu 10], [Peran backend dan frontend dipisah sejak Minggu 6]),
+    ([Budget Plan], [Selvi], [Minggu 10], [Biaya hosting dan domain untuk satu tahun]),
+    ([Quality and Communication Plan], [Yoga dan Nabila], [Minggu 11], [Selaras dengan rencana uji di Bab 4]),
+  ), sz: 8.2pt))
 
 #pagebreak()
 #lamp("E", "Daftar Tautan Eksternal", stage: st-m2)

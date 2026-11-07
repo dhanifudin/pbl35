@@ -174,7 +174,7 @@ def check_example(f, text):
         for n in ['SRS', 'Figma', 'WBS']:
             if n not in c.group(0):
                 err(f, f'Lampiran C tidak memuat dokumen rujukan "{n}"')
-    if 'TI-Sem3' in name and 'D.1' not in text:
+    if ('TI-Sem3' in name or 'SIB-Sem5' in name) and 'D.1' not in text:
         err(f, 'tidak memuat sub-lampiran D.1')
     e = re.search(r'#lamp\("E".*?(?=#pagebreak|\Z)', text, re.S)
     if not e:

@@ -10,7 +10,7 @@ Untuk Milestone 2 (Minggu 12), kami menyusun _satu laporan standar_ agar mahasis
 Ringkasnya:
 1. Target Milestone 2 dibuat ringan: cukup _alur utama produk berjalan dan bisa didemokan_. Fitur lain boleh belum selesai, asalkan masuk rencana Minggu 13–16.
 2. Satu laporan, satu tenggat, satu unggahan PDF: Lembar Status + Bab 1–5 (Bab 5 terisi sebagian) + lampiran. Laporan ini terus dipakai sampai laporan akhir.
-3. Tidak ada dokumen tambahan mata kuliah, kecuali yang sudah Bapak/Ibu umumkan secara tertulis.
+3. Tidak ada dokumen tambahan mata kuliah, kecuali yang sudah Bapak/Ibu umumkan secara tertulis. Saat ini hanya Manajemen Proyek (TI Semester 3 dan SIB Semester 5) yang mencantumkan tiga dokumen ringan, dikumpulkan lewat lembar penilaian mandiri.
 4. Bagian laporan yang dinilai tiap mata kuliah sudah kami tentukan di SOP (Bagian 6). _Tidak ada yang perlu Bapak/Ibu kirimkan kepada kami._
 5. Kontribusi tiap anggota diperiksa lewat form _Penilaian 360_ yang diisi mahasiswa secara pribadi dan terpisah dari laporan. Koordinator mengirimkan rekap per mahasiswa kepada Bapak/Ibu sebagai bahan nilai kontribusi individu.
 

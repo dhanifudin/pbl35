@@ -101,7 +101,7 @@ Semua pertanyaan wajib diisi. Seluruh pilihan diterima tanpa pengurangan nilai.
 | 10 | Cara *deploy* | Pilihan ganda | Server kampus; hosting gratis atau milik sendiri; lokal dengan video; berkas instalasi (APK) |
 | 11 | Masukan pengguna | Pilihan ganda | Mitra; calon pengguna (min. 3 orang); pengguna pengganti |
 | 12 | Jenis bukti pengujian (boleh lebih dari satu) | Kotak centang | Uji manual (minimal 10 kasus uji); uji otomatis; uji coba oleh pengguna; uji kebenaran data; hasil awal model; laporan uji awal |
-| 13 | Dokumen tambahan mata kuliah | Pilihan ganda | Tidak ada; ada dan sudah dilampirkan pada Lampiran D; ada dan dikumpulkan di tempat pengumpulan mata kuliah |
+| 13 | Dokumen tambahan mata kuliah | Pilihan ganda | Tidak ada; ada dan sudah dilampirkan pada Lampiran D; ada dan sudah dikumpulkan di tempat pengumpulan mata kuliah (misalnya lembar penilaian mandiri Manajemen Proyek) dan dicatat di Lampiran D |
 
 ## 4. Bagian 3: Berkas
 

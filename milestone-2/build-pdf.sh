@@ -12,6 +12,7 @@ conv() { # <basename> <title>
 }
 conv SOP-Milestone-2-PBL "SOP Pelaksanaan Milestone 2 PBL"
 conv Template-Laporan-Milestone-2-PBL "Template Laporan Milestone 2 PBL"
+conv Draft-Google-Form-Milestone-2 "Draf Google Form Milestone 2 PBL"
 for f in Contoh-Laporan-Milestone-2-*.typ; do
   typst compile --root .. "$f" "${f%.typ}.pdf"
 done

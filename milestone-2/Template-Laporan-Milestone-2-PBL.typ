@@ -489,7 +489,7 @@ Halaman sampul tidak diberi nomor halaman. Pada laporan akhir, judul tahap digan
 
 === D.1 #emph[(nama dokumen)]
 <d.1-nama-dokumen>
-#emph[Mulai dengan satu tabel yang memuat mata kuliah, dosen, nama dokumen, dan tanggal pengumuman tertulisnya. Isi dokumen mengikuti format dosen.]
+#emph[Mulai dengan satu tabel yang memuat mata kuliah, dosen, nama dokumen, dan tanggal pengumuman tertulisnya. Bila dokumen dikumpulkan di tempat lain (misalnya lembar penilaian mandiri Manajemen Proyek), tabel kedua cukup mendaftar tiap dokumen dengan tanggal unggah dan tempat pengumpulannya, tanpa menyalin isinya. Bila tidak, isi dokumen mengikuti format dosen.]
 
 #figure(
   align(left)[#table(
@@ -497,7 +497,7 @@ Halaman sampul tidak diberi nomor halaman. Pada laporan akhir, judul tahap digan
     align: (auto,auto,auto,auto,),
     table.header([Mata kuliah], [Dosen], [Dokumen], [Tanggal pengumuman],),
     table.hline(),
-    [Manajemen Proyek], [#emph[(nama dosen)];], [Ringkasan status artefak proyek], [#emph[(tanggal)];],
+    [Manajemen Proyek], [#emph[(nama dosen)];], [Resource Plan dan RACI Matrix; Jadwal Proyek; Budget Plan], [#emph[(tanggal)];],
   )]
   , kind: table
   )

@@ -165,7 +165,23 @@ Baris SIB bertanda #emph[(acuan awal)] disusun dari kriteria produk pada materi 
 
 == 7. Dokumen Tambahan Mata Kuliah
 <dokumen-tambahan-mata-kuliah>
-Pada dasarnya, #strong[tidak ada dokumen tambahan];. Laporan di Bagian 5 sudah memuat bagian yang dinilai tiap mata kuliah (Bagian 6).
+Laporan di Bagian 5 sudah memuat bagian yang dinilai tiap mata kuliah (Bagian 6). Dokumen tambahan hanya ada untuk mata kuliah yang dosennya sudah mengumumkannya secara tertulis, yaitu yang tertulis di tabel berikut.
+
+#figure(
+  align(left)[#table(
+    columns: (33.33%, 33.33%, 33.33%),
+    align: (auto,auto,auto,),
+    table.header([Program studi dan semester], [Mata kuliah], [Dokumen tambahan (dikerjakan Minggu 9--11)],),
+    table.hline(),
+    [TI Semester 3], [Manajemen Proyek], [Resource Plan dan RACI Matrix; Jadwal Proyek (dengan jalur kritis); Budget Plan],
+    [SIB Semester 5 #emph[(acuan awal)];], [Manajemen Proyek Sistem Informasi], [Resource Plan dan RACI Matrix; Budget Plan; Quality and Communication Plan],
+  )]
+  , kind: table
+  )
+
+Dokumen ini lebih ringan daripada dokumen Manajemen Proyek pada Milestone 1, karena status proyek sudah tercakup di Bab 2 dan Bab 5 laporan. Tim mengekspornya ke PDF dan menambahkannya ke lembar penilaian mandiri yang sudah dipakai sejak UTS. Tidak ada folder atau laporan baru. Tenggatnya sama dengan batas akhir laporan Milestone 2. Dosen Manajemen Proyek tidak meminta presentasi tambahan, karena demo produk sudah tercakup di kegiatan Milestone 2 PBL. Di laporan, dokumen ini cukup dicatat di Lampiran D (lihat susunan di bawah), tanpa menyalin isinya.
+
+Selain tabel di atas, berlaku ketentuan berikut.
 
 #figure(
   align(left)[#table(
@@ -187,6 +203,7 @@ Setiap dokumen tambahan menjadi #strong[satu sub-lampiran untuk satu mata kuliah
 
 - Tiap sub-lampiran dimulai di halaman baru. Baris pertamanya memuat mata kuliah, nama dosen, nama dokumen, dan tanggal pengumuman tertulisnya.
 - Format dokumen ditentukan oleh dosen mata kuliah itu, bukan oleh koordinator.
+- Bila dokumen dikumpulkan di tempat lain (misalnya lembar penilaian mandiri Manajemen Proyek), sub-lampiran hanya memuat daftar singkat: nama dokumen, tanggal unggah, dan tempat pengumpulannya.
 - Dokumen tambahan #strong[tidak mengulang isi laporan];. Dokumen itu hanya memuat rincian yang tidak diminta SOP ini. Untuk hal yang sudah ada di laporan, dokumen cukup merujuk ke bab yang bersangkutan.
 - Koordinator menerbitkan daftar dokumen tambahan bersama SOP (Bagian 4), supaya tim tahu sejak awal dokumen apa saja yang diminta.
 

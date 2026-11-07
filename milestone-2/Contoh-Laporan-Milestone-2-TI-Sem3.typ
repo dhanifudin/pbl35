@@ -430,7 +430,7 @@ Kami juga menguji klaim proposal bahwa pengingat mempercepat respons. Fitur otom
 #lead[Bab ini mencatat siapa mengerjakan apa, apa yang berubah, dan apa yang bisa meleset. Kesimpulan dan pelajaran baru kami tulis di laporan akhir.]
 
 #sec("5.1", "Rencana dan Realisasi", stage: st-lanjutan)
-Rincian pekerjaan kami susun sebagai WBS tiga tingkat di dokumen WBS dan Gantt versi 1.3 (Lampiran E). @tbl-wbs memuat paket (1, 2, 3), sub-paket (1.1, 1.2, dan seterusnya), dan tugas (1.1.1 dan seterusnya) beserta penanggung jawab, rencana, dan realisasi sampai Minggu 12. Dari 13 tugas, sembilan selesai sesuai rencana dan satu tertinggal, yaitu tampilan Rekap Keterlibatan Dosen. Status artefak Manajemen Proyek ada di Lampiran D (@tbl-artefak).
+Rincian pekerjaan kami susun sebagai WBS tiga tingkat di dokumen WBS dan Gantt versi 1.3 (Lampiran E). @tbl-wbs memuat paket (1, 2, 3), sub-paket (1.1, 1.2, dan seterusnya), dan tugas (1.1.1 dan seterusnya) beserta penanggung jawab, rencana, dan realisasi sampai Minggu 12. Dari 13 tugas, sembilan selesai sesuai rencana dan satu tertinggal, yaitu tampilan Rekap Keterlibatan Dosen. Dokumen tambahan Manajemen Proyek dicatat di Lampiran D (@tbl-artefak).
 
 #tabel("tbl-wbs", [WBS tiga tingkat, rencana, dan realisasi sampai Minggu 12], tbl((0.6fr, 2.4fr, 0.9fr, 1fr, 1.7fr),
   ([Kode], [Paket kerja], [Penanggung jawab], [Rencana], [Realisasi]),
@@ -571,24 +571,20 @@ Dokumen kerja yang kami buat untuk keempat mata kuliah dan dirujuk laporan ini t
 
 #pagebreak()
 #lamp("D", "Dokumen Tambahan dari Dosen", stage: st-m2)
-Dosen Manajemen Proyek, Dian Hanifudin Subhi, M.Kom., mengumumkan satu dokumen tambahan secara tertulis pada 20 Oktober 2026, yaitu ringkasan status artefak proyek. Dokumen ini mengikuti format dosen dan tidak mengulang isi Bab 5. Untuk rencana dan realisasi pekerjaan, lihat Bab 5.1.
+Dosen Manajemen Proyek, Dian Hanifudin Subhi, M.Kom., mengumumkan tiga dokumen tambahan secara tertulis pada 20 Oktober 2026. Dokumen itu dikerjakan pada Minggu 9 sampai 11 dan lebih ringan daripada dokumen Manajemen Proyek di Milestone 1, karena status proyek sudah tercakup di Bab 2 dan Bab 5.
 
-#sec("", "D.1 Manajemen Proyek: Ringkasan Status Artefak Proyek")
-Ada tujuh artefak manajemen proyek, dan status masing-masing ada di @tbl-artefak. Status memakai skala Belum ada, Sebagian, Lengkap, atau Lengkap dan direvisi, sedangkan level klaim memakai skala 0 sampai 4 menurut lembar penilaian mandiri kelompok. Angka levelnya sama dengan yang kami isi pada lembar tersebut.
+#sec("", "D.1 Manajemen Proyek: Resource Plan, Jadwal Proyek, dan Budget Plan")
+Ketiga dokumen kami ekspor ke PDF dan kami tambahkan ke lembar penilaian mandiri yang sudah dipakai sejak UTS, jadi isinya tidak kami salin ke laporan ini. @tbl-artefak mencatat tiap dokumen, siapa yang mengerjakan, kapan diunggah, dan statusnya sampai Minggu 12. Untuk rencana dan realisasi pekerjaan, lihat Bab 5.1.
 #v(0.3em)
-#tabel("tbl-artefak", [Status artefak proyek Manajemen Proyek], tbl((2fr, 1.3fr, 0.8fr, 3fr),
-  ([Artefak], [Status], [Level klaim (0–4)], [Keterangan]),
+#tabel("tbl-artefak", [Dokumen tambahan Manajemen Proyek dan tempat pengumpulannya], tbl((2.4fr, 1.2fr, 1.2fr, 2.4fr),
+  ([Dokumen], [Penyusun], [Diunggah], [Keterangan]),
   (
-    ([Project Charter], [Lengkap dan direvisi], [4], [Direvisi pada Minggu 9 setelah perubahan basis data]),
-    ([Governance Log], [Lengkap], [3], [Memuat tiga perubahan, semuanya sudah disetujui]),
-    ([Stakeholder Register], [Lengkap], [3], [Lima pihak dengan strategi melibatkan masing-masing]),
-    ([Sustainability Assessment], [Sebagian], [2], [Dampak sosial sudah dinilai, dampak lingkungan belum]),
-    ([Team Charter], [Lengkap], [3], [Aturan rapat dan komunikasi dijalankan sejak Minggu 5]),
-    ([Scope Statement], [Lengkap dan direvisi], [4], [Daftar di luar ruang lingkup diperbarui pada Minggu 9]),
-    ([WBS], [Lengkap], [3], [Tiga tingkat, 13 tugas, dan diperbarui tiap Jumat]),
+    ([Resource Plan dan RACI Matrix], [Raka dan Salsabila], [Minggu 10], [Lima peran, dua orang merangkap peran pengujian]),
+    ([Jadwal Proyek (jalur kritis)], [Farrel], [Minggu 11], [Jalur kritis lewat migrasi skema; tampilan Rekap Dosen tertinggal]),
+    ([Budget Plan], [Nadia], [Belum], [Masih draf, rencananya diunggah sebelum batas akhir laporan]),
   ), sz: 8.2pt))
 
-Target capaian pada Minggu 12 adalah level rata-rata 3,0, sedangkan klaim kelompok 3,14. SPI-nya (capaian dibagi target) 1,05, jadi statusnya On Track. Artefak yang paling tertinggal adalah Sustainability Assessment, yang kami lengkapi pada Minggu 13 bersama perbaikan bug, dan milestone pada Project Charter masih realistis.
+Budget Plan paling tertinggal karena kami baru bisa memperkirakan biaya hosting setelah memutuskan pindah ke PostgreSQL di Minggu 9. Kami mengunggahnya sebelum batas akhir laporan Milestone 2, bersama perbaikan bug.
 
 #pagebreak()
 #lamp("E", "Daftar Tautan Eksternal", stage: st-m2)
@@ -607,7 +603,7 @@ Semua tautan eksternal laporan ini, termasuk untuk dokumen di Lampiran C dan D, 
     ([8], [WBS dan Gantt versi 1.3], [Lampiran C, Bab 5.1], [`docs.example.com/sikap-pbl/wbs-gantt`], [Siapa saja yang memiliki tautan]),
     ([9], [PDM dan kamus data versi 1.2], [Lampiran C, Bab 2.3], [`docs.example.com/sikap-pbl/pdm`], [Siapa saja yang memiliki tautan]),
     ([10], [Rencana uji, kasus uji, dan catatan bug versi 1.0], [Lampiran C, Bab 4], [`docs.example.com/sikap-pbl/pengujian`], [Siapa saja yang memiliki tautan]),
-    ([11], [Ringkasan status artefak proyek (Manajemen Proyek)], [Lampiran D], [`docs.example.com/sikap-pbl/status-artefak`], [Siapa saja yang memiliki tautan]),
+    ([11], [Resource Plan dan RACI Matrix, Jadwal Proyek, Budget Plan (di lembar penilaian mandiri)], [Lampiran D], [`docs.example.com/sikap-pbl/penilaian-mandiri`], [Siapa saja yang memiliki tautan]),
     ([12], [Video demo (cadangan)], [S.5], [`youtu.example.com/sikap-pbl-demo`], [Siapa saja yang memiliki tautan]),
   ), sz: 7.8pt))
 

@@ -376,11 +376,11 @@ _(Lampiran disertakan di laporan tim.)_
 
 ### D.1 *(nama dokumen)*
 
-*Mulai dengan satu tabel yang memuat mata kuliah, dosen, nama dokumen, dan tanggal pengumuman tertulisnya. Isi dokumen mengikuti format dosen.*
+*Mulai dengan satu tabel yang memuat mata kuliah, dosen, nama dokumen, dan tanggal pengumuman tertulisnya. Bila dokumen dikumpulkan di tempat lain (misalnya lembar penilaian mandiri Manajemen Proyek), tabel kedua cukup mendaftar tiap dokumen dengan tanggal unggah dan tempat pengumpulannya, tanpa menyalin isinya. Bila tidak, isi dokumen mengikuti format dosen.*
 
 | Mata kuliah | Dosen | Dokumen | Tanggal pengumuman |
 |---|---|---|---|
-| Manajemen Proyek | _(nama dosen)_ | Ringkasan status artefak proyek | _(tanggal)_ |
+| Manajemen Proyek | _(nama dosen)_ | Resource Plan dan RACI Matrix; Jadwal Proyek; Budget Plan | _(tanggal)_ |
 
 _(Lampiran ini ditulis di laporan tim bila ada dokumen tambahan.)_
 
