@@ -43,6 +43,8 @@
 }
 #let pc(x, d: 0) = fmt(x, d: d) + "%"
 #let sgn(x) = if x == none { "–" } else if x > 0.004 { "+" + fmt(x, d: 2) } else { fmt(x, d: 2) }
+// show survey option labels in plain Indonesian ("deliverable" -> "hasil kerja")
+#let tr(s) = s.replace("Deliverable proyek PBL", "Hasil kerja proyek PBL (deliverable)").replace("Deliverable proyek", "Hasil kerja proyek (deliverable)").replace("deliverable proyek", "hasil kerja proyek")
 #let pick(items, label) = {
   let f = items.filter(i => i.label == label)
   if f.len() > 0 { f.first() } else { (label: label, count: 0, pct: 0.0) }
@@ -114,11 +116,11 @@
 }
 
 // decision note about timing
-#let keputusan() = callout("Catatan keputusan: waktu pelaksanaan", [
-  Milestone 2 berlangsung pekan depan. Perbaikan yang bersifat struktural (rapat koordinasi rutin, penataan tugas, aturan tim, rubrik, server) tidak dapat diselesaikan sebelum Milestone 2. Karena itu rekomendasi dibagi menjadi tiga waktu: *#w-ini* (hanya langkah komunikasi yang dapat dilakukan sebelum Milestone 2), *#w-setelah*, dan *#w-depan*.
+#let keputusan() = callout("Catatan: waktu pelaksanaan", [
+  Milestone 2 berlangsung pekan depan. Perbaikan yang mengubah cara kerja (rapat koordinasi rutin, penataan tugas, aturan tim, rubrik, server) tidak bisa selesai sebelum Milestone 2. Karena itu rekomendasi dibagi menjadi tiga waktu: *#w-ini* (hanya langkah komunikasi yang bisa dilakukan sebelum Milestone 2), *#w-setelah*, dan *#w-depan*.
 
   #v(4pt)
-  Perbaikan struktural hanya dapat berlaku pada Milestone 2 apabila Milestone 2 ditunda. Itu keputusan Ketua Jurusan dan Kaprodi. Laporan ini mengasumsikan Milestone 2 tetap sesuai jadwal; jika ditunda, langkah pada "#w-setelah" dapat dimajukan.
+  Perbaikan itu baru bisa berlaku pada Milestone 2 jika Milestone 2 ditunda. Keputusan ini ada pada Ketua Jurusan dan Kaprodi. Laporan ini mengasumsikan Milestone 2 tetap sesuai jadwal. Jika ditunda, langkah pada "#w-setelah" bisa dimajukan.
 ], color: accent-dark)
 
 #let note(body) = text(size: 9pt, fill: muted)[#body]
@@ -220,14 +222,14 @@
   #v(4pt)
   #line(length: 100%, stroke: 0.5pt + border-c)
   #v(6pt)
-  Laporan ini menyampaikan hasil survei monev PBL kepada mahasiswa dan dosen pengampu sebagai dasar tindak lanjut. Isinya bukan hanya angka: setiap bagian menyebut secara langsung *apa yang baik* dan *apa yang bermasalah*, menjelaskan artinya, dan memberi rekomendasi.
+  Laporan ini berisi hasil survei monev PBL dari mahasiswa dan dosen pengampu, sebagai dasar tindak lanjut. Setiap bagian menyebut langsung *apa yang baik* dan *apa yang bermasalah*, lalu menjelaskan artinya dan memberi rekomendasi.
 
   Cara membaca laporan:
   #v(4pt)
   #grid(columns: (auto, 1fr), column-gutter: 12pt, row-gutter: 14pt,
-    box(width: 5pt, height: 34pt, fill: primary), [*Yang baik dan yang bermasalah.* Dua kotak di awal setiap bagian menyebut temuan utamanya, lengkap dengan angka.],
-    box(width: 5pt, height: 34pt, fill: rgb("#4a6a85")), [*Apa artinya.* Penjelasan singkat arti temuan dan kaitannya dengan temuan lain.],
-    box(width: 5pt, height: 34pt, fill: accent), [*Rekomendasi Koordinator PBL TI.* Langkah untuk setiap masalah, dengan waktu (minggu ini, setelah Milestone 2, atau semester depan), penanggung jawab, dan indikator.],
+    box(width: 5pt, height: 34pt, fill: primary), [*Yang baik dan yang bermasalah.* Dua kotak di awal setiap bagian berisi temuan utama beserta angkanya.],
+    box(width: 5pt, height: 34pt, fill: rgb("#4a6a85")), [*Apa artinya.* Penjelasan singkat tentang arti temuan dan hubungannya dengan temuan lain.],
+    box(width: 5pt, height: 34pt, fill: accent), [*Rekomendasi Koordinator PBL TI.* Langkah untuk setiap masalah, lengkap dengan waktu (minggu ini, setelah Milestone 2, atau semester depan), penanggung jawab, dan indikator. "Dosen rujukan (PIC)" adalah dosen yang ditunjuk sebagai tempat bertanya bagi tim.],
   )
 ]
 
@@ -304,7 +306,7 @@
     [*Mahasiswa (total)*], [*#m.n*], [*#m.response.roster*], [*#pc(m.response.rate, d: 1)*], rate-bar(m.response.rate),
     [*Dosen pengampu PBL*], [*#l.n*], [*#l.roster*], [*#pc(l.rate, d: 1)*], rate-bar(l.rate),
   )
-  note[Populasi mahasiswa dihitung dari jumlah mahasiswa pada rekap nilai tengah semester per kelas. Populasi dosen adalah dosen berbeda yang mengampu 13 mata kuliah PBL pada plotting dosen Gasal 2026/2027; dosen yang mengampu di dua program studi dihitung sekali. #m.response.classes.filter(c => c.n == 0).len() dari #m.response.classes.len() kelas belum memiliki responden sama sekali.]
+  note[Jumlah mahasiswa diambil dari rekap nilai tengah semester tiap kelas. Jumlah dosen adalah dosen berbeda yang mengampu 13 mata kuliah PBL menurut plotting dosen Gasal 2026/2027; dosen yang mengampu di dua program studi dihitung sekali. #m.response.classes.filter(c => c.n == 0).len() dari #m.response.classes.len() kelas tidak punya responden sama sekali.]
   if with-classes {
     let cl = m.response.classes
     let mon = m.monitored.classes
@@ -316,7 +318,7 @@
     v(8pt)
     let sems = cl.map(c => c.sem).dedup()
     grid(columns: sems.len() * (1fr,), column-gutter: 16pt, ..sems.map(sm => [#text(weight: 700, size: 9.5pt)[Semester #sm]#v(3pt)#mk(sm)]))
-    note[● kelas yang diampu Koordinator PBL TI, tempat pengisian survei diingatkan dan dipantau langsung.]
+    note[● kelas yang diampu Koordinator PBL TI; di sini pengisian survei diingatkan dan dipantau langsung.]
   }
 }
 
@@ -334,10 +336,10 @@
   table(
     columns: (1.5fr, auto, auto, auto, auto, auto, auto, auto, auto, 1.5fr), align: (left, right, right, right, right, right, right, right, right, left),
     table.header[Kelompok kelas][Kelas][Mhs][Resp.][Tingkat respons][Rerata pelaksanaan][Puas][Lanjut][Beban berat][Masalah terbanyak],
-    ..row("Dipantau langsung koordinator", mo.enf),
-    ..row("Hanya dibagikan tautannya", mo.oth),
+    ..row("Dipantau Koordinator PBL TI", mo.enf),
+    ..row("Tanpa pemantauan (hanya tautan)", mo.oth),
   )
-  note[Puas dan Lanjut adalah rerata skala 1–5 pada butir kepuasan dan keinginan melanjutkan PBL. Kelompok dengan responden kurang dari 5 orang tidak dilaporkan.]
+  note[Puas dan Lanjut adalah rerata skala 1–5 untuk kepuasan dan keinginan melanjutkan PBL. Kelompok dengan kurang dari 5 responden tidak dilaporkan.]
 }
 
 #let cmp-table(mh, dos, title) = table(
@@ -358,7 +360,7 @@
   let m = d.at(s).mhs
   table(
     columns: (auto, 1.6fr, auto, auto, auto, 1.7fr), align: (center, left, center, center, center, left),
-    table.header[Aspek][Isi][Mahasiswa][Dosen][Memilih masalah di aspek ini][Masalah yang paling sering],
+    table.header[Aspek][Isi][Mahasiswa][Dosen][Pilih masalah di aspek ini][Masalah yang paling sering],
     ..for a in m.aspek {
       (
         a.code, [*#a.name* \ #text(size: 8.5pt, fill: muted)[#a.items.join(", ")]],
@@ -367,7 +369,7 @@
       )
     },
   )
-  note[Rerata skala 1–5. Aspek D diukur dengan butir fasilitas; beban kerja, koordinasi tim, dan kontribusi anggota diukur melalui pilihan masalah. Persentase "memilih masalah" adalah responden yang memilih sedikitnya satu masalah yang termasuk dalam aspek tersebut.]
+  note[Rerata skala 1–5. Skor aspek D hanya dari butir fasilitas; beban kerja, koordinasi tim, dan kontribusi anggota diukur lewat pilihan masalah. "Pilih masalah" adalah persentase responden yang memilih minimal satu masalah di aspek itu.]
 }
 
 #let sec-opinion(s, lead: none, with-exp: true) = {
@@ -385,7 +387,7 @@
   cmp-table(m.ben, l.ben, "Manfaat dan kepuasan")
   v(2pt)
   lk-legend()
-  note[Rerata skala 1–5 tanpa jawaban "tidak dapat menilai". Selisih = rerata dosen dikurangi rerata mahasiswa; selisih 0,50 atau lebih ditebalkan. Kategori rerata: 4,21–5,00 sangat baik; 3,41–4,20 baik; 2,61–3,40 cukup; 1,81–2,60 kurang; 1,00–1,80 sangat kurang.]
+  note[Rerata skala 1–5, tanpa jawaban "tidak dapat menilai". Selisih = rerata dosen dikurangi rerata mahasiswa; selisih 0,50 ke atas dicetak tebal. Kategori rerata: 4,21–5,00 sangat baik; 3,41–4,20 baik; 2,61–3,40 cukup; 1,81–2,60 kurang; 1,00–1,80 sangat kurang.]
   if with-exp and m.by_experience.len() > 0 {
     subhead[Menurut pengalaman PBL sebelumnya (mahasiswa)]
     block(breakable: false, table(
@@ -405,14 +407,14 @@
   grid(
     columns: (1fr, 1fr), column-gutter: 18pt,
     [
-      #subhead[Mahasiswa: pemahaman konsep PBL (dinyatakan sendiri)]
+      #subhead[Mahasiswa: pemahaman PBL menurut diri sendiri]
       #bars(strip(m.k1.items))
       #note[Rerata #fmt(m.k1_mean, d: 2) dari 5. Pada soal uji, #pc(m.k2_correct) memilih definisi PBL yang benar.]
       #subhead[Mahasiswa: pengalaman PBL sebelum semester ini]
       #bars(m.k3.items.map(i => (label: i.label, pct: i.pct)))
     ],
     [
-      #subhead[Dosen: pemahaman konsep PBL (dinyatakan sendiri)]
+      #subhead[Dosen: pemahaman PBL menurut diri sendiri]
       #bars(strip(l.k1.items))
       #note[Pada soal uji, #pc(l.k2_correct) memilih tindakan yang sesuai prinsip PBL.]
       #subhead[Dosen: sosialisasi PBL yang pernah diikuti]
@@ -447,23 +449,23 @@
   let p = m.pooled
   grid(
     columns: (1fr, 1fr), column-gutter: 18pt,
-    [#subhead[Mahasiswa: pernyataan tentang materi dan tugas (menjawab "ya")]
+    [#subhead[Mahasiswa: jawaban "ya" pada pernyataan materi dan tugas]
      #bars(p.bc.map(b => (label: b.label, pct: b.ya)))],
-    [#subhead[Dosen: penyesuaian mata kuliah (menjawab "ya")]
-     #bars(l.align.map(a => (label: a.label, pct: a.ya)))],
+    [#subhead[Dosen: jawaban "ya" pada penyesuaian mata kuliah]
+     #bars(l.align.map(a => (label: tr(a.label), pct: a.ya)))],
   )
   grid(
     columns: (1fr, 1fr), column-gutter: 18pt,
     [#subhead[Bentuk tugas utama (jawaban mahasiswa per mata kuliah)]
-     #bars(p.type.map(t => (label: t.label, pct: t.pct)), color: primary-mid)
+     #bars(p.type.map(t => (label: tr(t.label), pct: t.pct)), color: primary-mid)
      #subhead[Bentuk tugas utama (dosen memilih semua yang berlaku)]
-     #bars(l.types.map(t => (label: t.label, pct: t.pct)), color: primary-mid)],
+     #bars(l.types.map(t => (label: tr(t.label), pct: t.pct)), color: primary-mid)],
     [#subhead[Bobot nilai dari proyek PBL (jawaban mahasiswa)]
      #bars(p.share.map(t => (label: t.label, pct: t.pct)), color: accent)
      #subhead[Bobot nilai dari proyek PBL (pernyataan dosen)]
      #bars(l.share.items.map(t => (label: t.label, pct: t.pct)), color: accent)],
   )
-  note[Jawaban mahasiswa dikumpulkan dari #p.n jawaban mata kuliah (#m.n mahasiswa dikali jumlah mata kuliah PBL pada semesternya).]
+  note[Dihitung dari #p.n jawaban mata kuliah (#m.n mahasiswa dikali jumlah mata kuliah PBL di semesternya).]
 }
 
 #let sec-goodbad(s, lead: none) = {
@@ -481,7 +483,7 @@
     [#subhead[Dosen: hal yang paling baik] #bars(topn(l.best, 5))],
     [#subhead[Dosen: hal yang perlu diperbaiki] #bars(topn(l.improve, 6), color: accent)],
   )
-  note[Persentase dihitung dari jumlah responden (#m.n mahasiswa, #l.n dosen). Responden memilih maksimal tiga hal, sehingga total melebihi 100%.]
+  note[Persentase dihitung dari jumlah responden (#m.n mahasiswa, #l.n dosen). Tiap responden boleh memilih maksimal tiga hal, jadi totalnya lebih dari 100%.]
 }
 
 #let sec-duasisi(s) = {
@@ -498,13 +500,13 @@
       )
     },
   )
-  note[Persentase dari seluruh responden mahasiswa. "Dua sisi" berarti lebih dari 15% responden menyebutnya baik sekaligus bermasalah.]
+  note[Persentase dari seluruh mahasiswa responden. "Dua sisi" berarti lebih dari 15% responden menyebutnya baik sekaligus bermasalah.]
 }
 
 #let sec-faktor(s) = {
   let m = d.at(s).mhs
   let dr = m.drivers
-  subhead[Butir pelaksanaan yang paling berkaitan dengan kepuasan]
+  subhead[Butir pelaksanaan yang paling berhubungan dengan kepuasan]
   table(
     columns: (1fr, 92pt, 92pt), align: (left, left, left),
     table.header[Butir][Korelasi dengan "puas"][Korelasi dengan "setuju dilanjutkan"],
@@ -513,7 +515,7 @@
       (c.label, bar(c.r_puas, primary), bar(c.r_lanjut, primary-mid))
     },
   )
-  note[Korelasi Pearson (0 sampai 1) antara skor butir dan skor kepuasan masing-masing responden. Makin tinggi, makin kuat keterkaitannya. Ini keterkaitan, bukan bukti sebab-akibat.]
+  note[Korelasi Pearson (0 sampai 1) antara skor butir dan skor kepuasan tiap responden. Makin tinggi, makin kuat hubungannya. Ini hubungan, belum tentu sebab-akibat.]
   subhead[Rerata kepuasan menurut pengalaman responden]
   table(
     columns: (1.5fr, 1.4fr, auto, auto, auto), align: (left, left, right, right, right),
@@ -541,12 +543,12 @@
   tiles(
     tile(pc(m.workload_heavy_pct), "Mahasiswa menilai beban PBL berat atau sangat berat", color: accent),
     tile(pc(l.workload_heavy_pct), "Dosen menilai beban mengampu PBL berat atau sangat berat", color: accent),
-    tile(pc(m.material.at(0).pct), "Mahasiswa: tugas mata kuliah menambah beban di luar proyek", sub: "kendala materi dan tugas yang paling sering", color: accent),
+    tile(pc(m.material.at(0).pct), "Mahasiswa: tugas mata kuliah menambah beban di luar proyek", sub: "keluhan materi dan tugas yang paling sering", color: accent),
   )
   grid(
     columns: (1fr, 1fr), column-gutter: 18pt,
     [#subhead[Beban PBL dibanding waktu tersedia (mahasiswa)] #bars(wl(m.workload), color: accent) #subhead[Beban mengampu PBL (dosen)] #bars(wl(l.workload), color: accent)],
-    [#subhead[Kendala materi dan tugas (mahasiswa)] #bars(topn(m.material, 6, skip: ("Lainnya", "Tidak ada kendala")), color: accent)],
+    [#subhead[Keluhan materi dan tugas (mahasiswa)] #bars(topn(m.material, 6, skip: ("Lainnya", "Tidak ada kendala")), color: accent)],
   )
 }
 
@@ -594,11 +596,11 @@
       let flag(v, bad) = if bad { text(weight: 700, fill: accent-dark)[#pc(v)] } else { pc(v) }
       (
         str(c.sem), c.course, str(c.n), flag(c.acts_mean, c.acts_mean < 50), flag(c.bc_ya_mean, c.bc_ya_mean < 50),
-        flag(c.att_all, c.att_all < 60), flag(c.share_not_stated, c.share_not_stated >= 40), c.type.at(0).label,
+        flag(c.att_all, c.att_all < 60), flag(c.share_not_stated, c.share_not_stated >= 40), c.type.at(0).label.replace("Deliverable proyek", "Hasil kerja proyek"),
       )
     },
   )
-  note[Kegiatan dosen: rerata persentase "sering" atau "selalu" pada 5 kegiatan. Keselarasan materi: rerata persentase "ya" pada 9 pernyataan materi dan tugas. Angka tebal berwarna menandai kurang dari 50% (kegiatan, keselarasan), kurang dari 60% (kehadiran), atau 40% ke atas (bobot tidak disampaikan). Angka ini rangkuman persepsi mahasiswa per mata kuliah, bukan penilaian individu dosen; tidak untuk diteruskan secara individual kepada dosen (Panduan Monev PBL bagian 7).]
+  note[Kegiatan dosen: rerata persentase jawaban "sering" atau "selalu" pada 5 kegiatan. Keselarasan: rerata persentase jawaban "ya" pada 9 pernyataan tentang materi dan tugas. Angka tebal berwarna menandai nilai di bawah 50% (kegiatan, keselarasan), di bawah 60% (kehadiran), atau 40% ke atas (bobot tidak disampaikan). Angka ini adalah persepsi mahasiswa per mata kuliah, bukan penilaian terhadap dosen tertentu, dan tidak untuk disampaikan kepada dosen secara individual (Panduan Monev PBL bagian 7).]
 }
 
 // ---------------------------------------------------------------- free-text chapter (student comments, TI and SIB)
@@ -606,12 +608,12 @@
   let tot = if s == "all" { tema.substantive } else if s == "ti" { tema.substantive_ti } else { tema.substantive_sib }
   let sc(lab) = { let x = tema.sentimen.filter(i => i.label == lab).first(); if s == "all" { x.n } else { x.at(s) } }
   tiles(
-    tile(str(tot), "Komentar bermakna", sub: "kolom saran bersifat opsional"),
+    tile(str(tot), "Komentar bermakna", sub: "kolom saran tidak wajib diisi"),
     tile(pc(100 * sc("kritik") / tot), "Berisi kritik atau saran saja", color: accent),
     tile(pc(100 * sc("campuran") / tot), "Memuat pujian dan kritik", color: primary-mid),
     tile(pc(100 * sc("pujian") / tot), "Berisi pujian saja", color: primary),
   )
-  note[Kolom saran bersifat opsional; komentar kosong, "-", atau "tidak ada" tidak dihitung. #sc("lain") komentar berisi hal di luar tema yang dikelompokkan, sehingga ketiga persentase tidak berjumlah 100%.]
+  note[Kolom saran tidak wajib diisi; komentar kosong, "-", atau "tidak ada" tidak dihitung. #sc("lain") komentar membahas hal di luar tema yang ada, jadi ketiga persentase tidak berjumlah 100%.]
 }
 
 #let tri-line(k, s) = {
@@ -622,25 +624,25 @@
   let dr = m.drivers
   let cross(f) = dr.cross.filter(c => c.factor == f)
   if k == "koordinasi" {
-    [#pc(m.coord.at(1).ya) mahasiswa menyatakan arahan antar mata kuliah konsisten, #pc(imp("Arahan dan tugas antar dosen tidak terkoordinasi")) memilih arahan yang tidak terkoordinasi sebagai masalah, dan hanya #pc(l.coord_yn.at(2).ya) dosen menyatakan sudah ada kesepakatan peran.]
+    [Hanya #pc(m.coord.at(1).ya) mahasiswa menilai arahan antar mata kuliah konsisten, dan #pc(imp("Arahan dan tugas antar dosen tidak terkoordinasi")) memilih arahan yang tidak terkoordinasi sebagai masalah. Hanya #pc(l.coord_yn.at(2).ya) dosen mengatakan sudah ada kesepakatan peran.]
   } else if k == "beban" {
     let c = cross("Beban PBL dibanding waktu tersedia")
     let gb = if c.len() > 0 { c.first().groups.filter(x => x.label == "Berat atau sangat berat") } else { () }
     let gr = if c.len() > 0 { c.first().groups.filter(x => x.label == "Ringan atau sesuai") } else { () }
-    [#pc(m.material.at(0).pct) menyebut tugas mata kuliah menambah beban di luar proyek dan #pc(m.workload_heavy_pct) menilai beban berat.#if gb.len() > 0 and gr.len() > 0 [ Mahasiswa yang menilai beban berat rata-rata puas #fmt(gb.first().puas, d: 2), dibanding #fmt(gr.first().puas, d: 2) pada yang menilai beban sesuai.]]
+    [#pc(m.material.at(0).pct) mahasiswa mengatakan tugas mata kuliah menambah beban di luar proyek, dan #pc(m.workload_heavy_pct) menilai bebannya berat.#if gb.len() > 0 and gr.len() > 0 [ Yang menilai beban berat rata-rata puas #fmt(gb.first().puas, d: 2); yang menilai beban sesuai, #fmt(gr.first().puas, d: 2).]]
   } else if k == "tim" {
-    [#pc(imp("Kontribusi anggota tim tidak seimbang")) memilih kontribusi anggota yang tidak seimbang sebagai masalah, dan #pc(m.ops.at(6).pct_agree) setuju bahwa penilaian adil terhadap kontribusi anggota.]
+    [#pc(imp("Kontribusi anggota tim tidak seimbang")) memilih kontribusi anggota yang tidak seimbang sebagai masalah. Hanya #pc(m.ops.at(6).pct_agree) setuju bahwa penilaian adil bagi kontribusi tiap anggota.]
   } else if k == "kejelasan" {
-    [#pc(imp("Kejelasan ketentuan (SOP dan rubrik)")) memilih kejelasan SOP dan rubrik sebagai masalah, padahal SOP dan template juga paling sering disebut hal baik (#pc(bestp("SOP dan template laporan membantu"))). Bobot nilai PBL tidak disampaikan pada #pc(pick(m.pooled.share, "Tidak disampaikan").pct) jawaban mata kuliah.]
+    [#pc(imp("Kejelasan ketentuan (SOP dan rubrik)")) memilih kejelasan SOP dan rubrik sebagai masalah, padahal SOP dan template juga sering disebut hal baik (#pc(bestp("SOP dan template laporan membantu"))). Bobot nilai PBL tidak disampaikan pada #pc(pick(m.pooled.share, "Tidak disampaikan").pct) jawaban mata kuliah.]
   } else if k == "bimbingan" {
-    [#pc(m.ops.at(3).pct_agree) setuju bimbingan dosen memadai, tetapi #pc(m.consult_freq.items.at(0).pct) tim belum pernah berkonsultasi di luar jam kuliah dan #pc(pick(m.material, "Materi pendukung kurang").pct) menyebut materi pendukung kurang.]
+    [#pc(m.ops.at(3).pct_agree) setuju bimbingan dosen memadai. Namun #pc(m.consult_freq.items.at(0).pct) tim belum pernah berkonsultasi di luar jam kuliah, dan #pc(pick(m.material, "Materi pendukung kurang").pct) menyebut materi pendukung kurang.]
   } else if k == "nilai" {
     let r = dr.corr.filter(c => c.label.starts-with("Penilaian adil"))
-    [Hanya #pc(m.ops.at(6).pct_agree) setuju penilaian adil dan #pc(m.ops.at(5).pct_agree) setuju rubrik jelas.#if r.len() > 0 and r.first().r_puas != none [ Keduanya termasuk yang paling berkaitan dengan kepuasan (korelasi #fmt(r.first().r_puas, d: 2) untuk keadilan).]]
+    [Hanya #pc(m.ops.at(6).pct_agree) setuju penilaian adil dan #pc(m.ops.at(5).pct_agree) setuju rubrik jelas.#if r.len() > 0 and r.first().r_puas != none [ Keduanya termasuk yang paling berhubungan dengan kepuasan (korelasi #fmt(r.first().r_puas, d: 2) untuk keadilan).]]
   } else if k == "fasilitas" {
-    [Fasilitas dan sumber daya adalah butir pelaksanaan dengan rerata terendah (#fmt(m.ops.at(7).mean, d: 2)), dipilih #pc(imp("Fasilitas dan sumber daya (server, data, perangkat)")) responden sebagai masalah, dan menjadi butir yang paling berkaitan dengan kepuasan.]
+    [Fasilitas dan sumber daya adalah butir dengan rerata terendah (#fmt(m.ops.at(7).mean, d: 2)). #pc(imp("Fasilitas dan sumber daya (server, data, perangkat)")) responden memilihnya sebagai masalah, dan butir ini paling berhubungan dengan kepuasan.]
   } else if k == "baik" {
-    [#pc(bestp("Pengalaman dan keterampilan baru yang saya peroleh")) memilih pengalaman dan keterampilan baru, #pc(bestp("SOP dan template laporan membantu")) SOP dan template, dan #pc(bestp("Bimbingan dosen")) bimbingan dosen sebagai hal yang paling baik.]
+    [Sebagai hal yang paling baik, #pc(bestp("Pengalaman dan keterampilan baru yang saya peroleh")) memilih pengalaman dan keterampilan baru, #pc(bestp("SOP dan template laporan membantu")) SOP dan template, dan #pc(bestp("Bimbingan dosen")) bimbingan dosen.]
   } else { none }
 }
 
@@ -660,7 +662,7 @@
       (t.label, str(t.n), str(t.ti), pc(100 * t.ti / tema.substantive_ti), str(t.sib), pc(100 * t.sib / tema.substantive_sib))
     },
   )
-  note[Satu komentar dapat masuk lebih dari satu tema. Persentase dihitung dari jumlah komentar bermakna masing-masing program studi (TI #tema.substantive_ti, SIB #tema.substantive_sib), sehingga kedua program studi dapat dibandingkan secara adil.]
+  note[Satu komentar bisa masuk lebih dari satu tema. Persentase dihitung dari komentar bermakna tiap program studi (TI #tema.substantive_ti, SIB #tema.substantive_sib), supaya keduanya bisa dibandingkan secara adil.]
   for t in probs + goods {
     block(above: 22pt, below: 6pt, sticky: true)[
       #chip(if t.kind == "baik" { "BAIK" } else { "MASALAH" }, if t.kind == "baik" { primary } else { accent })
@@ -681,14 +683,14 @@
     for q in qs { quote-block(q.text, q.tag) }
     block(above: 8pt)[#text(weight: 700)[TI dibanding SIB.] TI #t.ti komentar (#pc(100 * t.ti / tema.substantive_ti) dari komentar TI); SIB #t.sib komentar (#pc(100 * t.sib / tema.substantive_sib) dari komentar SIB).]
     let tl = tri-line(t.key, s)
-    if tl != none { block(above: 6pt)[#text(weight: 700)[Dibandingkan dengan survei.] #tl] }
+    if tl != none { block(above: 6pt)[#text(weight: 700)[Menurut angka survei.] #tl] }
     apa-artinya(t.makna)
   }
   note[Kutipan disunting ringan (ejaan dan tanda baca) dan tidak memuat nama dosen atau mata kuliah.]
 
   subhead[Usulan konkret mahasiswa]
   bars(tema.usulan.filter(u => u.at(key) > 0).sorted(key: u => -u.at(key)).map(u => (label: u.label + " (" + str(u.at(key)) + ")", pct: 100 * u.at(key) / tot)), max: 20)
-  note[Jumlah komentar yang memuat usulan tersebut, sebagai persentase komentar bermakna.]
+  note[Persentase komentar bermakna yang memuat usulan itu.]
 }
 
 // ---------------------------------------------------------------- recommendations (3 time horizons)
@@ -724,26 +726,26 @@
 #let sec-rekom-tabel(rows) = {
   block(breakable: false, table(
     columns: (auto, 1.1fr, 1.5fr, 1.3fr, 1fr, 0.8fr, 0.7fr), align: (center, left, left, left, left, left, left),
-    table.header[No][Masalah][Tindakan][Waktu][Penanggung jawab][Tenggat][Status],
+    table.header[No][Masalah][Langkah][Waktu][Penanggung jawab][Tenggat][Status],
     ..for (i, r) in rows.enumerate() { (str(i + 1), r.judul, r.tindakan, r.waktu, [], [], []) },
   ))
-  note[Kolom waktu berisi waktu yang disarankan. Penanggung jawab, tenggat (tanggal), dan status diisi pada rapat evaluasi dengan dosen pengampu.]
+  note[Kolom Waktu berisi waktu yang disarankan. Penanggung jawab, tenggat (tanggal), dan status diisi saat rapat evaluasi dengan dosen pengampu.]
 }
 
 #let sec-lampiran(extra: none) = {
   set text(size: 10pt)
   set par(leading: 0.65em, spacing: 0.9em)
   [
-    *Sumber data.* Survei mahasiswa (#d.meta.mahasiswa_n responden) dan dosen (#d.meta.dosen_n responden) melalui Google Form. Populasi mahasiswa: rekap nilai tengah semester 32 kelas (#d.meta.roster_n mahasiswa); populasi dosen: plotting dosen Gasal 2026/2027. Status tim pada Laporan Kemajuan tidak dimasukkan.
+    *Sumber data.* Survei mahasiswa (#d.meta.mahasiswa_n responden) dan dosen (#d.meta.dosen_n responden) lewat Google Form. Jumlah mahasiswa: rekap nilai tengah semester 32 kelas (#d.meta.roster_n mahasiswa). Jumlah dosen: plotting dosen Gasal 2026/2027. Status tim dari Laporan Kemajuan tidak dimasukkan.
 
-    *Cara menghitung.* Rerata skala 1–5 dihitung tanpa jawaban "tidak dapat menilai". "Setuju" berarti skor 4 dan 5. Pertanyaan pilih-banyak dilaporkan sebagai persentase responden yang memilih. Dosen yang mengampu di dua program studi dihitung pada keduanya, sehingga jumlah dosen TI dan SIB melebihi jumlah dosen total. Korelasi adalah korelasi Pearson antar skor responden. Komentar bebas mahasiswa dikelompokkan manual oleh penyusun laporan (Koordinator PBL TI) setelah membaca seluruh komentar; satu komentar dapat masuk beberapa tema. Komentar bebas dosen tidak dianalisis.
+    *Cara menghitung.* Rerata skala 1–5 dihitung tanpa jawaban "tidak dapat menilai". "Setuju" berarti skor 4 dan 5. Pertanyaan pilih-banyak dilaporkan sebagai persentase responden yang memilih. Dosen yang mengampu di dua program studi dihitung di keduanya, jadi jumlah dosen TI dan SIB lebih besar daripada jumlah dosen total. Korelasi yang dipakai adalah korelasi Pearson antar skor responden. Penyusun laporan (Koordinator PBL TI) membaca semua komentar bebas mahasiswa dan mengelompokkannya secara manual; satu komentar bisa masuk beberapa tema. Komentar bebas dosen tidak dianalisis.
 
     *Keterbatasan.*
-    - Tingkat respons mahasiswa #pc(d.all.mhs.response.rate, d: 1) di bawah target 70%, dan terpusat pada kelas yang dipantau Koordinator PBL TI. Perbandingan kedua kelompok kelas menunjukkan pola jawaban yang serupa, tetapi kelas lain tetap kurang terwakili.
-    - Korelasi dan perbandingan kelompok menunjukkan keterkaitan, bukan sebab-akibat, dari persepsi pada satu titik waktu. Selisih dosen dan mahasiswa menunjukkan perbedaan sudut pandang, bukan mana yang benar. Angka per mata kuliah tidak menilai individu dosen.
-    - Komentar bebas bersifat opsional dan hanya diisi sebagian mahasiswa.
+    - Tingkat respons mahasiswa (#pc(d.all.mhs.response.rate, d: 1)) di bawah target 70% dan terpusat pada kelas yang dipantau Koordinator PBL TI. Jawaban kedua kelompok kelas serupa, tetapi kelas lain tetap kurang terwakili.
+    - Korelasi dan perbandingan kelompok hanya menunjukkan hubungan, bukan sebab-akibat, dan berasal dari persepsi pada satu waktu. Selisih antara dosen dan mahasiswa menunjukkan perbedaan sudut pandang, bukan siapa yang benar. Angka per mata kuliah tidak menilai dosen secara pribadi.
+    - Komentar bebas tidak wajib, dan hanya sebagian mahasiswa yang mengisinya.
 
-    *Privasi.* Data yang dianalisis anonim dan hanya ditampilkan dalam bentuk gabungan. Tidak ada nama atau NIM yang dicantumkan; kutipan komentar ditulis tanpa nama dan tanpa penyebutan dosen atau mata kuliah. Jawaban tidak dibagikan kepada dosen secara individual dan tidak memengaruhi nilai.
+    *Privasi.* Data yang dianalisis bersifat anonim dan hanya ditampilkan secara gabungan. Laporan tidak memuat nama atau NIM. Kutipan komentar ditulis tanpa nama dan tanpa menyebut dosen atau mata kuliah. Jawaban tidak diberikan kepada dosen secara individual dan tidak memengaruhi nilai.
     #extra
   ]
 }
