@@ -1,0 +1,820 @@
+{
+ "total_answers": 107,
+ "substantive": 81,
+ "substantive_ti": 27,
+ "substantive_sib": 54,
+ "substantive_by_sem": {
+  "TI Semester 3": 18,
+  "TI Semester 5": 9,
+  "SIB Semester 3": 6,
+  "SIB Semester 5": 48
+ },
+ "themes": [
+  {
+   "key": "koordinasi",
+   "kind": "masalah",
+   "label": "Koordinasi dan konsistensi antar dosen",
+   "n": 19,
+   "ti": 4,
+   "sib": 15,
+   "by_sem": {
+    "TI Semester 3": 3,
+    "TI Semester 5": 1,
+    "SIB Semester 3": 1,
+    "SIB Semester 5": 14
+   },
+   "ringkasan": "Komentar terbanyak datang dari SIB Semester 5. Mahasiswa menggambarkan arahan, permintaan, dan umpan balik yang berbeda antar dosen, sehingga mereka merasa kehilangan arah dan harus memilih sendiri arahan mana yang diikuti. Beberapa menyebut kejelasan baru muncul tiga minggu setelah semester berjalan.",
+   "makna": "Keluhan ini bukan tentang kemampuan dosen satu per satu, melainkan tentang cara kerja bersama: belum ada wadah dan waktu untuk menyamakan arahan. Pola ini sejalan dengan data dosen, yaitu kesepakatan peran yang jarang ada dan rapat koordinasi yang tidak selalu dihadiri.",
+   "subs": [
+    {
+     "label": "Arahan, permintaan, atau umpan balik berbeda antar dosen",
+     "n": 13,
+     "ti": 3,
+     "sib": 10,
+     "by_sem": {
+      "TI Semester 3": 2,
+      "TI Semester 5": 1,
+      "SIB Semester 3": 1,
+      "SIB Semester 5": 9
+     }
+    },
+    {
+     "label": "Kejelasan arah baru muncul setelah semester berjalan",
+     "n": 3,
+     "ti": 1,
+     "sib": 2,
+     "by_sem": {
+      "TI Semester 3": 1,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 2
+     }
+    },
+    {
+     "label": "Kekompakan dan pembagian peran dosen pengampu",
+     "n": 3,
+     "ti": 0,
+     "sib": 3,
+     "by_sem": {
+      "TI Semester 3": 0,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 3
+     }
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Hanya beberapa dosen terkoordinasi dan saling berkomunikasi, terkadang menyulitkan ketika dosen A mengatakan A sedangkan dosen B tidak setuju dengan hal itu.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Terkadang terdapat perbedaan pendapat antara dosen satu dengan lainnya sehingga kami seperti hilang arah.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Antar dosen kurang ada komunikasi yang menyebabkan miskomunikasi dan membingungkan kami.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Diawal semester sekitar 3 minggu pertama belum ada kejelasan mengenai PBL ini sehingga ada keterlambatan dalam pembentukan kelompok yang juga menimbulkan keterlambatan milestone.",
+     "tag": "Mahasiswa TI Semester 3"
+    },
+    {
+     "text": "Koordinasi antar dosen bisa ditingkatkan karena beberapa dosen tidak berada di dalam satu kesepakatan yang jelas, terkadang sering miskomunikasi.",
+     "tag": "Mahasiswa TI Semester 3"
+    },
+    {
+     "text": "Koordinasi antar mata kuliah tolong diperbaiki, terkadang tidak sinkron antara mata kuliah yang satu dengan yang lain.",
+     "tag": "Mahasiswa TI Semester 3"
+    }
+   ]
+  },
+  {
+   "key": "beban",
+   "kind": "masalah",
+   "label": "Tugas mata kuliah di luar proyek dan tenggat yang menambah beban",
+   "n": 20,
+   "ti": 9,
+   "sib": 11,
+   "by_sem": {
+    "TI Semester 3": 4,
+    "TI Semester 5": 5,
+    "SIB Semester 3": 2,
+    "SIB Semester 5": 9
+   },
+   "ringkasan": "Ada dua keluhan yang berbeda. Pertama, tugas praktikum, jobsheet, atau tugas besar berjalan terpisah dari PBL sehingga mahasiswa merasa mengerjakan lebih dari satu proyek. Kedua, tenggat dan lama waktu dirasa singkat, termasuk usulan memperpanjang PBL menjadi dua semester.",
+   "makna": "Mahasiswa tidak menolak PBL: beberapa justru menyatakan PBL layak dipertahankan asalkan tugas lain dikurangi. Masalahnya adalah penumpukan, bukan proyeknya. Data survei menguatkan hal ini, yaitu mahasiswa yang menilai beban berat jauh lebih tidak puas dan lebih tidak ingin PBL dilanjutkan.",
+   "subs": [
+    {
+     "label": "Tugas praktikum, jobsheet, atau tugas besar berjalan terpisah dari PBL",
+     "n": 14,
+     "ti": 6,
+     "sib": 8,
+     "by_sem": {
+      "TI Semester 3": 1,
+      "TI Semester 5": 5,
+      "SIB Semester 3": 1,
+      "SIB Semester 5": 7
+     }
+    },
+    {
+     "label": "Tenggat dan lama waktu pengerjaan dirasa kurang",
+     "n": 6,
+     "ti": 3,
+     "sib": 3,
+     "by_sem": {
+      "TI Semester 3": 3,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 1,
+      "SIB Semester 5": 2
+     }
+    }
+   ],
+   "quotes": [
+    {
+     "text": "PBL dapat dipertahankan jika diluar itu tidak ada tugas yang membebankan mahasiswa, karena jadwal yang padat dan tugas yang diberikan juga banyak.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Dosen yang tidak terlibat dalam PBL tidak mengetahui seberapa besar tugas PBL dan memberikan tugas. Saat ini seakan akan ada 3 PBL.",
+     "tag": "Mahasiswa TI Semester 5"
+    },
+    {
+     "text": "Kalau bisa jobsheet-jobsheetnya tentang laporan progres PBL, dan tidak usah memberi tugas selain PBL.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Kritik dari saya hanya dari penyesuaian waktu dan tugas kuliah yang kadang bobotnya memberatkan sehingga agak susah progres PBL sampai mengorbankan waktu tidur.",
+     "tag": "Mahasiswa TI Semester 3"
+    },
+    {
+     "text": "Saran saya perkecil tugas kuliah untuk mata kuliah terkait dengan PBL; saya sudah merasakan banyaknya tugas di luar mata kuliah PBL.",
+     "tag": "Mahasiswa TI Semester 5"
+    },
+    {
+     "text": "Tugas di luar yang berkaitan dengan PBL dikurangi.",
+     "tag": "Mahasiswa TI Semester 3"
+    }
+   ]
+  },
+  {
+   "key": "tim",
+   "kind": "masalah",
+   "label": "Pembagian tim dan kontribusi anggota yang tidak seimbang",
+   "n": 13,
+   "ti": 6,
+   "sib": 7,
+   "by_sem": {
+    "TI Semester 3": 4,
+    "TI Semester 5": 2,
+    "SIB Semester 3": 1,
+    "SIB Semester 5": 6
+   },
+   "ringkasan": "Ada dua isu yang terpisah: anggota yang kurang berkontribusi, dan cara tim dibentuk. Pendapat tentang pembentukan tim terbelah. Sebagian mahasiswa ingin memilih sendiri anggotanya agar cocok, sebagian lain ingin dosen membagi berdasarkan kemampuan agar seimbang. Beberapa meminta cara memantau kontribusi tiap anggota.",
+   "makna": "Karena pendapatnya terbelah, aturan satu arah (acak, pilih sendiri, atau ditentukan dosen) akan tetap ditolak sebagian mahasiswa. Yang disepakati kedua pihak adalah kebutuhan akan bukti kontribusi individu yang dipantau dosen dan memengaruhi penilaian.",
+   "subs": [
+    {
+     "label": "Anggota kurang berkontribusi",
+     "n": 5,
+     "ti": 2,
+     "sib": 3,
+     "by_sem": {
+      "TI Semester 3": 1,
+      "TI Semester 5": 1,
+      "SIB Semester 3": 1,
+      "SIB Semester 5": 2
+     }
+    },
+    {
+     "label": "Cara tim dibentuk (pendapat terbelah: pilih sendiri atau diatur dosen)",
+     "n": 8,
+     "ti": 3,
+     "sib": 5,
+     "by_sem": {
+      "TI Semester 3": 2,
+      "TI Semester 5": 1,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 5
+     }
+    },
+    {
+     "label": "Kebutuhan memantau kontribusi tiap anggota",
+     "n": 2,
+     "ti": 1,
+     "sib": 1,
+     "by_sem": {
+      "TI Semester 3": 1,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 1
+     }
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Banyak anggota di tiap kelompok yang tidak mau bekerja atau berkontribusi untuk tim.",
+     "tag": "Mahasiswa TI Semester 3"
+    },
+    {
+     "text": "Akan lebih baik jika project manager (mahasiswa) diberikan kesempatan untuk memilih anggota kelompoknya sendiri agar lebih nyaman dalam bekerja sama.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Untuk pembagian tim sebaiknya dibagi secara serius, contohnya sesuai dengan keahlian yang dinilai pada performa PBL sebelumnya.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Lebih tegas dalam monitoring tiap anggota pada sebuah kelompok agar tahu kendala pada sebuah tim dan dapat memberikan solusi.",
+     "tag": "Mahasiswa TI Semester 3"
+    },
+    {
+     "text": "Evaluasi terhadap anggota tim yang susah diajak kerja sama dan jarang hadir.",
+     "tag": "Mahasiswa TI Semester 5"
+    },
+    {
+     "text": "Pemilihan kelompok yang lebih seimbang.",
+     "tag": "Mahasiswa TI Semester 3"
+    }
+   ]
+  },
+  {
+   "key": "kejelasan",
+   "kind": "masalah",
+   "label": "Kejelasan alur, milestone, dan template sejak awal semester",
+   "n": 11,
+   "ti": 2,
+   "sib": 9,
+   "by_sem": {
+    "TI Semester 3": 2,
+    "TI Semester 5": 0,
+    "SIB Semester 3": 0,
+    "SIB Semester 5": 9
+   },
+   "ringkasan": "Mahasiswa meminta template, ketentuan, dan jadwal milestone diberikan sejak awal semester dan dalam satu bentuk, tidak terpisah per mata kuliah. Komentar dari SIB menyebut template dan jadwal yang mereka ikuti berasal dari TI dan disampaikan oleh dosen mata kuliah, bukan melalui paket informasi resmi SIB.",
+   "makna": "Template sebenarnya termasuk hal yang paling dihargai. Yang bermasalah adalah waktu dan bentuk penyampaiannya. Perbaikannya murah dan dapat dimulai pada semester depan dengan satu paket informasi di minggu pertama.",
+   "subs": [
+    {
+     "label": "Template dan dokumen datang terlambat atau terpisah per mata kuliah",
+     "n": 5,
+     "ti": 0,
+     "sib": 5,
+     "by_sem": {
+      "TI Semester 3": 0,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 5
+     }
+    },
+    {
+     "label": "Alur dan target milestone kurang jelas di awal",
+     "n": 5,
+     "ti": 2,
+     "sib": 3,
+     "by_sem": {
+      "TI Semester 3": 2,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 3
+     }
+    },
+    {
+     "label": "Pemantauan milestone belum ada di LMS",
+     "n": 1,
+     "ti": 0,
+     "sib": 1,
+     "by_sem": {
+      "TI Semester 3": 0,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 1
+     }
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Tolong sekali, dari awal sudah diberi template laporan tiap mata kuliah supaya di akhir tidak kebingungan.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Dokumen pelaporan milestone sebaiknya langsung dijadikan satu untuk semua mata kuliah, karena dokumen yang terpisah-pisah membuat kami malah berfokus pada dokumen daripada perbaikan kode.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Arahan untuk milestone dan ketentuan pengerjaan PBL ditentukan dengan jelas sedari awal.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Milestone dan progres PBL sebaiknya dicantumkan di LMS untuk memudahkan koordinasi tiap minggunya.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Alur dan target milestone sebaiknya diperjelas.",
+     "tag": "Mahasiswa TI Semester 3"
+    }
+   ]
+  },
+  {
+   "key": "bimbingan",
+   "kind": "masalah",
+   "label": "Ketersediaan bimbingan dan kesesuaian materi dengan milestone",
+   "n": 11,
+   "ti": 5,
+   "sib": 6,
+   "by_sem": {
+    "TI Semester 3": 5,
+    "TI Semester 5": 0,
+    "SIB Semester 3": 1,
+    "SIB Semester 5": 5
+   },
+   "ringkasan": "Komentar menyebut kesulitan mendapat waktu konsultasi, dosen yang jarang hadir, dan pembelajaran yang hanya berupa jobsheet tanpa sesi meninjau proyek. Materi juga disebut sering datang setelah dibutuhkan untuk milestone.",
+   "makna": "Pengalaman bimbingan tidak merata antar mata kuliah. Data per mata kuliah menunjukkan hal yang sama: kegiatan dosen terkait proyek berbeda jauh antar mata kuliah, dan ini lebih terasa daripada perbedaan antar program studi.",
+   "subs": [
+    {
+     "label": "Sulit berkonsultasi atau dosen jarang hadir",
+     "n": 5,
+     "ti": 1,
+     "sib": 4,
+     "by_sem": {
+      "TI Semester 3": 1,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 4
+     }
+    },
+    {
+     "label": "Pembelajaran hanya berupa jobsheet atau penjelasan kurang",
+     "n": 3,
+     "ti": 2,
+     "sib": 1,
+     "by_sem": {
+      "TI Semester 3": 2,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 1
+     }
+    },
+    {
+     "label": "Materi datang terlambat atau tidak sesuai beban proyek",
+     "n": 3,
+     "ti": 2,
+     "sib": 1,
+     "by_sem": {
+      "TI Semester 3": 2,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 1,
+      "SIB Semester 5": 0
+     }
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Ada sebagian dosen yang jarang masuk sehingga kita tidak bisa berdiskusi mengenai proyek kami.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Materi mata kuliah yang sesuai dengan milestone harus diberikan sebelum target milestone.",
+     "tag": "Mahasiswa TI Semester 3"
+    },
+    {
+     "text": "Dosen sebaiknya lebih sering menanyakan progres kelompok, terutama kendala dalam pengerjaan, supaya kelompok tahu mana yang harus diperbaiki.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Mungkin bisa diperbaiki mengenai waktu konsultasi, karena tiap pertemuan selalu menjelaskan materi dan jobsheet tanpa sesi review atau kendala PBL.",
+     "tag": "Mahasiswa TI Semester 3"
+    },
+    {
+     "text": "Lanjutkan tersedianya bimbingan dan perbanyak bimbingan; materi sebaiknya sesuai beban PBL yang dilakukan.",
+     "tag": "Mahasiswa TI Semester 3"
+    }
+   ]
+  },
+  {
+   "key": "nilai",
+   "kind": "masalah",
+   "label": "Transparansi penilaian dan umpan balik",
+   "n": 9,
+   "ti": 1,
+   "sib": 8,
+   "by_sem": {
+    "TI Semester 3": 0,
+    "TI Semester 5": 1,
+    "SIB Semester 3": 0,
+    "SIB Semester 5": 8
+   },
+   "ringkasan": "Mahasiswa menginginkan transparansi nilai PBL serta umpan balik yang jelas, cepat, dan membangun. Satu komentar SIB menyoroti bahwa penilaian lebih menekankan produk atau kode daripada analisis kebutuhan dan manajemen proyek yang menjadi ciri program studinya.",
+   "makna": "Keadilan penilaian dan kejelasan rubrik termasuk hal yang paling berkaitan dengan kepuasan mahasiswa. Transparansi nilai karena itu bukan urusan administrasi semata, melainkan bagian dari pengalaman PBL.",
+   "subs": [
+    {
+     "label": "Transparansi nilai dan umpan balik yang jelas dan cepat",
+     "n": 5,
+     "ti": 0,
+     "sib": 5,
+     "by_sem": {
+      "TI Semester 3": 0,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 5
+     }
+    },
+    {
+     "label": "Kejelasan dan keadilan penilaian",
+     "n": 3,
+     "ti": 1,
+     "sib": 2,
+     "by_sem": {
+      "TI Semester 3": 0,
+      "TI Semester 5": 1,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 2
+     }
+    },
+    {
+     "label": "Penilaian proses dan analisis, bukan hanya produk",
+     "n": 1,
+     "ti": 0,
+     "sib": 1,
+     "by_sem": {
+      "TI Semester 3": 0,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 1
+     }
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Saran transparansi nilai PBL serta umpan balik dari hasil penilaian.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Penilaian pure murni dari skill, bukan personality.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Keberhasilan PBL bagi SIB seharusnya tidak diukur dari seberapa bagus aplikasi yang dihasilkan, melainkan dari kedalaman analisis kebutuhan, metodologi perancangan, dan efektivitas manajemen proyek.",
+     "tag": "Mahasiswa SIB Semester 5"
+    }
+   ]
+  },
+  {
+   "key": "fasilitas",
+   "kind": "masalah",
+   "label": "Fasilitas: server untuk deployment dan jaringan wifi",
+   "n": 7,
+   "ti": 0,
+   "sib": 7,
+   "by_sem": {
+    "TI Semester 3": 0,
+    "TI Semester 5": 0,
+    "SIB Semester 3": 3,
+    "SIB Semester 5": 4
+   },
+   "ringkasan": "Seluruh komentar tentang fasilitas berasal dari mahasiswa SIB. Keluhan utamanya adalah server untuk deployment: mahasiswa terpaksa memakai layanan gratis yang terbatas dan menyarankan kampus menyediakan server. Beberapa komentar lain menyebut jaringan wifi.",
+   "makna": "Menurut salah satu komentar, PBL Semester 5 menuntut deployment sehingga kebutuhan server meningkat. Fasilitas juga butir dengan skor terendah dan salah satu yang paling berkaitan dengan kepuasan, sehingga pengaruhnya lebih besar daripada jumlah komentarnya.",
+   "subs": [
+    {
+     "label": "Server untuk deployment",
+     "n": 3,
+     "ti": 0,
+     "sib": 3,
+     "by_sem": {
+      "TI Semester 3": 0,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 1,
+      "SIB Semester 5": 2
+     }
+    },
+    {
+     "label": "Jaringan wifi dan perangkat",
+     "n": 4,
+     "ti": 0,
+     "sib": 4,
+     "by_sem": {
+      "TI Semester 3": 0,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 2,
+      "SIB Semester 5": 2
+     }
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Beberapa mahasiswa sangat terkendala dengan tidak adanya server dari kampus untuk deployment.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Mungkin ke depannya pihak jurusan bisa menyediakan server di kampus bagi mahasiswa yang ingin melakukan deployment untuk kebutuhan PBL.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Wifi jurusan tolong jangan lag.",
+     "tag": "Mahasiswa SIB Semester 5"
+    }
+   ]
+  },
+  {
+   "key": "perubahan",
+   "kind": "masalah",
+   "label": "Dosen menambah atau mengubah kebutuhan di luar proposal saat review",
+   "n": 2,
+   "ti": 2,
+   "sib": 0,
+   "by_sem": {
+    "TI Semester 3": 1,
+    "TI Semester 5": 1,
+    "SIB Semester 3": 0,
+    "SIB Semester 5": 0
+   },
+   "ringkasan": "Dua komentar TI menyebut dosen menambah fitur atau mengubah alur pada saat review progres, padahal proposal sudah disepakati di awal.",
+   "makna": "Jumlahnya kecil, tetapi menunjukkan belum ada kesepakatan bersama tentang apa yang boleh diminta setelah proposal disetujui. Ini bagian dari kebutuhan akan arahan tunggal antar dosen.",
+   "subs": [
+    {
+     "label": "Permintaan fitur atau alur baru setelah proposal disepakati",
+     "n": 2,
+     "ti": 2,
+     "sib": 0,
+     "by_sem": {
+      "TI Semester 3": 1,
+      "TI Semester 5": 1,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 0
+     }
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Waktu report progres, sebaiknya dosen tidak meminta tambahan fitur atau mengubah alur yang sudah dijelaskan di proposal.",
+     "tag": "Mahasiswa TI Semester 5"
+    }
+   ]
+  },
+  {
+   "key": "baik",
+   "kind": "baik",
+   "label": "Hal baik yang ingin dipertahankan",
+   "n": 18,
+   "ti": 6,
+   "sib": 12,
+   "by_sem": {
+    "TI Semester 3": 4,
+    "TI Semester 5": 2,
+    "SIB Semester 3": 1,
+    "SIB Semester 5": 11
+   },
+   "ringkasan": "Pujian paling banyak menyebut manfaat PBL (pengalaman, kerja sama, bekal kerja), konsultasi dosen, dan template. Beberapa mahasiswa SIB Semester 5 menyebut pelaksanaan semester ini lebih rapi daripada semester sebelumnya.",
+   "makna": "Hal baik ada pada yang sudah dibangun (template, bimbingan, manfaat), sedangkan keluhan ada pada cara kerja bersama dan beban. Banyak komentar kritis justru ditutup dengan keinginan agar PBL dipertahankan dan diperbaiki, bukan dihentikan.",
+   "subs": [
+    {
+     "label": "Manfaat PBL (pengalaman, kerja sama, bekal kerja)",
+     "n": 7,
+     "ti": 2,
+     "sib": 5,
+     "by_sem": {
+      "TI Semester 3": 1,
+      "TI Semester 5": 1,
+      "SIB Semester 3": 1,
+      "SIB Semester 5": 4
+     }
+    },
+    {
+     "label": "Pelaksanaan lebih rapi atau jelas dari sebelumnya",
+     "n": 5,
+     "ti": 1,
+     "sib": 4,
+     "by_sem": {
+      "TI Semester 3": 1,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 4
+     }
+    },
+    {
+     "label": "Bimbingan dan konsultasi dosen",
+     "n": 4,
+     "ti": 2,
+     "sib": 2,
+     "by_sem": {
+      "TI Semester 3": 2,
+      "TI Semester 5": 0,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 2
+     }
+    },
+    {
+     "label": "Baik secara umum",
+     "n": 2,
+     "ti": 1,
+     "sib": 1,
+     "by_sem": {
+      "TI Semester 3": 0,
+      "TI Semester 5": 1,
+      "SIB Semester 3": 0,
+      "SIB Semester 5": 1
+     }
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Pelaksanaan PBL semester 5 di kelas kami sudah cukup baik dan rapi, cukup berbeda dari semester sebelumnya; sudah ada perbaikan.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Untuk PBL ini tetap dipertahankan saja karena bisa dijadikan bekal atau latihan untuk ke depannya seperti kerja.",
+     "tag": "Mahasiswa SIB Semester 5"
+    },
+    {
+     "text": "Inisiatif dosen membuka ruang untuk berkonsultasi sangat memudahkan saya.",
+     "tag": "Mahasiswa TI Semester 3"
+    },
+    {
+     "text": "PBL actually very good. How our learning outcomes implemented to some near real project for preparing us in real life work later.",
+     "tag": "Mahasiswa TI Semester 5"
+    }
+   ]
+  }
+ ],
+ "sentimen": [
+  {
+   "label": "kritik",
+   "n": 56,
+   "ti": 18,
+   "sib": 38,
+   "by_sem": {
+    "TI Semester 3": 13,
+    "TI Semester 5": 5,
+    "SIB Semester 3": 4,
+    "SIB Semester 5": 34
+   }
+  },
+  {
+   "label": "pujian",
+   "n": 6,
+   "ti": 1,
+   "sib": 5,
+   "by_sem": {
+    "TI Semester 3": 0,
+    "TI Semester 5": 1,
+    "SIB Semester 3": 0,
+    "SIB Semester 5": 5
+   }
+  },
+  {
+   "label": "campuran",
+   "n": 12,
+   "ti": 5,
+   "sib": 7,
+   "by_sem": {
+    "TI Semester 3": 4,
+    "TI Semester 5": 1,
+    "SIB Semester 3": 1,
+    "SIB Semester 5": 6
+   }
+  },
+  {
+   "label": "lain",
+   "n": 7,
+   "ti": 3,
+   "sib": 4,
+   "by_sem": {
+    "TI Semester 3": 1,
+    "TI Semester 5": 2,
+    "SIB Semester 3": 1,
+    "SIB Semester 5": 3
+   }
+  }
+ ],
+ "membaik": {
+  "n": 3,
+  "ti": 0,
+  "sib": 3,
+  "by_sem": {
+   "TI Semester 3": 0,
+   "TI Semester 5": 0,
+   "SIB Semester 3": 0,
+   "SIB Semester 5": 3
+  }
+ },
+ "sib_info": {
+  "n": 5,
+  "ti": 0,
+  "sib": 5,
+  "by_sem": {
+   "TI Semester 3": 0,
+   "TI Semester 5": 0,
+   "SIB Semester 3": 1,
+   "SIB Semester 5": 4
+  }
+ },
+ "usulan": [
+  {
+   "label": "Template, dokumen, dan ketentuan diberikan sejak awal, dalam satu dokumen",
+   "n": 8,
+   "ti": 0,
+   "sib": 8,
+   "by_sem": {
+    "TI Semester 3": 0,
+    "TI Semester 5": 0,
+    "SIB Semester 3": 0,
+    "SIB Semester 5": 8
+   }
+  },
+  {
+   "label": "Kurangi atau satukan tugas mata kuliah di luar PBL",
+   "n": 8,
+   "ti": 3,
+   "sib": 5,
+   "by_sem": {
+    "TI Semester 3": 1,
+    "TI Semester 5": 2,
+    "SIB Semester 3": 0,
+    "SIB Semester 5": 5
+   }
+  },
+  {
+   "label": "Pembagian tim lebih seimbang atau lebih diatur",
+   "n": 6,
+   "ti": 2,
+   "sib": 4,
+   "by_sem": {
+    "TI Semester 3": 2,
+    "TI Semester 5": 0,
+    "SIB Semester 3": 0,
+    "SIB Semester 5": 4
+   }
+  },
+  {
+   "label": "Server kampus untuk deployment dan perbaikan jaringan",
+   "n": 6,
+   "ti": 0,
+   "sib": 6,
+   "by_sem": {
+    "TI Semester 3": 0,
+    "TI Semester 5": 0,
+    "SIB Semester 3": 2,
+    "SIB Semester 5": 4
+   }
+  },
+  {
+   "label": "Sistem pemantauan progres dan kontribusi (termasuk milestone di LMS)",
+   "n": 5,
+   "ti": 1,
+   "sib": 4,
+   "by_sem": {
+    "TI Semester 3": 1,
+    "TI Semester 5": 0,
+    "SIB Semester 3": 0,
+    "SIB Semester 5": 4
+   }
+  },
+  {
+   "label": "Transparansi nilai dan umpan balik yang jelas",
+   "n": 5,
+   "ti": 0,
+   "sib": 5,
+   "by_sem": {
+    "TI Semester 3": 0,
+    "TI Semester 5": 0,
+    "SIB Semester 3": 0,
+    "SIB Semester 5": 5
+   }
+  },
+  {
+   "label": "Perpanjang waktu atau durasi PBL",
+   "n": 4,
+   "ti": 2,
+   "sib": 2,
+   "by_sem": {
+    "TI Semester 3": 2,
+    "TI Semester 5": 0,
+    "SIB Semester 3": 1,
+    "SIB Semester 5": 1
+   }
+  },
+  {
+   "label": "Materi diberikan sebelum milestone dan sesuai beban proyek",
+   "n": 3,
+   "ti": 2,
+   "sib": 1,
+   "by_sem": {
+    "TI Semester 3": 2,
+    "TI Semester 5": 0,
+    "SIB Semester 3": 1,
+    "SIB Semester 5": 0
+   }
+  },
+  {
+   "label": "Masukan dosen atau mitra untuk topik proyek dari dunia kerja",
+   "n": 3,
+   "ti": 1,
+   "sib": 2,
+   "by_sem": {
+    "TI Semester 3": 0,
+    "TI Semester 5": 1,
+    "SIB Semester 3": 0,
+    "SIB Semester 5": 2
+   }
+  }
+ ]
+}
