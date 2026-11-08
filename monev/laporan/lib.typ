@@ -867,7 +867,7 @@
 
 // catatan struktur PBL: keterangan koordinator, bukan hasil survei
 #let catatan-struktur() = callout("Keterangan koordinator: struktur pelaksanaan PBL", [
-  Bagian ini berasal dari penyusun laporan, bukan dari survei. PBL punya dua koordinator, TI dan SIB. Semester ini koordinasi PBL berjalan terutama lewat Koordinator PBL TI, yang juga mengampu empat kelas SIB Semester 5, sehingga PBL SIB tetap berjalan. Pembagian peran antar koordinator belum tertulis. PBL juga belum punya petunjuk teknis (juknis) atau petunjuk pelaksanaan (juklak) di tingkat jurusan. Yang ada hanya di tingkat institusi, sehingga aturannya tersebar di SOP tiap milestone dan RPS tiap dosen.
+  Bagian ini berasal dari penyusun laporan, bukan dari survei. PBL punya dua koordinator, TI dan SIB. Semester ini koordinasi PBL berjalan terutama lewat Koordinator PBL TI, yang juga mengampu empat kelas SIB Semester 5, sehingga PBL SIB tetap berjalan. Pembagian peran antar koordinator belum tertulis. PBL juga belum punya petunjuk teknis (juknis) atau petunjuk pelaksanaan (juklak) di tingkat jurusan. Yang ada hanya di tingkat institusi, sehingga aturannya tersebar di SOP tiap milestone dan RPS tiap dosen. Akibatnya, cara PBL dijalankan sampai sekarang bertumpu pada pengalaman semester-semester sebelumnya, baik yang berhasil maupun yang gagal, dan pada asumsi tentang apa yang akan berhasil, bukan pada aturan tertulis di tingkat jurusan. Karena itu, hasil survei ini juga menjadi cara pertama untuk menguji asumsi tersebut dengan data.
 ], color: primary-mid)
 
 #let rekom-cards(s) = {
