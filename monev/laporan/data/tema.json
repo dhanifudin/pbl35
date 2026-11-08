@@ -23,8 +23,8 @@
     "SIB Semester 3": 1,
     "SIB Semester 5": 14
    },
-   "ringkasan": "Komentar terbanyak datang dari SIB Semester 5. Mahasiswa mengatakan arahan, permintaan, dan masukan dosen sering berbeda. Mereka merasa kehilangan arah dan harus memilih sendiri arahan mana yang diikuti. Ada yang menyebut kejelasan baru muncul tiga minggu setelah semester berjalan.",
-   "makna": "Keluhan ini bukan soal kemampuan masing-masing dosen. Masalahnya ada pada cara kerja bersama: belum ada forum dan waktu untuk menyamakan arahan. Data dosen sejalan dengan ini: kesepakatan peran jarang ada dan rapat koordinasi tidak selalu dihadiri.",
+   "ringkasan": "Komentar terbanyak datang dari SIB Semester 5. Mahasiswa mengatakan arahan, permintaan, dan masukan dosen sering berbeda. Mereka merasa kehilangan arah dan harus memilih sendiri arahan mana yang diikuti. Ada yang menyebut kejelasan baru muncul tiga minggu setelah kuliah dimulai.",
+   "makna": "Keluhan ini bukan soal kemampuan masing-masing dosen. Masalahnya ada pada cara kerja bersama: belum ada forum dan waktu untuk menyamakan arahan. Data dosen sejalan: kesepakatan peran jarang ada dan rapat koordinasi tidak selalu dihadiri.",
    "subs": [
     {
      "label": "Arahan, permintaan, atau masukan berbeda antar dosen",
@@ -93,7 +93,7 @@
   {
    "key": "beban",
    "kind": "masalah",
-   "label": "Tugas di luar proyek dan tenggat yang menambah beban",
+   "label": "Tugas di luar proyek dan tenggat yang memberatkan",
    "n": 20,
    "ti": 9,
    "sib": 11,
@@ -103,8 +103,8 @@
     "SIB Semester 3": 2,
     "SIB Semester 5": 9
    },
-   "ringkasan": "Ada dua keluhan. Pertama, tugas praktikum, jobsheet, atau tugas besar berjalan terpisah dari PBL, sehingga mahasiswa merasa mengerjakan lebih dari satu proyek. Kedua, tenggat dan waktu pengerjaan terasa singkat; ada yang mengusulkan PBL diperpanjang menjadi dua semester.",
-   "makna": "Mahasiswa tidak menolak PBL. Beberapa justru mengatakan PBL layak dipertahankan asalkan tugas lain dikurangi. Masalahnya ada pada tugas yang menumpuk, bukan pada proyeknya. Survei menunjukkan hal yang sama: mahasiswa yang menilai beban berat jauh kurang puas dan kurang ingin PBL dilanjutkan.",
+   "ringkasan": "Ada dua keluhan. Pertama, tugas praktikum, jobsheet, atau tugas besar berjalan terpisah dari PBL, sehingga mahasiswa merasa mengerjakan lebih dari satu proyek. Kedua, tenggat dan waktu pengerjaan terasa singkat. Ada yang mengusulkan PBL diperpanjang menjadi dua semester.",
+   "makna": "Mahasiswa tidak menolak PBL. Beberapa justru mengatakan PBL layak dipertahankan asalkan tugas lain dikurangi. Masalahnya ada pada tugas yang menumpuk, bukan pada proyeknya. Survei menunjukkan hal yang sama: mahasiswa yang menilai beban berat jauh kurang puas dan kurang setuju PBL dilanjutkan.",
    "subs": [
     {
      "label": "Tugas praktikum, jobsheet, atau tugas besar yang terpisah dari PBL",
@@ -171,8 +171,8 @@
     "SIB Semester 3": 1,
     "SIB Semester 5": 6
    },
-   "ringkasan": "Ada dua masalah yang berbeda: anggota yang kurang berkontribusi dan cara tim dibentuk. Pendapat tentang pembentukan tim terbelah. Sebagian mahasiswa ingin memilih sendiri anggotanya agar cocok. Sebagian lain ingin dosen yang membagi berdasarkan kemampuan agar seimbang. Beberapa juga meminta cara memantau kontribusi tiap anggota.",
-   "makna": "Karena pendapatnya terbelah, aturan satu arah (acak, pilih sendiri, atau ditentukan dosen) akan tetap ditolak sebagian mahasiswa. Kedua pihak sepakat pada satu hal: kontribusi tiap orang perlu terlihat, dipantau dosen, dan memengaruhi nilai.",
+   "ringkasan": "Ada dua masalah yang berbeda: anggota yang kurang berkontribusi, dan cara tim dibentuk. Pendapat tentang pembentukan tim terbelah. Sebagian mahasiswa ingin memilih sendiri anggotanya agar cocok. Sebagian lain ingin dosen yang membagi berdasarkan kemampuan agar seimbang. Beberapa juga meminta cara memantau kontribusi tiap anggota.",
+   "makna": "Karena pendapatnya terbelah, aturan apa pun (acak, pilih sendiri, atau ditentukan dosen) akan tetap ditolak sebagian mahasiswa. Kedua kubu sepakat pada satu hal: kontribusi tiap orang perlu terlihat, dipantau dosen, dan memengaruhi nilai.",
    "subs": [
     {
      "label": "Anggota kurang berkontribusi",
@@ -241,7 +241,7 @@
   {
    "key": "kejelasan",
    "kind": "masalah",
-   "label": "Alur, milestone, dan template perlu jelas sejak awal semester",
+   "label": "Alur, milestone, dan template harus jelas sejak awal semester",
    "n": 11,
    "ti": 2,
    "sib": 9,
@@ -251,8 +251,8 @@
     "SIB Semester 3": 0,
     "SIB Semester 5": 9
    },
-   "ringkasan": "Mahasiswa meminta template, ketentuan, dan jadwal milestone diberikan sejak awal semester, dalam satu dokumen untuk semua mata kuliah. Mahasiswa SIB menyebut template dan jadwal yang mereka pakai berasal dari TI dan disampaikan dosen mata kuliah, bukan lewat paket informasi resmi SIB.",
-   "makna": "Template sebenarnya salah satu hal yang paling dihargai. Yang bermasalah adalah waktu dan cara penyampaiannya. Perbaikannya murah: satu paket informasi di minggu pertama semester depan.",
+   "ringkasan": "Mahasiswa meminta template, ketentuan, dan jadwal milestone diberikan sejak awal semester, dalam satu dokumen untuk semua mata kuliah. Mahasiswa SIB menyebut template dan jadwal yang mereka pakai berasal dari TI. Semuanya disampaikan dosen mata kuliah, bukan lewat paket informasi resmi SIB.",
+   "makna": "Template justru salah satu hal yang paling dihargai. Yang bermasalah adalah waktu dan cara penyampaiannya. Perbaikannya murah: satu paket informasi di minggu pertama semester depan.",
    "subs": [
     {
      "label": "Template dan dokumen terlambat atau terpisah per mata kuliah",
@@ -328,7 +328,7 @@
     "SIB Semester 5": 5
    },
    "ringkasan": "Komentar menyebut sulit mendapat waktu konsultasi, dosen yang jarang hadir, dan kelas yang hanya berisi jobsheet tanpa sesi meninjau proyek. Materi juga sering datang setelah milestone membutuhkannya.",
-   "makna": "Pengalaman bimbingan berbeda-beda antar mata kuliah. Data per mata kuliah menunjukkan hal yang sama: kegiatan dosen untuk proyek sangat bervariasi antar mata kuliah, lebih daripada antar program studi.",
+   "makna": "Pengalaman bimbingan berbeda-beda antar mata kuliah. Data per mata kuliah menunjukkan hal yang sama: kegiatan dosen untuk proyek sangat beragam antar mata kuliah, lebih beragam daripada antar program studi.",
    "subs": [
     {
      "label": "Sulit berkonsultasi atau dosen jarang hadir",
@@ -403,8 +403,8 @@
     "SIB Semester 3": 0,
     "SIB Semester 5": 8
    },
-   "ringkasan": "Mahasiswa ingin nilai PBL transparan dan umpan balik jelas, cepat, dan membangun. Satu komentar SIB mengatakan penilaian terlalu menekankan produk atau kode, padahal ciri SIB adalah analisis kebutuhan dan manajemen proyek.",
-   "makna": "Penilaian yang adil dan rubrik yang jelas termasuk hal yang paling berhubungan dengan kepuasan mahasiswa. Jadi transparansi nilai bukan sekadar urusan administrasi; ia bagian dari pengalaman PBL.",
+   "ringkasan": "Mahasiswa ingin nilai PBL terbuka dan umpan balik yang jelas, cepat, dan membangun. Satu komentar SIB mengatakan penilaian terlalu menekankan produk atau kode, padahal ciri SIB adalah analisis kebutuhan dan manajemen proyek.",
+   "makna": "Penilaian yang adil dan rubrik yang jelas termasuk hal yang paling berhubungan dengan kepuasan mahasiswa. Jadi keterbukaan nilai bukan sekadar urusan administrasi, tetapi bagian dari pengalaman PBL.",
    "subs": [
     {
      "label": "Nilai transparan, umpan balik jelas dan cepat",
@@ -471,8 +471,8 @@
     "SIB Semester 3": 3,
     "SIB Semester 5": 4
    },
-   "ringkasan": "Semua komentar tentang fasilitas datang dari mahasiswa SIB. Keluhan utamanya server untuk deployment: mahasiswa terpaksa memakai layanan gratis yang terbatas, dan mereka menyarankan kampus menyediakan server. Beberapa komentar lain menyebut wifi.",
-   "makna": "Satu komentar menyebut PBL Semester 5 menuntut deployment, sehingga kebutuhan server naik. Fasilitas juga butir dengan skor terendah dan salah satu yang paling berhubungan dengan kepuasan. Pengaruhnya karena itu lebih besar daripada jumlah komentarnya.",
+   "ringkasan": "Semua komentar tentang fasilitas datang dari mahasiswa SIB. Keluhan utamanya server untuk deployment. Mahasiswa terpaksa memakai layanan gratis yang terbatas, dan menyarankan kampus menyediakan server. Beberapa komentar lain menyebut wifi.",
+   "makna": "Satu komentar menyebut PBL Semester 5 menuntut deployment, sehingga kebutuhan server naik. Fasilitas juga butir dengan skor terendah dan salah satu yang paling berhubungan dengan kepuasan. Jadi pengaruhnya lebih besar daripada jumlah komentarnya.",
    "subs": [
     {
      "label": "Server untuk deployment",
@@ -564,7 +564,7 @@
     "SIB Semester 5": 11
    },
    "ringkasan": "Pujian paling banyak menyebut manfaat PBL (pengalaman, kerja sama, bekal kerja), konsultasi dengan dosen, dan template. Beberapa mahasiswa SIB Semester 5 mengatakan pelaksanaan semester ini lebih rapi daripada semester sebelumnya.",
-   "makna": "Hal baik ada pada yang sudah dibangun: template, bimbingan, dan manfaat. Keluhan ada pada cara kerja bersama dan beban. Banyak komentar kritis justru ditutup dengan harapan agar PBL dipertahankan dan diperbaiki, bukan dihentikan.",
+   "makna": "Hal baiknya ada pada yang sudah dibangun: template, bimbingan, dan manfaat. Keluhannya ada pada cara kerja bersama dan beban. Banyak komentar kritis justru ditutup dengan harapan agar PBL dipertahankan dan diperbaiki, bukan dihentikan.",
    "subs": [
     {
      "label": "Manfaat PBL (pengalaman, kerja sama, bekal kerja)",

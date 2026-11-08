@@ -25,11 +25,11 @@
 #let sop = dr.corr.filter(c => c.label.starts-with("SOP")).first()
 #let peran-n = int(calc.round(l.coord_yn.at(2).ya * l.n / 100))
 
-#show: report.with("Program Studi D-IV Sistem Informasi Bisnis", kaprodi-sib)
+#show: report.with("Program Studi Sarjana Terapan Sistem Informasi Bisnis", kaprodi-sib)
 
 = Ringkasan Eksekutif
 
-Survei monev PBL di Program Studi D-IV Sistem Informasi Bisnis diisi oleh *#m.n mahasiswa* (#pc(m.response.rate, d: 1) dari #m.response.roster mahasiswa Semester 3 dan 5) dan *#l.n dosen pengampu* (#pc(l.rate, d: 1) dari #l.roster dosen). Berikut ringkasan hal yang baik dan hal yang bermasalah, lalu langkah tindak lanjut menurut waktunya.
+Survei monev PBL di Program Studi Sarjana Terapan Sistem Informasi Bisnis diisi oleh *#m.n mahasiswa* (#pc(m.response.rate, d: 1) dari #m.response.roster mahasiswa Semester 3 dan 5) dan *#l.n dosen pengampu* (#pc(l.rate, d: 1) dari #l.roster dosen). Berikut ringkasan hal yang baik, hal yang bermasalah, dan langkah tindak lanjut menurut waktunya.
 
 #tiles(
   tile(pc(m.response.rate, d: 1), "Tingkat respons mahasiswa SIB", sub: "target 70%", color: accent),
@@ -58,15 +58,13 @@ Survei monev PBL di Program Studi D-IV Sistem Informasi Bisnis diisi oleh *#m.n 
 
 == Tindak lanjut utama menurut waktu
 
-#grid(columns: (92pt, 1fr), row-gutter: 14pt, column-gutter: 8pt,
-  chip(w-ini, accent), [Adakan rapat evaluasi dengan dosen pengampu SIB. Umumkan ringkasan hasil kepada mahasiswa. Tetapkan dosen rujukan (PIC) untuk tiap kelas. Minta dosen menyampaikan ulang rubrik, bobot nilai, dan format laporan Milestone 2. Bahas gambaran per mata kuliah. Jangan ada tugas baru di luar proyek selama pekan Milestone 2.],
-  chip(w-setelah, primary), [Adakan rapat koordinasi rutin dan tetapkan peran dosen secara tertulis. Siapkan ruang SIB di LMS dengan dokumen laporan gabungan. Susun kalender tenggat bersama. Telaah rubrik tiap mata kuliah terhadap rubrik PBL. Jadwalkan review milestone.],
-  chip(w-depan, primary-mid), [Berikan paket informasi SIB di minggu pertama. Susun rubrik PBL yang menempatkan produk dan manajemen proyek sejajar. Tulis bobot nilai di RPS. Siapkan server deployment dan perbaiki jaringan. Pantau pengisian survei di setiap kelas.],
-)
+#tindak-lanjut-utama()
+
+#catatan-struktur()
 
 #pagebreak(weak: true)
 
-= Cakupan Responden dan Keterwakilan
+= Cakupan Responden dan Seberapa Mewakili
 
 == Tingkat respons dan sebaran kelas
 
@@ -83,11 +81,13 @@ Survei monev PBL di Program Studi D-IV Sistem Informasi Bisnis diisi oleh *#m.n 
   ),
 )
 
-#sec-coverage("sib", with-classes: true, lead: [Target respons adalah 70% untuk mahasiswa dan seluruh dosen pengampu. Garis pada grafik menandai 70%. Kelas Semester 5 berlabel SIB-3A dan seterusnya, sedangkan kelas Semester 3 berlabel SIB-2A dan seterusnya.])
+#sec-coverage("sib", lead: [Target respons adalah 70% untuk mahasiswa dan seluruh dosen pengampu. Garis pada grafik menunjukkan 70%. Kelas Semester 5 berlabel SIB-3A dan seterusnya, sedangkan kelas Semester 3 berlabel SIB-2A dan seterusnya.])
+
+#sec-kelas("sib")
 
 == Kelas yang dipantau dan kelas tanpa pemantauan
 
-Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, tetapi respons tetap rendah. Di SIB, Koordinator PBL TI mengampu mata kuliah di empat kelas Semester 5 (SIB-3A sampai SIB-3D). Di kelas-kelas itu pengisian diingatkan dan dipantau langsung. Di kelas lain, tautan hanya dibagikan.
+Grup WhatsApp adalah saluran komunikasi wajib, dan survei diumumkan di sana. Meski begitu, respons tetap rendah. Di SIB, Koordinator PBL TI mengampu mata kuliah di empat kelas Semester 5 (SIB-3A sampai SIB-3D). Di kelas-kelas itu pengisian diingatkan dan dipantau langsung. Di kelas lain, pengisian belum dipantau secara khusus, jadi hanya bergantung pada pengumuman di grup.
 
 #sec-keterwakilan("sib")
 
@@ -98,12 +98,9 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
   - *Semester 3 kurang terwakili.* Kelompok kelas lain hanya punya #mo.oth.n responden, jadi masalah khusus Semester 3 mungkin belum terlihat.
 ]
 
-#rekom-box(
-  (aksi: [Putuskan apakah formulir dibuka lagi selama satu pekan khusus untuk kelas Semester 3.], waktu: w-ini, pj: "Kaprodi SIB"),
-  (aksi: [Pada survei berikutnya, minta setiap dosen pengampu SIB mengingatkan dan memantau pengisian di kelasnya, seperti di empat kelas yang dipantau (#pc(mo.enf.rate, d: 1) berbanding #pc(mo.oth.rate, d: 1)). Isi survei dalam satu sesi 10 menit pada jam kuliah (lewat kode QR). DPA dan ketua kelas memastikan semua anggota mengisi, mulai dari kelas Semester 3.], waktu: w-depan, pj: "Kaprodi SIB, dosen pengampu SIB, DPA, ketua kelas", indikator: [respons minimal 70% di setiap kelas SIB pada survei berikutnya]),
-)
+#rekom-box(..rekom-items("respons", "sib"))
 
-= Rangkuman per Aspek
+= Ringkasan per Aspek
 
 #baik-buruk(
   baik: (
@@ -112,7 +109,7 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
   ),
   buruk: (
     [Aspek B (integrasi antar mata kuliah): *#pc(m.aspek.at(1).problem_pct)* memilih masalah, termasuk arahan dosen yang tidak terkoordinasi.],
-    [Aspek D (kolaborasi, beban, dukungan): *#pc(m.aspek.at(3).problem_pct)* memilih minimal satu masalah.],
+    [Aspek D (kolaborasi, beban, dukungan): *#pc(m.aspek.at(3).problem_pct)* memilih paling sedikit satu masalah.],
     [Di aspek B, dosen (*#fmt(m.aspek.at(1).dosen_mean, d: 2)*) dan mahasiswa (*#fmt(m.aspek.at(1).mhs_mean, d: 2)*) sama-sama menilai rendah.],
   ),
 )
@@ -120,7 +117,7 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
 #sec-aspek("sib")
 
 #apa-artinya[
-  - *Kalau kedua sisi sepakat, itu tanda terkuat bahwa masalahnya nyata.* Aspek B adalah satu-satunya tempat mahasiswa dan dosen menilai hampir sama; di aspek lain dosen menilai jauh lebih tinggi.
+  - *Kalau mahasiswa dan dosen sama-sama menilai rendah, masalahnya hampir pasti nyata.* Hanya aspek B yang dinilai hampir sama oleh keduanya. Di aspek lain, dosen menilai jauh lebih tinggi.
   - *Aspek D banyak dipilih,* terutama beban kerja dan fasilitas.
 ]
 
@@ -172,20 +169,17 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
 
 #apa-artinya[
   - *Konsepnya dipahami, kebiasaan membimbingnya belum.* Kesenjangan ada pada cara dosen membimbing tim yang tertinggal.
-  - *Hampir semua dosen SIB yang menjawab sudah berpengalaman* (#l.by_experience.at(0).n orang), jadi penyegaran perlu menyasar kebiasaan dosen berpengalaman.
+  - *Hampir semua dosen SIB yang menjawab sudah berpengalaman* (#l.by_experience.at(0).n orang), jadi pendampingan perlu menyasar kebiasaan dosen berpengalaman.
 ]
 
-#rekom-box(
-  (aksi: [Jadwalkan sosialisasi PBL bagi dosen SIB yang belum pernah mengikutinya.], waktu: w-setelah, pj: "Kaprodi SIB dan Koordinator PBL TI"),
-  (aksi: [Adakan penyegaran PBL 60 menit untuk dosen pengampu SIB, dengan fokus pada pertanyaan pemandu dan menahan diri dari memberi solusi langsung.], waktu: w-depan, pj: "Kaprodi SIB dan Koordinator PBL TI", indikator: [dosen SIB memilih tindakan yang tepat minimal 90%]),
-)
+#rekom-box(..rekom-items("pemahaman", "sib"))
 
 = Bimbingan dan Konsultasi
 
 #baik-buruk(
   baik: (
     [*#pc(cepat)* mahasiswa SIB mengatakan dosen menjawab dalam kurang dari sehari.],
-    [Konsultasi dimulai oleh kedua pihak pada *#pc(pick(m.consult_init.items, "Keduanya").pct)* tim.],
+    [Kedua pihak memulai konsultasi pada *#pc(pick(m.consult_init.items, "Keduanya").pct)* tim.],
   ),
   buruk: (
     [*#pc(m.consult_freq.items.at(0).pct)* tim belum pernah berkonsultasi di luar jam kuliah.],
@@ -200,17 +194,14 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
   - *Kehadiran dosen di review berbeda antar mata kuliah* (bagian 13).
 ]
 
-#rekom-box(
-  (aksi: [Minta dosen menyediakan sekitar 15 menit untuk meninjau proyek tiap tim pada pertemuan terdekat sebelum review Milestone 2.], waktu: w-ini, pj: "Dosen pengampu SIB"),
-  (aksi: [Adakan sesi tinjau proyek untuk tiap tim di setiap milestone dan catat di catatan bimbingan.], waktu: w-setelah, pj: "Dosen pengampu SIB dan Kaprodi SIB", indikator: [tim yang belum pernah berkonsultasi di bawah 10% pada survei berikutnya]),
-)
+#rekom-box(..rekom-items("bimbingan", "sib"))
 
 = Keselarasan Mata Kuliah dengan Proyek
 
 #baik-buruk(
   baik: (
     [*#pc(m.pooled.bc.at(0).ya)* menjawab kontrak kuliah memuat kaitan dengan proyek.],
-    [*#pc(m.pooled.type.at(0).pct)* tugas utama berupa hasil kerja (deliverable) proyek, lebih tinggi daripada TI.],
+    [*#pc(m.pooled.type.at(0).pct)* tugas utama berupa hasil kerja proyek, lebih tinggi daripada TI.],
     [Latihan umum hanya *#pc(pick(m.pooled.type, "Latihan umum").pct)*.],
   ),
   buruk: (
@@ -227,11 +218,14 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
   - *Ini sejalan dengan lemahnya rubrik dan keselarasan tugas,* yang dinilai sama rendah oleh mahasiswa dan dosen (bagian 3 dan 4).
 ]
 
-#rekom-box(
-  (aksi: [Minta dosen menyampaikan ulang rubrik, bobot nilai PBL, dan format laporan Milestone 2 di kelas masing-masing.], waktu: w-ini, pj: "Dosen pengampu SIB"),
-  (aksi: [Telaah rubrik tiap mata kuliah terhadap rubrik PBL agar sejalan, mulai dari mata kuliah dengan keselarasan terendah.], waktu: w-setelah, pj: "Kaprodi SIB dan dosen pengampu SIB", indikator: [rubrik jelas disetujui minimal 70% mahasiswa dan dosen]),
-  (aksi: [Susun rubrik PBL SIB yang menempatkan analisis kebutuhan, perancangan, dan manajemen proyek sejajar dengan produk. Tulis bobot nilai PBL di RPS dan umumkan di LMS.], waktu: w-depan, pj: "Kaprodi SIB, dosen pengampu SIB, dan Koordinator PBL TI", indikator: [jawaban "bobot tidak disampaikan" di bawah 5%]),
-)
+#sec-keselarasan-matkul("sib")
+
+#apa-artinya[
+  - *Tidak ada satu mata kuliah yang menjadi penentu.* Hasilnya berbeda jauh antar mata kuliah di kelas yang sama. PBL menyatukan tugas banyak mata kuliah menjadi satu studi kasus besar. Karena itu, yang membedakan adalah cara tiap mata kuliah menyusun tugas dan rubriknya.
+  - *Latihan umum paling sering muncul di mata kuliah yang punya CPMK sendiri.* Pada tabel di atas, mata kuliah seperti Basis Data Lanjut dan Sistem Informasi Manajemen paling sering memberi latihan umum sebagai tugas utama. Hasil kerjanya perlu dipetakan ke milestone.
+]
+
+#rekom-box(..rekom-items("keselarasan", "sib"))
 
 = Beban Kerja dan Tugas di Luar Proyek
 
@@ -254,11 +248,7 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
   - *Jangan menambah beban dosen.* Karena dosen SIB juga merasa terbebani, gabungkan tugas mahasiswa dengan hasil kerja milestone, bukan menambah tugas.
 ]
 
-#rekom-box(
-  (aksi: [Minta dosen tidak menambah tugas baru di luar proyek selama pekan Milestone 2, terutama di Semester 3.], waktu: w-ini, pj: "Dosen pengampu SIB"),
-  (aksi: [Susun kalender tenggat bersama untuk semua mata kuliah PBL di tiap kelas sampai akhir semester.], waktu: w-setelah, pj: "Kaprodi SIB dan dosen pengampu SIB", indikator: [mahasiswa SIB yang menilai beban berat di bawah 30%]),
-  (aksi: [Gabungkan tugas mata kuliah ke dalam hasil kerja milestone.], waktu: w-depan, pj: "Dosen pengampu SIB"),
-)
+#rekom-box(..rekom-items("beban", "sib"))
 
 = Koordinasi antar Dosen
 
@@ -282,17 +272,14 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
   - *Koordinasi di SIB lebih lemah daripada di TI* pada pembagian peran dan kejelasan dosen rujukan.
 ]
 
-#rekom-box(
-  (aksi: [Adakan satu sesi koordinasi dosen SIB untuk menyamakan arahan Milestone 2, dan buat daftar sederhana dosen rujukan (PIC) tiap kelas yang diumumkan kepada mahasiswa.], waktu: w-ini, pj: "Kaprodi SIB dan Koordinator PBL TI"),
-  (aksi: [Adakan rapat koordinasi rutin dosen SIB (dua mingguan, 30 menit) yang memutuskan satu arahan bersama untuk tiap milestone dan menyelaraskan rubrik serta tenggat. Tetapkan peran dosen di tiap kelas secara tertulis.], waktu: w-setelah, pj: "Kaprodi SIB dan dosen pengampu SIB", indikator: [kesepakatan peran naik dari #pc(l.coord_yn.at(2).ya) menjadi minimal 80%; mahasiswa yang tahu harus bertanya ke siapa naik dari #pc(m.coord.at(2).ya)]),
-)
+#rekom-box(..rekom-items("koordinasi", "sib"))
 
 = Hal yang Berhubungan dengan Kepuasan
 
 #baik-buruk(
   baik: (
     [Yang tahu harus bertanya ke dosen siapa: puas *#fmt(grp(kontak, "Ya").puas, d: 2)* (berbanding #fmt(grp(kontak, "Sebagian atau tidak").puas, d: 2)).],
-    [Kelengkapan SOP tidak menentukan kepuasan (korelasi #fmt(sop.r_puas, d: 2)).],
+    [Kelengkapan SOP tidak menentukan kepuasan (hubungan #fmt(sop.r_puas, d: 2)).],
   ),
   buruk: (
     [Beban berat: puas *#fmt(grp(beban, "Berat atau sangat berat").puas, d: 2)* (berbanding #fmt(grp(beban, "Ringan atau sesuai").puas, d: 2)).],
@@ -330,9 +317,9 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
 #sec-duasisi("sib")
 
 #apa-artinya[
-  - *SOP dan template punya dua sisi di SIB.* #pc(m.dua_sisi.at(0).baik) menyebutnya baik, tetapi #pc(m.dua_sisi.at(0).masalah) memilih kejelasan ketentuan sebagai masalah (di TI hanya #pc(d.ti.mhs.dua_sisi.at(0).masalah)). Yang belum jelas adalah ketentuan khusus SIB, terutama rubrik (#pc(m.dua_sisi.at(1).baik) baik, #pc(m.dua_sisi.at(1).masalah) bermasalah).
+  - *SOP dan template punya dua sisi di SIB.* #pc(m.dua_sisi.at(0).baik) menyebutnya baik, tetapi #pc(m.dua_sisi.at(0).masalah) memilih kejelasan ketentuan sebagai masalah (di TI hanya #pc(d.ti.mhs.dua_sisi.at(0).masalah)). Yang belum jelas ketentuan khusus SIB, terutama rubrik (#pc(m.dua_sisi.at(1).baik) baik, #pc(m.dua_sisi.at(1).masalah) bermasalah).
   - *Fasilitas hanya masalah.* Hanya #pc(m.dua_sisi.at(6).baik) menyebutnya baik, sedangkan #pc(m.dua_sisi.at(6).masalah) menyebutnya bermasalah.
-  - *Bimbingan dan umpan balik adalah keunggulan.* #pc(m.dua_sisi.at(2).baik) menyebutnya baik, hanya #pc(m.dua_sisi.at(2).masalah) menyebutnya bermasalah.
+  - *Bimbingan dan umpan balik menjadi keunggulan.* #pc(m.dua_sisi.at(2).baik) menyebutnya baik, hanya #pc(m.dua_sisi.at(2).masalah) menyebutnya bermasalah.
 ]
 
 #pagebreak(weak: true)
@@ -351,20 +338,33 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
   ),
 )
 
-#sec-komentar("sib", lead: [Mahasiswa SIB mengisi #tema.substantive_sib komentar bermakna, lebih banyak daripada TI dan sebagian besar dari Semester 5. Komentar dikelompokkan menjadi tema berikut, dibandingkan dengan TI, dihubungkan dengan angka survei, dan dijelaskan artinya.])
+#sec-komentar("sib", lead: [Mahasiswa SIB mengisi #tema.substantive_sib komentar bermakna, lebih banyak daripada TI dan sebagian besar dari Semester 5. Komentar dikelompokkan menurut tema, dibandingkan dengan TI, dikaitkan dengan angka survei, lalu dijelaskan artinya.])
 
 #apa-artinya[
   - *Tiga hal khas SIB.* #tema.sib_info.n komentar menyebut informasi, template, atau jadwal SIB datang belakangan atau mengikuti TI. Semua komentar fasilitas (#th("fasilitas").n) datang dari SIB. Ada juga komentar tentang identitas SIB: penilaian terlalu menekankan produk dan kode, padahal kekuatan SIB adalah analisis kebutuhan dan manajemen proyek.
   - *Perbaikan mulai terasa.* #tema.membaik.n komentar Semester 5 mengatakan pelaksanaan semester ini lebih rapi daripada sebelumnya.
 ]
 
-#rekom-box(
-  (aksi: [Sampaikan ringkasan hasil dan langkah perbaikan kepada mahasiswa SIB: komentar mereka sudah dibaca dan ditindaklanjuti.], waktu: w-ini, pj: "Koordinator PBL TI bersama Kaprodi SIB"),
-  (aksi: [Siapkan ruang SIB di LMS berisi dokumen laporan gabungan dan jadwal milestone, supaya mahasiswa SIB tidak bergantung pada paket TI.], waktu: w-setelah, pj: "Kaprodi SIB dan Koordinator PBL TI"),
-  (aksi: [Berikan paket informasi SIB (SOP, template, jadwal milestone, rubrik, bobot) di minggu pertama, disusun bersama dan disampaikan lewat Kaprodi SIB dan dosen pengampu SIB.], waktu: w-depan, pj: "Kaprodi SIB, dosen pengampu SIB, dan Koordinator PBL TI"),
-  (aksi: [Ajukan server deployment bersama untuk proyek PBL dan perbaiki jaringan, dengan cara pengajuan proyek yang sederhana.], waktu: w-depan, pj: "Kaprodi SIB dan Ketua Jurusan", indikator: [skor fasilitas minimal 3,8]),
-  (aksi: [Catat kontribusi tiap anggota dan buat panduan melibatkan mitra atau calon pengguna.], waktu: w-depan, pj: "Dosen pengampu SIB"),
+#rekom-box(..rekom-items("komentar", "sib"))
+
+= Analisis Komentar Bebas Dosen
+
+#baik-buruk(
+  baik: (
+    [*#tema-dosen.penulis.at(if "sib" == "all" { "n" } else { "sib" }) dari #d.at("sib").dosen.n dosen* menulis usulan pada pertanyaan terbuka. Sebagian besar usulan sejalan dengan jawaban pilihan ganda dosen.],
+    [Dosen sendiri meminta panduan tertulis dan koordinasi sejak awal semester (#td("panduan", "sib") dosen).],
+    [Ada usulan memberi penghargaan kepada dosen pendamping dan produk PBL terbaik (#td("apresiasi", "sib") dosen), serta usulan wadah bersama untuk produk dan progres (#td("wadah", "sib") dosen).],
+  ),
+  buruk: (
+    [*#td("beban", "sib") dosen* menyinggung beban dan pemerataan dosen pengampu, sejalan dengan hambatan beban mengajar dan administrasi.],
+    [*#td("keselarasan", "sib") dosen* menyoroti keselarasan mata kuliah dengan PBL, termasuk belum adanya mata kuliah acuan penilaian PBL di SIB.],
+    [Hanya sebagian kecil dosen yang menulis usulan, jadi pendapat dosen lain belum tercatat.],
+  ),
 )
+
+#sec-komentar-dosen("sib")
+
+#rekom-box(..rekom-items("komentar-dosen", "sib"))
 
 = Gambaran per Mata Kuliah
 
@@ -388,7 +388,7 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
 ]
 
 #rekom-box(
-  (aksi: [Bahas gambaran per mata kuliah dengan dosen pengampu di rapat evaluasi, terutama Basis Data Lanjut Semester 3 dan kehadiran di review Manajemen Proyek Sistem Informasi.], waktu: w-ini, pj: "Kaprodi SIB dan Koordinator PBL TI"),
+  (aksi: [Bahas gambaran per mata kuliah dengan dosen pengampu lewat grup WhatsApp atau satu pertemuan singkat, terutama Basis Data Lanjut Semester 3 dan kehadiran di review Manajemen Proyek Sistem Informasi.], waktu: w-ini, pj: "Kaprodi SIB dan Koordinator PBL TI"),
   (aksi: [Jadwalkan kehadiran dosen di review milestone sejak awal tiap milestone, dan jelaskan kaitan mata kuliah dengan proyek di pertemuan pertama.], waktu: w-setelah, pj: "Dosen pengampu SIB", indikator: [kehadiran di semua review minimal 80% di setiap mata kuliah]),
 )
 
@@ -396,75 +396,15 @@ Grup WhatsApp adalah saluran komunikasi wajib dan survei diumumkan di sana, teta
 
 = Rekomendasi Tindak Lanjut
 
-Rekomendasi diurutkan menurut jumlah mahasiswa yang menyebut masalahnya dan kuatnya hubungan masalah itu dengan kepuasan.
+Rekomendasi diurutkan menurut berapa banyak mahasiswa yang menyebut masalahnya dan seberapa kuat hubungan masalah itu dengan kepuasan.
 
 #keputusan()
 
-#sec-rekom-kartu((
-  (judul: "Koordinasi antar dosen, peran tertulis, dan dosen rujukan", prioritas: w-ini,
-   bukti: [#pc(imp("Arahan dan tugas antar dosen tidak terkoordinasi").pct) memilih arahan tidak terkoordinasi; arahan konsisten hanya #pc(m.coord.at(1).ya); kesepakatan peran dosen #pc(l.coord_yn.at(2).ya); #th("koordinasi").sib komentar bebas.],
-   minggu: ([Adakan satu sesi koordinasi dosen SIB dan buat daftar dosen rujukan (PIC) tiap kelas.],),
-   setelah: ([Adakan rapat koordinasi rutin dengan satu arahan bersama tiap milestone.], [Tetapkan peran dosen di tiap kelas secara tertulis.]),
-   depan: ([Tetapkan peran dan jadwal rapat di awal semester.],),
-   indikator: [kesepakatan peran minimal 80%; arahan konsisten minimal 60%], pj: "Kaprodi SIB dan Koordinator PBL TI"),
-  (judul: "Informasi dan template khusus SIB", prioritas: w-ini,
-   bukti: [#pc(imp("Kejelasan ketentuan (SOP dan rubrik)").pct) memilih kejelasan ketentuan sebagai masalah; #tema.sib_info.n komentar mengatakan informasi SIB datang belakangan atau mengikuti TI.],
-   minggu: ([Minta dosen menyampaikan ulang format laporan dan ketentuan Milestone 2 di kelas.],),
-   setelah: ([Siapkan ruang SIB di LMS dengan dokumen laporan gabungan dan jadwal milestone.],),
-   depan: ([Berikan paket SIB (SOP, template, jadwal, rubrik, bobot) di minggu pertama.],),
-   indikator: [kejelasan ketentuan dipilih di bawah 10% mahasiswa], pj: "Kaprodi SIB, dosen pengampu SIB, dan Koordinator PBL TI"),
-  (judul: "Rubrik PBL SIB dan keselarasan tugas", prioritas: w-ini,
-   bukti: [Rubrik (#fmt(m.ops.at(5).mean, d: 2) menurut mahasiswa, #fmt(l.ops.at(5).mean, d: 2) menurut dosen) dan keselarasan tugas (#fmt(m.ops.at(4).mean, d: 2) dan #fmt(l.ops.at(4).mean, d: 2)) sama-sama dinilai lemah.],
-   minggu: ([Minta dosen menyampaikan ulang rubrik di kelas.],),
-   setelah: ([Telaah rubrik tiap mata kuliah terhadap rubrik PBL.],),
-   depan: ([Susun rubrik PBL yang menempatkan analisis dan manajemen proyek sejajar dengan produk.],),
-   indikator: [rubrik jelas disetujui minimal 70%], pj: "Kaprodi SIB dan dosen pengampu SIB"),
-  (judul: "Bobot nilai PBL disampaikan sejak awal", prioritas: w-ini,
-   bukti: [Di Semester 3, #pc(c3.share_not_stated) menjawab bobot PBL tidak disampaikan; penjelasan kaitan di awal semester pada Basis Data Lanjut hanya #pc(bdl.expl_ya).],
-   minggu: ([Minta dosen menyampaikan ulang bobot nilai PBL di kelas.],),
-   depan: ([Sampaikan bobot dan kaitan mata kuliah di pertemuan pertama, tulis di RPS, dan umumkan di LMS.],),
-   indikator: [jawaban "bobot tidak disampaikan" di bawah 5%], pj: "Dosen pengampu SIB"),
-  (judul: "Beban: satukan tugas dengan proyek, terutama Semester 3", prioritas: w-ini,
-   bukti: [#pc(imp("Waktu dan beban kerja").pct) memilih waktu dan beban; #pc(m.material.at(0).pct) mengatakan tugas menambah beban; di Semester 3, #pc(s3.berat) menilai beban berat.],
-   minggu: ([Minta dosen tidak menambah tugas baru di luar proyek selama pekan Milestone 2.],),
-   setelah: ([Susun kalender tenggat bersama sampai akhir semester.],),
-   depan: ([Gabungkan tugas ke dalam hasil kerja milestone.],),
-   indikator: [beban berat di bawah 30%], pj: "Kaprodi SIB dan dosen pengampu SIB"),
-  (judul: "Kehadiran dosen di review dan penjelasan kaitan mata kuliah", prioritas: w-ini,
-   bukti: [Basis Data Lanjut Semester 3: kegiatan dosen #pc(bdl.acts_mean), penjelasan kaitan #pc(bdl.expl_ya); Manajemen Proyek Sistem Informasi: hadir di semua review #pc(mpsi.att_all).],
-   minggu: ([Bahas dengan dosen pengampu di rapat evaluasi.],),
-   setelah: ([Jadwalkan kehadiran dosen di review sejak awal tiap milestone.],),
-   indikator: [kehadiran di semua review minimal 80% di setiap mata kuliah], pj: "Kaprodi SIB dan Koordinator PBL TI"),
-  (judul: "Fasilitas: server deployment dan jaringan", prioritas: w-setelah,
-   bukti: [Fasilitas adalah butir dengan skor terendah (#fmt(m.ops.at(7).mean, d: 2)) dan paling berhubungan dengan kepuasan (#fmt(dr.corr.at(0).r_puas, d: 2)); #pc(imp("Fasilitas dan sumber daya (server, data, perangkat)").pct) memilihnya sebagai masalah; semua komentar tentang fasilitas datang dari SIB.],
-   setelah: ([Data kebutuhan server proyek tiap tim sebagai dasar pengajuan.],),
-   depan: ([Sediakan server deployment bersama dengan cara pengajuan proyek yang sederhana.], [Perbaiki jaringan.]),
-   indikator: [skor fasilitas minimal 3,8], pj: "Kaprodi SIB dan Ketua Jurusan"),
-  (judul: "Kontribusi anggota, mitra, dan penyegaran dosen", prioritas: w-setelah,
-   bukti: [#pc(imp("Kontribusi anggota tim tidak seimbang").pct) memilih kontribusi tidak seimbang; #pc(imp("Mitra atau calon pengguna").pct) memilih mitra atau calon pengguna; hanya #pc(l.k2_correct) dosen memilih tindakan PBL yang tepat.],
-   setelah: ([Catat kontribusi tiap anggota pada milestone berikutnya.], [Jadwalkan sosialisasi bagi dosen yang belum mengikutinya.]),
-   depan: ([Buat panduan melibatkan mitra.], [Adakan penyegaran PBL 60 menit untuk dosen.]),
-   indikator: [penilaian adil disetujui minimal 70%; dosen memilih tindakan yang tepat minimal 90%], pj: "Dosen pengampu SIB dan Koordinator PBL TI"),
-  (judul: "Respons survei: pantau pengisian di setiap kelas", prioritas: w-ini,
-   bukti: [SIB #pc(m.response.rate, d: 1) dari target 70%; empat kelas yang dipantau #pc(mo.enf.rate, d: 1) berbanding #pc(mo.oth.rate, d: 1) di kelas lain; Semester 3 hanya #pc(m.response.sems.at(0).rate, d: 1).],
-   minggu: ([Putuskan apakah formulir dibuka lagi untuk Semester 3.],),
-   depan: ([Minta dosen mengingatkan dan memantau pengisian di kelasnya: satu sesi 10 menit pada jam kuliah bersama DPA dan ketua kelas.],),
-   indikator: [respons minimal 70% di setiap kelas SIB pada survei berikutnya], pj: "Kaprodi SIB dan dosen pengampu SIB"),
-))
+#sec-rekom-kartu(rekom-cards("sib"))
 
 == Rencana tindak lanjut
 
-#sec-rekom-tabel((
-  (judul: "Koordinasi antar dosen", tindakan: [Sesi koordinasi dan daftar dosen rujukan; rapat rutin dan peran tertulis], waktu: [#w-ini, #w-setelah]),
-  (judul: "Informasi dan template SIB", tindakan: [Sampaikan ulang ketentuan; ruang SIB di LMS; paket di minggu pertama], waktu: [#w-ini, #w-setelah, #w-depan]),
-  (judul: "Rubrik PBL SIB", tindakan: [Sampaikan ulang rubrik; telaah rubrik; susun rubrik yang sejajar], waktu: [#w-ini, #w-setelah, #w-depan]),
-  (judul: "Bobot nilai PBL", tindakan: [Sampaikan ulang; tulis di RPS], waktu: [#w-ini, #w-depan]),
-  (judul: "Beban, terutama Semester 3", tindakan: [Tahan tugas baru; kalender tenggat; gabungkan tugas], waktu: [#w-ini, #w-setelah, #w-depan]),
-  (judul: "Kehadiran di review dan kaitan mata kuliah", tindakan: [Bahas dengan dosen; jadwalkan review], waktu: [#w-ini, #w-setelah]),
-  (judul: "Fasilitas", tindakan: [Data kebutuhan server; server bersama dan jaringan], waktu: [#w-setelah, #w-depan]),
-  (judul: "Kontribusi, mitra, dosen", tindakan: [Catat kontribusi; panduan mitra; penyegaran], waktu: [#w-setelah, #w-depan]),
-  (judul: "Respons survei", tindakan: [Putuskan buka lagi formulir; pantau pengisian di setiap kelas], waktu: [#w-ini, #w-depan]),
-))
+#sec-rekom-tabel(rekom-rows("sib"))
 
 #signature()
 

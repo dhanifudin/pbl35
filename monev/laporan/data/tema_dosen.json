@@ -1,0 +1,149 @@
+{
+ "dosen_n": 22,
+ "penulis": {
+  "n": 7,
+  "ti": 5,
+  "sib": 4
+ },
+ "input": 8,
+ "themes": [
+  {
+   "key": "apresiasi",
+   "kind": "saran",
+   "label": "Apresiasi dan penghargaan untuk pelaksanaan PBL",
+   "n": 1,
+   "ti": 1,
+   "sib": 1,
+   "subs": [
+    {
+     "label": "Apresiasi kinerja dosen berdasarkan komitmen mendampingi dan hasil PBL, bukan hanya survei kepuasan mahasiswa",
+     "n": 1,
+     "ti": 1,
+     "sib": 1
+    },
+    {
+     "label": "Aturan penghargaan produk PBL terbaik, dibuat dan diumumkan sejak awal semester",
+     "n": 1,
+     "ti": 1,
+     "sib": 1
+    }
+   ],
+   "ringkasan": "Satu dosen menyarankan dua hal. Pertama, kinerja dosen sebaiknya dihargai berdasarkan komitmen mendampingi dan hasil PBL, bukan hanya survei kepuasan mahasiswa di akhir semester. Kedua, aturan penghargaan untuk produk PBL terbaik perlu dibuat dan diumumkan sejak awal semester, supaya mendorong mahasiswa berkarya.",
+   "makna": "Ini satu-satunya komentar tentang penghargaan, jadi hanya bisa dibaca sebagai usulan, bukan pendapat umum dosen. Isinya layak dibahas karena menyangkut dua pihak sekaligus: dosen yang membimbing dan mahasiswa yang membuat produk."
+  },
+  {
+   "key": "beban",
+   "kind": "saran",
+   "label": "Beban dan pemerataan tugas dosen pengampu",
+   "n": 2,
+   "ti": 2,
+   "sib": 1,
+   "subs": [
+    {
+     "label": "Pengampu PBL ditata ulang secara berkala lewat RTM, supaya tidak ada yang kelelahan dan semua dosen mendapat kesempatan",
+     "n": 1,
+     "ti": 1,
+     "sib": 1
+    },
+    {
+     "label": "Dosen dengan tugas tambahan mengampu lebih sedikit mata kuliah",
+     "n": 1,
+     "ti": 1,
+     "sib": 0
+    }
+   ],
+   "ringkasan": "Dua dosen menyinggung beban pengampu. Satu menyarankan pembagian pengampu PBL ditata ulang secara berkala lewat RTM, untuk mencegah kelelahan dan memberi kesempatan yang adil bagi dosen lain. Satu lagi menyarankan agar dosen dengan tugas tambahan mengampu lebih sedikit mata kuliah.",
+   "makna": "Dua komentar ini menguatkan hambatan yang paling sering dipilih dosen: beban mengajar dan administrasi lain. Penyelesaiannya ada pada penugasan dosen, yang diputuskan di tingkat program studi dan jurusan, bukan di kelas."
+  },
+  {
+   "key": "panduan",
+   "kind": "saran",
+   "label": "Panduan tertulis dan koordinasi sejak awal",
+   "n": 2,
+   "ti": 1,
+   "sib": 2,
+   "subs": [
+    {
+     "label": "Panduan tertulis yang mengikat, supaya pengampu tidak mengajar menurut tafsir masing-masing",
+     "n": 1,
+     "ti": 1,
+     "sib": 1
+    },
+    {
+     "label": "Koordinasi di awal semester, pemantauan selama berjalan, dan evaluasi di akhir",
+     "n": 1,
+     "ti": 0,
+     "sib": 1
+    }
+   ],
+   "ringkasan": "Dua dosen meminta aturan main yang lebih tegas. Satu menyebut mutu PBL sulit diukur kalau tiap pengampu mengajar menurut tafsirnya sendiri, sehingga perlu panduan tertulis yang mengikat. Satu lagi menyarankan urutan kerja yang jelas: koordinasi di awal, pemantauan selama semester, dan evaluasi di akhir.",
+   "makna": "Permintaan ini sejalan dengan dukungan yang dipilih banyak dosen: rapat koordinasi rutin, pembagian peran dosen secara tertulis, dan panduan serta contoh penilaian. Dosen sendiri yang meminta panduan yang mengikat, jadi usulan SOP dan peran tertulis didukung oleh dosen."
+  },
+  {
+   "key": "wadah",
+   "kind": "saran",
+   "label": "Wadah bersama untuk produk dan progres PBL",
+   "n": 2,
+   "ti": 2,
+   "sib": 1,
+   "subs": [
+    {
+     "label": "Repositori agar produk PBL tersimpan dan bisa dikembangkan lintas semester",
+     "n": 1,
+     "ti": 1,
+     "sib": 1
+    },
+    {
+     "label": "Situs PBL supaya progres tertata dan bisa dicek bersama oleh dosen dan mahasiswa",
+     "n": 1,
+     "ti": 1,
+     "sib": 0
+    }
+   ],
+   "ringkasan": "Dua dosen mengusulkan wadah bersama. Satu meminta repositori supaya produk PBL tersimpan dengan baik dan bisa dikembangkan terus lintas semester. Satu lagi meminta situs PBL supaya kegiatan tertata dan bisa diperiksa bersama oleh dosen dan mahasiswa.",
+   "makna": "Usulan ini menjawab dua permintaan mahasiswa: sistem pemantau progres dan kontribusi, serta milestone di LMS. Satu wadah bisa melayani keduanya, yaitu tempat produk disimpan dan tempat progres tim dilihat."
+  },
+  {
+   "key": "keselarasan",
+   "kind": "saran",
+   "label": "Keselarasan mata kuliah dengan PBL",
+   "n": 2,
+   "ti": 1,
+   "sib": 2,
+   "subs": [
+    {
+     "label": "Waktu penyampaian materi belum selaras dengan kebutuhan PBL",
+     "n": 1,
+     "ti": 1,
+     "sib": 1
+    },
+    {
+     "label": "SIB belum punya mata kuliah acuan yang benar-benar bisa dipakai menilai PBL; dua mata kuliah hanya mendukung sebagian karena punya rubrik sendiri",
+     "n": 1,
+     "ti": 0,
+     "sib": 1
+    }
+   ],
+   "ringkasan": "Dua dosen menyoroti kaitan mata kuliah dengan PBL. Satu menyebut waktu penyampaian materi di sebagian mata kuliah belum selaras dengan kebutuhan PBL. Satu lagi, dari SIB Semester 3, menyebut SIB belum punya mata kuliah acuan yang benar-benar bisa dipakai menilai PBL. Dua mata kuliah yang dikaitkan dengan PBL punya rubrik sendiri dan hanya mendukung sebagian.",
+   "makna": "Dua komentar ini sejalan dengan angka survei tentang keselarasan tugas dan rubrik, yang juga dinilai rendah oleh dosen dan mahasiswa SIB. Perbaikannya: tinjau rubrik dan jadwal materi tiap mata kuliah terhadap milestone."
+  },
+  {
+   "key": "baik",
+   "kind": "baik",
+   "label": "Hal baik yang ingin dipertahankan",
+   "n": 1,
+   "ti": 1,
+   "sib": 0,
+   "subs": [
+    {
+     "label": "Pelaksanaan dinilai sudah baik dan sebaiknya dilanjutkan",
+     "n": 1,
+     "ti": 1,
+     "sib": 0
+    }
+   ],
+   "ringkasan": "Satu dosen menulis bahwa pelaksanaan PBL sudah baik dan sebaiknya dilanjutkan.",
+   "makna": "Pernyataan ini sejalan dengan penilaian dosen pada butir pelaksanaan, tetapi hanya satu dosen yang menuliskannya sebagai saran."
+  }
+ ]
+}
