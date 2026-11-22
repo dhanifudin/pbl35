@@ -1,25 +1,26 @@
-📢 _Pengumuman PBL — Standar Laporan Milestone 2_
+📢 _Pengumuman PBL — Laporan Milestone 2_
 
 Kepada Bapak/Ibu Dosen Pembimbing/Pengampu PBL
 _Jurusan Teknologi Informasi · Politeknik Negeri Malang_
 
 Terima kasih atas masukan dan kerja sama Bapak/Ibu 🙏
 
-Untuk Milestone 2 (Minggu 12), kami menyusun _satu laporan standar_ agar mahasiswa tidak mengerjakan beberapa dokumen berbeda untuk tiap mata kuliah.
+Untuk Milestone 2 (Minggu 12), tiap tim membuat _satu laporan yang sama untuk semua mata kuliah_, supaya mahasiswa tidak menulis beberapa laporan berbeda.
 
-Ringkasnya:
-1. Target Milestone 2 dibuat ringan: cukup _alur utama produk berjalan dan bisa didemokan_. Fitur lain boleh belum selesai, asalkan masuk rencana Minggu 13–16.
-2. Satu laporan, satu tenggat, satu unggahan PDF: Lembar Status + Bab 1–5 (Bab 5 terisi sebagian) + lampiran. Laporan ini terus dipakai sampai laporan akhir.
-3. Tidak ada dokumen tambahan mata kuliah, kecuali yang sudah Bapak/Ibu umumkan secara tertulis. Saat ini hanya Manajemen Proyek (TI Semester 3 dan SIB Semester 5) yang mencantumkan tiga dokumen ringan, dikumpulkan lewat lembar penilaian mandiri.
-4. Bagian laporan yang dinilai tiap mata kuliah sudah kami tentukan di SOP (Bagian 6). _Tidak ada yang perlu Bapak/Ibu kirimkan kepada kami._
-5. Kontribusi tiap anggota diperiksa lewat form _Penilaian 360_ yang diisi mahasiswa secara pribadi dan terpisah dari laporan. Koordinator mengirimkan rekap per mahasiswa kepada Bapak/Ibu sebagai bahan nilai kontribusi individu.
+Hal-hal pokoknya:
+1. _Target ringan._ Pada Milestone 2, tim cukup menunjukkan bahwa alur utama produknya sudah bisa dijalankan dan didemokan. Fitur lain boleh belum selesai, asalkan sudah ada di rencana Minggu 13–16.
+2. _Satu laporan, satu tenggat, satu berkas PDF._ Isinya: Lembar Status (posisi proyek saat ini), Bab 1–5 (Bab 5 boleh diisi sebagian), dan lampiran. Laporan yang sama dilengkapi terus sampai laporan akhir.
+3. _Dokumen tambahan mata kuliah._ Pada dasarnya tidak ada, kecuali yang sudah Bapak/Ibu umumkan secara tertulis. Saat ini hanya Manajemen Proyek (TI Semester 3 dan SIB Semester 5) yang meminta tiga dokumen ringan. Mahasiswa mengumpulkannya lewat lembar penilaian mandiri yang sudah dipakai sejak UTS.
+4. _Jadwal dan bentuk demo._ Ditentukan oleh dosen tiap kelas, dikoordinasi dosen rujukan kelas itu. Dosen rujukan mengumumkan jadwalnya ke kelas paling lambat 3 hari sebelum demo, dan bentuk demo yang diterima adalah langsung, video, atau gabungan (SOP Bagian 10.6). Hal lain tidak berubah: batas akhir laporan, target Milestone 2, dan bagian laporan yang dinilai.
+5. _Penilaian oleh dosen._ Bagian laporan yang dinilai tiap mata kuliah sudah ditentukan di SOP (Bagian 6). Bapak/Ibu tidak perlu mengirim apa pun kepada kami.
+6. _Kontribusi anggota tim._ Diperiksa lewat form _Penilaian 360_, yaitu form terpisah dari laporan yang diisi tiap mahasiswa sendiri-sendiri. Koordinator mengirim rekap per mahasiswa kepada Bapak/Ibu sebagai bahan nilai kontribusi individu.
 
-_Batas akhir laporan:_ [tanggal], pukul 23.59 WIB
-_Form pengumpulan:_ [link form]
-_SOP, Template, dan panduan:_ https://drive.google.com/drive/folders/15q1RaS64I4VPQ4aTbJetim0Yu0IxdbBt?usp=drive_link
+_Batas akhir laporan:_ 27 November 2026, pukul 23.59 WIB
+_Form pengumpulan:_ menyusul (TBA), akan diumumkan di grup ini
+_SOP, template, contoh laporan, dan panduan:_ https://drive.google.com/drive/folders/1ihojXCwWLVCHyIHmGIm5OHN0xkZ8PXPU?usp=sharing
 
-Mohon kesediaan Bapak/Ibu meneruskan informasi ini kepada mahasiswa di kelas masing-masing dan menilai bagian laporan sesuai SOP.
+Mohon Bapak/Ibu meneruskan informasi ini kepada mahasiswa di kelas masing-masing dan menilai bagian laporan sesuai SOP.
 
-Apabila ada kendala atau pertanyaan, silakan menghubungi koordinator PBL.
+Jika ada kendala atau pertanyaan, silakan hubungi koordinator PBL.
 
 ✨ Milestone 2 adalah titik evaluasi dan perbaikan, bukan hukuman. Terima kasih 🙏🚀

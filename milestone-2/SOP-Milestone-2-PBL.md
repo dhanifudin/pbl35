@@ -36,9 +36,9 @@ SOP ini disusun dengan tujuh prinsip berikut.
 - Semua tim PBL TI dan SIB, Semester 3 dan Semester 5, di semua kelas.
 - Satu tim mengumpulkan **satu berkas PDF**. Isinya Lembar Status Milestone 2, Bab 1–5 yang terisi sebagian, dan lampiran.
 - Struktur laporan mengikuti **Template Laporan Milestone 2 PBL**. Template menjelaskan struktur dan isi tiap bagian. **Contoh Laporan Milestone 2 PBL** menunjukkan hasil akhirnya. Ada empat contoh, satu untuk tiap program studi dan semester.
-- SOP, template, dan dokumen pendukung ada di folder dokumen PBL: https://drive.google.com/drive/folders/15q1RaS64I4VPQ4aTbJetim0Yu0IxdbBt?usp=drive_link
+- SOP, template, dan dokumen pendukung ada di folder dokumen PBL: https://drive.google.com/drive/folders/1ihojXCwWLVCHyIHmGIm5OHN0xkZ8PXPU?usp=sharing
 - Dosen pengampu tidak perlu membuat atau mengirim dokumen apa pun untuk Milestone 2. Dosen hanya menilai bagian laporan yang tercantum di Bagian 6.
-- Koordinator mengumumkan jadwal, tabel penilaian (Bagian 6), dan daftar dosen rujukan tiap kelas di folder dokumen PBL dan di LMS kelas.
+- Koordinator mengumumkan batas akhir pengumpulan, tabel penilaian (Bagian 6), dan daftar dosen rujukan tiap kelas di folder dokumen PBL dan di LMS kelas. Jadwal dan bentuk demo ditentukan oleh dosen tiap kelas (Bagian 10.6).
 
 ### Peta dokumen
 
@@ -62,8 +62,8 @@ Mulai dari mana: baca SOP ini dulu, lalu Template, lalu lihat Contoh Laporan yan
 | Form Penilaian 360 dibuka | **Minggu 11**, ditutup bersama batas akhir pengumpulan laporan |
 | Sesi tinjau proyek (sekitar 15 menit per tim) | Pertemuan terdekat sebelum demo, dijadwalkan dosen |
 | Pekan Milestone 2 | Tidak ada tugas baru di luar laporan |
-| Batas akhir pengumpulan Laporan Milestone 2 | **[tanggal]**, pukul 23.59 WIB |
-| Demo dan review | **Minggu 12**, sesuai jadwal kelas |
+| Batas akhir pengumpulan Laporan Milestone 2 | **27 November 2026**, pukul 23.59 WIB |
+| Demo dan review | **Minggu 12**. Jadwal dan bentuknya ditentukan dosen tiap kelas (Bagian 10.6) |
 | Umpan balik dari dosen | Paling lambat 1 minggu setelah batas pengumpulan, tertulis dan sampai ke tim |
 | Kalender tenggat PBL untuk sisa semester | Disusun koordinator setelah Milestone 2 |
 
@@ -274,6 +274,21 @@ Semua tim wajib menulis **minimal 10 kasus uji untuk alur utama** di Bab 4, leng
 | Arahan dosen berbeda | Tanyakan ke dosen rujukan. Ikuti arahan tertulis terakhir dari dosen rujukan atau koordinator, lalu catat di Bab 5.3 |
 | Terlambat mengumpulkan | Hubungi koordinator **sebelum** batas akhir. Keterlambatan tanpa pemberitahuan diproses sesuai aturan mata kuliah |
 
+### 10.6 Jadwal dan Pelaksanaan Demo per Kelas
+
+Jadwal dan cara pelaksanaan demo tidak diseragamkan oleh koordinator. Dosen pengampu PBL di tiap kelas yang menentukannya, karena merekalah yang tahu jadwal kuliah, ruang, dan jumlah tim di kelas itu. Aturan ini berlaku untuk demo Milestone 2 dan juga untuk milestone berikutnya.
+
+| Hal | Ketentuan |
+|---|---|
+| Siapa yang menentukan | Dosen pengampu PBL satu kelas, dikoordinasi oleh dosen rujukan kelas itu. Jika dosen satu kelas berbeda pendapat, dosen rujukan memutuskan setelah berdiskusi lewat grup WhatsApp |
+| Yang ditentukan dosen kelas | Hari dan jam demo, urutan dan lama tiap tim, bentuk demo yang diterima (Langsung, Video, atau Gabungan menurut Bagian 10.1), siapa saja dosen yang hadir menilai, dan cara tim yang berhalangan hadir |
+| Pengumuman jadwal | Dosen rujukan mengumumkan jadwal kepada kelas lewat LMS atau grup kelas paling lambat 3 hari sebelum demo, dan memberi tahu koordinator. Batas 3 hari ini adalah usulan koordinator |
+| Yang tidak diubah per kelas | Batas akhir pengumpulan laporan, target Milestone 2 (Bagian 15), bagian laporan yang dinilai tiap mata kuliah (Bagian 6), dan status hasil (Bagian 12) |
+| Tim yang berhalangan hadir | Tim menghubungi dosen rujukan sebelum jadwal demo. Dosen kelas boleh menjadwalkan ulang atau menerima demo dalam bentuk Video atau Gabungan |
+| Jadwal belum diumumkan | Jika 3 hari sebelum Minggu 12 jadwal belum ada, tim menghubungi dosen rujukan. Koordinator membantu dosen rujukan menyusun jadwalnya |
+
+Dosen kelas menilai demo dengan hal yang dinilai di Bagian 16 dan tabel penilaian di Bagian 6, supaya penilaian tetap seragam walaupun jadwal dan bentuk demo berbeda antar kelas.
+
 ## 11. Langkah Pengumpulan
 
 1. **Pahami strukturnya.** Baca Template Laporan Milestone 2 PBL, mulai dari bagian *Gambaran Umum Struktur*. Setelah itu, buka Contoh Laporan yang sesuai dengan program studi dan semester tim untuk melihat hasil akhirnya. Susun dokumen tim sendiri dengan urutan yang sama. Ikuti susunan, bentuk tabel, dan kedalaman isinya, tetapi tulis isi dari proyek tim sendiri. Gaya visual dan sampul tidak perlu meniru contoh. Paragraf panduan (cetak miring), label catatan seperti "dipindahkan dari proposal", dan isi contoh tidak ditulis di laporan. Laporan yang hanya menyalin contoh tidak diterima.
@@ -368,4 +383,4 @@ Koordinator PBL: Dian Hanifudin Subhi, S.Kom., M.Kom. (dhanifudin@polinema.ac.id
 
 Dosen rujukan kelas: lihat daftar yang diumumkan koordinator.
 
-Folder dokumen PBL: https://drive.google.com/drive/folders/15q1RaS64I4VPQ4aTbJetim0Yu0IxdbBt?usp=drive_link
+Folder dokumen PBL: https://drive.google.com/drive/folders/1ihojXCwWLVCHyIHmGIm5OHN0xkZ8PXPU?usp=sharing

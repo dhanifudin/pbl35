@@ -25,7 +25,7 @@ SIB-3C;Tim Contoh Tiga;Anggota C2
 SIB-3C;Tim Contoh Tiga;Anggota C3
 `;
 
-const BATAS_AKHIR = '[tanggal], pukul 23.59 WIB';
+const BATAS_AKHIR = '27 November 2026, pukul 23.59 WIB';
 const JUDUL_FORM = 'Penilaian 360 PBL (Milestone 2)';
 
 const ASPEK = [

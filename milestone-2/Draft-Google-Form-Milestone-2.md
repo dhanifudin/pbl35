@@ -22,7 +22,7 @@ Perbaikan dibanding form Milestone 1:
 | Kumpulkan alamat email | Aktif (verifikasi) |
 | Izinkan ubah jawaban setelah dikirim | Aktif |
 | Estimasi waktu | Sekitar 2 menit |
-| Batas akhir | **[tanggal], pukul 23.59 WIB** |
+| Batas akhir | **27 November 2026, pukul 23.59 WIB** |
 
 ### Deskripsi form
 
@@ -34,7 +34,7 @@ Perbaikan dibanding form Milestone 1:
 |---|---|---|---|
 | 1 | Program Studi | Pilihan ganda | Teknik Informatika (TI); Sistem Informasi Bisnis (SIB) |
 | 2 | Tingkat dan Semester | Pilihan ganda | Tingkat 2, Semester 3; Tingkat 3, Semester 5 |
-| 3 | Kelas | Dropdown | TI-2A sampai TI-2I (Semester 3), TI-3A sampai TI-3I (Semester 5); SIB: **[daftar kelas SIB diisi koordinator]** |
+| 3 | Kelas | Dropdown | TI-2A sampai TI-2I (Semester 3), TI-3A sampai TI-3I (Semester 5); SIB-2A sampai SIB-2G (Semester 3), SIB-3A sampai SIB-3G (Semester 5) |
 | 4 | Nama Tim | Jawaban singkat | Sama dengan proposal |
 | 5 | Persentase fitur proposal yang sudah selesai | Skala linear | 0–100% dalam kelipatan 10 |
 | 6 | Status keseluruhan | Pilihan ganda | Sesuai rencana; Perlu Perhatian; Kritis |
@@ -65,15 +65,15 @@ Perbaikan dibanding form Milestone 1:
 | Kumpulkan alamat email | Aktif (verifikasi) |
 | Wajib masuk akun Google | Ya (diperlukan oleh fitur unggah berkas) |
 | Izinkan ubah jawaban setelah dikirim | Aktif |
-| Batas akhir | **[tanggal], pukul 23.59 WIB**; tutup penerimaan jawaban pada batas akhir |
+| Batas akhir | **27 November 2026, pukul 23.59 WIB**. Form tidak ditutup otomatis; koordinator menutupnya secara manual setelah batas akhir |
 
 ### Deskripsi form
 
 > Form ini digunakan untuk mengumpulkan **Laporan Milestone 2 PBL**.
 >
 > - Satu tim mengumpulkan **satu berkas PDF** (Lembar Status, Bab 1–5, dan lampiran). Form diisi oleh Ketua Tim.
-> - Batas akhir pengumpulan: **[tanggal], pukul 23.59 WIB**.
-> - SOP dan Template Laporan Milestone 2 tersedia pada folder berikut: https://drive.google.com/drive/folders/15q1RaS64I4VPQ4aTbJetim0Yu0IxdbBt?usp=drive_link
+> - Batas akhir pengumpulan: **27 November 2026, pukul 23.59 WIB**.
+> - SOP dan Template Laporan Milestone 2 tersedia pada folder berikut: https://drive.google.com/drive/folders/1ihojXCwWLVCHyIHmGIm5OHN0xkZ8PXPU?usp=sharing
 > - Ikuti susunan Template, tetapi tulis isi dari proyek tim sendiri.
 
 ## 2. Bagian 1: Identitas Tim
@@ -84,7 +84,7 @@ Semua pertanyaan wajib diisi.
 |---|---|---|---|
 | 1 | Program Studi | Pilihan ganda | Teknik Informatika (TI); Sistem Informasi Bisnis (SIB) |
 | 2 | Tingkat dan Semester | Pilihan ganda | Tingkat 2, Semester 3; Tingkat 3, Semester 5 |
-| 3 | Kelas | Dropdown | TI-2A sampai TI-2I (Semester 3), TI-3A sampai TI-3I (Semester 5); SIB: **[daftar kelas SIB diisi koordinator]** |
+| 3 | Kelas | Dropdown | TI-2A sampai TI-2I (Semester 3), TI-3A sampai TI-3I (Semester 5); SIB-2A sampai SIB-2G (Semester 3), SIB-3A sampai SIB-3G (Semester 5) |
 | 4 | Nama Tim | Jawaban singkat | Sama dengan proposal dan sampul |
 | 5 | Judul Produk | Jawaban singkat | Sama dengan sampul |
 | 6 | Nama Ketua Tim | Jawaban singkat | Nama lengkap sesuai data akademik |
@@ -97,7 +97,7 @@ Semua pertanyaan wajib diisi. Seluruh pilihan diterima tanpa pengurangan nilai.
 | No | Pertanyaan | Jenis | Isian |
 |---|---|---|---|
 | 8 | Status Milestone 2 menurut tim | Pilihan ganda | Lengkap (alur utama berjalan dan dokumen wajib lengkap); Sebagian (alur utama berjalan tetapi sering gagal, atau ada dokumen yang belum ada); Kritis (alur utama belum berjalan) |
-| 9 | Bentuk demo | Pilihan ganda | Langsung; video; gabungan |
+| 9 | Bentuk demo yang diusulkan tim | Pilihan ganda | Langsung; video; gabungan. Keterangan di bawah pertanyaan: dosen tiap kelas yang menentukan jadwal dan bentuk akhir demo (SOP Bagian 10.6) |
 | 10 | Cara *deploy* | Pilihan ganda | Server kampus; hosting gratis atau milik sendiri; lokal dengan video; berkas instalasi (APK) |
 | 11 | Masukan pengguna | Pilihan ganda | Mitra; calon pengguna (min. 3 orang); pengguna pengganti |
 | 12 | Jenis bukti pengujian (boleh lebih dari satu) | Kotak centang | Uji manual (minimal 10 kasus uji); uji otomatis; uji coba oleh pengguna; uji kebenaran data; hasil awal model; laporan uji awal |
@@ -131,7 +131,7 @@ Semua pertanyaan wajib diisi. Seluruh pilihan diterima tanpa pengurangan nilai.
 
 ## 7. Daftar Periksa Sebelum Membagikan Form
 
-- [ ] Isi `[tanggal]` dan daftar kelas SIB pada Form 2 dan Form 3. Form 1 diisi nanti, saat dipakai pada semester berikutnya.
+- [ ] Tanggal batas akhir (27 November 2026) dan daftar kelas SIB sudah terisi pada Form 2 dan Form 3. Form 1 diisi nanti, saat dipakai pada semester berikutnya.
 - [ ] Kirim satu data uji pada masing-masing form, lalu pastikan berkas unggahan dapat dibuka dan hapus data uji.
 - [ ] Cantumkan tautan Form 2 pada SOP (Bagian 11, langkah 8) dan pengumuman.
 - [ ] Pastikan hanya koordinator PBL yang memiliki akses edit form.
@@ -152,7 +152,7 @@ Form ini memeriksa kontribusi tiap anggota di luar laporan, karena tim tidak bis
 | Izinkan ubah jawaban setelah dikirim | Aktif sampai batas akhir |
 | Estimasi waktu | Sekitar 3 menit |
 | Dibuka | Minggu 11 |
-| Batas akhir | Sama dengan batas akhir pengumpulan laporan: **[tanggal], pukul 23.59 WIB** |
+| Batas akhir | Sama dengan batas akhir pengumpulan laporan: **27 November 2026, pukul 23.59 WIB** |
 
 ### Deskripsi form
 
@@ -192,7 +192,7 @@ Setiap tim punya satu bagian sendiri yang memuat nama anggotanya. Koordinator me
 
 ## 5. Daftar Periksa Sebelum Membagikan Form
 
-- [ ] Buat bagian tim dari daftar anggota tiap kelas dan isi `[tanggal]`.
+- [ ] Buat bagian tim dari daftar anggota tiap kelas (generator ada di `penilaian-360/`) dan pastikan batas akhir 27 November 2026 tertulis.
 - [ ] Kirim satu tanggapan uji, pastikan rekapnya terbaca, lalu hapus tanggapan uji.
 - [ ] Pastikan hanya koordinator PBL yang memiliki akses edit dan akses ke tanggapan.
 - [ ] Cantumkan tautan Form 3 pada SOP (Bagian 9.3) dan pengumuman.
