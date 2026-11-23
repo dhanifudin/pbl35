@@ -427,7 +427,7 @@ Dosen kelas menilai demo dengan hal yang dinilai di Bagian 16 dan tabel penilaia
 + #strong[Uji tautan.] Buka semua tautan di mode #emph[incognito];. Pastikan tautan bisa dibuka tanpa login (Bagian 13).
 + #strong[Periksa kelengkapan] memakai daftar di Bagian 14.
 + #strong[Ekspor menjadi satu PDF] bernama `M2_<Kelas>_<NamaTim>.pdf`. Pastikan tautan tetap bisa diklik.
-+ #strong[Unggah] lewat Google Form Milestone 2: #strong[\[tautan form\]];.
++ #strong[Unggah] lewat Google Form Milestone 2: https:\/\/forms.gle/px8Yna7koVGcBzd89.
 + #strong[Ikuti demo] sesuai jadwal kelas.
 + #strong[Terima umpan balik];, lalu susun rencana Minggu 13--16 berdasarkan masukan.
 

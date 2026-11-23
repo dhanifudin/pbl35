@@ -16,7 +16,7 @@ Hal-hal pokoknya:
 6. _Kontribusi anggota tim._ Diperiksa lewat form _Penilaian 360_, yaitu form terpisah dari laporan yang diisi tiap mahasiswa sendiri-sendiri. Koordinator mengirim rekap per mahasiswa kepada Bapak/Ibu sebagai bahan nilai kontribusi individu.
 
 _Batas akhir laporan:_ 27 November 2026, pukul 23.59 WIB
-_Form pengumpulan:_ menyusul (TBA), akan diumumkan di grup ini
+_Form pengumpulan:_ https://forms.gle/px8Yna7koVGcBzd89
 _SOP, template, contoh laporan, dan panduan:_ https://drive.google.com/drive/folders/1ihojXCwWLVCHyIHmGIm5OHN0xkZ8PXPU?usp=sharing
 
 Mohon Bapak/Ibu meneruskan informasi ini kepada mahasiswa di kelas masing-masing dan menilai bagian laporan sesuai SOP.

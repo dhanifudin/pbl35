@@ -186,7 +186,7 @@ Terima kasih. Laporan Milestone 2 tim telah diterima. Jawaban dapat diubah hingg
 <daftar-periksa-sebelum-membagikan-form>
 - ☐ Tanggal batas akhir (27 November 2026) dan daftar kelas SIB sudah terisi pada Form 2 dan Form 3. Form 1 diisi nanti, saat dipakai pada semester berikutnya.
 - ☐ Kirim satu data uji pada masing-masing form, lalu pastikan berkas unggahan dapat dibuka dan hapus data uji.
-- ☐ Cantumkan tautan Form 2 pada SOP (Bagian 11, langkah 8) dan pengumuman.
+- ☒ Tautan Form 2 (https:\/\/forms.gle/px8Yna7koVGcBzd89) sudah dicantumkan pada SOP (Bagian 11, langkah 8) dan pengumuman.
 - ☐ Pastikan hanya koordinator PBL yang memiliki akses edit form.
 
 #horizontalrule

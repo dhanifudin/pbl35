@@ -298,7 +298,7 @@ Dosen kelas menilai demo dengan hal yang dinilai di Bagian 16 dan tabel penilaia
 5. **Uji tautan.** Buka semua tautan di mode *incognito*. Pastikan tautan bisa dibuka tanpa login (Bagian 13).
 6. **Periksa kelengkapan** memakai daftar di Bagian 14.
 7. **Ekspor menjadi satu PDF** bernama `M2_<Kelas>_<NamaTim>.pdf`. Pastikan tautan tetap bisa diklik.
-8. **Unggah** lewat Google Form Milestone 2: **[tautan form]**.
+8. **Unggah** lewat Google Form Milestone 2: https://forms.gle/px8Yna7koVGcBzd89.
 9. **Ikuti demo** sesuai jadwal kelas.
 10. **Terima umpan balik**, lalu susun rencana Minggu 13–16 berdasarkan masukan.
 

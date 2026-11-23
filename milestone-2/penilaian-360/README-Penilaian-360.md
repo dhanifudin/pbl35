@@ -4,7 +4,7 @@ Berkas `Buat-Form-Penilaian-360.gs` membuat Google Form Penilaian 360 secara oto
 
 ## Langkah
 
-1. Siapkan daftar tim dari spreadsheet: satu baris per anggota, kolom Kelas, Tim, Nama Anggota. Gabungkan kolomnya dengan titik koma, misalnya `TI-2A;Tim Contoh Satu;Anggota A1`.
+1. Siapkan daftar tim: satu baris per anggota, kolom Kelas, Tim, Nama Anggota. Gabungkan kolomnya dengan titik koma, misalnya `TI-2A;Tim Contoh Satu;Anggota A1`. Untuk kelas TI, daftar ini dapat dibuat dari data proposal dengan `python3 -I milestone-2/penilaian-360/buat_daftar_tim.py <keluaran.txt>` (jalankan dari akar repo). Skrip memberi peringatan untuk nama tim yang berantakan, tim di bawah 2 anggota, nama tim ganda, dan kelas yang belum ada datanya (kelas SIB dan kelas TI yang belum terekstrak harus ditambah dari daftar lain). Keluaran berisi nama mahasiswa, jadi simpan di luar repo dan jangan di-commit.
 2. Buka https://script.google.com dengan akun Polinema koordinator, lalu buat proyek baru.
 3. Tempel isi `Buat-Form-Penilaian-360.gs`. Ganti isi `DAFTAR_TIM` dengan daftar tadi, dan pastikan `BATAS_AKHIR` berisi 27 November 2026, pukul 23.59 WIB (sudah terisi).
 4. Jalankan `buatFormPenilaian360`, lalu beri izin. Tautan form untuk peserta dan tautan edit muncul di Execution log.
