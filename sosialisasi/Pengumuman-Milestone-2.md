@@ -13,7 +13,7 @@ Hal-hal pokoknya:
 3. _Dokumen tambahan mata kuliah._ Pada dasarnya tidak ada, kecuali yang sudah Bapak/Ibu umumkan secara tertulis. Saat ini hanya Manajemen Proyek (TI Semester 3 dan SIB Semester 5) yang meminta tiga dokumen ringan. Mahasiswa mengumpulkannya lewat lembar penilaian mandiri yang sudah dipakai sejak UTS.
 4. _Jadwal dan bentuk demo._ Ditentukan oleh dosen tiap kelas, dikoordinasi dosen rujukan kelas itu. Dosen rujukan mengumumkan jadwalnya ke kelas paling lambat 3 hari sebelum demo, dan bentuk demo yang diterima adalah langsung, video, atau gabungan (SOP Bagian 10.6). Hal lain tidak berubah: batas akhir laporan, target Milestone 2, dan bagian laporan yang dinilai.
 5. _Penilaian oleh dosen._ Bagian laporan yang dinilai tiap mata kuliah sudah ditentukan di SOP (Bagian 6). Bapak/Ibu tidak perlu mengirim apa pun kepada kami.
-6. _Kontribusi anggota tim._ Diperiksa lewat form _Penilaian 360_, yaitu form terpisah dari laporan yang diisi tiap mahasiswa sendiri-sendiri. Koordinator mengirim rekap per mahasiswa kepada Bapak/Ibu sebagai bahan nilai kontribusi individu.
+6. _Kontribusi anggota tim._ Diperiksa lewat form _Penilaian 360_, yaitu form terpisah dari laporan yang diisi tiap mahasiswa sendiri-sendiri: https://forms.gle/EFa4HNPWYWsbFnFJ8 Koordinator mengirim rekap per mahasiswa kepada Bapak/Ibu sebagai bahan nilai kontribusi individu.
 
 _Batas akhir laporan:_ 27 November 2026, pukul 23.59 WIB
 _Form pengumpulan:_ https://forms.gle/px8Yna7koVGcBzd89

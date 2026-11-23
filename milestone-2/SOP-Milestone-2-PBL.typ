@@ -80,7 +80,7 @@ Mulai dari mana: baca SOP ini dulu, lalu Template, lalu lihat Contoh Laporan yan
     [SOP dan template diterbitkan], [#strong[\[tanggal\]];],
     [Daftar dosen rujukan tiap kelas diumumkan], [#strong[\[tanggal\]];, bersama SOP],
     [Daftar dokumen tambahan dari dosen, bila ada (Bagian 7)], [#strong[\[tanggal\]];, bersama SOP],
-    [Form Penilaian 360 dibuka], [#strong[Minggu 11];, ditutup bersama batas akhir pengumpulan laporan],
+    [Form Penilaian 360 dibuka], [#strong[Minggu 11];, ditutup bersama batas akhir pengumpulan laporan. Tautan form: https:\/\/forms.gle/EFa4HNPWYWsbFnFJ8],
     [Sesi tinjau proyek (sekitar 15 menit per tim)], [Pertemuan terdekat sebelum demo, dijadwalkan dosen],
     [Pekan Milestone 2], [Tidak ada tugas baru di luar laporan],
     [Batas akhir pengumpulan Laporan Milestone 2], [#strong[27 November 2026];, pukul 23.59 WIB],
@@ -423,7 +423,7 @@ Dosen kelas menilai demo dengan hal yang dinilai di Bagian 16 dan tabel penilaia
 + #strong[Pahami strukturnya.] Baca Template Laporan Milestone 2 PBL, mulai dari bagian #emph[Gambaran Umum Struktur];. Setelah itu, buka Contoh Laporan yang sesuai dengan program studi dan semester tim untuk melihat hasil akhirnya. Susun dokumen tim sendiri dengan urutan yang sama. Ikuti susunan, bentuk tabel, dan kedalaman isinya, tetapi tulis isi dari proyek tim sendiri. Gaya visual dan sampul tidak perlu meniru contoh. Paragraf panduan (cetak miring), label catatan seperti \"dipindahkan dari proposal\", dan isi contoh tidak ditulis di laporan. Laporan yang hanya menyalin contoh tidak diterima.
 + #strong[Gunakan bahan yang sudah ada.] Gunakan isi proposal untuk Bab 1--2, lalu perbarui. Tulis Bab 3--4 dari hasil kerja dan hasil uji, serta Bab 5 dari logbook dan Laporan Kemajuan. Isi Lembar Status paling akhir. Ambil isi Lampiran F dan G dari notebook, kueri, dan hasil uji yang sudah ada, dan tautkan dokumen kerja tim di Lampiran E.
 + #strong[Siapkan bukti.] Siapkan repositori Git dengan #emph[tag] `milestone-2` (penanda versi kode pada saat Milestone 2), bukti demo, bukti pengujian (Bagian 10.3), dan alamat aplikasi jika sudah di-#emph[deploy];.
-+ #strong[Isi Penilaian 360.] Setiap anggota mengisi Google Form Penilaian 360 secara pribadi (Bagian 9.3). Hasilnya tidak ditulis di laporan, tetapi tabel kontribusi di Bab 5.2 tetap diisi tim dengan bukti yang bisa dicek.
++ #strong[Isi Penilaian 360.] Setiap anggota mengisi Google Form Penilaian 360 (https:\/\/forms.gle/EFa4HNPWYWsbFnFJ8) secara pribadi (Bagian 9.3). Hasilnya tidak ditulis di laporan, tetapi tabel kontribusi di Bab 5.2 tetap diisi tim dengan bukti yang bisa dicek.
 + #strong[Uji tautan.] Buka semua tautan di mode #emph[incognito];. Pastikan tautan bisa dibuka tanpa login (Bagian 13).
 + #strong[Periksa kelengkapan] memakai daftar di Bagian 14.
 + #strong[Ekspor menjadi satu PDF] bernama `M2_<Kelas>_<NamaTim>.pdf`. Pastikan tautan tetap bisa diklik.

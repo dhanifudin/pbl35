@@ -305,4 +305,4 @@ Penanda yang dipakai: Menonjol, Rendah, Menilai diri tinggi atau rendah, Dituduh
 - ☐ Batas akhir 27 November 2026 dan daftar kelas pada skrip sudah benar.
 - ☐ Kirim satu tanggapan uji, pastikan Rekap terisi dan terbaca, lalu hapus tanggapan uji.
 - ☐ Pastikan hanya koordinator PBL yang memiliki akses edit dan akses ke data mentah.
-- ☐ Cantumkan tautan Form 3 pada SOP (Bagian 9.3) dan pengumuman.
+- ☒ Tautan Form 3 (https:\/\/forms.gle/EFa4HNPWYWsbFnFJ8) sudah dicantumkan pada SOP (Bagian 9.3 dan Bagian 11 langkah 4) dan pengumuman.
