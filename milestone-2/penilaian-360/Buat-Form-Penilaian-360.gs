@@ -6,32 +6,37 @@
  * menilai seluruh rekan DAN dirinya sendiri (360 derajat). Tidak ada pembatasan
  * privasi penilai: koordinator dan dosen dapat melihat siapa menilai siapa.
  *
+ * Form ini TIDAK memakai daftar tim. Pengisi memilih kelas, mengetik nama tim, lalu
+ * mengisi anggota satu per satu (termasuk dirinya sendiri) dengan mengetik nama.
+ * Rekap mengenali tim dan anggota dari ketikan pengisi (tahan terhadap huruf besar
+ * kecil, spasi, dan ejaan yang sedikit berbeda).
+ *
  * Cara pakai (README-Penilaian-360.md memuat rincian):
  * 1. Buka https://script.google.com dengan akun Polinema koordinator, buat proyek baru.
- * 2. Tempel seluruh isi berkas ini, ganti DAFTAR_TIM dan BATAS_AKHIR.
+ * 2. Tempel seluruh isi berkas ini dan cek BATAS_AKHIR.
  * 3. Jalankan buatFormPenilaian360 (beri izin). Tautan form, spreadsheet data mentah,
  *    dan spreadsheet Rekap muncul di Execution log.
  * 4. Jalankan pasangTrigger sekali agar Rekap terisi otomatis tiap ada tanggapan.
- * 5. Jalankan salinPerKelas bila rekap perlu dibagikan per kelas kepada dosen.
+ * 5. Periksa penanda "Nama tim mirip" dan "Daftar anggota tidak konsisten" di Rekap Tim;
+ *    perbaiki ejaan lewat ALIAS_TIM dan ALIAS_NAMA lalu jalankan hitungRekap.
+ * 6. Jalankan salinPerKelas bila rekap perlu dibagikan per kelas kepada dosen.
  */
-
-// Satu baris per anggota: Kelas;Tim;Nama Anggota (pisah dengan titik koma).
-// Contoh di bawah fiktif, ganti seluruhnya dengan daftar tim sebenarnya.
-const DAFTAR_TIM = `
-TI-2A;Tim Contoh Satu;Anggota A1
-TI-2A;Tim Contoh Satu;Anggota A2
-TI-2A;Tim Contoh Satu;Anggota A3
-TI-2A;Tim Contoh Satu;Anggota A4
-TI-2A;Tim Contoh Satu;Anggota A5
-SIB-3C;Tim Contoh Dua;Anggota B1
-SIB-3C;Tim Contoh Dua;Anggota B2
-SIB-3C;Tim Contoh Dua;Anggota B3
-SIB-3C;Tim Contoh Dua;Anggota B4
-`;
 
 const BATAS_AKHIR = '27 November 2026, pukul 23.59 WIB';
 const JUDUL_FORM = 'Penilaian 360 PBL (Milestone 2)';
 const UKURAN_TIM = { min: 4, maks: 6 };
+
+const KELAS = [
+  'TI-2A', 'TI-2B', 'TI-2C', 'TI-2D', 'TI-2E', 'TI-2F', 'TI-2G', 'TI-2H', 'TI-2I',
+  'TI-3A', 'TI-3B', 'TI-3C', 'TI-3D', 'TI-3E', 'TI-3F', 'TI-3G', 'TI-3H', 'TI-3I',
+  'SIB-2A', 'SIB-2B', 'SIB-2C', 'SIB-2D', 'SIB-2E', 'SIB-2F', 'SIB-2G',
+  'SIB-3A', 'SIB-3B', 'SIB-3C', 'SIB-3D', 'SIB-3E', 'SIB-3F', 'SIB-3G',
+];
+
+// Koreksi manual ejaan setelah dinormalkan (huruf kecil, tanpa tanda baca, satu spasi).
+// Kiri: ejaan yang salah. Kanan: nama baku. Contoh: { 'tim jwa': 'Tim Jawa' }
+const ALIAS_TIM = {};
+const ALIAS_NAMA = {};
 
 // Diri sendiri dihitung sama dengan satu penilai lain. Ubah bila koordinator ingin
 // bobot lain (0 = penilaian diri tidak masuk Skor 360 dan Poin 360).
@@ -44,6 +49,8 @@ const AMBANG = {
   uraianMin: 20,    // panjang minimal uraian pekerjaan (karakter)
   toleransiPoin: 0.5,
   pasifMin: 2,      // jumlah rekan yang menyebut seorang anggota hampir tidak berkontribusi
+  miripNama: 0.8,   // kemiripan nama (0-1) untuk dianggap orang yang sama
+  miripTim: 0.8,    // kemiripan nama tim dalam satu kelas untuk ditandai
 };
 
 const ASPEK = [
@@ -53,40 +60,14 @@ const ASPEK = [
   ['Kehadiran dan keterlibatan dalam rapat', 'Hadir dan ikut membahas dalam rapat tim.'],
 ];
 
-// ===================================================================== daftar tim
-
-function bacaDaftarTim_() {
-  const hasil = {}; // kelas -> tim -> [anggota]
-  DAFTAR_TIM.split('\n').map(function (s) { return s.trim(); }).filter(Boolean).forEach(function (baris) {
-    const p = baris.split(';').map(function (s) { return s.trim(); });
-    if (p.length < 3 || !p[0] || !p[1] || !p[2]) throw new Error('Baris tidak lengkap: ' + baris);
-    hasil[p[0]] = hasil[p[0]] || {};
-    hasil[p[0]][p[1]] = hasil[p[0]][p[1]] || [];
-    hasil[p[0]][p[1]].push(p[2]);
-  });
-  Object.keys(hasil).forEach(function (k) {
-    Object.keys(hasil[k]).forEach(function (t) {
-      const n = hasil[k][t].length;
-      if (n < 2) throw new Error('Tim ' + t + ' (' + k + ') harus punya minimal 2 anggota');
-      if (n < UKURAN_TIM.min || n > UKURAN_TIM.maks) {
-        Logger.log('PERINGATAN: tim ' + t + ' (' + k + ') beranggota ' + n + ', di luar rentang ' +
-                   UKURAN_TIM.min + '-' + UKURAN_TIM.maks + '.');
-      }
-    });
-  });
-  return hasil;
-}
-
 // ===================================================================== membuat form
 
 function buatFormPenilaian360() {
-  const data = bacaDaftarTim_();
-  const kelasList = Object.keys(data).sort();
   const form = FormApp.create(JUDUL_FORM);
 
   form.setDescription(
     'Form ini mengumpulkan informasi tentang kontribusi nyata setiap anggota tim, untuk memberi kredit dan memvalidasi kontribusi. ' +
-    'Anda menilai seluruh rekan satu tim DAN diri Anda sendiri (penilaian 360 derajat). ' +
+    'Anda mengisi anggota tim satu per satu, termasuk diri Anda sendiri (penilaian 360 derajat). ' +
     'Isi sendiri, jujur, dan jangan berdiskusi dengan rekan satu tim. Tulis juga pekerjaan konkret tiap orang beserta buktinya.\n\n' +
     'Hasil dilihat koordinator PBL dan dosen pengampu, termasuk siapa memberi penilaian apa. Rekan satu tim tidak melihat hasilnya.\n\n' +
     'Estimasi waktu sekitar 10 sampai 15 menit untuk tim 6 orang. Batas akhir: ' + BATAS_AKHIR + '. ' +
@@ -103,90 +84,61 @@ function buatFormPenilaian360() {
   );
   try { form.setRequireLogin(true); } catch (e) { /* hanya tersedia di akun Workspace */ }
 
-  // Bagian 1: kelas
-  const qKelas = form.addListItem().setTitle('Kelas').setRequired(true);
+  // Halaman identitas
+  const kelasId = form.addListItem().setTitle('Kelas').setChoiceValues(KELAS).setRequired(true).getId();
+  const timId = form.addTextItem().setTitle('Nama Tim')
+    .setHelpText('Tulis persis seperti nama tim pada proposal. Semua anggota tim harus menulis nama tim yang sama.')
+    .setRequired(true).getId();
+  form.addSectionHeaderItem()
+    .setTitle('Sebelum mulai')
+    .setHelpText('Anda akan mengisi anggota tim satu per satu (minimal 4, maksimal 6), termasuk diri Anda sendiri. ' +
+                 'Siapkan lebih dulu pembagian 100 poin kontribusi untuk seluruh anggota, karena poin diisi per anggota. ' +
+                 'Ketik nama lengkap yang sama untuk setiap orang agar mudah dikenali.');
 
-  // Bagian kelas: pilih tim
-  const halKelas = {}, qTim = {};
-  kelasList.forEach(function (k) {
-    halKelas[k] = form.addPageBreakItem().setTitle('Kelas ' + k).setHelpText('Pilih nama tim Anda.');
-    qTim[k] = form.addListItem().setTitle('Nama Tim').setRequired(true);
-  });
+  // Halaman anggota 1 sampai 6
+  const hal = [], slots = [], lanjut = {};
+  const angka = FormApp.createTextValidation().setHelpText('Isi angka 0 sampai 100.').requireNumberBetween(0, 100).build();
+  for (let k = 1; k <= UKURAN_TIM.maks; k++) {
+    hal.push(form.addPageBreakItem().setTitle('Anggota ' + k)
+      .setHelpText('Isi satu anggota tim di halaman ini. Bila anggota ini adalah Anda sendiri, pilih "Ya" pada pertanyaan kedua. ' +
+                   'Semua isian wajib.'));
+    const namaId = form.addTextItem().setTitle('Nama anggota ke-' + k + ' (nama lengkap)').setRequired(true).getId();
+    const diriId = form.addMultipleChoiceItem().setTitle('Apakah anggota ini adalah Anda sendiri?')
+      .setChoiceValues(['Ya, ini saya', 'Bukan, ini rekan saya']).setRequired(true).getId();
+    const gridId = form.addGridItem().setTitle('Penilaian anggota ke-' + k)
+      .setHelpText('1 = sangat kurang, 5 = sangat baik.')
+      .setRows(ASPEK.map(function (a) { return a[0]; }))
+      .setColumns(['1', '2', '3', '4', '5']).setRequired(true).getId();
+    const poinId = form.addTextItem().setTitle('Poin kontribusi anggota ke-' + k + ' (0 sampai 100)')
+      .setHelpText('Bagikan 100 poin untuk seluruh anggota. Usahakan jumlahnya 100; bila tidak tepat 100, sistem menyesuaikan secara proporsional.')
+      .setRequired(true).setValidation(angka).getId();
+    const uraianId = form.addParagraphTextItem().setTitle('Apa saja yang dikerjakan anggota ke-' + k + '?')
+      .setHelpText('Tulis tugas konkret dan buktinya (modul, halaman laporan, commit, dokumen). Bila ini Anda sendiri, tulis apa yang Anda kerjakan.')
+      .setRequired(true).getId();
+    slots.push({ namaId: namaId, diriId: diriId, gridId: gridId, poinId: poinId, uraianId: uraianId });
+    if (k === UKURAN_TIM.min || k === UKURAN_TIM.min + 1) {
+      lanjut[k] = form.addMultipleChoiceItem().setTitle('Apakah masih ada anggota berikutnya?').setRequired(true);
+    }
+  }
 
-  // Bagian tim: satu per tim
-  const halTim = {};
-  const strukturTim = [];
-  kelasList.forEach(function (k) {
-    Object.keys(data[k]).sort().forEach(function (tim) {
-      const anggota = data[k][tim];
-      const hal = form.addPageBreakItem()
-        .setTitle(tim + ' (' + k + ')')
-        .setHelpText('Nilai seluruh anggota tim, termasuk diri Anda sendiri. Skala 1 (sangat kurang) sampai 5 (sangat baik). ' +
-                     'Semua bagian wajib diisi, kecuali yang tertulis opsional.')
-        .setGoToPage(FormApp.PageNavigationType.SUBMIT);
-      halTim[k + '|' + tim] = hal;
+  // Halaman penutup
+  const halPenutup = form.addPageBreakItem().setTitle('Penutup');
+  const buktiId = form.addParagraphTextItem().setTitle('Bukti kontribusi Anda (opsional)')
+    .setHelpText('Tautan commit, berkas, atau dokumen yang menunjukkan pekerjaan Anda.').getId();
+  const terbaikId = form.addParagraphTextItem().setTitle('Siapa yang paling berkontribusi dalam tim, dan mengapa?')
+    .setRequired(true).getId();
+  const pasifId = form.addParagraphTextItem().setTitle('Adakah anggota yang hampir tidak berkontribusi? Jelaskan.')
+    .setHelpText('Tulis nama dan alasannya. Bila tidak ada, tulis "Tidak ada".').setRequired(true).getId();
+  const komentarId = form.addParagraphTextItem().setTitle('Komentar tambahan (opsional)')
+    .setHelpText('Hal lain yang perlu diketahui koordinator.').getId();
 
-      const namaAnda = form.addListItem().setTitle('Nama Anda').setChoiceValues(anggota).setRequired(true);
-
-      const gridIds = ASPEK.map(function (a) {
-        return form.addGridItem()
-          .setTitle(a[0])
-          .setHelpText(a[1] + ' Nilai semua anggota, termasuk diri Anda. 1 = sangat kurang, 5 = sangat baik.')
-          .setRows(anggota)
-          .setColumns(['1', '2', '3', '4', '5'])
-          .setRequired(true).getId();
-      });
-
-      form.addSectionHeaderItem()
-        .setTitle('Pembagian 100 poin kontribusi')
-        .setHelpText('Bagikan 100 poin kepada seluruh anggota, termasuk diri Anda. Usahakan jumlahnya tepat 100; ' +
-                     'bila tidak tepat 100, sistem menyesuaikan secara proporsional. Anggota yang berkontribusi lebih besar mendapat poin lebih banyak.');
-      const angka = FormApp.createTextValidation()
-        .setHelpText('Isi angka 0 sampai 100.')
-        .requireNumberBetween(0, 100)
-        .build();
-      const poinIds = {};
-      anggota.forEach(function (nama) {
-        poinIds[nama] = form.addTextItem().setTitle('Poin untuk ' + nama)
-          .setHelpText('Bila ini nama Anda sendiri, isi poin untuk diri Anda.')
-          .setRequired(true).setValidation(angka).getId();
-      });
-
-      form.addSectionHeaderItem()
-        .setTitle('Uraian pekerjaan tiap anggota')
-        .setHelpText('Tulis tugas konkret yang benar-benar dikerjakan setiap orang dan buktinya (misalnya modul, halaman laporan, commit, dokumen). ' +
-                     'Uraian ini dipakai dosen untuk memvalidasi kontribusi.');
-      const uraianIds = {};
-      anggota.forEach(function (nama) {
-        uraianIds[nama] = form.addParagraphTextItem().setTitle('Apa saja yang dikerjakan ' + nama + '?')
-          .setHelpText('Bila ini nama Anda sendiri, tulis apa yang Anda kerjakan. Sebutkan tugas konkret dan buktinya.')
-          .setRequired(true).getId();
-      });
-
-      const buktiId = form.addParagraphTextItem().setTitle('Bukti kontribusi Anda (opsional)')
-        .setHelpText('Tautan commit, berkas, atau dokumen yang menunjukkan pekerjaan Anda.').getId();
-      const terbaikId = form.addParagraphTextItem().setTitle('Siapa yang paling berkontribusi dalam tim, dan mengapa?')
-        .setRequired(true).getId();
-      const pasifId = form.addParagraphTextItem().setTitle('Adakah anggota yang hampir tidak berkontribusi? Jelaskan.')
-        .setHelpText('Tulis nama dan alasannya. Bila tidak ada, tulis "Tidak ada".').setRequired(true).getId();
-      const komentarId = form.addParagraphTextItem().setTitle('Komentar tambahan (opsional)')
-        .setHelpText('Hal lain yang perlu diketahui koordinator.').getId();
-
-      strukturTim.push({
-        kelas: k, tim: tim, anggota: anggota,
-        namaAndaId: namaAnda.getId(), gridIds: gridIds, poinIds: poinIds, uraianIds: uraianIds,
-        buktiId: buktiId, terbaikId: terbaikId, pasifId: pasifId, komentarId: komentarId,
-      });
-    });
-  });
-
-  // Hubungkan pilihan ke bagian
-  qKelas.setChoices(kelasList.map(function (k) { return qKelas.createChoice(k, halKelas[k]); }));
-  kelasList.forEach(function (k) {
-    const q = qTim[k];
-    q.setChoices(Object.keys(data[k]).sort().map(function (tim) {
-      return q.createChoice(tim, halTim[k + '|' + tim]);
-    }));
+  // Percabangan: setelah anggota ke-4 dan ke-5, tanyakan apakah ada anggota berikutnya
+  [UKURAN_TIM.min, UKURAN_TIM.min + 1].forEach(function (k) {
+    const q = lanjut[k];
+    q.setChoices([
+      q.createChoice('Ya, ada anggota ke-' + (k + 1), hal[k]),
+      q.createChoice('Tidak, ini anggota terakhir', halPenutup),
+    ]);
   });
 
   // Data mentah dan Rekap
@@ -194,9 +146,11 @@ function buatFormPenilaian360() {
   form.setDestination(FormApp.DestinationType.SPREADSHEET, mentah.getId());
   const rekap = SpreadsheetApp.create('Rekap ' + JUDUL_FORM);
 
-  const props = { FORM_ID: form.getId(), REKAP_ID: rekap.getId(), MENTAH_ID: mentah.getId(), INDEKS: JSON.stringify(strukturTim.map(function (_, i) { return 'T' + i; })) };
-  strukturTim.forEach(function (t, i) { props['T' + i] = JSON.stringify(t); });
-  PropertiesService.getScriptProperties().setProperties(props, true);
+  PropertiesService.getScriptProperties().setProperties({
+    FORM_ID: form.getId(), REKAP_ID: rekap.getId(), MENTAH_ID: mentah.getId(),
+    STRUKTUR: JSON.stringify({ kelasId: kelasId, timId: timId, slots: slots, buktiId: buktiId,
+                               terbaikId: terbaikId, pasifId: pasifId, komentarId: komentarId }),
+  }, true);
 
   Logger.log('Form peserta   : ' + form.getPublishedUrl());
   Logger.log('Form edit      : ' + form.getEditUrl());
@@ -205,7 +159,7 @@ function buatFormPenilaian360() {
   Logger.log('Langkah berikutnya: jalankan pasangTrigger sekali.');
 }
 
-// ===================================================================== rekap (logika murni)
+// ===================================================================== pengenalan tim dan nama (logika murni)
 
 function adaAngka_(x) { return typeof x === 'number' && !isNaN(x); }
 
@@ -225,8 +179,14 @@ function angkaPoin_(x) {
   return isNaN(v) ? 0 : v;
 }
 
-function menyebut_(teks, nama) {
-  return String(teks || '').toLowerCase().indexOf(String(nama).toLowerCase()) >= 0;
+/** Nama lengkap disebut, atau nama depan disebut (hanya bila tidak ada anggota lain bernama depan sama). */
+function menyebut_(teks, nama, semua) {
+  const t = ' ' + normTeks_(teks) + ' ', n = normTeks_(nama);
+  if (!n) return false;
+  if (t.indexOf(' ' + n + ' ') >= 0) return true;
+  const depan = n.split(' ')[0];
+  const kembar = (semua || []).filter(function (x) { return normTeks_(x).split(' ')[0] === depan; }).length > 1;
+  return depan.length >= 3 && !kembar && t.indexOf(' ' + depan + ' ') >= 0;
 }
 
 function tidakAda_(teks) {
@@ -236,10 +196,180 @@ function tidakAda_(teks) {
 
 function adaTautan_(teks) { return /https?:\/\//i.test(String(teks || '')); }
 
+/** Huruf kecil, tanpa aksen dan tanda baca, satu spasi. */
+function normTeks_(s) {
+  return String(s === undefined || s === null ? '' : s).normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+function lev_(a, b) {
+  const m = a.length, n = b.length;
+  if (!m) return n;
+  if (!n) return m;
+  let prev = [], cur = [];
+  for (let j = 0; j <= n; j++) prev[j] = j;
+  for (let i = 1; i <= m; i++) {
+    cur = [i];
+    for (let j = 1; j <= n; j++) {
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a.charAt(i - 1) === b.charAt(j - 1) ? 0 : 1));
+    }
+    prev = cur;
+  }
+  return prev[n];
+}
+
+function mirip_(a, b) {
+  const L = Math.max(a.length, b.length);
+  return L ? 1 - lev_(a, b) / L : 1;
+}
+
+/** Sama bila: identik, semua kata nama yang lebih pendek termuat di nama yang lebih panjang
+ *  (kata 1-2 huruf dianggap singkatan awalan), atau kemiripan ejaan tinggi. */
+function samaNama_(na, nb) {
+  if (!na || !nb) return false;
+  if (na === nb) return true;
+  const ta = na.split(' '), tb = nb.split(' ');
+  const aPendek = na.length <= nb.length;
+  const pendek = aPendek ? ta : tb, panjang = aPendek ? tb : ta;
+  const termuat = pendek.every(function (s) {
+    return panjang.some(function (l) { return l === s || (s.length <= 2 && l.indexOf(s) === 0); });
+  });
+  if (termuat) return true;
+  return mirip_(na, nb) >= AMBANG.miripNama;
+}
+
+function paling_(daftar) {
+  // ejaan asli yang paling sering; bila seri, yang paling panjang
+  const hit = {};
+  daftar.forEach(function (x) { hit[x] = (hit[x] || 0) + 1; });
+  return Object.keys(hit).sort(function (a, b) { return hit[b] - hit[a] || b.length - a.length; })[0];
+}
+
 /**
- * @param {Array} timList  [{kelas, tim, anggota:[nama,...]}]
+ * Mengubah tanggapan mentah menjadi daftar tim dan tanggapan yang sejajar dengan daftar anggota baku.
+ * @param {Array} raws [{kelas, tim, email, waktu, anggota:[{nama, diri, skor:[4], poin, uraian}], bukti, terbaik, pasif, komentar}]
+ */
+function susunTimDanTanggapan_(raws) {
+  const grup = {};
+  raws.forEach(function (r) {
+    let n = normTeks_(r.tim);
+    if (ALIAS_TIM[n]) n = normTeks_(ALIAS_TIM[n]);
+    const kunci = r.kelas + '|' + n;
+    (grup[kunci] = grup[kunci] || { kelas: r.kelas, normTim: n, resps: [] }).resps.push(r);
+  });
+
+  const timList = [], tanggapan = [];
+  const kunciList = Object.keys(grup).sort();
+  kunciList.forEach(function (kunci) {
+    const g = grup[kunci];
+    // Nama tim baku: ALIAS bila ada, kalau tidak ejaan paling sering
+    const ejaanTim = g.resps.map(function (r) { return String(r.tim || '').trim(); });
+    let namaTim = paling_(ejaanTim);
+    Object.keys(ALIAS_TIM).forEach(function (k) { if (normTeks_(ALIAS_TIM[k]) === g.normTim) namaTim = ALIAS_TIM[k]; });
+    const variasiTim = Object.keys(ejaanTim.reduce(function (o, e) { o[e] = 1; return o; }, {}))
+      .filter(function (e) { return e !== namaTim; });
+
+    // Kelompokkan nama anggota
+    const entri = {};
+    g.resps.forEach(function (r) {
+      r.anggota.forEach(function (a) {
+        let n = normTeks_(a.nama);
+        if (ALIAS_NAMA[n]) n = normTeks_(ALIAS_NAMA[n]);
+        if (!n) return;
+        const e = entri[n] = entri[n] || { norm: n, asli: [], hitung: 0 };
+        e.asli.push(String(ALIAS_NAMA[normTeks_(a.nama)] || a.nama).trim());
+        e.hitung++;
+      });
+    });
+    const urut = Object.keys(entri).map(function (k) { return entri[k]; })
+      .sort(function (a, b) { return b.hitung - a.hitung || b.norm.length - a.norm.length; });
+    const klaster = [], ambigu = [];
+    urut.forEach(function (e) {
+      const cocok = klaster.filter(function (c) { return samaNama_(e.norm, c.rep.norm); });
+      if (cocok.length === 1) { cocok[0].anggota.push(e); }
+      else if (cocok.length === 0) { klaster.push({ rep: e, anggota: [e] }); }
+      else {
+        ambigu.push(e.asli[0]);
+        cocok.sort(function (a, b) { return mirip_(e.norm, b.rep.norm) - mirip_(e.norm, a.rep.norm); })[0].anggota.push(e);
+      }
+    });
+    const nama = klaster.map(function (c) {
+      return paling_([].concat.apply([], c.anggota.map(function (e) { return e.asli; })));
+    });
+    const petaNorm = {};
+    klaster.forEach(function (c, i) { c.anggota.forEach(function (e) { petaNorm[e.norm] = i; }); });
+    const variasiNama = [];
+    klaster.forEach(function (c, i) {
+      const lain = Object.keys(c.anggota.reduce(function (o, e) { e.asli.forEach(function (x) { o[x] = 1; }); return o; }, {}))
+        .filter(function (x) { return x !== nama[i]; });
+      if (lain.length) variasiNama.push(nama[i] + ' (ejaan lain: ' + lain.join(', ') + ')');
+    });
+
+    const penandaTim = [];
+    if (nama.length > UKURAN_TIM.maks || nama.length < UKURAN_TIM.min) {
+      penandaTim.push('Daftar anggota tidak konsisten (' + nama.length + ' nama berbeda)');
+    }
+    if (ambigu.length) penandaTim.push('Nama ambigu: ' + ambigu.join(', '));
+
+    timList.push({ kelas: g.kelas, tim: namaTim, anggota: nama, penandaTim: penandaTim,
+                   variasiTim: variasiTim.join(', '), variasiNama: variasiNama.join('; '), _normTim: g.normTim });
+
+    g.resps.forEach(function (r) {
+      const skor = ASPEK.map(function () { return nama.map(function () { return null; }); });
+      const poin = nama.map(function () { return 0; });
+      const uraian = nama.map(function () { return ''; });
+      const terisi = {};
+      const diri = [];
+      let ganda = false;
+      r.anggota.forEach(function (a) {
+        let n = normTeks_(a.nama);
+        if (ALIAS_NAMA[n]) n = normTeks_(ALIAS_NAMA[n]);
+        const i = petaNorm[n];
+        if (i === undefined) return;
+        if (terisi[i]) ganda = true;
+        terisi[i] = true;
+        ASPEK.forEach(function (_, ai) { skor[ai][i] = a.skor && adaAngka_(a.skor[ai]) ? a.skor[ai] : null; });
+        poin[i] = a.poin;
+        uraian[i] = a.uraian;
+        if (a.diri) diri.push(i);
+      });
+      const tambahan = [];
+      if (diri.length !== 1) tambahan.push('Penanda diri tidak tepat');
+      if (Object.keys(terisi).length < nama.length) tambahan.push('Penilaian tidak lengkap');
+      if (ganda) tambahan.push('Anggota ganda dalam satu tanggapan');
+      tanggapan.push({
+        kelas: g.kelas, tim: namaTim, penilai: diri.length ? nama[diri[0]] : '(tidak diketahui)',
+        email: r.email || '', waktu: r.waktu, skor: skor, poin: poin, uraian: uraian,
+        bukti: r.bukti || '', terbaik: r.terbaik || '', pasif: r.pasif || '', komentar: r.komentar || '',
+        penandaTambahan: tambahan,
+      });
+    });
+  });
+
+  // Tandai nama tim yang mirip dalam satu kelas
+  timList.forEach(function (a, i) {
+    timList.forEach(function (b, j) {
+      if (j <= i || a.kelas !== b.kelas) return;
+      const bersama = a.anggota.filter(function (x) {
+        return b.anggota.some(function (y) { return normTeks_(x) === normTeks_(y); });
+      }).length;
+      const mir = mirip_(a._normTim, b._normTim) >= AMBANG.miripTim || bersama >= Math.max(2, Math.ceil(Math.min(a.anggota.length, b.anggota.length) / 2));
+      if (mir) {
+        a.penandaTim.push('Nama tim mirip: ' + b.tim);
+        b.penandaTim.push('Nama tim mirip: ' + a.tim);
+      }
+    });
+  });
+  return { timList: timList, tanggapan: tanggapan };
+}
+
+// ===================================================================== rekap (logika murni)
+
+/**
+ * @param {Array} timList  [{kelas, tim, anggota:[nama,...], penandaTim:[], variasiTim, variasiNama}]
  * @param {Array} tanggapan [{kelas, tim, penilai, email, waktu, skor:[[1-5 per anggota] x4],
- *                            poin:[..per anggota], uraian:[..per anggota], bukti, terbaik, pasif, komentar}]
+ *                            poin:[..per anggota], uraian:[..per anggota], bukti, terbaik, pasif, komentar,
+ *                            penandaTambahan:[]}]
  */
 function hitungRekapData_(timList, tanggapan) {
   const rekapMhs = [], rincian = [], rekapTim = [], rangkuman = [];
@@ -257,12 +387,11 @@ function hitungRekapData_(timList, tanggapan) {
       const jumlah = p.reduce(function (a, b) { return a + b; }, 0);
       const norm = p.map(function (v) { return jumlah > 0 ? v / jumlah * 100 : null; });
       const semuaSkor = [].concat.apply([], r.skor).filter(adaAngka_);
-      const penanda = [];
+      const penanda = (r.penandaTambahan || []).slice();
       if (Math.abs(jumlah - 100) > AMBANG.toleransiPoin) { penanda.push('Poin dinormalkan'); poinBukan100++; }
       if (semuaSkor.length && semuaSkor.every(function (v) { return v === semuaSkor[0]; })) penanda.push('Skor seragam');
       if (N > 1 && p.every(function (v) { return v === p[0]; })) penanda.push('Poin sama rata');
       if (hitungPenilai[r.penilai] > 1) penanda.push('Nama ganda');
-      if (t.anggota.indexOf(r.penilai) < 0) penanda.push('Penilai bukan anggota');
       t.anggota.forEach(function (nama, i) {
         rows.push({
           kelas: t.kelas, tim: t.tim, penilai: r.penilai, email: r.email || '', dinilai: nama,
@@ -293,9 +422,9 @@ function hitungRekapData_(timList, tanggapan) {
       const uraianNama = baris.map(function (x) { return x.uraian; });
       const bukti = (diri.length ? diri[0].bukti : '');
       const disebutPasif = resps.filter(function (r) {
-        return r.penilai !== nama && !tidakAda_(r.pasif) && menyebut_(r.pasif, nama);
+        return r.penilai !== nama && !tidakAda_(r.pasif) && menyebut_(r.pasif, nama, t.anggota);
       }).length;
-      const disebutTerbaik = resps.filter(function (r) { return r.penilai !== nama && menyebut_(r.terbaik, nama); }).length;
+      const disebutTerbaik = resps.filter(function (r) { return r.penilai !== nama && menyebut_(r.terbaik, nama, t.anggota); }).length;
       const bagianAdil = 100 / N;
       const penanda = [];
       if (!resps.some(function (r) { return r.penilai === nama; })) penanda.push('Belum mengisi');
@@ -341,16 +470,16 @@ function hitungRekapData_(timList, tanggapan) {
     });
 
     const pengisi = Object.keys(hitungPenilai).filter(function (n) { return t.anggota.indexOf(n) >= 0; });
-    const penandaTim = [];
+    const penandaTim = (t.penandaTim || []).slice();
     if (pengisi.length < Math.ceil(N / 2)) penandaTim.push('Penilai kurang');
     if (Object.keys(hitungPenilai).some(function (n) { return hitungPenilai[n] > 1; })) penandaTim.push('Nama ganda');
-    if (N < UKURAN_TIM.min || N > UKURAN_TIM.maks) penandaTim.push('Ukuran tim di luar ' + UKURAN_TIM.min + '-' + UKURAN_TIM.maks);
     rekapTim.push({
-      kelas: t.kelas, tim: t.tim, ukuran: N, pengisi: pengisi.length,
+      kelas: t.kelas, tim: t.tim, ukuran: N, pengisi: pengisi.length, tanggapan: resps.length,
       belum: t.anggota.filter(function (n) { return pengisi.indexOf(n) < 0; }).join(', '),
       terbaik: resps.map(function (r) { return r.penilai + ': ' + String(r.terbaik || '').trim(); }).join(' | '),
       pasif: resps.map(function (r) { return r.penilai + ': ' + String(r.pasif || '').trim(); }).join(' | '),
-      poinBukan100: poinBukan100, penanda: penandaTim.join('; '),
+      poinBukan100: poinBukan100, variasiTim: t.variasiTim || '', variasiNama: t.variasiNama || '',
+      penanda: penandaTim.join('; '),
     });
   });
   return { rekapMhs: rekapMhs, rincian: rincian, rekapTim: rekapTim, rangkuman: rangkuman };
@@ -369,8 +498,14 @@ const PENANDA = [
   ['Poin dinormalkan', '(Rincian Penilai) Jumlah poin penilai tidak 100; poin disesuaikan secara proporsional ke 100.'],
   ['Skor seragam', '(Rincian Penilai) Penilai memberi nilai sama ke semua baris di semua kisi.'],
   ['Poin sama rata', '(Rincian Penilai) Penilai membagi poin sama untuk semua anggota.'],
+  ['Penanda diri tidak tepat', '(Rincian Penilai) Jumlah halaman anggota yang ditandai "ini saya" bukan tepat satu.'],
+  ['Penilaian tidak lengkap', '(Rincian Penilai) Penilai tidak menilai semua anggota yang dikenali dalam tim.'],
+  ['Anggota ganda dalam satu tanggapan', '(Rincian Penilai) Dua halaman anggota dikenali sebagai orang yang sama.'],
   ['Nama ganda', 'Dua tanggapan memakai nama pengisi yang sama.'],
   ['Penilai kurang', '(Rekap Tim) Pengisi kurang dari separuh anggota tim.'],
+  ['Daftar anggota tidak konsisten (n nama berbeda)', '(Rekap Tim) Jumlah nama berbeda di luar rentang 4-6; biasanya salah ketik. Koreksi lewat ALIAS_NAMA.'],
+  ['Nama tim mirip: X', '(Rekap Tim) Nama tim hampir sama atau anggotanya banyak yang sama dengan tim X. Gabungkan lewat ALIAS_TIM bila itu tim yang sama.'],
+  ['Nama ambigu: X', '(Rekap Tim) Nama X cocok dengan lebih dari satu anggota; periksa apakah ada dua orang dengan nama depan sama.'],
 ];
 
 function sheet_(ss, nama) {
@@ -412,9 +547,13 @@ function tulisRekap_(ss, hasil) {
     ['Kelas', 'Tim', 'Nama', 'Ditulis oleh', 'Jenis', 'Uraian pekerjaan', 'Bukti (dari diri sendiri)'],
     hasil.rangkuman.map(function (x) { return [x.kelas, x.tim, x.nama, x.sumber, x.jenis, x.uraian, x.bukti]; }));
   tulis_(ss, 'Rekap Tim',
-    ['Kelas', 'Tim', 'Jumlah anggota', 'Jumlah pengisi', 'Belum mengisi', 'Paling berkontribusi (menurut penilai)',
-     'Hampir tidak berkontribusi (menurut penilai)', 'Tanggapan dengan poin bukan 100', 'Penanda'],
-    hasil.rekapTim.map(function (x) { return [x.kelas, x.tim, x.ukuran, x.pengisi, x.belum, x.terbaik, x.pasif, x.poinBukan100, x.penanda]; }));
+    ['Kelas', 'Tim', 'Jumlah anggota dikenali', 'Jumlah pengisi', 'Jumlah tanggapan', 'Belum mengisi',
+     'Paling berkontribusi (menurut penilai)', 'Hampir tidak berkontribusi (menurut penilai)',
+     'Tanggapan dengan poin bukan 100', 'Ejaan lain nama tim', 'Ejaan lain nama anggota', 'Penanda'],
+    hasil.rekapTim.map(function (x) {
+      return [x.kelas, x.tim, x.ukuran, x.pengisi, x.tanggapan, x.belum, x.terbaik, x.pasif, x.poinBukan100,
+              x.variasiTim, x.variasiNama, x.penanda];
+    }));
   tulis_(ss, 'Penanda', ['Penanda', 'Arti'], PENANDA);
   ['Sheet1', 'Sheet 1', 'Lembar1', 'Lembar 1'].forEach(function (n) {
     const awal = ss.getSheetByName(n);
@@ -424,34 +563,38 @@ function tulisRekap_(ss, hasil) {
 
 function muatStruktur_() {
   const p = PropertiesService.getScriptProperties();
-  const indeks = JSON.parse(p.getProperty('INDEKS') || '[]');
   return { formId: p.getProperty('FORM_ID'), rekapId: p.getProperty('REKAP_ID'),
-           tim: indeks.map(function (k) { return JSON.parse(p.getProperty(k)); }) };
+           struktur: JSON.parse(p.getProperty('STRUKTUR')) };
 }
 
-function bacaTanggapan_(form, tim) {
+function bacaTanggapan_(form, s) {
   return form.getResponses().map(function (resp) {
     const peta = {};
     resp.getItemResponses().forEach(function (ir) { peta[ir.getItem().getId()] = ir.getResponse(); });
-    const t = tim.filter(function (x) { return peta[x.namaAndaId] !== undefined; })[0];
-    if (!t) return null;
-    const nilai = function (id) { return peta[id] === undefined || peta[id] === null ? '' : peta[id]; };
-    return {
-      kelas: t.kelas, tim: t.tim, penilai: peta[t.namaAndaId], email: resp.getRespondentEmail(), waktu: resp.getTimestamp(),
-      skor: t.gridIds.map(function (id) {
-        return (peta[id] || []).map(function (v) { const n = parseInt(v, 10); return isNaN(n) ? null : n; });
-      }),
-      poin: t.anggota.map(function (n) { return nilai(t.poinIds[n]); }),
-      uraian: t.anggota.map(function (n) { return nilai(t.uraianIds[n]); }),
-      bukti: nilai(t.buktiId), terbaik: nilai(t.terbaikId), pasif: nilai(t.pasifId), komentar: nilai(t.komentarId),
-    };
+    if (peta[s.kelasId] === undefined) return null;
+    const teks = function (id) { return peta[id] === undefined || peta[id] === null ? '' : peta[id]; };
+    const anggota = [];
+    s.slots.forEach(function (sl) {
+      const nama = String(teks(sl.namaId)).trim();
+      if (!nama) return;
+      anggota.push({
+        nama: nama,
+        diri: String(teks(sl.diriId)).indexOf('Ya') === 0,
+        skor: (peta[sl.gridId] || []).map(function (v) { const n = parseInt(v, 10); return isNaN(n) ? null : n; }),
+        poin: teks(sl.poinId), uraian: teks(sl.uraianId),
+      });
+    });
+    return { kelas: peta[s.kelasId], tim: teks(s.timId), email: resp.getRespondentEmail(), waktu: resp.getTimestamp(),
+             anggota: anggota, bukti: teks(s.buktiId), terbaik: teks(s.terbaikId), pasif: teks(s.pasifId),
+             komentar: teks(s.komentarId) };
   }).filter(Boolean);
 }
 
 function hitungRekap() {
   const s = muatStruktur_();
   const form = FormApp.openById(s.formId);
-  const hasil = hitungRekapData_(s.tim, bacaTanggapan_(form, s.tim));
+  const susun = susunTimDanTanggapan_(bacaTanggapan_(form, s.struktur));
+  const hasil = hitungRekapData_(susun.timList, susun.tanggapan);
   tulisRekap_(SpreadsheetApp.openById(s.rekapId), hasil);
   return hasil;
 }
@@ -480,5 +623,6 @@ function salinPerKelas() {
 }
 
 if (typeof module !== 'undefined') {
-  module.exports = { hitungRekapData_: hitungRekapData_, AMBANG: AMBANG };
+  module.exports = { susunTimDanTanggapan_: susunTimDanTanggapan_, hitungRekapData_: hitungRekapData_, AMBANG: AMBANG,
+                     normTeks_: normTeks_, samaNama_: samaNama_ };
 }

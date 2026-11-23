@@ -193,7 +193,7 @@ Terima kasih. Laporan Milestone 2 tim telah diterima. Jawaban dapat diubah hingg
 
 = Form 3: Penilaian 360
 <form-3-penilaian-360>
-Form ini mengumpulkan informasi lengkap tentang #strong[kontribusi nyata tiap anggota] untuk memberi kredit dan memvalidasi kontribusi, karena tim tidak bisa membuktikan sendiri pembagian kontribusinya di dalam laporan. Tim terdiri atas 4--6 anggota. Setiap anggota menilai seluruh rekan #strong[dan dirinya sendiri] (360 derajat). Aturannya ada di SOP Bagian 9.3. Form dan Rekap dibuat otomatis oleh `penilaian-360/Buat-Form-Penilaian-360.gs`.
+Form ini mengumpulkan informasi lengkap tentang #strong[kontribusi nyata tiap anggota] untuk memberi kredit dan memvalidasi kontribusi, karena tim tidak bisa membuktikan sendiri pembagian kontribusinya di dalam laporan. Tim terdiri atas 4--6 anggota. Setiap anggota menilai seluruh rekan #strong[dan dirinya sendiri] (360 derajat). Aturannya ada di SOP Bagian 9.3. Form dan Rekap dibuat otomatis oleh `penilaian-360/Buat-Form-Penilaian-360.gs`, tanpa daftar tim.
 
 == 1. Pengaturan Form
 <pengaturan-form-2>
@@ -224,6 +224,10 @@ Hasil dilihat koordinator PBL dan dosen pengampu, termasuk siapa memberi penilai
 
 == 2. Pertanyaan
 <pertanyaan-1>
+Form ini #strong[tidak memakai daftar tim];. Pengisi memilih kelas, mengetik nama tim, lalu mengisi anggota satu per satu (termasuk dirinya sendiri) dengan mengetik nama. Semua isian wajib kecuali yang tertulis opsional.
+
+#strong[Halaman identitas]
+
 #figure(
   align(left)[#table(
     columns: (25%, 25%, 25%, 25%),
@@ -231,30 +235,41 @@ Hasil dilihat koordinator PBL dan dosen pengampu, termasuk siapa memberi penilai
     table.header([No], [Pertanyaan], [Jenis], [Isian dan aturan],),
     table.hline(),
     [1], [Kelas], [Dropdown], [Daftar kelas, sama dengan Form 2],
-    [2], [Nama Tim], [Dropdown], [Daftar tim di kelas itu. Pilihan ini membuka bagian yang memuat nama anggota tim],
-    [3], [Nama Anda], [Dropdown], [Daftar anggota tim yang dipilih],
+    [2], [Nama Tim], [Jawaban singkat], [Ditulis persis seperti proposal. Semua anggota satu tim menulis nama tim yang sama. Ada pengingat untuk menyiapkan lebih dulu pembagian 100 poin untuk seluruh anggota],
   )]
   , kind: table
   )
 
-Setiap tim punya satu bagian sendiri. Skrip membuat bagian itu dari daftar anggota tim. Semua pertanyaan di bagian tim wajib diisi kecuali yang tertulis opsional.
+#strong[Halaman Anggota 1 sampai 6] (satu halaman per anggota; halaman 1--4 pasti diisi, halaman 5 dan 6 muncul bila ada anggota berikutnya)
 
 #figure(
   align(left)[#table(
     columns: (25%, 25%, 25%, 25%),
     align: (auto,auto,auto,auto,),
-    table.header([No], [Pertanyaan di bagian tim], [Jenis], [Isian dan aturan],),
+    table.header([No], [Pertanyaan di tiap halaman anggota], [Jenis], [Isian dan aturan],),
     table.hline(),
-    [4], [Kontribusi pekerjaan], [Kisi pilihan ganda], [Baris: seluruh anggota tim, termasuk Anda. Kolom: 1 (sangat kurang) sampai 5 (sangat baik)],
-    [5], [Tanggung jawab dan ketepatan waktu], [Kisi pilihan ganda], [Baris dan kolom sama dengan pertanyaan 4],
-    [6], [Kerja sama dan komunikasi], [Kisi pilihan ganda], [Baris dan kolom sama dengan pertanyaan 4],
-    [7], [Kehadiran dan keterlibatan dalam rapat], [Kisi pilihan ganda], [Baris dan kolom sama dengan pertanyaan 4],
-    [8], [Pembagian 100 poin kontribusi], [Jawaban singkat per anggota (angka 0--100)], [Satu isian untuk tiap anggota, termasuk Anda. Usahakan jumlahnya 100; bila tidak tepat 100, Rekap menyesuaikan secara proporsional],
-    [9], [Apa saja yang dikerjakan (nama anggota)?], [Paragraf per anggota], [Satu isian untuk tiap anggota, termasuk Anda. Tulis tugas konkret dan buktinya (modul, halaman laporan, #emph[commit];, dokumen)],
-    [10], [Bukti kontribusi Anda], [Paragraf (opsional)], [Tautan #emph[commit];, berkas, atau dokumen pendukung],
-    [11], [Siapa yang paling berkontribusi dalam tim, dan mengapa?], [Paragraf], [Wajib],
-    [12], [Adakah anggota yang hampir tidak berkontribusi? Jelaskan], [Paragraf], [Wajib. Bila tidak ada, tulis \"Tidak ada\"],
-    [13], [Komentar tambahan], [Paragraf (opsional)], [Hal lain yang perlu diketahui koordinator],
+    [3], [Nama anggota ke-N (nama lengkap)], [Jawaban singkat], [Wajib],
+    [4], [Apakah anggota ini adalah Anda sendiri?], [Pilihan ganda], [Ya, ini saya; Bukan, ini rekan saya. Tepat satu halaman harus dijawab Ya],
+    [5], [Penilaian anggota ke-N], [Kisi pilihan ganda], [Baris: kontribusi pekerjaan; tanggung jawab dan ketepatan waktu; kerja sama dan komunikasi; kehadiran dan keterlibatan dalam rapat. Kolom: 1 (sangat kurang) sampai 5 (sangat baik)],
+    [6], [Poin kontribusi anggota ke-N], [Jawaban singkat (angka 0--100)], [Usahakan jumlah seluruh anggota 100; bila tidak tepat 100, Rekap menyesuaikan secara proporsional],
+    [7], [Apa saja yang dikerjakan anggota ke-N?], [Paragraf], [Tugas konkret dan buktinya (modul, halaman laporan, #emph[commit];, dokumen). Untuk diri sendiri: apa yang Anda kerjakan],
+    [8], [Apakah masih ada anggota berikutnya? (hanya pada halaman 4 dan 5)], [Pilihan ganda], [Ya, ada anggota ke-N+1 (lanjut ke halaman berikutnya); Tidak, ini anggota terakhir (lanjut ke Penutup)],
+  )]
+  , kind: table
+  )
+
+#strong[Halaman Penutup]
+
+#figure(
+  align(left)[#table(
+    columns: (25%, 25%, 25%, 25%),
+    align: (auto,auto,auto,auto,),
+    table.header([No], [Pertanyaan], [Jenis], [Isian dan aturan],),
+    table.hline(),
+    [9], [Bukti kontribusi Anda], [Paragraf (opsional)], [Tautan #emph[commit];, berkas, atau dokumen pendukung],
+    [10], [Siapa yang paling berkontribusi dalam tim, dan mengapa?], [Paragraf], [Wajib],
+    [11], [Adakah anggota yang hampir tidak berkontribusi? Jelaskan], [Paragraf], [Wajib. Bila tidak ada, tulis \"Tidak ada\"],
+    [12], [Komentar tambahan], [Paragraf (opsional)], [Hal lain yang perlu diketahui koordinator],
   )]
   , kind: table
   )
@@ -278,15 +293,16 @@ Penanda yang dipakai: Menonjol, Rendah, Menilai diri tinggi atau rendah, Dituduh
 
 == 5. Panduan Koordinator
 <panduan-koordinator-2>
-- Jalankan `buatFormPenilaian360`, lalu `pasangTrigger` satu kali (langkah lengkap ada di `penilaian-360/README-Penilaian-360.md`).
-- Periksa Rekap Tim: ingatkan anggota yang belum mengisi satu hari sebelum batas akhir.
+- Jalankan `buatFormPenilaian360`, lalu `pasangTrigger` satu kali (langkah lengkap ada di `penilaian-360/README-Penilaian-360.md`). Daftar tim tidak diperlukan.
+- Setelah tanggapan masuk, periksa kolom Penanda di Rekap Tim (Daftar anggota tidak konsisten, Nama tim mirip, Nama ambigu) dan perbaiki ejaan lewat `ALIAS_TIM` dan `ALIAS_NAMA` bila perlu.
+- Periksa Rekap Tim: ingatkan anggota yang belum mengisi satu hari sebelum batas akhir (nama anggota dikenali dari ketikan pengisi, jadi daftar \"Belum mengisi\" hanya mencakup nama yang sudah diketik oleh rekan).
 - Bagikan Rekap per kelas kepada dosen pengampu dengan `salinPerKelas` (baca saja). Data mentah dan Rekap utama tidak dibagikan.
 - Bandingkan Poin 360 dengan estimasi kontribusi di Bab 5.2 laporan. Jika selisih untuk satu anggota lebih dari 15 poin, hubungi tim untuk menjelaskan sebabnya.
 - Penilaian rekan pada Demo Day (Minggu 16) berjalan terpisah menurut RPP.
 
 == 6. Daftar Periksa Sebelum Membagikan Form
 <daftar-periksa-sebelum-membagikan-form-1>
-- ☐ Daftar tim tiap kelas (4--6 anggota per tim) sudah dimasukkan ke `DAFTAR_TIM` dan batas akhir 27 November 2026 tertulis.
+- ☐ Batas akhir 27 November 2026 dan daftar kelas pada skrip sudah benar.
 - ☐ Kirim satu tanggapan uji, pastikan Rekap terisi dan terbaca, lalu hapus tanggapan uji.
 - ☐ Pastikan hanya koordinator PBL yang memiliki akses edit dan akses ke data mentah.
 - ☐ Cantumkan tautan Form 3 pada SOP (Bagian 9.3) dan pengumuman.
