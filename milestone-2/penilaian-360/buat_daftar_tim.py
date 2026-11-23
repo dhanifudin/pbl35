@@ -9,7 +9,7 @@ Keluaran berisi nama mahasiswa, jadi simpan di luar repo (jangan di-commit).
 
 Yang dicek dan diberi peringatan, bukan diperbaiki diam-diam:
 - nama tim yang terlihat berantakan (terlalu panjang atau berisi daftar nama/NIM),
-- tim dengan kurang dari 2 anggota,
+- tim dengan kurang dari 2 anggota (ditolak skrip form) atau di luar rentang 4-6 anggota (peringatan),
 - nama tim ganda dalam satu kelas,
 - kelas yang tidak ada pada data (mis. SIB dan TI-3B bila belum diekstraksi).
 """
@@ -26,6 +26,7 @@ KELAS_DIHARAPKAN = (
     + [f"SIB-2{c}" for c in "ABCDEFG"] + [f"SIB-3{c}" for c in "ABCDEFG"]
 )
 BATAS_NAMA_TIM = 40
+UKURAN_TIM = (4, 6)
 
 
 def kelas_baku(kode):
@@ -59,6 +60,8 @@ def main():
                 peringatan.append(f"{kelas}: nama tim ganda, ditambah nomor: {tim}")
             if len(anggota) < 2:
                 peringatan.append(f"{kelas}/{tim}: anggota kurang dari 2, skrip form akan menolak")
+            elif not (UKURAN_TIM[0] <= len(anggota) <= UKURAN_TIM[1]):
+                peringatan.append(f"{kelas}/{tim}: {len(anggota)} anggota, di luar rentang {UKURAN_TIM[0]}-{UKURAN_TIM[1]}")
             for nama in anggota:
                 baris.append(f"{kelas};{tim.replace(';', ',')};{nama.replace(';', ',')}")
 

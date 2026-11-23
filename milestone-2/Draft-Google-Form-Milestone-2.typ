@@ -3,7 +3,7 @@
 #show: doc => conf(title: "Draf Google Form Milestone 2 PBL", doc)
 = Draf Google Form: Milestone 2 PBL
 <draf-google-form-milestone-2-pbl>
-Dokumen ini berisi tiga draf form untuk koordinator PBL: #strong[Form 1 (Cek Awal Minggu 10, dipakai mulai semester berikutnya, tidak dipakai semester ini)];, #strong[Form 2 (Pengumpulan Laporan Milestone 2)];, dan #strong[Form 3 (Penilaian 360, dipakai semester ini)];. Isinya mengikuti SOP Pengumpulan Laporan Milestone 2 PBL. Seluruh form diisi oleh Ketua Tim dan tidak memerlukan pengisian oleh dosen.
+Dokumen ini berisi tiga draf form untuk koordinator PBL: #strong[Form 1 (Cek Awal Minggu 10, dipakai mulai semester berikutnya, tidak dipakai semester ini)];, #strong[Form 2 (Pengumpulan Laporan Milestone 2)];, dan #strong[Form 3 (Penilaian 360, dipakai semester ini)];. Isinya mengikuti SOP Pengumpulan Laporan Milestone 2 PBL. Form 1 dan Form 2 diisi oleh Ketua Tim, sedangkan Form 3 diisi oleh setiap anggota tim. Dosen tidak mengisi form apa pun.
 
 Perbaikan dibanding form Milestone 1:
 
@@ -193,7 +193,7 @@ Terima kasih. Laporan Milestone 2 tim telah diterima. Jawaban dapat diubah hingg
 
 = Form 3: Penilaian 360
 <form-3-penilaian-360>
-Form ini memeriksa kontribusi tiap anggota di luar laporan, karena tim tidak bisa membuktikan sendiri pembagian kontribusinya di dalam laporan. Aturannya ada di SOP Bagian 9.3.
+Form ini mengumpulkan informasi lengkap tentang #strong[kontribusi nyata tiap anggota] untuk memberi kredit dan memvalidasi kontribusi, karena tim tidak bisa membuktikan sendiri pembagian kontribusinya di dalam laporan. Tim terdiri atas 4--6 anggota. Setiap anggota menilai seluruh rekan #strong[dan dirinya sendiri] (360 derajat). Aturannya ada di SOP Bagian 9.3. Form dan Rekap dibuat otomatis oleh `penilaian-360/Buat-Form-Penilaian-360.gs`.
 
 == 1. Pengaturan Form
 <pengaturan-form-2>
@@ -207,7 +207,7 @@ Form ini memeriksa kontribusi tiap anggota di luar laporan, karena tim tidak bis
     [Kumpulkan alamat email], [Aktif (verifikasi akun Polinema)],
     [Batasi satu tanggapan per akun], [Aktif],
     [Izinkan ubah jawaban setelah dikirim], [Aktif sampai batas akhir],
-    [Estimasi waktu], [Sekitar 3 menit],
+    [Estimasi waktu], [Sekitar 10--15 menit untuk tim 6 orang],
     [Dibuka], [Minggu 11],
     [Batas akhir], [Sama dengan batas akhir pengumpulan laporan: #strong[27 November 2026, pukul 23.59 WIB];],
   )]
@@ -217,7 +217,9 @@ Form ini memeriksa kontribusi tiap anggota di luar laporan, karena tim tidak bis
 === Deskripsi form
 <deskripsi-form-2>
 #quote(block: true)[
-Form ini dipakai untuk menilai kontribusi seluruh anggota tim, termasuk diri Anda sendiri. #strong[Isi sendiri dan jangan berdiskusi dengan rekan satu tim.] Jawaban hanya dilihat koordinator PBL dan dosen pengampu. Rekan satu tim tidak melihat jawaban Anda.
+Form ini mengumpulkan informasi tentang kontribusi nyata setiap anggota tim, untuk memberi kredit dan memvalidasi kontribusi. Anda menilai seluruh rekan satu tim #strong[dan diri Anda sendiri] (penilaian 360 derajat). #strong[Isi sendiri, jujur, dan jangan berdiskusi dengan rekan satu tim.] Tulis juga pekerjaan konkret tiap orang beserta buktinya.
+
+Hasil dilihat koordinator PBL dan dosen pengampu, termasuk siapa memberi penilaian apa. Rekan satu tim tidak melihat hasilnya.
 ]
 
 == 2. Pertanyaan
@@ -235,7 +237,7 @@ Form ini dipakai untuk menilai kontribusi seluruh anggota tim, termasuk diri And
   , kind: table
   )
 
-Setiap tim punya satu bagian sendiri yang memuat nama anggotanya. Koordinator membuat bagian itu dari daftar anggota tim, lalu mengatur pertanyaan 2 agar membuka bagian yang sesuai.
+Setiap tim punya satu bagian sendiri. Skrip membuat bagian itu dari daftar anggota tim. Semua pertanyaan di bagian tim wajib diisi kecuali yang tertulis opsional.
 
 #figure(
   align(left)[#table(
@@ -247,8 +249,12 @@ Setiap tim punya satu bagian sendiri yang memuat nama anggotanya. Koordinator me
     [5], [Tanggung jawab dan ketepatan waktu], [Kisi pilihan ganda], [Baris dan kolom sama dengan pertanyaan 4],
     [6], [Kerja sama dan komunikasi], [Kisi pilihan ganda], [Baris dan kolom sama dengan pertanyaan 4],
     [7], [Kehadiran dan keterlibatan dalam rapat], [Kisi pilihan ganda], [Baris dan kolom sama dengan pertanyaan 4],
-    [8], [Pembagian 100 poin kontribusi], [Jawaban singkat per anggota (angka 0--100)], [Satu isian untuk tiap anggota, termasuk Anda. Jumlah seluruhnya harus 100. Tulis jumlah ini di keterangan pertanyaan],
-    [9], [Komentar singkat], [Paragraf (opsional)], [Hal yang perlu diketahui koordinator. Tidak dibagikan ke rekan satu tim],
+    [8], [Pembagian 100 poin kontribusi], [Jawaban singkat per anggota (angka 0--100)], [Satu isian untuk tiap anggota, termasuk Anda. Usahakan jumlahnya 100; bila tidak tepat 100, Rekap menyesuaikan secara proporsional],
+    [9], [Apa saja yang dikerjakan (nama anggota)?], [Paragraf per anggota], [Satu isian untuk tiap anggota, termasuk Anda. Tulis tugas konkret dan buktinya (modul, halaman laporan, #emph[commit];, dokumen)],
+    [10], [Bukti kontribusi Anda], [Paragraf (opsional)], [Tautan #emph[commit];, berkas, atau dokumen pendukung],
+    [11], [Siapa yang paling berkontribusi dalam tim, dan mengapa?], [Paragraf], [Wajib],
+    [12], [Adakah anggota yang hampir tidak berkontribusi? Jelaskan], [Paragraf], [Wajib. Bila tidak ada, tulis \"Tidak ada\"],
+    [13], [Komentar tambahan], [Paragraf (opsional)], [Hal lain yang perlu diketahui koordinator],
   )]
   , kind: table
   )
@@ -256,21 +262,31 @@ Setiap tim punya satu bagian sendiri yang memuat nama anggotanya. Koordinator me
 == 3. Pesan Setelah Form Dikirim
 <pesan-setelah-form-dikirim-2>
 #quote(block: true)[
-Terima kasih. Penilaian Anda sudah tercatat dan hanya dilihat koordinator PBL serta dosen pengampu. Jawaban dapat diubah sampai batas akhir lewat tautan \"Edit jawaban\".
+Terima kasih. Penilaian Anda sudah tercatat dan dilihat koordinator PBL serta dosen pengampu. Jawaban dapat diubah sampai batas akhir lewat tautan \"Edit jawaban\".
 ]
 
-== 4. Panduan Koordinator
+== 4. Rekap Otomatis untuk Dosen
+<rekap-otomatis-untuk-dosen>
+Skrip membuat spreadsheet Rekap yang diperbarui otomatis tiap ada tanggapan baru. Isinya:
+
+- #strong[Rekap Mahasiswa];: nilai diri, rerata rekan, #strong[Skor 360] dan #strong[Poin 360] (termasuk penilaian diri; Poin 360 dijumlahkan menjadi 100 per tim), peringkat dalam tim, jumlah rekan yang menyebutnya paling berkontribusi atau hampir tidak berkontribusi, dan penanda.
+- #strong[Rincian Penilai];: siapa menilai siapa, lengkap dengan skor, poin, dan uraian pekerjaan.
+- #strong[Rangkuman Pekerjaan];: seluruh uraian pekerjaan tentang tiap mahasiswa dari dirinya dan dari rekan, beserta bukti.
+- #strong[Rekap Tim] dan #strong[Penanda];.
+
+Penanda yang dipakai: Menonjol, Rendah, Menilai diri tinggi atau rendah, Dituduh pasif, Uraian pendek, Tanpa bukti, Belum mengisi, Poin dinormalkan, Skor seragam, Poin sama rata, Nama ganda, dan Penilai kurang. Penanda adalah petunjuk untuk diperiksa, bukan kesimpulan.
+
+== 5. Panduan Koordinator
 <panduan-koordinator-2>
-- Hubungkan jawaban ke Google Sheets. Periksa jumlah poin pada pertanyaan 8 untuk tiap tanggapan. Tanggapan yang jumlahnya bukan 100 diminta diperbaiki oleh pengisinya.
-- Periksa daftar penanggap terhadap daftar anggota tim. Ingatkan anggota yang belum mengisi satu hari sebelum batas akhir.
-- Buat rekap per mahasiswa untuk dosen pengampu: rata-rata skor tiap aspek dan rata-rata poin dari rekan tim, #strong[tanpa penilaian diri];. Penilaian diri hanya dipakai untuk melihat selisih persepsi.
-- Bandingkan rata-rata poin dengan estimasi kontribusi di Bab 5.2 laporan. Jika selisih untuk satu anggota lebih dari 15 poin, hubungi tim untuk menjelaskan sebabnya.
-- Komentar hanya dibaca koordinator. Jangan menyebut pengisinya kepada tim.
+- Jalankan `buatFormPenilaian360`, lalu `pasangTrigger` satu kali (langkah lengkap ada di `penilaian-360/README-Penilaian-360.md`).
+- Periksa Rekap Tim: ingatkan anggota yang belum mengisi satu hari sebelum batas akhir.
+- Bagikan Rekap per kelas kepada dosen pengampu dengan `salinPerKelas` (baca saja). Data mentah dan Rekap utama tidak dibagikan.
+- Bandingkan Poin 360 dengan estimasi kontribusi di Bab 5.2 laporan. Jika selisih untuk satu anggota lebih dari 15 poin, hubungi tim untuk menjelaskan sebabnya.
 - Penilaian rekan pada Demo Day (Minggu 16) berjalan terpisah menurut RPP.
 
-== 5. Daftar Periksa Sebelum Membagikan Form
+== 6. Daftar Periksa Sebelum Membagikan Form
 <daftar-periksa-sebelum-membagikan-form-1>
-- ☐ Buat bagian tim dari daftar anggota tiap kelas (generator ada di `penilaian-360/`) dan pastikan batas akhir 27 November 2026 tertulis.
-- ☐ Kirim satu tanggapan uji, pastikan rekapnya terbaca, lalu hapus tanggapan uji.
-- ☐ Pastikan hanya koordinator PBL yang memiliki akses edit dan akses ke tanggapan.
+- ☐ Daftar tim tiap kelas (4--6 anggota per tim) sudah dimasukkan ke `DAFTAR_TIM` dan batas akhir 27 November 2026 tertulis.
+- ☐ Kirim satu tanggapan uji, pastikan Rekap terisi dan terbaca, lalu hapus tanggapan uji.
+- ☐ Pastikan hanya koordinator PBL yang memiliki akses edit dan akses ke data mentah.
 - ☐ Cantumkan tautan Form 3 pada SOP (Bagian 9.3) dan pengumuman.

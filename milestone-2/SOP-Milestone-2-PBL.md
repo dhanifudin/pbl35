@@ -179,7 +179,7 @@ Setelah form diisi, koordinator memeriksa jawaban dalam 3 hari. Koordinator meng
 | Semua anggota | Menulis bagian masing-masing, menulis bukti kontribusi, dan mengisi Penilaian 360 lewat Google Form (Bagian 9.3). Anggota yang tidak setuju dengan pembagian kontribusi boleh langsung menghubungi koordinator |
 | Dosen pengampu | Hadir dan menilai demo. Menilai bagian laporan sesuai Bagian 6, memberi umpan balik, menyampaikan porsi nilai dan rubrik, menyediakan materi pendukung sebelum milestone, dan menyediakan sesi tinjau proyek (sekitar 15 menit per tim). Memakai rekap Penilaian 360 sebagai bahan nilai kontribusi individu |
 | Dosen rujukan | Satu dosen untuk tiap kelas. Tempat bertanya pertama bagi tim (Bagian 9.1) |
-| Koordinator PBL | Menetapkan dan menerbitkan tabel penilaian, daftar dosen rujukan, dan daftar dokumen tambahan. Merekap pengumpulan, menjalankan form Penilaian 360 lalu mengirim rekapnya ke dosen, dan membantu tim yang perlu perbaikan |
+| Koordinator PBL | Menetapkan dan menerbitkan tabel penilaian, daftar dosen rujukan, dan daftar dokumen tambahan. Merekap pengumpulan, menjalankan form Penilaian 360 lalu membagikan Rekap-nya ke dosen, dan membantu tim yang perlu perbaikan |
 
 ### 9.1 Dosen Rujukan
 
@@ -208,10 +208,10 @@ Laporan ditulis oleh tim itu sendiri, sehingga laporan tidak bisa membuktikan ba
 |---|---|
 | Waktu | Form dibuka pada Minggu 11 dan ditutup bersama batas akhir pengumpulan laporan |
 | Pengisi | Setiap anggota mengisi sendiri, satu kali, dengan akun Polinema. Satu akun hanya bisa mengirim satu tanggapan |
-| Isi | Penilaian diri sendiri dan tiap rekan satu tim dengan skala 1–5 pada empat aspek: kontribusi pekerjaan, tanggung jawab dan ketepatan waktu, kerja sama dan komunikasi, serta kehadiran dan keterlibatan dalam rapat. Lalu pembagian **100 poin** kontribusi untuk seluruh anggota, termasuk diri sendiri. Komentar singkat boleh diisi |
-| Kerahasiaan | Hanya koordinator dan dosen pengampu kelas yang melihat hasilnya. Rekan satu tim tidak melihat hasilnya, dan hasilnya tidak ditulis di laporan |
-| Pemakaian | Koordinator mengirim rekap per mahasiswa kepada dosen pengampu: rata-rata penilaian dan rata-rata poin dari rekan tim, tanpa penilaian diri. Dosen memakainya sebagai bahan nilai kontribusi individu |
-| Pemeriksaan | Koordinator membandingkan rata-rata poin dengan estimasi kontribusi di Bab 5.2. Jika selisih untuk satu anggota lebih dari 15 poin, koordinator menghubungi tim untuk menjelaskan sebabnya |
+| Isi | Setiap anggota menilai diri sendiri dan tiap rekan satu tim (tim 4–6 orang). Semua isian wajib: skala 1–5 pada empat aspek (kontribusi pekerjaan, tanggung jawab dan ketepatan waktu, kerja sama dan komunikasi, kehadiran dan keterlibatan dalam rapat), pembagian **100 poin** kontribusi, uraian pekerjaan konkret tiap anggota beserta buktinya, siapa yang paling berkontribusi, dan adakah anggota yang hampir tidak berkontribusi. Bukti kontribusi diri sendiri dan komentar boleh diisi. Waktu pengisian sekitar 10–15 menit untuk tim 6 orang |
+| Kerahasiaan | Hasilnya dilihat koordinator dan dosen pengampu kelas, termasuk siapa memberi penilaian apa, karena tujuannya memberi kredit dan memvalidasi kontribusi tiap anggota. Rekan satu tim tidak melihat hasilnya, dan hasilnya tidak ditulis di laporan |
+| Pemakaian | Hasil dihitung otomatis menjadi Rekap bagi dosen: nilai diri, rerata dan poin dari rekan, **Skor 360** dan **Poin 360** (termasuk penilaian diri), peringkat dalam tim, rincian siapa menilai siapa, dan rangkuman pekerjaan tiap anggota beserta bukti. Rekap juga memberi penanda untuk diperiksa (misalnya selisih nilai diri dan rekan, uraian pendek, atau anggota yang disebut pasif). Dosen memakainya sebagai bahan nilai kontribusi individu. Koordinator membagikan Rekap per kelas |
+| Pemeriksaan | Koordinator membandingkan Poin 360 dengan estimasi kontribusi di Bab 5.2. Jika selisih untuk satu anggota lebih dari 15 poin, koordinator menghubungi tim untuk menjelaskan sebabnya. Penanda pada Rekap adalah petunjuk untuk diperiksa, bukan kesimpulan |
 
 Koordinator memeriksa daftar tanggapan terhadap daftar anggota tim, bukan terhadap laporan. Anggota yang belum mengisi diingatkan satu hari sebelum batas akhir. Anggota yang tetap tidak mengisi diproses sesuai aturan mata kuliah, dan nilai kontribusinya hanya berdasarkan penilaian rekan. Penilaian rekan pada Demo Day (Minggu 16) sesuai RPP tetap berjalan dan terpisah dari Penilaian 360 ini.
 
